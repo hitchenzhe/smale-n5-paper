@@ -1,0 +1,688 @@
+\documentclass[11pt]{amsart}
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[a4paper,margin=25mm,includeheadfoot]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+
+\newenvironment{romanlist}{\begin{enumerate}\renewcommand{\labelenumi}{(\roman{enumi})}%
+  \renewcommand{\theenumi}{\roman{enumi}}}{\end{enumerate}}
+\newenvironment{alphalist}{\begin{enumerate}\renewcommand{\labelenumi}{(\alph{enumi})}%
+  \renewcommand{\theenumi}{\alph{enumi}}}{\end{enumerate}}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{fact}{Fact}
+\renewcommand{\thefact}{AK\arabic{fact}}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Rp}{\mathbb{R}_{>0}}
+\newcommand{\ord}{\operatorname{ord}}
+\newcommand{\code}[1]{\begingroup\def\_{\textunderscore\allowbreak}\texttt{#1}\endgroup}
+\setlength{\emergencystretch}{3em}
+
+\title[Five-body central configurations]{Finiteness of planar central configurations of five
+bodies for all positive masses}
+
+\author{Zhe Chen}
+\pdfinfo{/Author (Zhe Chen)}
+
+\date{Draft of \today}
+
+\begin{document}
+
+\begin{abstract}
+We prove that for every choice of five positive masses the planar five-body problem has only
+finitely many central configurations up to rotation, translation and scaling.  This answers
+Smale's sixth problem for five bodies.  Albouy and Kaloshin proved the statement for all masses
+outside a closed algebraic subset of codimension two of the mass space.  We keep their
+classification of singular sequences and replace the construction of the exceptional set by a
+direct exclusion: we use finite boundary charts for seven of the eight diagrams that can carry
+an unbounded four-product, and an exhaustive order census for Diagram 5.  We derive the
+necessary mass conditions where needed and show that no germ with an unbounded four-product
+lies on a curve of normalized central configurations through a positive configuration.  Five
+diagrams are excluded for all complex germs, two on curves through real
+configurations, and one on curves through positive configurations.  Parts of the argument are
+computer-assisted: exact algebra, interval arithmetic and exact linear programming.
+\end{abstract}
+
+\maketitle
+
+\tableofcontents
+
+
+\section{Introduction}\label{sec:intro}
+
+A configuration of $n$ point masses $m_1,\dots,m_n>0$ at positions $q_1,\dots,q_n\in\R^2$ is a
+\emph{central configuration} if there is $\lambda\in\R$ with
+\[
+  \lambda (q_k-c) = \sum_{l\neq k} m_l\,\frac{q_l-q_k}{|q_l-q_k|^3},\qquad k=1,\dots,n,
+\]
+where $c$ is the centre of mass.  Central configurations give the relative equilibria of the
+planar $n$-body problem and the homographic solutions; they are invariant under rotations,
+translations and scalings, and one counts them modulo these symmetries.  Euler and Lagrange
+found the five classes for $n=3$; Moulton~\cite{Moulton} showed that there are exactly $n!/2$
+collinear classes for every $n$.  Wintner~\cite{Wintner} and Smale~\cite{Smale} asked whether
+the number of classes is finite for every choice of positive masses; this is Smale's sixth
+problem.  Hampton and Moeckel~\cite{HM} proved finiteness for $n=4$.  Albouy and
+Kaloshin~\cite{AK} gave a new proof for $n=4$ and proved the following for $n=5$.
+
+\begin{theorem}[{\cite[Thm.~2]{AK}}]
+There is a closed algebraic subset $A$ of codimension two such that for every
+$(m_1,\dots,m_5)\in\Rp^5\setminus A$ there are finitely many positive normalized central
+configurations of the planar five-body problem.
+\end{theorem}
+Our main result removes the exceptional set.
+
+\begin{theorem}\label{thm:main}
+For every $(m_1,\dots,m_5)\in\Rp^5$ there are finitely many positive normalized central
+configurations of the planar five-body problem.  Equivalently, the planar five-body problem
+has finitely many central configurations up to rotation, translation and scaling.
+\end{theorem}
+
+\subsection*{Related work}
+The generic finiteness of \cite{AK} for five bodies has been reproved by tropical
+geometry~\cite{JL} and by an algorithmic version of the method of \cite{AK}~\cite{CC1,CC2},
+which also reduces the planar six-body problem to finitely many diagrams.  In the spatial
+five-body problem finiteness is known outside an explicit set of exceptional
+masses~\cite{HJ}, and four-body central configurations are finite for all nonzero
+masses~\cite{YZ}.  Computer-assisted methods classify the central configurations of five equal
+masses~\cite{LS,MZ19} and, recently, give exact counts (between $294$ and $450$ classes) for
+finitely many mass vectors on the loci (23), (29) and (32) of \cite[\S8]{AK}, the last of which
+lies in the exceptional set~\cite{MZ26}; these computations treat individual mass vectors.
+For all positive masses, finiteness is known for special classes such as the equilateral
+pentagonal central configurations~\cite{DH}.  We are not aware of a previous proof of
+Theorem~\ref{thm:main} on the whole exceptional set.
+
+\subsection*{Strategy}
+Albouy and Kaloshin embed the central configuration equations in a polynomial system and
+study \emph{singular sequences}: unbounded sequences of complex normalized solutions.  To such a
+sequence they attach a two-coloured \emph{diagram} recording which terms of the equations are
+of maximal order, and they prove that every singular sequence approaches one of sixteen
+diagrams~\cite[Fig.~11]{AK}.  If a mass vector admits infinitely many normalized central
+configurations, the solutions contain an algebraic curve; along it some four-product of squared
+distances is unbounded, and a singular sequence along which it diverges approaches one of the
+first eight diagrams~\cite[Props.~8--9 and proof of Thm.~6]{AK}.  Each diagram forces a polynomial
+relation among the masses.  Albouy and Kaloshin then push a second quantity to a second singular
+limit on the same curve to obtain an independent relation, which yields the codimension-two set
+$A$.
+
+We do not construct $A$.  We show instead that, at every positive mass vector, none of the eight
+diagrams can be the first limit on a curve of normalized central configurations through a
+positive configuration.  Our route is as follows.
+\begin{romanlist}
+  \item For Diagrams 1--4 and 6--8, build charts (weighted blow-ups of the AK system) and prove
+  from the estimates of \cite[\S3]{AK} that every germ converges to a finite chart boundary;
+  for Diagram 5, classify the orders of the outer bodies instead.
+  \item Derive the necessary mass conditions from the boundary equations, or from the isolated
+  triangle in Diagram 5, where the exclusion needs one (Diagram 7 needs none); several conditions
+  in \cite[\S8.3--8.8]{AK} are stated there with short or no proofs.
+  \item Exclude every germ with an unbounded four-product, by a finite-order obstruction, an
+  order census, or an identity on the whole curve.
+\end{romanlist}
+The exclusion holds at three levels.  For Diagrams 1, 2, 4, 6 and 8 no germ exists at all, even
+in the complex domain.  On curves through real configurations $U=I$ is a nonzero constant
+(Lemma~\ref{lem:U-constant}; compare \cite[Lemma~2]{AK}).  The order census for Diagram 5
+shows that its remaining germs on such curves have only bounded four-products, while the
+inertia identity for Diagram 7 forces $I\to0$ for germs with an unbounded four-product; neither
+can supply the required first limit.  For Diagram 3 the real level is not enough: the modified
+Roberts continuum~\cite[p.~543]{AK} is a curve of normalized central configurations at positive
+masses that contains an arc of real, not positive, configurations and carries a Diagram 3 germ.
+There we use positivity through an identity $\delta_{15}+2\delta_{13}=0$ that holds on the whole
+curve carrying the remaining germs.
+
+\subsection*{Computer assistance}
+Several steps are computer-assisted: polynomial identities, resultants and Gr\"obner bases
+over $\mathbb{Q}$ and over number fields, Sturm sequences, interval and ball arithmetic with
+explicit bounds on the rounding errors, and exact rational linear programming.  The statements
+that depend on such computations are marked as computer-assisted, and
+Appendix~\ref{app:verification} describes the computations.
+
+\subsection*{What we use from \texorpdfstring{\cite{AK}}{Albouy and Kaloshin}}
+We use without re-proving it the classification of singular sequences (Figure~11 of
+\cite{AK} and its completeness), Proposition~8 of \cite{AK}, the rules and estimates of
+\cite[\S3]{AK}, and Lemma~1 and Proposition~1 of \cite{AK}.  These are listed precisely in
+Section~\ref{sec:ak}.  We re-derive the mass conditions of all diagrams that need one
+(Diagrams~1--6 and~8), several of which \cite[\S\S8.3--8.8]{AK} state with short or no proofs,
+and we prove directly that $U$ is constant along curves of solutions.
+
+\subsection*{Organization}
+Section~\ref{sec:ak} recalls the framework of \cite{AK}.  Section~\ref{sec:reduction} reduces
+Theorem~\ref{thm:main} to the exclusion of germs with an unbounded four-product.
+Section~\ref{sec:exclusion} states the exclusion theorem and proves Theorem~\ref{thm:main}.
+Sections~\ref{sec:d1}--\ref{sec:d8} treat the eight diagrams.  Appendix~\ref{app:verification}
+describes the computer-assisted parts and Appendix~\ref{app:census} an independent cross-check
+through the exceptional set of \cite{AK}.
+
+
+\section{The framework of Albouy and Kaloshin}\label{sec:ak}
+
+\subsection{Normalized central configurations}
+Fix masses $m=(m_1,\dots,m_5)\in\Rp^5$.  Following \cite[\S2]{AK} we use the complex coordinates
+$z_k=x_k+iy_k$, $w_k=x_k-iy_k$ and inverse distances $\delta_{kl}=\delta_{lk}$, and write
+$z_{kl}=z_l-z_k$, $w_{kl}=w_l-w_k$.  The normalized system (system (4) of \cite{AK}, written as
+system (10) there) is
+\begin{equation}\label{eq:system}
+\begin{gathered}
+  z_k = \sum_{l\ne k} m_l\,\delta_{kl}^3\,(z_k-z_l),\qquad
+  w_k = \sum_{l\ne k} m_l\,\delta_{kl}^3\,(w_k-w_l)\qquad (k=1,\dots,5),\\
+  \delta_{kl}^2\, z_{kl}\,w_{kl} = 1\quad (1\le k<l\le 5),\qquad z_{12} = w_{12}.
+\end{gathered}
+\end{equation}
+Its zero set $A_m\subset\C^{20}$ is the set of \emph{normalized central configurations}.  A
+solution is \emph{real} if $w_k=\bar z_k$ for all $k$ and \emph{positive} if moreover
+$\delta_{kl}>0$ for all $k<l$ \cite[Def.~2]{AK}.  Positive normalized central configurations are
+in two-to-one correspondence with central configurations modulo rotation, translation and
+scaling, so Theorem~\ref{thm:main} asserts that $A_m$ has finitely many positive points.
+The map $\sigma(z,w,\delta)=(\bar w,\bar z,\bar\delta)$ preserves \eqref{eq:system} and fixes
+the real solutions.  System \eqref{eq:system} is symmetric under $z\leftrightarrow w$.  A
+permutation $\pi$ of the bodies, with the masses permuted, maps it to the same system with the
+gauge $z_{12}=w_{12}$ replaced by $z_{\pi(1)\pi(2)}=w_{\pi(1)\pi(2)}$; a rotation
+$(z,w)\mapsto(\lambda z,\lambda^{-1}w)$ restores the gauge and preserves the rest of the system,
+$U$, $I$, every $r_{kl}^2$, and the orders and diagrams of germs.  We call both operations
+symmetries of \eqref{eq:system}.
+
+\subsection{Potential and inertia}
+Let $U=\sum_{k<l}m_km_l\delta_{kl}$ and $I=\sum_k m_kz_kw_k$.
+
+\begin{lemma}\label{lem:U-constant}
+Every solution of \eqref{eq:system} satisfies $U=I$, and $U$ is constant on every irreducible
+curve $\Gamma\subset A_m$.
+\end{lemma}
+
+\begin{proof}
+Let $B\subset\C^{20}$ be the set where $\delta_{kl}^2z_{kl}w_{kl}=1$ for all $k<l$, and let
+$f=2U+I$.  On $B$ no $z_{kl}w_{kl}$ vanishes, so $B$ is smooth, $(z,w)$ are local coordinates
+on $B$, and $d\delta_{kl}=-\frac12\delta_{kl}^3(w_{kl}\,dz_{kl}+z_{kl}\,dw_{kl})$.  Hence, on
+$B$,
+\[
+  \frac{\partial f}{\partial z_k}=m_k\Bigl(w_k-\sum_{l\ne k}m_l\delta_{kl}^3(w_k-w_l)\Bigr),\qquad
+  \frac{\partial f}{\partial w_k}=m_k\Bigl(z_k-\sum_{l\ne k}m_l\delta_{kl}^3(z_k-z_l)\Bigr),
+\]
+so every point of $A_m$ is a critical point of $f|_B$ (the gauge $z_{12}=w_{12}$ plays no
+role).  The scaling $(z,w,\delta)\mapsto(sz,sw,s^{-1}\delta)$ preserves $B$ and maps $f$ to
+$2s^{-1}U+s^2I$; differentiating at $s=1$ gives $0=-2U+2I$ at every critical point of $f|_B$, so
+$U=I$ on $A_m$.  Let $\Gamma\subset A_m$ be an irreducible curve.  At a smooth point of
+$\Gamma$ the tangent line lies in the tangent space of $B$, on which $df$ vanishes; so $f$ is
+locally constant on the smooth locus of $\Gamma$, which is connected, and hence constant on
+$\Gamma$.  As $f=3U$ on $A_m$, $U$ is constant on $\Gamma$.
+\end{proof}
+The identity $U=I$
+is \cite[p.~541]{AK}, and \cite[Lemma~2]{AK} shows more: $U(A_m)$ is finite.
+
+\begin{fact}[{\cite[Lemma~1]{AK}}]\label{fact:lemma1}
+If $X\subset\C^N$ is a closed algebraic subset and $f$ a polynomial, then $f(X)$ is finite or
+the complement of a finite set (``$f$ is dominating'').
+\end{fact}
+
+\subsection{Singular sequences and diagrams}
+Let $\mathcal Z=(z_1,\dots,z_5,Z_{12},\dots,Z_{45})$ and $\mathcal W=(w_1,\dots,w_5,W_{12},
+\dots,W_{45})$ with $Z_{kl}=z_{kl}\,\delta_{kl}^3$ and $W_{kl}=w_{kl}\,\delta_{kl}^3$; these are,
+up to mass factors, the terms of the equations \eqref{eq:system}.  Let $Z=\max_p|\mathcal Z_p|$
+and $W=\max_q|\mathcal W_q|$.  A \emph{singular sequence} \cite[Def.~3]{AK} is a sequence of
+normalized central configurations with $Z$ or $W$ unbounded, extracted so that the maximal
+components are fixed and $Z^{-1}\mathcal Z$, $W^{-1}\mathcal W$ converge.  Its \emph{diagram}
+has a $z$-circle at $k$ if $\lim z_k/Z\ne0$, a $z$-stroke between $k$ and $l$ if
+$\lim Z_{kl}/Z\ne 0$, and likewise in the second colour \cite[\S3]{AK}.  After multiplying $z$
+by $a>0$ and $w$ by $a^{-1}$ one may assume $Z=W=\epsilon^{-2}$ with $\epsilon\to0$
+\cite[p.~547]{AK}.  We write $a\prec b$, $a\preccurlyeq b$, $a\approx b$, $a\sim b$ as in
+\cite[\S3]{AK}.
+
+\begin{fact}[{\cite[\S3]{AK}}]\label{fact:rules}
+Rules 1a--1e and 2a--2e and Estimates 1--2 of \cite[\S3]{AK} hold for every singular sequence.
+\end{fact}
+
+\begin{fact}[{\cite[Prop.~1]{AK}}]\label{fact:prop1}
+Proposition 1 of \cite{AK} (localization of the origin in a cluster) holds.
+\end{fact}
+
+\begin{fact}[{\cite[\S7]{AK}}]\label{fact:fig11}
+Every singular sequence of the five-body problem approaches, after renumbering the bodies and
+possibly exchanging $z$ and $w$, one of the sixteen diagrams of \cite[Fig.~11]{AK}.
+\end{fact}
+
+For pairwise distinct $i,j,k,l,m$ with $\{i,j,k,l,m\}=\{1,\dots,5\}$ the \emph{four-product} is
+$p_{ij}=r_{ij}^2r_{kl}^2r_{lm}^2r_{mk}^2$, where $r_{kl}^2=z_{kl}w_{kl}$.
+
+\begin{fact}[{\cite[Prop.~8]{AK}}]\label{fact:prop8}
+Along a singular sequence approaching one of Diagrams 9--16 every four-product is bounded.
+\end{fact}
+
+Facts~AK1--AK5 are the only results of \cite{AK} that the proof uses.  The mass conditions of
+\cite[\S8]{AK} for Diagrams 1--6 and 8 are re-derived below
+(Propositions~\ref{prop:d1-first}, \ref{prop:d2-first}, \ref{prop:d3-first},
+\ref{prop:d45-first}, \ref{prop:d6-first} and \ref{prop:d8-first}).
+
+
+\section{Reduction to germs with an unbounded four-product}\label{sec:reduction}
+
+\begin{lemma}\label{lem:distances}
+Let $s\in(\C^*)^{10}$.  Only finitely many points of $A_m$ satisfy $z_{kl}w_{kl}=s_{kl}$ for all
+$k<l$.
+\end{lemma}
+
+\begin{proof}
+On such a point $\delta_{kl}^2=s_{kl}^{-1}$, so $\delta$ takes finitely many values; fix one.
+Multiplying the $z$-equation of body $k$ by $m_k$ and summing gives $\sum_km_kz_k=0$ by
+antisymmetry, and likewise $\sum_km_kw_k=0$.  Put $v_k=(z_k-z_1,w_k-w_1)\in\C^2$ and let $B$ be
+the symmetric bilinear form with $B((a,b),(a,b))=ab$.  Then $B(v_k-v_l,v_k-v_l)=s_{kl}$, so the
+Gram matrix $B(v_k,v_l)=\frac12(s_{1k}+s_{1l}-s_{kl})$ is fixed.  The span $V$ of the $v_k$ is
+nondegenerate for $B$: either $V=\C^2$, or $V=\C v_2$ with $B(v_2,v_2)=s_{12}\ne0$.  If
+$(v'_k)$ is a second family with the same Gram matrix, its span $V'$ is nondegenerate by the
+same argument, and $\sum_kc_kv_k=0$ holds if and only if $\sum_kc_kB(v_k,v_l)=0$ for all $l$,
+and likewise for the $v'_k$; so the $v_k$ and the $v'_k$ satisfy the same linear relations, and
+$v_k\mapsto v'_k$ is an isometry of nondegenerate subspaces; by Witt's theorem it extends to an
+element of the orthogonal group of $B$, which consists of the maps $(a,b)\mapsto(\lambda a,
+\lambda^{-1}b)$ and $(a,b)\mapsto(\lambda b,\lambda^{-1}a)$, $\lambda\in\C^*$.  The centre of
+mass determines $(z_1,w_1)$ from $(v_k)$.  For a fixed reference family $(v^0_k)$ with first
+components $a^0_2$ and second components $b^0_2$ of $v^0_2$ (so $a^0_2b^0_2=s_{12}\ne0$), the gauge
+$z_{12}=w_{12}$ leaves $\lambda^2=b^0_2/a^0_2$ or $\lambda^2=a^0_2/b^0_2$: at most four values.
+Hence there are finitely many solutions for each $\delta$.
+\end{proof}
+
+\begin{lemma}[Arc lemma]\label{lem:arc}
+If $A_m$ has infinitely many positive points, there is an irreducible algebraic curve
+$\Gamma\subset A_m$ such that
+\begin{romanlist}
+  \item $\Gamma$ contains a nonconstant real-analytic arc of positive points;
+  \item $\sigma(\Gamma)=\Gamma$;
+  \item $U=I$ is constant on $\Gamma$, with value $c\in(0,\infty)$.
+\end{romanlist}
+\end{lemma}
+
+\begin{proof}
+In the real coordinates $(x,y,\delta)\in\R^{20}$ the positive points form a semialgebraic set.
+It has finitely many connected components, so one of them is infinite, hence of positive
+dimension, and the curve selection lemma \cite[Thm.~2.5.5]{BCR} gives a nonconstant Nash arc in
+it.  Its Zariski
+closure $\Gamma\subset A_m$ (in the complexified coordinates; passing to $(z,w)$ is linear) is an
+irreducible curve, which proves (i).  Since \eqref{eq:system} has real coefficients, $\sigma(
+\Gamma)$ is an irreducible curve containing the arc, so $\sigma(\Gamma)=\Gamma$.  By
+Lemma~\ref{lem:U-constant}, $U=I$ is constant on $\Gamma$, and on the arc
+$U=\sum m_km_l\delta_{kl}>0$.
+\end{proof}
+
+\begin{lemma}\label{lem:germ}
+Let $\Gamma\subset A_m$ be an irreducible curve and $(q_n)$ a singular sequence on $\Gamma$.  There
+are a Puiseux parametrization $\gamma$ of a branch of $\Gamma$ at infinity, $\gamma(t)\to\infty$ as
+$t\to 0$, and $t_n\to0$ with $\gamma(t_n)$ a subsequence of $(q_n)$.  Every coordinate and every
+component of $\mathcal Z$, $\mathcal W$ has a Puiseux expansion $c\,t^{\alpha}(1+o(1))$ along
+$\gamma$ (or vanishes identically), and the diagram of every singular sequence extracted from
+$(\gamma(t_n))$ is determined by these orders and leading coefficients: the circles and strokes
+of colour $z$ are the components of $\mathcal Z$ of minimal order, and the relations $\prec$,
+$\preccurlyeq$, $\approx$, $\sim$ of \cite[\S3]{AK} become relations between orders and leading
+coefficients.  In particular a four-product unbounded along $(q_n)$ has negative order along
+$\gamma$.
+\end{lemma}
+
+\begin{proof}
+The closure of $\Gamma$ in a projective compactification has finitely many points at infinity,
+each with finitely many analytic branches; a sequence tending to infinity has a subsequence on
+one branch, and the normalization of the branch gives the parameter $t$.  Polynomial functions
+of the coordinates are meromorphic in $t$, which gives the expansions.  If $\alpha$ is the least
+order among the components of $\mathcal Z$, then $Z=\max_p|\mathcal Z_p|$ has order $\alpha$, and
+$\mathcal Z_p/Z\to0$ exactly when $\ord\mathcal Z_p>\alpha$; this does not depend on the
+subsequence.  The renormalization of \cite[p.~547]{AK} multiplies all $z$-quantities by one
+positive factor $a(t)\approx|t|^{(\beta-\alpha)/2}$ and all $w$-quantities by $a^{-1}$, where
+$\beta$ is the least order in $\mathcal W$.  This preserves every relation within one colour and
+every product $z_{kl}w_{kl}$.  Replacing $a$ by the Puiseux series $\lambda(t)=(\mathcal W_q(t)/
+\mathcal Z_p(t))^{1/2}$ built from maximal components, with $|\lambda|/a$ bounded above and
+below, gives an analytic renormalization with the same relations; after reparametrizing
+$t=s^N$, $\epsilon$ is comparable to a power of $s$.  A meromorphic function that is unbounded
+along $t_n\to0$ has a pole.
+\end{proof}
+
+\begin{definition}\label{def:germ}
+A \emph{Diagram-$r$ germ} is a Puiseux branch $\gamma$ of a curve in $A_m$ whose diagram, in the
+sense of Lemma~\ref{lem:germ}, is Diagram $r$ of \cite[Fig.~11]{AK} after renumbering the bodies
+and possibly exchanging $z$ and $w$.  It has an \emph{unbounded four-product} if some $p_{ij}$ has
+negative order along $\gamma$.
+\end{definition}
+
+\begin{lemma}\label{lem:petersen}
+On every irreducible curve $\Gamma\subset A_m$ some four-product is not constant.
+\end{lemma}
+\begin{proof}
+Index the squared distances and the four-products by the ten pairs.  The pairs disjoint from
+$ij$ are the sides of the triangle complementary to $ij$, so the exponent vector of $p_{ij}$ in
+the variables $r_{ab}^2$ is the column $ij$ of $E=I+P$, where $P$ is the adjacency matrix of the
+Petersen graph (two pairs are adjacent if they are disjoint).  The eigenvalues of $E$ are $4$,
+$2$ (five times) and $-1$ (four times), so $\det E=128$, and $N=128E^{-1}$ is an integer
+matrix.  As no $r_{ab}^2$ vanishes on $A_m$, $(r_{ab}^2)^{128}=\prod_{ij}p_{ij}^{N_{ab,ij}}$ there
+If every $p_{ij}$ were constant on $\Gamma$, every $r_{ab}^2$ would take finitely many values on
+$\Gamma$ and hence be constant, and $\Gamma$ would be finite by Lemma~\ref{lem:distances}.
+\end{proof}
+The lemma replaces \cite[Prop.~9]{AK}, whose proof inspects the diagrams of \cite[Fig.~11]{AK}.
+
+\begin{proposition}[Reduction]\label{prop:reduction}
+Let $m\in\Rp^5$.  If $A_m$ has infinitely many positive points, there are $r\in\{1,\dots,8\}$, a
+curve $\Gamma$ as in Lemma~\ref{lem:arc}, and a Diagram-$r$ germ on $\Gamma$ with an unbounded
+four-product.
+\end{proposition}
+
+\begin{proof}
+Let $\Gamma$ be given by Lemma~\ref{lem:arc}.  By Lemma~\ref{lem:petersen} some four-product
+$p_{ij}$ is not constant on $\Gamma$, and by Fact~\ref{fact:lemma1} it is dominating there.  A
+sequence on $\Gamma$ with $p_{ij}\to\infty$ is unbounded, and a singular sequence extracted from
+it approaches one of Diagrams 1--8 by Facts~\ref{fact:fig11} and~\ref{fact:prop8}.
+Lemma~\ref{lem:germ} turns it into a germ.
+\end{proof}
+
+\begin{remark}\label{rem:levels}
+Germs at infinity never lie on the positive arc itself: on a positive arc $U=I=c$ bounds every
+$r_{kl}$ above and below.  So the signs of the boundary values of a germ say nothing about
+positivity; positivity can only enter through identities valid on all of $\Gamma$.  Accordingly
+we exclude germs at three levels: all complex germs; germs on curves through a real point,
+where $I=U$ is a positive constant; and germs on curves with a positive arc.
+\end{remark}
+
+
+\section{The exclusion theorem}\label{sec:exclusion}
+
+\begin{theorem}\label{thm:exclusion}
+Let $m\in\Rp^5$, $r\in\{1,\dots,8\}$ and let $\gamma$ be a Diagram-$r$ germ with an unbounded
+four-product on an irreducible curve $\Gamma\subset A_m$.
+\begin{alphalist}
+  \item If $r\in\{1,2,4,6,8\}$, no such germ exists.
+  \item If $r\in\{5,7\}$, then $\Gamma$ contains no real point.
+  \item If $r=3$, then $\Gamma$ contains no arc of positive points.
+\end{alphalist}
+\end{theorem}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+If $A_m$ had infinitely many positive points, Proposition~\ref{prop:reduction} would give a germ
+contradicting Theorem~\ref{thm:exclusion}: the curve of Lemma~\ref{lem:arc} contains a positive
+arc, hence real points.
+\end{proof}
+
+The proof of Theorem~\ref{thm:exclusion} occupies Sections~\ref{sec:d1}--\ref{sec:d8}.
+Table~\ref{tab:exclusions} summarizes it.
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{cllp{5.4cm}}
+\hline
+$r$ & mass condition & level & method \\
+\hline
+1 & (23) on the triangle & complex & triangle virial against a Morse--Bott estimate \\
+2 & $K_j$, $L_j$, $P_j$ & complex & isolation of every boundary label at orders 1--3,
+with folds of corank one and two \\
+3 & (29) $m_1m_3=m_2m_4$ & positive & orders 3--6; identity $\delta_{15}+2\delta_{13}=0$ \\
+4 & (23) & complex & $w$- and $z$-force balances at orders one and three; exact census \\
+5 & (23) & real & tropical census of the outer bodies \\
+6 & (32) $m_1=m_2$, $m_3=m_4$ & complex & finite wing atlas \\
+7 & none needed & real & inertia identity forces $I\to0$ \\
+8 & (40) & complex & order-six and order-nine pairings; elimination on one curve of masses \\
+\hline
+\end{tabular}
+\caption{The eight exclusions.  Numbers in parentheses refer to the equations of
+\cite[\S8]{AK}.}\label{tab:exclusions}
+\end{table}
+
+Diagrams 1--4 and 6--8 use charts with coverage propositions and, where needed, mass conditions.
+Diagram 5 instead classifies the orders of the outer bodies and uses an exact linear-programming
+census to exclude unbounded four-products on curves through real configurations.
+Throughout, a statement about a diagram is meant for every renumbering of the bodies (with the
+masses permuted) and for both colourings; both operations are symmetries of
+\eqref{eq:system}.
+
+
+\input{sections/d1}
+
+
+\input{sections/d2}
+
+
+\input{sections/d3}
+
+
+\section{Diagrams 4 and 5: the shared triangle}\label{sec:d45}
+
+Diagrams 4 and 5 contain the isolated uncircled $zw$-triangle $345$.
+
+\begin{proposition}[Relation (23)]\label{prop:d45-first}
+Let $m\in\Rp^5$ and let $\gamma$ be a Diagram 4 or Diagram 5 germ, renormalized as in
+Lemma~\ref{lem:germ} so that $\mathcal Z$ and $\mathcal W$ have the same least order $-2\nu<0$.
+Let $z_c$ and $w_c$ be the centres of mass of $T=\{3,4,5\}$.  Then the limits
+\[
+  \zeta_k=\lim_{t\to0}t^{-\nu}(z_k-z_c),\qquad \eta_k=\lim_{t\to0}t^{-\nu}(w_k-w_c),\qquad
+  D_{kl}=\lim_{t\to0}t^{\nu}\delta_{kl}\qquad(k,l\in T)
+\]
+exist and solve the zero-multiplier triangle system of Section~\ref{sec:d1}, and
+$\sum_km_k\zeta_k=\sum_km_k\eta_k=0$.  Hence $(\zeta,\eta,D)$ is as in
+Lemma~\ref{lem:d1-shape}, and $Q(m_3,m_4,m_5)=0$, that is, the masses satisfy (23).
+\end{proposition}
+
+\begin{proof}
+The sides of $T$ are $zw$-edges, so by Estimate~1 and the left equality case of Estimate~2
+(Fact~\ref{fact:rules}, read through Lemma~\ref{lem:germ}) $\ord z_{kl}=\ord w_{kl}=\nu$ and
+$\ord\delta_{kl}=-\nu$ for $k,l\in T$.
+As $z_k-z_c$ and $w_k-w_c$ are combinations of these differences, the limits exist, and the sums
+$\sum_km_k\zeta_k$, $\sum_km_k\eta_k$ vanish by the choice of the centres.  Let $k\in T$.  In the
+$z$-row $z_k=\sum_{l\ne k}m_l\delta_{kl}^3(z_k-z_l)$ the terms with $l\in T$ have order
+$-2\nu$.  The term $z_k$ has larger order, because $k$ is not circled, and so have the terms
+with $l\notin T$, because $T$ is an isolated component of the diagram and no $z$-stroke leaves
+it.  Multiplying by $t^{2\nu}$ and letting $t\to0$ gives $\phi_k=0$; likewise $\psi_k=0$, and
+the ties of the pairs in $T$ give $\chi_{kl}=0$.  Lemma~\ref{lem:d1-shape} now applies, and for
+positive masses $Q=0$ is equivalent to (23).
+\end{proof}
+
+\input{sections/d4}
+
+\input{sections/d5}
+
+
+\input{sections/d6}
+
+
+\input{sections/d7}
+
+
+\input{sections/d8}
+
+
+\appendix
+
+\section{The computations}\label{app:verification}
+
+The computer-assisted steps are carried out by programs written in Python~3.14 with the
+libraries SymPy~1.14 and mpmath~1.3.  Each program has tests that compare its output with the
+statement in the text.  Statements proved by hand in the text were also checked by computer
+where this was easy; these checks are not listed here.
+
+\emph{Exact algebra.}  Identities, resultants, greatest common divisors, Gr\"obner bases, ranks
+and determinants are computed over $\mathbb Q$, over number fields such as $\mathbb Q(i)$,
+$\mathbb Q(\omega)$ and $\mathbb Q(\sqrt3,i,3^{-1/3})$, and over fields of rational functions.
+An identity is proved by expanding the difference of its two sides to the zero polynomial.  Real
+roots are isolated by Sturm sequences, and signs of polynomials on boxes are obtained from
+Bernstein coefficients.  A rank or a nonvanishing obtained over a field of rational functions is
+used at a point only after the relevant denominators and minors have been shown not to vanish
+there, as in Lemma~\ref{lem:d8-order-six}.  A computation modulo a prime is used to show that a
+quantity is nonzero only through a minor that is a unit modulo that prime, as in
+Lemma~\ref{lem:d3-order6}.
+
+\emph{Interval and ball arithmetic.}  Real and complex numbers are enclosed by interval
+arithmetic with outward rounding.  Roots are enclosed in discs by the Krawczyk and Pellet tests
+and by Rouch\'e's theorem.  The covers of Section~\ref{sec:d2-cases} also use complex balls built
+on IEEE binary64 arithmetic, with relative error bounds $2u+2u^2$ for the modulus, $2.5u$ for a
+product, $3u+7u^2$ for an inverse and $3.5u+8u^2$ for a square root, where $u=2^{-53}$;
+these bounds assume round-to-nearest and no overflow.  The ball operations use a common $8u$
+allowance for these primitives.  Sums of $n$ terms are enlarged by the factors $(1+u)^n$ and
+$\gamma_n=nu/(1-nu)$, every radius is increased by $10^{-300}$ to account for underflow, and
+nonzero arguments of modulus below $2^{-1000}$ are rejected.
+
+\emph{Exact linear programming.}  The systems of rational linear equations and inequalities of
+Section~\ref{sec:d5} are decided by the simplex method over $\mathbb Q$, with Bland's rule and free
+variables; strict inequalities are encoded with a common slack $0<s\le1$.
+
+\emph{Stored results.}  The tables of Lemmas~\ref{d5-lem-census} and~\ref{d5-lem-four}, the
+zero classes of Lemma~\ref{lem:d4-census}, the representatives of Lemma~\ref{lem:d2-K} and the
+jets of the curves $C_p$ of Lemma~\ref{d6-lem-corank} are stored with the programs.  Designated
+verification checks compare pinned witnesses with their recorded SHA-256 digests; an individual
+helper may read a witness before that separate check runs.  A matching digest establishes the
+identity of the stored data, not the correctness of its calculation.  The pinned checks test
+selected identities and witness entries; a separate full replay recomputes the tables of
+Section~\ref{sec:d5} and the representatives of Lemma~\ref{lem:d2-K} from scratch.  The zero
+classes are checked by root isolation, and the jets by substitution into the equations.
+
+\emph{Programs and running times.}  Table~\ref{tab:verification} lists the programs used for
+the computer-assisted statements, including supplementary remarks not needed for the main
+theorem; their names begin with \code{ak\_}, which is omitted.  The selected proof verification
+checks do not replay every supplementary remark or the cross-check of Appendix~\ref{app:census}.
+On a computer with eight logical processors, the tests of these programs take about $15$ hours
+of processor time, and the recomputation of the tables of Section~\ref{sec:d5} about $4$ more
+hours.
+
+\begin{table}[ht]
+\centering
+\footnotesize
+\begin{tabular}{p{4.6cm}p{8.4cm}}
+\hline
+Statement & Programs \\
+\hline
+Lemmas \ref{lem:d1-chart}, \ref{lem:d1-virial} & \code{diagram1\_separated\_center\_cone},
+\code{diagram1\_virial\_exclusion}, \code{diagram5\_valuation\_reduction} \\
+Lemma \ref{lem:d1-torque} & \code{central\_body\_slice} \\
+Lemma \ref{lem:d1-shape} & \code{isolated\_triangle\_shape\_derivation} \\
+Lemma \ref{lem:d1-mb} & \code{diagram5\_valuation\_reduction}, \code{diagram1\_edge\_triangle} \\
+\hline
+Lemma \ref{lem:d2-fibre}, Definition \ref{def:d2-mass} & \code{blowup}, \code{resultants},
+\code{p\_source\_completeness}, \code{p\_general}, \code{diagram2\_symmetry} \\
+Lemma \ref{lem:d2-second} & \code{l\_block\_symmetric\_germs}, \code{p\_sheet\_second\_order} \\
+Lemma \ref{lem:d2-empty} & \code{l4\_same\_sign}, \code{resultants}, \code{exceptional},
+\code{l5\_obstruction} \\
+Lemmas \ref{lem:d2-L5}, \ref{lem:d2-corank-two} & \code{l5\_obstruction} \\
+Lemmas \ref{lem:d2-rays}, \ref{lem:d2-Lray} & \code{exceptional\_branch\_positive\_feasibility},
+\code{l1\_complex\_fibre}, \code{l\_block\_symmetric\_germs} \\
+Lemma \ref{lem:d2-K} & \code{k1\_curve}, \code{k1\_complex\_fibre}, \code{p4\_curve},
+\code{p5\_completion}, \code{resultants}, \code{diagram2\_symmetry} \\
+Lemmas \ref{lem:d2-P}, \ref{lem:d2-fold} & \code{p\_sheet\_second\_order},
+\code{p\_sheet\_special\_ends}, \code{p\_sheet\_e5\_corner}, \code{p\_sheet\_euler\_closed\_form},
+\code{p\_sheet\_p5\_exact} \\
+Remark \ref{rem:d2-scope} & \code{p\_general}, \code{diagram2\_symmetry} \\
+\hline
+Lemmas \ref{lem:d3-fibre}--\ref{lem:d3-census} & \code{diagram3\_blowup} \\
+Lemma \ref{lem:d3-order5} & \code{diagram3\_fifth\_order} \\
+Lemmas \ref{lem:d3-order6}, \ref{lem:d3-twisted} & \code{diagram3\_equal\_shape} \\
+\hline
+Lemma \ref{lem:d4-torque} & \code{diagram4\_valuation\_coverage} \\
+Lemma \ref{lem:d4-census} & \code{diagram4\_first\_order\_formula}, \code{diagram4\_sign\_census},
+\code{diagram4\_sign\_orbits}, \code{diagram4\_zero\_uniqueness},
+\code{diagram4\_third\_order\_formula} \\
+\hline
+Lemmas \ref{d5-lem-mb}, \ref{d5-lem-consequences} & \code{diagram5\_morse\_bott\_lemma},
+\code{diagram5\_morse\_bott\_uniformity} \\
+Lemmas \ref{d5-lem-census}, \ref{d5-lem-four} & \code{diagram5\_outer\_census},
+\code{diagram5\_census\_model}, \code{diagram5\_first\_limit\_relevance}, \code{tropical\_census} \\
+\hline
+Lemmas \ref{d6-lem-chart}, \ref{d6-lem-torque} & \code{diagram6\_blowup},
+\code{diagram6\_valuation\_coverage}, \code{diagram6\_relation32\_derivation} \\
+Lemma \ref{d6-lem-atlas}, Definition \ref{d6-def-labels}, Remarks \ref{d6-rem-regular},
+\ref{d6-rem-projective} & \code{diagram6\_blowup} \\
+Lemma \ref{d6-lem-corank} & \code{diagram6\_blowup}, \code{diagram6\_primitive\_cubic},
+\code{diagram6\_primitive\_quadratic}, \code{diagram6\_primitive\_opposite} \\
+\hline
+Lemma \ref{lem:d8-rows} & \code{diagram8\_relation40\_derivation}, \code{diagram8\_kappa\_row} \\
+Lemma \ref{lem:d8-order-six} & \code{diagram8\_order\_six\_pairing},
+\code{diagram8\_equal\_pair\_germs} \\
+Lemma \ref{lem:d8-kappa} & \code{diagram8\_kappa\_row} \\
+Lemma \ref{lem:d8-cancel} & \code{diagram8\_cancelling\_curve} \\
+Remark \ref{rem:d8-window} & \code{diagram8\_ray\_diagrams}, \code{diagram8\_pattern\_boundaries} \\
+\hline
+\end{tabular}
+\caption{Programs used for the computer-assisted statements.}
+\label{tab:verification}
+\end{table}
+
+\section{Cross-check through the exceptional set}\label{app:census}
+
+The exceptional set of \cite{AK} is not used in the proof.  As an independent check of the
+case analysis we rebuilt it.  The pairs of first and second limits in the proof of
+\cite[Thm.~6]{AK}, with all labellings of the bodies, give $171$ components of codimension two in
+the mass space and $661$ orbits of pairs of diagrams under the symmetries.  Of these orbits,
+$255$ contain no positive mass vector, and each of the other $406$ is excluded by
+Sections~\ref{sec:d1}--\ref{sec:d8} applied to its first limit; no orbit requires an argument
+about its second limit.
+
+
+\begin{thebibliography}{99}
+
+\bibitem{AK}
+A.~Albouy and V.~Kaloshin, \emph{Finiteness of central configurations of five bodies in the
+plane}, Ann. of Math. (2) \textbf{176} (2012), 535--588.
+
+\bibitem{BCR}
+J.~Bochnak, M.~Coste and M.-F.~Roy, \emph{Real Algebraic Geometry}, Ergeb. Math. Grenzgeb. (3)
+\textbf{36}, Springer, 1998.
+
+\bibitem{CC1}
+K.-M.~Chang and K.-C.~Chen, \emph{Toward finiteness of central configurations for the planar
+six-body problem by symbolic computations. (I) Determine diagrams and orders}, J. Symbolic
+Comput. \textbf{123} (2024), 102277; arXiv:2303.02853.
+
+\bibitem{CC2}
+K.-M.~Chang and K.-C.~Chen, \emph{Toward finiteness of central configurations for the planar
+six-body problem by symbolic computations. (II) Determine mass relations}, SIAM J. Appl. Dyn.
+Syst. \textbf{24} (2025), 2369--2404.
+
+\bibitem{DH}
+Y.~Deng and M.~Hampton, \emph{Equilateral chains and cyclic central configurations of the
+planar $5$-body problem}, arXiv:2112.06755, 2021.
+
+\bibitem{HJ}
+M.~Hampton and A.~N.~Jensen, \emph{Finiteness of spatial central configurations in the
+five-body problem}, Celestial Mech. Dynam. Astronom. \textbf{109} (2011), 321--332.
+
+\bibitem{HM}
+M.~Hampton and R.~Moeckel, \emph{Finiteness of relative equilibria of the four-body problem},
+Invent. Math. \textbf{163} (2006), 289--312.
+
+\bibitem{JL}
+A.~N.~Jensen and A.~Leykin, \emph{Smale's 6th problem for generic masses}, J. Exp. Math.
+\textbf{1} (2025), 306--314; arXiv:2301.02305.
+
+\bibitem{LS}
+T.-L.~Lee and M.~Santoprete, \emph{Central configurations of the five-body problem with equal
+masses}, Celestial Mech. Dynam. Astronom. \textbf{104} (2009), 369--381,
+doi:10.1007/s10569-009-9219-0.
+
+\bibitem{MZ19}
+M.~Moczurad and P.~Zgliczy\'nski, \emph{Central configurations in planar $n$-body problem with
+equal masses for $n=5,6,7$}, Celestial Mech. Dynam. Astronom. \textbf{131} (2019),
+doi:10.1007/s10569-019-9920-6; arXiv:1812.07279.
+
+\bibitem{MZ26}
+M.~Moczurad and P.~Zgliczy\'nski, \emph{Central configurations with unequal masses: finiteness
+in several exceptional cases of five bodies}, arXiv:2601.01165, 2026.
+\bibitem{Moulton}
+F.~R.~Moulton, \emph{The straight line solutions of the problem of $n$ bodies}, Ann. of Math. (2)
+\textbf{12} (1910), 1--17.
+
+\bibitem{Roberts}
+G.~E.~Roberts, \emph{A continuum of relative equilibria in the five-body problem}, Phys. D
+\textbf{127} (1999), 141--145.
+
+\bibitem{Smale}
+S.~Smale, \emph{Mathematical problems for the next century}, Math. Intelligencer \textbf{20}
+(1998), no.~2, 7--15.
+
+\bibitem{Wintner}
+A.~Wintner, \emph{The Analytical Foundations of Celestial Mechanics}, Princeton University
+Press, 1941.
+
+\bibitem{YZ}
+X.~Yu and S.~Zhu, \emph{On the finiteness of four-body central configurations},
+arXiv:2103.08906, 2021.
+
+\end{thebibliography}
+
+\end{document}
