@@ -1,0 +1,39 @@
+{
+  "title": "Smale five-body proof independent verification status",
+  "status": "partial; not a verification of the main theorem",
+  "source_files": {
+    "main.tex": "98491E32DBF6E30EBEB26D0CD78AFF8C899940FE1B40955DBC7F57F45518D3E2",
+    "sections/d1.tex": "EC24CCE4F8D46B4CD1D04CC5547A9E396E173CBF8535A4F33718F682D8F87328",
+    "sections/d2.tex": "4BEE286576215BE951371419A386F42B210B1BBDE25A338F07F895479F8A5569",
+    "sections/d3.tex": "E6430DB3A803241BF2C41B427B5BA335C8F5DF1D62F46B64F7B95860E090C5E5",
+    "sections/d4.tex": "2F296A7E64E498F282C885F69D3BA0321B25639C1719BB6C2E0DEBF51BFA63DA",
+    "sections/d5.tex": "82AA436823C32C432947BB775DBF407FE967D589AA2C5479A33F60CF0180598C",
+    "sections/d6.tex": "A76B539C8C2814648F1A0F8F2EFED13DB99C747E71584DAA49273425556399F0",
+    "sections/d7.tex": "47938A25BE21FD67076C8F25FDF82B56FA93DA90123303A8AF1B5B04DE4F9048",
+    "sections/d8.tex": "FF08CD47E851628B4C0046C1A164028B1905ADC31560FB30939EC22F6D805DEA"
+  },
+  "claims": {
+    "main.common-identities": "PASS: exact mass-centre, torque, and virial identities",
+    "d1.5.1": "PASS: weighted polynomial rows, boundary terms, and rational exponent-cone certificates",
+    "d1.5.2": "PASS: all three exact polynomial syzygies",
+    "d1.4, d1.8, d1.9": "NOT IMPLEMENTED",
+    "d1.11": "PASS: exact triangle virial identity and all nine differential coefficients",
+    "d2.6.2-6.18": "NOT IMPLEMENTED: interval checker infrastructure exists; manuscript boxes and data are missing",
+    "d3.7.3-7.11": "NOT IMPLEMENTED",
+    "d3.7.12": "PASS: explicit twisted family checked by exact ideal reduction for all root/sign parameters",
+    "d4.8.4, d4.8.10": "NOT IMPLEMENTED",
+    "d5.8.16, d5.8.19": "NOT IMPLEMENTED",
+    "d5.8.20-8.21": "NOT IMPLEMENTED: rational LP witness checker exists; branch generation and witnesses are missing",
+    "d6.9.2": "PARTIAL: polynomial degree, boundary rows, weighted centre, and wing separation; chart rotation substitution remains",
+    "d6.9.4": "PASS: exact torque identity with explicit polynomial remainder",
+    "d6.9.6": "PARTIAL: z-wing exact substitution; completeness/counting remains",
+    "d6.9.9": "PARTIAL: four primitive-shape norm products; derivative ranks and jet replay remain",
+    "d7": "NO COMPUTER-ASSISTED CLAIM IN MANUSCRIPT",
+    "d8.11.1, d8.11.6-11.8": "NOT IMPLEMENTED"
+  },
+  "local_tools": [
+    "verification/verify_exact_algebra.py",
+    "verification/verify_lp_certificates.py",
+    "verification/verify_interval_certificates.py"
+  ]
+}
