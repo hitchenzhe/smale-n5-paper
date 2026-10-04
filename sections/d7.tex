@@ -1,0 +1,225 @@
+\section{Diagram 7}\label{sec:d7}
+
+Diagram~7 is the butterfly of \cite[\S7.4]{AK} without circles.  Albouy and Kaloshin derive for
+it the mass relations (36), (39) and (40) in \cite[\S\S8.7.1--8.7.3]{AK}.  We use none of these
+relations.
+
+\begin{theorem}\label{thm:d7}
+Let $m\in\Rp^5$.  No Diagram~7 germ with an unbounded four-product lies on a curve through a
+real point: if an irreducible curve $\Gamma\subset A_m$ carries such a germ, then $\Gamma$
+contains no real point.
+\end{theorem}
+
+This is part~(b) of Theorem~\ref{thm:exclusion} for $r=7$.  Germs with $a+b\ge0$ in
+Proposition~\ref{d7-cover} have no unbounded four-product (Lemma~\ref{d7-bounded}); the others
+lie in the open cone of a nested chart, where an identity valid modulo \eqref{eq:system} gives
+$I\to0$ (Lemma~\ref{d7-vanish}), so $I=U\equiv0$ on $\Gamma$, which is impossible at a real point.
+
+\subsection{The diagram and the nested chart}
+In the numbering of \cite[\S8.7]{AK}, the \emph{upper wing} $\{1,2,5\}$ is an isolated triangle
+of $z$-edges without $z$-circles, the \emph{lower wing} $\{3,4,5\}$ is an isolated triangle of
+$w$-edges without $w$-circles, and the four \emph{crossed} pairs $kj$ ($k\in\{1,2\}$,
+$j\in\{3,4\}$) are not edges.
+Since Diagram~7 has no circles, Rule~1e shows that neither wing has a maximal stroke (see the
+proof of Proposition~\ref{d7-cover}(i)).  By Definition~\ref{def:germ} and the convention after
+Theorem~\ref{thm:exclusion}, we may use this numbering and colouring.
+
+\emph{Orders.}  As in Lemma~\ref{lem:germ} we renormalize a germ so that $Z$ and $W$ have a
+common order, and reparametrize it by a power $t$ of its Puiseux parameter so that this order is
+$-2$; thus $t$ plays the role of $\epsilon$ in \cite[\S3]{AK}, and $\ord$ is the order in $t$.
+Renormalizations $(z,w)\mapsto(\lambda z,\lambda^{-1}w)$ preserve the diagram, the ties, $I$, $U$
+and every $r_{kl}^2=z_{kl}w_{kl}$.
+
+\emph{The nested chart} with exponents $P,Q,R$ has the coordinates $A_1,A_2,C,u_3,u_4$,
+$B_3,B_4,D,v_1,v_2$ and $D_{kl}$ ($k<l$):
+\begin{gather*}
+  z_1=A_1,\quad z_2=A_2,\qquad w_3=t^{-Q}B_3,\quad w_4=t^{-Q}B_4,\\
+  z_j=C+t^Pm_5u_j\ \ (j=3,4),\qquad z_5=C-t^P(m_3u_3+m_4u_4),\\
+  w_k=t^{-Q}D+t^Rm_5v_k\ \ (k=1,2),\qquad w_5=t^{-Q}D-t^R(m_1v_1+m_2v_2),
+\end{gather*}
+and $\delta_{kl}=t^{e_{kl}}D_{kl}$, where $e_{kl}=-R/2$ on the upper wing, $Q/2$ on the crossed
+pairs and $(Q-P)/2$ on the lower wing ($D$ without indices is not an inverse distance).
+So $C$ and $t^{-Q}D$ are the centres of mass of the $z$-cluster $\{3,4,5\}$ and of the
+$w$-cluster $\{1,2,5\}$, $P$ and $R$ are their internal orders, and $-Q$ is the order of the
+common $w$-scale.
+The exponents $e_{kl}$ balance all ten ties $\delta_{kl}^2z_{kl}w_{kl}=1$; those of the pairs
+$12$ and $34$ read exactly
+\[
+  m_5D_{12}^2(A_2-A_1)(v_2-v_1)=1,\qquad m_5D_{34}^2(u_4-u_3)(B_4-B_3)=1.
+\]
+The \emph{open cone} is $P>Q>0$, $R>0$.
+
+\emph{Gauges.}  The chart does not impose the gauge $z_{12}=w_{12}$.  By the displayed ties,
+$A_2-A_1$ and $B_4-B_3$ never vanish, so they could serve as gauges for the rotations and for
+the rescalings of $t$.  We fix none, since $I$, $U$, the ties and the zero set of the rows of
+\eqref{eq:system} are invariant under the rotations.
+
+\subsection{Coverage}
+
+\begin{proposition}[Coverage]\label{d7-cover}
+Let $\gamma$ be a Diagram~7 germ.  There are $a,b$ with $-2<a<1$ and $-2<b<1$ such that the
+following hold.
+\begin{romanlist}
+  \item On the upper wing $\ord z_{kl}=a$ and $\ord w_{kl}=(4-a)/3$; on the lower wing
+  $\ord w_{kl}=b$ and $\ord z_{kl}=(4-b)/3$; on the crossed pairs $\ord z_{kl}=a$ and
+  $\ord w_{kl}=b$.  Moreover $\ord z_k\ge a$ and $\ord w_k\ge b$ for every $k$.
+  \item After the rotation $(z,w)\mapsto(t^{-a}z,t^{a}w)$, $\gamma$ is a germ of the nested
+  chart with exponents
+  \[
+    P=\frac{4-b}{3}-a,\qquad Q=-(a+b),\qquad R=\frac{4+2a}{3};
+  \]
+  all chart coordinates have nonnegative order, so they converge, and every $D_{kl}$ has order
+  zero.  Moreover $R=\frac23(a+2)>0$ and $P-Q=\frac23(b+2)>0$, so $(P,Q,R)$ lies in the open
+  cone if and only if $a+b<0$.
+\end{romanlist}
+\end{proposition}
+
+\begin{proof}
+(i) We use Fact~\ref{fact:rules}.  By Rule~2e \cite[p.~552]{AK} the three $z$-separations of a
+wing have one order, and so do its three $w$-separations; let $a$ be the $z$-order of the upper
+wing and $b$ the $w$-order of the lower wing.  As $\delta_{kl}^2z_{kl}w_{kl}=1$,
+$\ord Z_{kl}=-(\ord z_{kl}+3\ord w_{kl})/2$ and $\ord W_{kl}=-(3\ord z_{kl}+\ord w_{kl})/2$;
+since the strokes have order $-2$, this gives the other two wing orders.  The upper wing is an
+isolated component of the $z$-diagram without $z$-circles, so it has no maximal $z$-stroke
+(Rule~1e, p.~546), and along a $z$-stroke Estimate~2 (p.~548) gives $-2\le\ord z_{kl}\le1$, with
+$-2$ exactly for a maximal $z$-edge and $1$ exactly for a $zw$-edge.  Hence $-2<a<1$, and dually
+$-2<b<1$.  As $z_{13}=z_{15}+z_{53}$
+with $\ord z_{53}=(4-b)/3>1>a$, and $w_{13}=w_{15}+w_{53}$ with $\ord w_{15}=(4-a)/3>1>b$, the
+crossed orders are $a$ and $b$; likewise for $14$, $23$, $24$.  Finally
+$\sum_km_kz_k=\sum_km_kw_k=0$ on $A_m$ (proof of Lemma~\ref{lem:distances}), so each $z_k$ is a
+combination of $z$-differences, all of order at least $a$; likewise $\ord w_k\ge b$.
+
+(ii) After the rotation the $z$-differences have order $0$ on the upper wing and the crossed
+pairs and $P$ on the lower wing, the $w$-differences have order $R$ on the upper wing and $-Q$
+elsewhere, and $\ord z_k\ge0$, $\ord w_k\ge-Q$.  Inverting the chart map, $A_k=z_k$,
+$B_j=t^Qw_j$, $C$ and $t^{-Q}D$ are the centres of the two clusters, $m_5t^Pu_j=z_j-C$ and
+$m_5t^Rv_k=w_k-t^{-Q}D$ are combinations of differences inside them, and
+$D_{kl}=t^{-e_{kl}}\delta_{kl}$, where $\ord\delta_{kl}=-(\ord z_{kl}+\ord w_{kl})/2=e_{kl}$.  So
+every coordinate has nonnegative order and $\ord D_{kl}=0$.
+\end{proof}
+
+Thus a germ lies in the open cone exactly when $a+b<0$, and the germs with $a+b\ge0$ have no
+unbounded four-product (Lemma~\ref{d7-bounded}).  In the terminology of \cite[\S8.7]{AK}, a germ
+with a wing in the general case has $a+b<0$; we shall not need this.
+
+\subsection{The inertia identity}
+Write
+\[
+  F^z_k=z_k-\sum_{l\ne k}m_l\delta_{kl}^3(z_k-z_l),\qquad
+  F^w_k=w_k-\sum_{l\ne k}m_l\delta_{kl}^3(w_k-w_l)
+\]
+for the coordinate rows of \eqref{eq:system} and $T_{kl}=\delta_{kl}^2z_{kl}w_{kl}-1$ for the
+ties.  Then $I-U=\sum_km_kw_kF^z_k+\sum_{k<l}m_km_l\delta_{kl}T_{kl}$, so $U=I$ on $A_m$
+\cite[p.~541]{AK}.
+
+\begin{lemma}[Inertia identity]\label{d7-identity}
+Let
+\[
+  S_5=\sum_{j=3,4}\sum_{l=1,2}m_jm_l\delta_{jl}^3
+  \bigl((z_j-z_5)(w_l-w_5)-(w_j-w_5)(z_l-z_5)\bigr).
+\]
+Then, as polynomials in the masses and in $(z,w,\delta)$,
+\begin{multline*}
+  I=\sum_{k=1,2}m_kz_k(w_k-w_5)+\sum_{j=3,4}m_jw_j(z_j-z_5)+S_5\\
+  -\sum_{j=3,4}m_j\bigl((z_j-z_5)F^w_j-(w_j-w_5)F^z_j\bigr)+w_5\sum_{k=1}^5m_kF^z_k.
+\end{multline*}
+In particular $I=\sum_{k=1,2}m_kz_k(w_k-w_5)+\sum_{j=3,4}m_jw_j(z_j-z_5)+S_5$ on $A_m$.
+\end{lemma}
+
+\begin{proof}
+Put $\hat z_k=z_k-z_5$ and $\hat w_k=w_k-w_5$.  By antisymmetry of the force terms,
+$\sum_km_kF^z_k=\sum_km_kz_k$.  Since $z_j\hat w_j-w_j\hat z_j=z_5w_j-w_5z_j$,
+\begin{align*}
+  I&=\sum_km_kz_k\hat w_k+w_5\sum_km_kz_k\\
+   &=\sum_{k=1,2}m_kz_k\hat w_k+\sum_{j=3,4}m_j\bigl(w_j\hat z_j+z_5w_j-w_5z_j\bigr)
+    +w_5\sum_km_kF^z_k.
+\end{align*}
+For $j\in\{3,4\}$, using $z_j-z_l=\hat z_j-\hat z_l$ and $w_j-w_l=\hat w_j-\hat w_l$,
+\[
+  \hat z_jF^w_j-\hat w_jF^z_j=(w_5z_j-z_5w_j)
+  +\sum_{l\ne j}m_l\delta_{jl}^3(\hat z_j\hat w_l-\hat w_j\hat z_l).
+\]
+In $\sum_{j=3,4}m_j(\hat z_jF^w_j-\hat w_jF^z_j)$ the terms with $l=5$ vanish, those with
+$l\in\{3,4\}$ cancel in pairs, and those with $l\in\{1,2\}$ add up to $S_5$.  Hence
+$\sum_{j=3,4}m_j(z_5w_j-w_5z_j)=S_5-\sum_{j=3,4}m_j(\hat z_jF^w_j-\hat w_jF^z_j)$, and
+substituting this into the display gives the identity.
+\end{proof}
+
+The term $S_5$ is the torque about body~$5$ of the crossed forces on the lower wing; compare
+\cite[(31)]{AK}.
+
+\begin{lemma}\label{d7-vanish}
+Let $\gamma$ be a Diagram~7 germ on $A_m$ with $a+b<0$ (Proposition~\ref{d7-cover}).  Then
+$I(\gamma(t))\to0$ as $t\to0$.
+More precisely, in the nested chart of Proposition~\ref{d7-cover}(ii) the three terms
+$\sum_{k=1,2}m_kz_k(w_k-w_5)$, $\sum_{j=3,4}m_jw_j(z_j-z_5)$ and $S_5$ are sums of powers $t^e$
+times polynomials in the chart coordinates, with exponents
+\[
+  e=R;\qquad e=P-Q;\qquad e\in\bigl\{\tfrac Q2,\ P+\tfrac Q2,\ \tfrac{3Q}2+R,\ P+\tfrac{3Q}2+R\bigr\},
+\]
+respectively.
+\end{lemma}
+
+\begin{proof}
+On $A_m$ the last two sums in Lemma~\ref{d7-identity} vanish, and the three remaining terms are
+invariant under the rotations, so we may evaluate them on the rotated germ in the chart.  There
+\begin{gather*}
+  w_k-w_5=t^R\bigl((m_k+m_5)v_k+m_{k'}v_{k'}\bigr),\qquad
+  z_j-z_5=t^P\bigl((m_j+m_5)u_j+m_{j'}u_{j'}\bigr),\\
+  w_j-w_5=t^{-Q}(B_j-D)+t^R(m_1v_1+m_2v_2),\\
+  z_l-z_5=A_l-C+t^P(m_3u_3+m_4u_4),
+\end{gather*}
+where $\{k,k'\}=\{1,2\}$, $\{j,j'\}=\{3,4\}$ and $l\in\{1,2\}$, and
+$\delta_{jl}^3=t^{3Q/2}D_{jl}^3$.  Substituting, together with $z_k=A_k$ and $w_j=t^{-Q}B_j$,
+gives the stated exponents.  Since $a+b<0$, Proposition~\ref{d7-cover}(ii) puts $(P,Q,R)$ in the
+open cone, so every exponent is positive, and all chart coordinates are bounded.  Hence the three
+terms, and with them $I$, tend to zero.
+\end{proof}
+
+\subsection{Germs outside the open cone}
+
+\begin{lemma}\label{d7-bounded}
+Let $\gamma$ be a Diagram~7 germ with $a+b\ge0$ (Proposition~\ref{d7-cover}).  Then every
+four-product tends to zero along $\gamma$.  If $a+b=0$, then $-1<a<1$, and $p_{12}$, $p_{34}$
+and each of the other eight four-products have the orders $(16-4a)/3$, $(16+4a)/3$ and $8/3$.
+If $a+b>0$, every $r_{kl}$ tends to zero, and so does $I$.
+\end{lemma}
+
+\begin{proof}
+By Proposition~\ref{d7-cover}(i), $r_{kl}^2=z_{kl}w_{kl}$ has order $(4+2a)/3>0$ on the upper
+wing, $(4+2b)/3>0$ on the lower wing and $a+b\ge0$ on the crossed pairs.  The four-product
+$p_{ij}$ contains the three squared sides of the triangle $\{k,l,m\}$ complementary to
+$\{i,j\}$, and this triangle contains a wing pair: if $5\in\{k,l,m\}$, both pairs through~$5$
+are wing pairs; otherwise $\{k,l,m\}\subset\{1,2,3,4\}$ contains $\{1,2\}$ or $\{3,4\}$ (the
+crossed pairs form the bipartite graph $K_{2,2}$).  Hence
+$\ord p_{ij}\ge\min\{(4+2a)/3,(4+2b)/3\}>0$.  If $a+b=0$, the bounds $-2<a,b<1$ give $-1<a<1$,
+and adding orders gives the stated values.  If $a+b>0$, every $r_{kl}^2$ has positive order, and
+the Lagrange identity $MI=(\sum_km_kz_k)(\sum_km_kw_k)+\sum_{k<l}m_km_lz_{kl}w_{kl}$, with
+$\sum_km_kz_k=\sum_km_kw_k=0$, gives $I\to0$.
+\end{proof}
+
+\begin{remark}\label{d7-balanced}
+The germs with $a+b=0$ are not excluded, and need not be: they carry no unbounded four-product,
+so Proposition~\ref{prop:reduction} never produces them.
+\end{remark}
+
+\subsection{End of the proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:d7}]
+Let $\gamma$ be a Diagram~7 germ with an unbounded four-product on an irreducible curve
+$\Gamma\subset A_m$, numbered as above, and let $a,b$ be as in Proposition~\ref{d7-cover}.  Some
+four-product has negative order along $\gamma$ (Definition~\ref{def:germ}), so $a+b<0$ by
+Lemma~\ref{d7-bounded}, and $I(\gamma(t))\to0$ by Lemma~\ref{d7-vanish}.  By
+Lemma~\ref{lem:U-constant}, $I=U$ is constant on $\Gamma$, with value
+$\lim_{t\to0}I(\gamma(t))=0$.  At a real point $w_k=\bar z_k$, so $I=\sum_km_k|z_k|^2$,
+which is positive because $m_k>0$ and the tie of the pair $12$ forces $z_1\ne z_2$.  Hence
+$\Gamma$ contains no real point.
+\end{proof}
+
+\begin{remark}\label{d7-masses}
+The proof of Theorem~\ref{thm:d7} uses no relation among the masses: Lemma~\ref{d7-identity} is a
+polynomial identity, Proposition~\ref{d7-cover} and Lemma~\ref{d7-bounded} use only Rules~1e,
+2e and Estimate~2 of \cite[\S3]{AK}, Lemma~\ref{d7-vanish} only the signs of the exponents, and
+the last step only Lemma~\ref{lem:U-constant} and $m_k>0$.  So the theorem does not depend on
+whether the masses satisfy (36), (39) or (40), and no mass condition is derived for Diagram~7.
+\end{remark}

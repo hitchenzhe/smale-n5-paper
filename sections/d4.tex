@@ -1,0 +1,423 @@
+\subsection{Diagram 4}\label{sec:d4}
+
+Diagram~4 consists of the isolated $zw$-triangle $345$, whose vertices are not circled, and the
+isolated $z$-stroke $12$ with $z$-circles at $1$ and $2$; there are no other strokes or circles
+\cite[\S7.4, p.~567, and Fig.~11]{AK}.
+For this diagram \cite[\S8.4]{AK} record only relation (23).  We use the notation of
+Section~\ref{sec:d1}: $P=\{1,2\}$, $T=\{3,4,5\}$, $i\in P$, $k,l\in T$, $M_P$, $M_T$, $Z_P$, $Z_T$,
+$W_P$, $W_T$, the equations $E^z_j,E^w_j$, the triangle functions $\phi_k,\psi_k,\chi_{kl}$, the
+torque $T_P$ of Lemma~\ref{lem:d1-syzygies} and the orbit $O$ of Lemma~\ref{lem:d1-mb}.
+Renumbering inside $P$ or inside $T$ does not change the diagram.
+
+\begin{theorem}\label{thm:d4}
+Let $m\in\Rp^5$.  No curve in $A_m$ carries a Diagram~4 germ.
+\end{theorem}
+
+This is part~(a) of Theorem~\ref{thm:exclusion} for $r=4$, without any assumption on the
+four-products.  A torque argument excludes a triangle body at the $w$-centre of the triangle
+(Lemma~\ref{lem:d4-central}); then every germ converges in a ramified chart to a point of a
+smooth boundary fibre $\mathcal B_4$ (Proposition~\ref{prop:d4-cover} and
+Lemma~\ref{lem:d4-fibre}).  A Lyapunov--Schmidt lemma (Lemma~\ref{lem:d4-ls}) turns the
+existence of a germ through a boundary point into the vanishing of successive obstructions.
+The first says that the triangle exerts equal leading $w$-forces on the two outer bodies, the
+second vanishes identically, and the third says that it exerts equal leading $z$-forces
+(Lemma~\ref{lem:d4-obstr}).  An exact census shows that the two balances never hold together
+(Lemma~\ref{lem:d4-census}).
+
+\subsubsection{The chart}\label{d4-chart}
+The equations of \eqref{eq:system} other than the gauge are invariant under
+$(z,w,\delta)\mapsto(cz,c^{-1}w,\delta)$, $c\in\C^*$; in this subsection we use the gauge
+$z_{34}=w_{34}$ instead of $z_{12}=w_{12}$.  Let $t$ be a parameter, put
+\[
+  (\zeta_3,\zeta_4,\zeta_5)=(m_5u,\ m_5v,\ -m_3u-m_4v),\qquad
+  (\eta_3,\eta_4,\eta_5)=(m_5p,\ m_5q,\ -m_3p-m_4q),
+\]
+so that $\sum_km_k\zeta_k=\sum_km_k\eta_k=0$, and
+\begin{equation}\label{eq:d4-chart}
+\begin{gathered}
+  z_i=t^{-4}A_i,\qquad w_i=t^{4}B_i\qquad(i\in P),\\
+  z_k=t^{-1}\hat Z+t^{2}\zeta_k,\qquad w_k=t^{5}\hat W+t^{2}\eta_k\qquad(k\in T),\\
+  \delta_{12}=D_{12},\qquad\delta_{ik}=t\,D_{ik},\qquad\delta_{kl}=t^{-2}D_{kl}.
+\end{gathered}
+\end{equation}
+The twenty chart coordinates $x$ are $A_1,A_2,B_1,B_2,\hat Z,\hat W,u,v,p,q$ and the ten $D_{jl}$;
+for $t\ne0$ the chart is invertible.  Put
+\[
+\begin{gathered}
+  \Sigma_i=\sum_km_kD_{ik}^3,\qquad f_i=\sum_km_kD_{ik}^3\eta_k,\\
+  R^z_i=A_i-m_{i'}D_{12}^3(A_i-A_{i'}),\qquad R^w_i=B_i-m_{i'}D_{12}^3(B_i-B_{i'}),
+\end{gathered}
+\]
+where $\{i,i'\}=P$.  Substituting \eqref{eq:d4-chart} gives
+\begin{equation}\label{eq:d4-rows}
+\begin{aligned}
+  t^{4}E^z_i&=R^z_i-\textstyle\sum_km_kD_{ik}^3\,(t^3A_i-t^6\hat Z-t^9\zeta_k),\\
+  t^{-4}E^w_i&=R^w_i+t\,f_i-\textstyle\sum_km_kD_{ik}^3\,(t^3B_i-t^4\hat W),\\
+  t^{4}E^z_k&=-\phi_k+t^3\hat Z+t^6\zeta_k-\textstyle\sum_im_iD_{ik}^3\,(t^6\hat Z+t^9\zeta_k-t^3A_i),\\
+  t^{4}E^w_k&=-\psi_k+t^6\eta_k+t^9\hat W-\textstyle\sum_im_iD_{ik}^3\,(t^9\eta_k+t^{12}\hat W
+  -t^{11}B_i),
+\end{aligned}
+\end{equation}
+while the ties become $D_{12}^2(A_1-A_2)(B_1-B_2)-1$, the \emph{crossed ties}
+$D_{ik}^2(t^3\hat Z+t^6\zeta_k-A_i)(\eta_k-t^2B_i+t^3\hat W)-1$ and $\chi_{kl}$, and the gauge
+becomes $t^{-2}(z_{34}-w_{34})=(\zeta_4-\zeta_3)-(\eta_4-\eta_3)$.  These $21$ polynomials form
+$F(t,x)=\sum_{j\ge0}t^jF_j(x)$.  The \emph{boundary fibre} $\mathcal B_4=\mathcal B_4(m)$ is the
+zero set of $F_0$.  By \eqref{eq:d4-rows}, $F_1$ vanishes except in the two rows
+$t^{-4}E^w_i$, where it equals $f_i$, and $F_2$ vanishes except in the crossed ties, where it
+equals $D_{ik}^2A_iB_i$.
+
+\subsubsection{Coverage}\label{d4-cover}
+Let $\gamma$ be a Diagram~4 germ at $m\in\Rp^5$, renormalized as in Lemma~\ref{lem:germ} so that
+$Z\approx W\approx\epsilon^{-2}$.  After a base change of the parameter $\tau$ of the branch,
+all coordinates are Laurent series in $\tau$ and $\ord_\tau Z=\ord_\tau W=-4q$ for an integer
+$q\ge1$; we put $t=\tau^q$ and measure orders in units of $\ord t$, so that the maximal
+components of $\mathcal Z$ and $\mathcal W$ have order $-4$ and $\ord\epsilon=2$.
+
+\begin{lemma}\label{lem:d4-val}
+Along $\gamma$, for $i\in P$ and $k\ne l$ in $T$:
+\begin{romanlist}
+  \item $\ord z_k>-4$ and $\ord z_{ik}=-4$;
+  \item $\ord z_1=\ord z_2=\ord z_{12}=-4$, $\ord\delta_{12}=0$, $\ord w_{12}=4$,
+  $\ord w_1,\ord w_2\ge4$, and hence $\ord W_T=\ord W_P\ge4$;
+  \item $\ord z_{kl}=\ord w_{kl}=2$ and $\ord\delta_{kl}=-2$.
+\end{romanlist}
+\end{lemma}
+
+\begin{proof}
+(i) The bodies of $T$ are not $z$-circled, while $1$ and $2$ are.
+(ii) Bodies $1,2$ are $z$-circled, so $\ord z_1=\ord z_2=-4$.  The isolated component $\{1,2\}$
+of the $z$-diagram has circled vertices, so its stroke $12$ is maximal by Rule~1e
+\cite[p.~546]{AK}, and the right equality case of Estimate~2 \cite[p.~548]{AK} gives
+$r_{12}\approx1$, $z_{12}\approx\epsilon^{-2}$ and $w_{12}\approx\epsilon^2$.  The triangle edges are
+not maximal, since by (iii), whose proof does not use (ii), $z_{kl}\approx\epsilon$ on them; so
+$12$ is the only maximal $z$-edge and, by Estimate~1
+\cite[p.~548]{AK} with $z$ and $w$ exchanged, $w_{12}\prec w_{ik}$ for $i\in P$, $k\in T$.  As in
+the proof of \cite[Prop.~4, p.~564]{AK}, \cite[Prop.~1, p.~559]{AK} with $z$ and $w$ exchanged,
+applied to bodies $1$ and $2$, puts the origin in the $w$-cluster of size $w_{12}$ formed by
+$w_1$ and $w_2$, so $w_1,w_2\preccurlyeq w_{12}$.  Finally $M_PW_P+M_TW_T=0$.
+(iii) The triangle edges are $zw$-edges, so $r_{kl}\approx z_{kl}\approx w_{kl}\approx\epsilon$ by
+Estimate~1 and the left equality case of Estimate~2.
+\end{proof}
+
+\begin{lemma}[computer-assisted]\label{lem:d4-torque}
+Let $0<e<2$.  In \eqref{eq:d4-chart} replace $\hat Z$ by $t^{-3e/2}\hat Z$, $\hat W$ by
+$t^{-e/2}\hat W$, $(\eta_3,\eta_4,\eta_5)$ by $(t^e\omega,\ m_5q,\ -m_3m_5^{-1}t^e\omega-m_4q)$ and
+$D_{i3}$ by $t^{-e/2}d_i$ $(i\in P)$.  Then
+\[
+  T_P=t^{1-e/2}\Big(m_3\sum_{i\in P}m_id_i\,\big(d_i^2A_i\omega\big)+\sum_{g\in G}c_g\,t^g\Big),
+\]
+where the $c_g$ are polynomials in the chart coordinates and
+$G=\{\tfrac12e,\ \tfrac32e,\ 3,\ 3-\tfrac32e,\ 5-\tfrac52e,\ 5-e,\ 8-e,\ 8+\tfrac12e\}$; all
+elements of $G$ are positive.
+\end{lemma}
+We obtain this expansion by an exact computation over $\mathbb Q$, with the masses and the chart
+coordinates as indeterminates and with exponents of $t$ that are affine functions of $e$
+(Appendix~\ref{app:verification}).
+
+\begin{lemma}\label{lem:d4-central}
+For $k\in T$ let $o_k$ be the coefficient of $t^2$ in $w_k-W_T$ along $\gamma$.  Then
+$o_3,o_4,o_5\ne0$.
+\end{lemma}
+
+\begin{proof}
+By Lemma~\ref{lem:d4-val}(iii), $o_l-o_k$ is the leading coefficient of $w_{kl}$, so at most one
+$o_k$ vanishes.  Renumbering $T$, suppose that $o_3=0$ and let $\ord(w_3-W_T)=2+e$ with $e>0$.
+By Lemma~\ref{lem:d4-val}(ii), $\ord(W_T-w_i)\ge4$.
+
+If $e\ge2$, then $\ord w_{i3}\ge4$, so $\ord\delta_{i3}=-\frac12(\ord z_{i3}+\ord w_{i3})\le0$ and
+$\ord Z_{i3}=\ord z_{i3}+3\ord\delta_{i3}\le-4$.  Then $Z_{i3}$ is a maximal component of
+$\mathcal Z$, that is, a $z$-stroke between $i$ and $3$, which Diagram~4 does not have.
+
+Let $0<e<2$.  Then $\ord w_{i3}=2+e$ and $\ord\delta_{i3}=1-\frac e2$, while $\ord w_{ik}=2$ and
+$\ord\delta_{ik}=1$ for $k=4,5$.  The first two identities of Lemma~\ref{lem:d1-syzygies} express
+$M_PW_P$ and $M_TZ_T$ as sums of crossed terms $m_im_k\delta_{ik}^3(w_i-w_k)$ and
+$m_im_k\delta_{ik}^3(z_k-z_i)$, of orders at least $5-\frac e2$ and $-1-\frac32e$; with
+$M_PW_P+M_TW_T=0$ this gives $\ord W_T\ge5-\frac e2$ and $\ord Z_T\ge-1-\frac32e$.  So $\gamma$ is
+described by the chart of Lemma~\ref{lem:d4-torque}, with all its coordinates of nonnegative
+order and $A_i,\omega,d_i$ of order $0$.  At $t=0$ the ties $\delta_{i3}^2z_{i3}w_{i3}=1$ give
+$d_i^2A_i\omega=-1$, and $m_1A_1+m_2A_2=t^4(m_1z_1+m_2z_2)=-t^4M_TZ_T$ vanishes.  By
+Lemma~\ref{lem:d4-torque}, $t^{e/2-1}T_P$ tends to $-m_3(m_1d_1+m_2d_2)$, which is nonzero because
+\[
+  (m_1d_1)^2-(m_2d_2)^2=-\frac{m_1^2}{A_1\omega}+\frac{m_2^2}{A_2\omega}
+  =-\frac{m_1^3+m_2^3}{m_1A_1\omega}\ne0 .
+\]
+But $T_P=0$ on $A_m$ by Lemma~\ref{lem:d1-syzygies}.
+\end{proof}
+
+\begin{proposition}[Coverage]\label{prop:d4-cover}
+Let $m\in\Rp^5$ and let $\gamma$ be a Diagram~4 germ.  Then $m$ satisfies (23), and
+$\ord Z_T\ge-1$, $\ord W_T\ge5$ along $\gamma$.  Renormalize by $(z,w)\mapsto(cz,c^{-1}w)$ with
+$c=(w_{34}/z_{34})^{1/2}$, so that $z_{34}=w_{34}$.  After a base change of $\tau$, every chart
+coordinate of \eqref{eq:d4-chart} is a power series in $\tau$; the value $y$ of $x$ at $\tau=0$
+lies in $\mathcal B_4(m)$, and $\eta_k(y)\ne0$ for $k\in T$.
+\end{proposition}
+
+\begin{proof}
+Relation (23) is Proposition~\ref{prop:d45-first}.  By Lemmas~\ref{lem:d4-val}
+and~\ref{lem:d4-central}, $\ord w_{ik}=2$ for all $i\in P$, $k\in T$, hence $\ord\delta_{ik}=1$.
+The first two identities of Lemma~\ref{lem:d1-syzygies} then give $\ord Z_T\ge3-4=-1$ and
+$\ord W_P\ge3+2=5$, and $\ord W_T=\ord W_P$.  The factor $c$ has order $0$ by
+Lemma~\ref{lem:d4-val}(iii), so all orders persist after the renormalization.  Inverting
+\eqref{eq:d4-chart}, $A_i=t^4z_i$, $B_i=t^{-4}w_i$, $\hat Z=tZ_T$, $\hat W=t^{-5}W_T$,
+$\zeta_k=t^{-2}(z_k-Z_T)$, $\eta_k=t^{-2}(w_k-W_T)$, $D_{12}=\delta_{12}$, $D_{ik}=t^{-1}\delta_{ik}$
+and $D_{kl}=t^2\delta_{kl}$; by Lemma~\ref{lem:d4-val} all have nonnegative order, and
+$\eta_k\to o_k\ne0$.  The rows of $F$ are monomial multiples of the equations, so they vanish
+along $\gamma$, and $F_0(y)=0$.
+\end{proof}
+
+\subsubsection{The boundary fibre}\label{d4-fibre}
+On $\C^{20}$ consider the scalings
+\[
+\begin{gathered}
+  \alpha\cdot x:\ (A,B,D_{ik})\mapsto(\alpha^2A,\ \alpha^{-2}B,\ \alpha^{-1}D_{ik}),\\
+  \beta\cdot x:\ (\zeta,\eta,D_{kl},D_{ik})\mapsto(\beta^2\zeta,\ \beta^2\eta,\ \beta^{-2}D_{kl},\
+  \beta^{-1}D_{ik}),
+\end{gathered}
+\]
+$\alpha,\beta\in\C^*$, the other coordinates being fixed, and the translations of $(\hat Z,\hat W)$.
+They preserve $F_0$ up to nonzero factors on each row, hence preserve $\mathcal B_4(m)$; they
+are not symmetries of $F$.
+
+\begin{lemma}\label{lem:d4-fibre}
+Let $m\in\Rp^5$ satisfy (23) and let $y\in\mathcal B_4(m)$.
+\begin{alphalist}
+  \item $D_{12}^3=M_P^{-1}$, $A_2=\rho A_1$ and $B_2=\rho B_1$ with $\rho=-m_1/m_2$,
+  $D_{12}^2(A_1-A_2)(B_1-B_2)=1$ and $D_{ik}^2A_i\eta_k=-1$; in particular $A_i,B_i,\eta_k\ne0$.
+  The point $(\zeta_3,\zeta_4,\eta_3,\eta_4,D_{34},D_{35},D_{45})$ solves the zero-multiplier
+  triangle system, so, after renumbering $T$, it lies on the orbit $O$ of Lemma~\ref{lem:d1-mb}.
+  \item $dF_0(y)$ has rank $16$.  Its kernel is spanned by $\partial_{\hat Z}$, $\partial_{\hat W}$
+  and the generators of the two scalings.  Its cokernel is spanned by the linear form
+  \[
+    v_P(r)=(B_1-B_2)\,(r^z_1-r^z_2)-(A_1-A_2)\,(r^w_1-r^w_2),
+  \]
+  where $r^z_i,r^w_i$ are the components of $r\in\C^{21}$ in the rows $t^4E^z_i$, $t^{-4}E^w_i$, and
+  by four linear forms that involve only the rows $t^4E^z_k$, $t^4E^w_k$, $\chi_{kl}$ and the gauge.
+  \item Near $y$, $\mathcal B_4(m)$ coincides with the orbit of $y$ under the scalings and
+  the translations; it is a complex submanifold of dimension $4$ with tangent space
+  $\ker dF_0(y)$ at $y$.
+\end{alphalist}
+\end{lemma}
+
+\begin{proof}
+(a) Identically $R^z_1-R^z_2=(A_1-A_2)(1-M_PD_{12}^3)$ and $m_1R^z_1+m_2R^z_2=m_1A_1+m_2A_2$, and
+likewise for $R^w$.  The tie of $12$ gives $A_1\ne A_2$ and $B_1\ne B_2$; so $F_0(y)=0$ gives
+$D_{12}^3=M_P^{-1}$, $m_1A_1+m_2A_2=0$ and $m_1B_1+m_2B_2=0$.  The crossed ties are
+$D_{ik}^2A_i\eta_k=-1$.  The triangle rows of $F_0$ are $\phi_k,\psi_k,\chi_{kl}$ and the gauge;
+the last statement is the proof of Proposition~\ref{prop:d1-first}.
+(b) Order the coordinates as $(D_{ik};\,A,B,D_{12};\,u,v,p,q,D_{kl};\,\hat Z,\hat W)$ and the rows
+as (crossed ties; pair rows $R^z_i,R^w_i$ and the tie of $12$; triangle rows).  The pair rows
+involve only the pair coordinates and the triangle rows only the triangle coordinates, and
+$D_{ik}$ occurs only in its own crossed tie, with $\partial/\partial D_{ik}=-2D_{ik}A_i\eta_k\ne0$.
+So $dF_0(y)$ is block lower triangular, and its rank is $6+\operatorname{rank}J_P+
+\operatorname{rank}J_T$, with $J_P$, $J_T$ the pair and triangle blocks.  At $y$, the
+differentials of $R^z_1-R^z_2$ and $R^w_1-R^w_2$ are $-3M_PD_{12}^2$ times
+$(A_1-A_2)\,dD_{12}$ and $(B_1-B_2)\,dD_{12}$, those of $m_1R^z_1+m_2R^z_2$ and $m_1R^w_1+m_2R^w_2$
+are $m_1dA_1+m_2dA_2$ and $m_1dB_1+m_2dB_2$, and the tie of $12$ adds $D_{12}^2$ times
+$(B_1-B_2)(dA_1-dA_2)+(A_1-A_2)(dB_1-dB_2)$ modulo $dD_{12}$; so $\operatorname{rank}J_P=4$, the
+kernel of $J_P$ is spanned by $(A,-B,0)$, and $v_P$, the derivative at $y$ of the identity
+$(B_1-B_2)(R^z_1-R^z_2)-(A_1-A_2)(R^w_1-R^w_2)=0$, spans its cokernel.  By
+Lemma~\ref{lem:d1-mb} the rows $\phi_3,\phi_4,\psi_3,\psi_4,\chi_{kl}$ have rank $5$ at $y$, with
+kernel spanned by the generators $(\zeta,0,-\frac12D)$ and $(0,\eta,-\frac12D)$ of $\mathbb T$;
+$\phi_5$ and $\psi_5$ add nothing because $\sum_km_k\phi_k=\sum_km_k\psi_k=0$; and the gauge row
+takes the value $\zeta_4-\zeta_3$, which is nonzero by $\chi_{34}=0$, on the first generator and
+$0$ on $(\zeta,\eta,-D)$.  So
+$\operatorname{rank}J_T=6$, with kernel spanned by $(\zeta,\eta,-D)$.  Hence the rank is $16$, and
+the four listed vectors, completed in the $D_{ik}$ by the crossed ties, span the kernel.  A
+linear form vanishing on the image vanishes on the crossed ties (columns $D_{ik}$), so it is the
+sum of a form in the cokernel of $J_P$ and one in the cokernel of $J_T$, which has dimension
+$10-6=4$.
+(c) The orbit map has differential onto $\ker dF_0(y)$, so the orbit of $y$ is a submanifold of
+dimension $4$ near $y$, contained in $\mathcal B_4(m)$.  By (b) and the rank theorem,
+$\mathcal B_4(m)$ is contained near $y$ in a submanifold of dimension $20-16=4$.
+\end{proof}
+
+\subsubsection{A Lyapunov--Schmidt lemma}\label{d4-ls}
+For a polynomial curve $x(t)$ we write $[F]_j$ for the coefficient of $t^j$ in $F(t,x(t))$.
+
+\begin{lemma}[Lyapunov--Schmidt]\label{lem:d4-ls}
+Let $F(t,x)=\sum_{j\ge0}t^jF_j(x)$ be a polynomial map $\C\times\C^n\to\C^p$, let
+$Z=F_0^{-1}(0)$, and let $y\in Z$ be a point near which $Z$ is a complex submanifold with
+$T_{y'}Z=\ker dF_0(y')$ for all $y'\in Z$.  For $y'\in Z$ let $Q_{y'}$ be the cokernel of
+$dF_0(y')$.  Let $N\ge1$ and suppose that every $y'\in Z$ near $y$ is the value at $t=0$ of a
+polynomial curve $x(t)$ with $[F]_j=0$ for $j<N$.
+\begin{alphalist}
+  \item The class $\Omega_N(y')\in Q_{y'}$ of $[F]_N$ does not depend on the choice of such a curve.
+  \item If $\Omega_N(y)\ne0$, no holomorphic germ $c\colon(\C,0)\to(F^{-1}(0),(0,y))$ has
+  $t\circ c\not\equiv0$.
+\end{alphalist}
+For $N=1$ the hypothesis is empty and $\Omega_1(y')$ is the class of $F_1(y')$.
+\end{lemma}
+
+\begin{proof}
+Let $K=\ker dF_0(y)$ and $R=dF_0(y)(\C^n)$, choose complements $\C^n=K\oplus K'$ and
+$\C^p=R\oplus R'$, and let $\pi$ be the projection onto $R$ along $R'$.  Since $\pi\,dF_0(y)$ maps
+$K'$ isomorphically onto $R$, the implicit function theorem gives a holomorphic $h(t,k)\in K'$,
+defined near $(0,0)\in\C\times K$ with $h(0,0)=0$, such that near $(0,y)$ the equation
+$\pi F(t,y+k+h')=0$ with small $h'\in K'$ holds exactly for $h'=h(t,k)$; uniqueness also holds for
+formal power series in $t$.  Put $G(t,k)=F(t,y+k+h(t,k))\in R'$.  Near $(0,y)$,
+$F^{-1}(0)=\{(t,y+k+h(t,k)):G(t,k)=0\}$.  The map $k\mapsto y+k+h(0,k)$ parametrizes the
+submanifold $\{\pi F_0=0\}$, of dimension $\dim K=\dim Z$, which contains $Z$; so it
+parametrizes $Z$ near $y$, and $G(0,k)=0$.  Write $G=\sum_{j\ge1}t^jG_j(k)$.  For $y'\in Z$ near
+$y$ the space $R'$ is also a complement of $dF_0(y')(\C^n)$, so $R'\to Q_{y'}$ is an isomorphism.
+
+Let $j\le N$, let $y'=y+k'+h(0,k')$, suppose that $G_1,\dots,G_{j-1}$ vanish near $k'$, and let
+$x(t)=y+\kappa(t)+\eta(t)$, with $\kappa(t)\in K$, $\eta(t)\in K'$, be a polynomial curve with
+$x(0)=y'$ and $[F]_i=0$ for $i<j$.  Since $\pi F(t,x(t))=O(t^j)$, formal uniqueness gives
+$\eta(t)-h(t,\kappa(t))=e\,t^j+O(t^{j+1})$ for some $e$.  By Taylor's formula
+$F(t,x(t))=F(t,y+\kappa+h(t,\kappa))+dF_0(y')(e)\,t^j+O(t^{j+1})$, and
+$F(t,y+\kappa+h(t,\kappa))=G(t,\kappa(t))=t^jG_j(k')+O(t^{j+1})$.  So $[F]_j\equiv G_j(k')$
+modulo $dF_0(y')(\C^n)$.  For $j<N$ the curves of the hypothesis give $G_j(k')\in R'\cap
+dF_0(y')(\C^n)=0$ for all $k'$ near $0$; by induction $G_1,\dots,G_{N-1}$ vanish near $0$, and the
+case $j=N$ gives (a), $\Omega_N(y')$ being the image of $G_N(k')$.  If $\Omega_N(y)\ne0$, then
+$G=t^NH$ with $H$ holomorphic and $H(0,0)=G_N(0)\ne0$, so near $(0,0)$ the equation $G=0$
+forces $t=0$.  A germ $c$ as in (b) has the form $(t,y+k+h(t,k))$ with $G(t,k)=0$, so $t\circ
+c\equiv0$.
+\end{proof}
+
+\subsubsection{The first three obstructions}\label{d4-obstructions}
+For $y\in\mathcal B_4(m)$ put $S_i=\sum_km_kD_{ik}$ and
+\[
+  \Theta=\sum_km_k\,\frac{D_{1k}-D_{2k}}{\eta_k}=A_2\Sigma_2-A_1\Sigma_1 ;
+\]
+the second expression and $f_i=-S_i/A_i$ follow from $1/\eta_k=-A_iD_{ik}^2$.  Under the
+scalings, $S_i/A_i$ is multiplied by $\alpha^{-3}$ and by $\beta^{-1}$, and $\Theta$ by
+$\alpha^{-1}$ and by $\beta^{-3}$; neither involves $\hat Z$, $\hat W$, $D_{12}$ or $m_1,m_2$.
+Since the crossed forces on body $i$ are
+$\sum_km_k\delta_{ik}^3(z_i-z_k)=t^{-1}A_i\Sigma_i+O(t^2)$ and
+$\sum_km_k\delta_{ik}^3(w_i-w_k)=-t^5f_i+O(t^7)$, the conditions $f_1=f_2$ and $\Theta=0$ say
+that the triangle pulls the two outer bodies equally, at leading order, in the $w$- and in the
+$z$-coordinate.
+
+\begin{lemma}\label{lem:d4-obstr}
+Let $m\in\Rp^5$ satisfy (23), let $y\in\mathcal B_4(m)$, and let $\Omega_N$ be the classes of
+Lemma~\ref{lem:d4-ls} for $F$ and $Z=\mathcal B_4(m)$.
+\begin{alphalist}
+  \item $\Omega_1(y)=0$ if and only if $f_1=f_2$, that is, $S_1/A_1=S_2/A_2$.
+  \item If $f_1=f_2$ at $y$, then the hypothesis of Lemma~\ref{lem:d4-ls} holds at $y$ for
+  $N=3$, and
+  \[
+    v_P\big(\Omega_3(y)\big)=\tfrac32\,(A_1-A_2)\,\frac{B_1}{A_1}\,\Theta .
+  \]
+\end{alphalist}
+\end{lemma}
+
+\begin{proof}
+(a) By Lemma~\ref{lem:d4-fibre}(b), $\Omega_1(y)$, the class of $F_1(y)$, vanishes if and only if
+$F_1(y)$ is killed by $v_P$ and by the four triangle forms.  $F_1$ vanishes on the triangle
+rows, and $v_P(F_1(y))=-(A_1-A_2)(f_1-f_2)$.
+
+(b) By homogeneity $f_1=f_2$ on the orbit of $y$, which by Lemma~\ref{lem:d4-fibre}(c) is a
+neighbourhood of $y$ in $\mathcal B_4(m)$.  Let $y'$ be a point of it, $N\in\{2,3\}$, and $x(t)$
+a polynomial curve with $x(0)=y'$ and $F(t,x(t))=O(t^N)$; such a curve exists for $N=2$ by (a).
+We write $A_i(t),\dots$ for its components, $A_i,\dots$ for their values at $y'$, and
+$\Phi(t)=1-M_PD_{12}(t)^3$.
+
+\emph{Pair.}  By \eqref{eq:d4-rows}, $t^4E^z_i=R^z_i+O(t^3)$.  As $R^z_1-R^z_2=(A_1(t)-A_2(t))\Phi(t)$
+and $m_1R^z_1+m_2R^z_2=m_1A_1(t)+m_2A_2(t)$, we get $\Phi=O(t^N)$ and $A_i(t)=A_i(1+a(t))+O(t^N)$
+with one series $a(t)=O(t)$.
+
+\emph{Triangle.}  The triangle rows of $F$ agree with those of $F_0$ up to $O(t^3)$, so the
+triangle components of $x(t)$ solve the triangle block of $F_0$ modulo $t^N$.  By the proof of
+Lemma~\ref{lem:d4-fibre}(b),(c), the zero set of that block is, near $y'$, the curve
+$\beta\mapsto\beta\cdot y'$, of dimension $\dim\ker J_T$; so the triangle components of $x(t)$
+agree modulo $t^N$ with a curve on it, and $\eta_k(t)=\theta(t)\eta_k+O(t^N)$ with $\theta(0)=1$.
+For $N=2$ the triangle components of $[F]_2$ therefore lie in the image of $J_T$.
+
+\emph{Crossed ties.}  They give $D_{ik}(t)^2=-1/\big(A_i(t)(\eta_k(t)-t^2B_i)\big)+O(t^N)$, hence
+\[
+  D_{ik}(t)^3\eta_k(t)=-\frac{D_{ik}(t)}{A_i(t)}\Big(1+t^2\frac{B_i}{\eta_k}\Big)+O(t^N),\qquad
+  D_{ik}(t)=\frac{D_{ik}}{\sqrt{(1+a)\theta}}\Big(1+\frac{t^2B_i}{2\eta_k}\Big)+O(t^N),
+\]
+and, with $f_i(t)=\sum_km_kD_{ik}(t)^3\eta_k(t)$,
+\[
+  f_i(t)=-\frac{S_i/A_i}{(1+a)^{3/2}\theta^{1/2}}-\frac32\,t^2\,\frac{B_i}{A_i}\sum_km_k\frac{D_{ik}}{\eta_k}
+  +O(t^N).
+\]
+Since $S_1/A_1=S_2/A_2$ and $B_1/A_1=B_2/A_2$, $f_1(t)-f_2(t)=-\frac32\,t^2\,\frac{B_1}{A_1}\,\Theta+O(t^N)$.
+
+\emph{The form $v_P$.}  By \eqref{eq:d4-rows}, $v_P$ applied to the rows of $F(t,x(t))$, with the
+coefficients of $v_P$ taken at $y'$, equals
+\[
+  \Phi(t)\big[(B_1-B_2)(A_1(t)-A_2(t))-(A_1-A_2)(B_1(t)-B_2(t))\big]
+  -(A_1-A_2)\,t\,\big(f_1(t)-f_2(t)\big)-t^3\,\Delta+O(t^4),
+\]
+with $\Delta=(B_1-B_2)(A_1\Sigma_1-A_2\Sigma_2)-(A_1-A_2)(B_1\Sigma_1-B_2\Sigma_2)$, which vanishes
+because $A_2=\rho A_1$ and $B_2=\rho B_1$.  The bracket vanishes at $t=0$ and $\Phi=O(t^N)$.
+
+For $N=2$ this gives $v_P([F]_2)=0$.  The crossed ties are killed by every form of the
+cokernel, so with the triangle part $\Omega_2(y')=0$: the curve can be corrected at order $2$ to
+a curve with $F(t,x(t))=O(t^3)$.  This proves the hypothesis for $N=3$.  For $N=3$ the
+displayed expression gives $v_P([F]_3)=-(A_1-A_2)\cdot\big(-\frac32\frac{B_1}{A_1}\Theta\big)$.
+\end{proof}
+
+\subsubsection{The census}\label{d4-census}
+Let $m$ satisfy (23).  After renumbering $T$,
+$(\sqrt{m_3},\sqrt{m_4},\sqrt{m_5})=\lambda\,(bc,\ b(b+c),\ c(b+c))$ with $\lambda,b,c>0$, as after
+Lemma~\ref{lem:d1-mb}; exchanging $4$ and $5$ exchanges $b$ and $c$, and $b=c$ is the
+central-body slice.  By Lemma~\ref{lem:d1-shape} and the proof of
+Proposition~\ref{prop:d1-first}, the triangle offsets $\eta_k$ of a point of $\mathcal B_4(m)$
+are proportional to
+\[
+  (o_3,o_4,o_5)=\Big(-\frac{b^2-c^2}{bc},\ \frac{c(2b+c)}{b(b+c)},\ -\frac{b(b+2c)}{c(b+c)}\Big).
+\]
+The rational curve
+\[
+  b=2(n^4+1),\qquad c=-n^4+6n^2-1,\qquad 1<n<1+\sqrt2,
+\]
+has $b-c=3(n^2-1)^2$, $2b+c=3(n^2+1)^2$ and $b+2c=12n^2$, and $b/c$ takes every value in
+$(1,\infty)$ on it.  Put
+\[
+  g_3=1,\qquad g_4=\frac{i(b+c)(n^2-1)}{c(n^2+1)},\qquad g_5=\frac{(b+c)(n^2-1)}{2nb},
+\]
+so that $g_k^2=o_3/o_k$, and $(m_3,m_4,m_5)=\big((bc)^2,(b(b+c))^2,(c(b+c))^2\big)$.  For a sign
+vector $s=(s_{13},s_{14},s_{15},s_{23},s_{24},s_{25})\in\{\pm1\}^6$ and $j\in\{1,3\}$ put
+\[
+  X_j=\sum_ks_{1k}\,m_kg_k^j,\qquad Y_j=\sum_ks_{2k}\,m_kg_k^j .
+\]
+
+\begin{lemma}[computer-assisted]\label{lem:d4-census}
+Let $n\in(1,1+\sqrt2)$ and $\nu>0$.
+\begin{alphalist}
+  \item For $48$ of the $64$ sign vectors, $\nu^3X_1+iY_1\ne0$ for all such $(n,\nu)$.  For
+  each of the other $16$, namely those with $s_{13}s_{24}=1$ and $s_{14}s_{23}=-1$, there is
+  exactly one such pair $(n,\nu)$ with $\nu^3X_1+iY_1=0$.
+  \item At each of these $16$ pairs, $\nu X_3\ne iY_3$.
+\end{alphalist}
+\end{lemma}
+The proof of (a) is an exact computation in three steps.  For each of the $64$ sign vectors,
+multiplication by $\pm4n(n^2+1)(n^4+1)(n^2-2n-1)(n^2+2n-1)$, which has no zero on
+$(1,1+\sqrt2)$, turns $\nu^3X_1+iY_1$ into a polynomial in $n$ and $\nu$, the census numerator.
+Exact real-root counting splits the census numerators into $48$ classes without and $16$ with a
+zero; each zero class has exactly one zero, by Sturm counts on the eliminant
+$\operatorname{Im}(-\bar X_1\cdot iY_1)$ with the sign condition $\nu^3>0$.
+For (b), if $\nu X_3=iY_3$ and $\nu^3X_1+iY_1=0$ then $Y_1X_3^3=X_1Y_3^3$; the numerator of
+$Y_1X_3^3-X_1Y_3^3$ is coprime over $\mathbb Q(i)$ to the minimal polynomial of the zero $n$ in
+all $16$ cases (Appendix~\ref{app:verification}).
+
+\subsubsection{Proof of Theorem~\ref{thm:d4}}
+Suppose that $\gamma$ is a Diagram~4 germ at $m\in\Rp^5$.  By Proposition~\ref{prop:d4-cover},
+$m$ satisfies (23), and $\tau\mapsto(t(\tau),x(\tau))$, with $t=\tau^q$, is a holomorphic germ in
+$F^{-1}(0)$ with $t\not\equiv0$ and $x(0)=y\in\mathcal B_4(m)$.  By Lemma~\ref{lem:d4-fibre}(c),
+Lemma~\ref{lem:d4-ls} applies at $y$ with $Z=\mathcal B_4(m)$.  For $N=1$ it gives
+$\Omega_1(y)=0$, that is, $f_1=f_2$ at $y$ (Lemma~\ref{lem:d4-obstr}(a)).  Then
+Lemma~\ref{lem:d4-obstr}(b) and Lemma~\ref{lem:d4-ls} for $N=3$ give $\Omega_3(y)=0$; as
+$(A_1-A_2)B_1/A_1\ne0$, $\Theta=0$ at $y$.
+
+Both conditions are symmetric in the bodies of $T$ and homogeneous under the scalings, and they
+involve $m_3,m_4,m_5$ linearly.  So we may renumber $T$ as in \S\ref{d4-census} with $b>c$
+($b\ne c$ because $\eta_k(y)\ne0$ by Proposition~\ref{prop:d4-cover} and $o_3=0$ for $b=c$),
+choose $n\in(1,1+\sqrt2)$ with $b/c$ equal to the ratio of the curve, replace $(m_3,m_4,m_5)$ by
+the values on the curve, and apply the scalings so that $A_1=1$ and $\eta_3=-1$.  Then
+$\eta_k=-o_k/o_3$ and $D_{1k}^2=-1/\eta_k=g_k^2$; with $\nu=(m_1/m_2)^{1/2}$ we have $A_2=-\nu^2$ and
+$D_{2k}^2=-D_{1k}^2/\nu^2$.  Hence $D_{1k}=s_{1k}g_k$ and $D_{2k}=s_{2k}\,ig_k/\nu$ for a sign
+vector $s$, and $S_1=X_1$, $S_2=iY_1/\nu$, $\Sigma_1=X_3$, $\Sigma_2=-iY_3/\nu^3$.  The condition
+$S_1/A_1=S_2/A_2$ becomes $\nu^3X_1+iY_1=0$, and $\Theta=A_2\Sigma_2-A_1\Sigma_1=0$ becomes
+$\nu X_3=iY_3$.  This contradicts Lemma~\ref{lem:d4-census}. \qed
+
+\begin{remark}\label{rem:d4-witnesses}
+(a) Positivity of the masses enters through (23) and the parametrization of the triangle,
+through $m_1^3+m_2^3\ne0$, and through $\nu>0$; no reality of the germ is used, so
+Theorem~\ref{thm:d4} excludes all complex germs.
+(b) The two obstructions involve the outer masses only through $\rho=-m_1/m_2$, and not through
+the ratio $M_P/M_T$.
+\end{remark}

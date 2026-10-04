@@ -1,0 +1,484 @@
+\section{Diagram 8}\label{sec:d8}
+
+Diagram~8 is the butterfly of \cite[\S7.4]{AK} with exactly one circled wing
+(Fact~\ref{fact:fig11}).  We use the numbering of \cite[\S8.8]{AK}: the upper wing $\{1,2,5\}$
+is an isolated triangle of $z$-edges without $z$-circles, the lower wing $\{3,4,5\}$ is a
+triangle of $w$-edges with $w$-circles at $3$ and $4$ (vertex $5$ is never circled
+\cite[\S7.4]{AK}, and Rules~1a, 1d place the circles of a circled wing at its other two
+vertices), and the crossed pairs $13$, $14$, $23$, $24$ are not edges.
+The other circling becomes this one after exchanging $z$ and $w$ and renumbering
+$1\leftrightarrow3$, $2\leftrightarrow4$; both operations are symmetries of \eqref{eq:system}
+(the second permutes the masses), so it suffices to treat this numbering for every
+$m\in\Rp^5$.
+The mass condition of the diagram is relation (40) of \cite[\S8.8]{AK},
+\begin{equation}\label{eq:d8-40}
+  m_5^2(m_1+m_2)^4=m_1^3m_2^3,
+\end{equation}
+which \cite[p.~578]{AK} obtain ``by the same arguments'' as for Diagram~7.  For the other
+circling it reads $m_5^2(m_3+m_4)^4=m_3^3m_4^3$, which is their (39).
+We show that every Diagram~8 germ is a ray germ of a chart with a finite lower wing
+(Proposition~\ref{prop:d8-cover}), derive \eqref{eq:d8-40} from the boundary of the chart
+(Proposition~\ref{prop:d8-first}), and exclude all germs, complex ones included, by an
+order-six pairing, an order-nine pairing and a second-order elimination on one curve of
+masses (Theorem~\ref{thm:d8}).
+
+Two further symmetries are used tacitly.  Scaling the masses by $\lambda>0$ and $(z,w,\delta)$
+by $(\lambda^{1/3},\lambda^{1/3},\lambda^{-1/3})$ maps $A_m$ onto $A_{\lambda m}$ and multiplies
+every coordinate and every component of $\mathcal Z$, $\mathcal W$ by a nonzero constant, so it
+preserves orders and hence diagrams (Lemma~\ref{lem:germ}).
+The equations of \eqref{eq:system} other than $z_{12}=w_{12}$ are invariant under $z\mapsto cz$,
+$w\mapsto c^{-1}w$; this shifts all $z$-orders by $\ord c$ and all $w$-orders by $-\ord c$, so it
+preserves diagrams \cite[p.~547]{AK}.
+
+\subsection{The ratio chart}
+Let $\gamma$ be a Diagram~8 germ.  We rotate it by $z_{12}^{-1}$, so that $z_{12}=1$ along
+$\gamma$.  The \emph{ratio chart} has two parameters $t,h$ and nineteen coordinates, the
+positions and shapes $A_1,A_2,C,B_3,B_4,D,u,v,R_{12},R_{25},P,Q$ and the inverse distances
+$D_{13},D_{14},D_{23},D_{24},D_{34},D_{35},D_{45}$; we write $x$ for all of them.  It is given by
+\begin{gather*}
+  z_1=A_1,\quad z_2=A_2,\quad z_3=C+m_5t^6u,\quad z_4=C+m_5t^6v,\\
+  z_5=C-t^6(m_3u+m_4v),\quad w_3=t^{-6}B_3,\quad w_4=t^{-6}B_4,\\
+  w_1=t^{-6}D+m_5t^4h^{-2}P,\quad w_2=t^{-6}D+m_5t^4h^{-2}Q,\\
+  w_5=t^{-6}D-t^4h^{-2}(m_1P+m_2Q),\quad \delta_{15}=t^{-2}h,\\
+  \delta_{12}=t^{-2}hR_{12},\quad \delta_{25}=t^{-2}hR_{25},\\
+  \delta_{bc}=t^3D_{bc}\ \ (b\in\{1,2\},\ c\in\{3,4\}),\qquad
+  \delta_{kl}=D_{kl}\ \ (k,l\in\{3,4,5\}).
+\end{gather*}
+For $th\ne0$ it is invertible: $C$ and $t^{-6}D$ are the centres of mass of $z_3,z_4,z_5$ and of
+$w_1,w_2,w_5$, $h=t^2\delta_{15}$, $R_{12}=\delta_{12}/\delta_{15}$,
+$R_{25}=\delta_{25}/\delta_{15}$, $u=(z_3-C)/(m_5t^6)$, $P=h^2(w_1-t^{-6}D)/(m_5t^4)$, and
+similarly for the other coordinates.
+The rows of the chart are the gauges $E_{20}:=A_2-A_1-1$ and $E_{21}:=B_4-B_3-1$ (that is,
+$z_{12}=1$ and $w_4-w_3=t^{-6}$) and $E_0,\dots,E_{19}$, obtained by substituting the chart into
+the twenty equations of \eqref{eq:system} other than $z_{12}=w_{12}$ and multiplying each by a
+monomial in $t$ and $h^{1/2}$: $E_{2k-2}$ and $E_{2k-1}$ come from the $z$- and the $w$-equation
+of body $k$, and $E_{10},\dots,E_{19}$ from the ties of the pairs
+$12,13,14,15,23,24,25,34,35,45$.
+In the corner coordinates
+\[
+  a:=th^{-1/2},\qquad \eta:=t^2h^{1/2}\qquad(\text{so } t^3=a\eta,\ h^{3/2}=\eta\,a^{-2})
+\]
+we use the monomials
+\[
+  \mu:=a^6=t^6h^{-3},\qquad \nu:=a^2\eta^2=t^6,\qquad T:=a\eta=t^3,\qquad \eta^2=t^4h,
+\]
+and we write $X:=A_1-C$, $Y:=A_2-C$, $M_{12}:=m_1+m_2$, $M:=m_3+m_4+m_5$, and
+$C_5:=C-\nu(m_3u+m_4v)$, which is $z_5$.
+
+\begin{lemma}[computer-assisted]\label{lem:d8-rows}
+The following hold identically in the masses.
+\begin{romanlist}
+\item Every $E_j$ is a polynomial in $a$, $\eta$ and $x$, and its \emph{face}
+$f_j:=E_j|_{a=\eta=0}$ is
+\begin{align*}
+  f_0&=-\bigl(m_2(X-Y)R_{12}^3+m_5X\bigr), & f_8&=m_1X+m_2YR_{25}^3,\\
+  f_2&=-\bigl(m_1(Y-X)R_{12}^3+m_5YR_{25}^3\bigr), & f_{20}&=A_2-A_1-1,\\
+  f_{10}&=m_5(X-Y)(P-Q)R_{12}^2-1, & f_{13}&=X\bigl((m_1+m_5)P+m_2Q\bigr)-1,\\
+  f_{16}&=YR_{25}^2\bigl(m_1P+(m_2+m_5)Q\bigr)-1, & f_4&=f_6=C,\quad f_1=f_3=D,\\
+  f_{11}&=X(D-B_3)D_{13}^2-1, & f_{12}&=X(D-B_4)D_{14}^2-1,\\
+  f_{14}&=Y(D-B_3)D_{23}^2-1, & f_{15}&=Y(D-B_4)D_{24}^2-1,\\
+  f_5&=B_3+m_4(B_4-B_3)D_{34}^3-m_5(B_3-D)D_{35}^3, & f_{21}&=B_4-B_3-1,\\
+  f_7&=B_4-m_3(B_4-B_3)D_{34}^3-m_5(B_4-D)D_{45}^3,\\
+  f_9&=D+m_3(B_3-D)D_{35}^3+m_4(B_4-D)D_{45}^3,\\
+  f_{17}&=m_5(B_3-B_4)(u-v)D_{34}^2-1,\\
+  f_{18}&=(B_3-D)\bigl((m_3+m_5)u+m_4v\bigr)D_{35}^2-1,\\
+  f_{19}&=(B_4-D)\bigl(m_3u+(m_4+m_5)v\bigr)D_{45}^2-1.
+\end{align*}
+\item $m_1E_0+m_2E_2+m_5E_8+a^6(m_3E_4+m_4E_6)=a^6(m_1A_1+m_2A_2+MC)$.
+\item $E_1=D+\eta^2\beta_1+T^3\tau_1+\sum_{i\ge6,\,j\ge2}a^i\eta^j(\cdots)$, and $E_3$ is the
+same with $\beta_3,\tau_3$, where
+\begin{align*}
+  \beta_1&=-m_5\bigl(m_2(P-Q)R_{12}^3+(m_1+m_5)P+m_2Q\bigr),\\
+  \beta_3&=-m_5\bigl(m_1(Q-P)R_{12}^3+(m_1P+(m_2+m_5)Q)R_{25}^3\bigr),\\
+  \tau_1&=m_3(B_3-D)D_{13}^3+m_4(B_4-D)D_{14}^3,\\
+  \tau_3&=m_3(B_3-D)D_{23}^3+m_4(B_4-D)D_{24}^3;
+\end{align*}
+the monomials of $E_1-E_3$ are $\eta^2$, $T^3$, $a^6\eta^2$ and $a^9\eta^5$.
+\item For $k\in\{0,2,8,10,13,16,20\}$, $E_k=f_k(\mathcal I)+\sum_{i\ge6}a^i\eta^j(\cdots)$, where
+$f_k$ is read as a function of $(X,Y,R_{12},R_{25},P,Q)$ and
+$\mathcal I:=(A_1-C_5,\,A_2-C_5,\,R_{12},\,R_{25},\,P,\,Q)$.
+\item $E_4=C+\nu L_3+T^3F_3+T^5G_3$ exactly, where
+$L_3=-m_5\bigl(m_4(u-v)D_{34}^3+((m_3+m_5)u+m_4v)D_{35}^3-u\bigr)$,
+$F_3=-\bigl(m_1(C-A_1)D_{13}^3+m_2(C-A_2)D_{23}^3\bigr)$ and
+$G_3=-m_5u\bigl(m_1D_{13}^3+m_2D_{23}^3\bigr)$.
+\end{romanlist}
+\end{lemma}
+The lemma is an exact computation over $\mathbb Q$, with the masses, $a$, $\eta$ and the chart
+coordinates as indeterminates (Appendix~\ref{app:verification}).  For (iv) the computation
+shows that the $\nu$-coefficient of $E_k$ is $-(\partial_Cf_k)(m_3u+m_4v)$ and that every other
+non-face monomial has $i\ge6$; since each of these $f_k$ is affine in $(X,Y)$, this is (iv).
+
+\begin{definition}\label{def:d8-ray}
+A germ in the ratio chart is a \emph{ray germ} if along it $t\to0$, $x$ converges, $\ord a>0$
+and $\ord\eta>0$.  Its \emph{ray} is $r:=\ord\eta/\ord a\in(0,\infty)$ and its \emph{exponent}
+is $p:=\ord h/\ord t$.
+\end{definition}
+Since $t^3=a\eta$ and $h^{3/2}=\eta a^{-2}$, $p=(2r-4)/(r+1)$, an increasing bijection of
+$(0,\infty)$ onto $(-4,2)$; the rays $r=\frac12,2,3$ are $p=-2,0,\frac12$, and the faces
+$\{a=0\}$, $\{\eta=0\}$ of the corner chart are $p=-4$ and $p=2$.
+
+\subsection{Coverage}
+
+\begin{proposition}[Coverage]\label{prop:d8-cover}
+Every Diagram~8 germ is a ray germ of the ratio chart with exponent $p\in(-4,2)$ and a finite
+lower wing.  Precisely: let $\gamma$ be a Diagram~8 germ, rotated so that $z_{12}=1$, and put
+$t:=(w_4-w_3)^{-1/6}$ and $h:=t^2\delta_{15}$ along $\gamma$.  Let $\theta$ be the order of
+$z_{12}$ before the rotation, in the normalization $Z=W=\epsilon^{-2}$ with orders in $\epsilon$.
+Then $-2<\theta<1$; every coordinate in $x$ converges along $\gamma$, and $R_{12}$, $R_{25}$,
+$D_{13},D_{14},D_{23},D_{24}$, $D_{34},D_{35},D_{45}$ have nonzero limits; and
+\begin{gather*}
+  \ord t=\tfrac{2-\theta}6,\qquad \ord h=-\tfrac{2\theta}3,\qquad
+  p=-\tfrac{4\theta}{2-\theta},\\
+  \ord a=\tfrac{2+\theta}6,\qquad \ord\eta=\tfrac{2-2\theta}3,\qquad
+  r=\tfrac{4(1-\theta)}{2+\theta}.
+\end{gather*}
+\end{proposition}
+
+\begin{proof}
+By Fact~\ref{fact:rules} and Lemma~\ref{lem:germ} the rules and estimates of \cite[\S3]{AK}
+hold for the orders along $\gamma$.
+\emph{Lower wing.}  $\{3,4,5\}$ is an isolated component of the $w$-diagram with $w$-circles,
+so it has a maximal $w$-stroke \cite[Rule~1e, p.~546]{AK}.  By Rule~2e its three
+$w$-separations have one order, so all three $w$-strokes are maximal, and the right equality
+case of Estimate~2 \cite[p.~548]{AK}, in the colour $w$, gives $\ord w_{kl}=-2$,
+$\ord z_{kl}=2$, $\ord r_{kl}=0$ for $kl\in\{34,35,45\}$.
+\emph{Upper wing.}  $\{1,2,5\}$ is an isolated component of the $z$-diagram without circles, so
+it has no maximal $z$-stroke (Rule~1e); it carries no $w$-stroke, hence no $zw$-edge.  So
+neither equality case of Estimate~2 holds, and by Rule~2e the three $z$-separations have one
+order $\theta$ with $-2<\theta<1$.  The $z$-strokes have $\ord Z_{kl}=-2$, so
+$\ord r_{kl}=(\theta+2)/3$ and $\ord w_{kl}=(4-\theta)/3$.
+\emph{Crossed pairs.}  For $b\in\{1,2\}$, $c\in\{3,4\}$, $z_{bc}=z_{b5}+z_{5c}$ has order
+$\theta$ (as $\theta<2$) and $w_{bc}=w_{b5}+w_{5c}$ has order $-2$ (as $(4-\theta)/3>-2$), so
+$\ord r_{bc}=(\theta-2)/2$.
+\emph{Positions.}  Every $w_k$ has order $\ge-2$, with equality for $k=3,4$ ($w$-circles).  Let
+$C$ be the centre of mass of $z_3,z_4,z_5$.  Then $(m_1+m_2+M)C=-m_1(z_1-C)-m_2(z_2-C)$, and
+$z_b-C=z_{5b}+(z_5-C)$ with $\ord z_{5b}=\theta$ and $\ord(z_5-C)\ge2$; so $C$, $z_1$, $z_2$
+have order $\ge\theta$, and $z_k-C$ has order $\ge2$ for $k=3,4,5$.
+\emph{Chart.}  The rotation lowers all $z$-orders by $\theta$ and raises all $w$-orders by
+$\theta$, so $\ord(w_4-w_3)=\theta-2$ and $\ord t=(2-\theta)/6>0$.  By the inverse formulas
+of the chart: $A_1,A_2,C$ have order $\ge0$; $u,v$ have order $\ge(2-\theta)-6\ord t=0$; $B_3,B_4$
+have order $0$ and $D$ order $\ge0$; $\ord h=2\ord t-\ord r_{15}=-2\theta/3$; $R_{12},R_{25}$
+have order $0$; $P,Q$ have order $\ge2\ord h+\frac{4+2\theta}3-4\ord t=0$, because
+$w_1-t^{-6}D=(m_2w_{21}+m_5w_{51})/(m_1+m_2+m_5)$ and similarly for $w_2$; $D_{bc}=t^{-3}\delta_{bc}$
+has order $\frac{2-\theta}2-3\ord t=0$; and $D_{kl}=\delta_{kl}$ has order $0$.  Hence every
+coordinate converges (Lemma~\ref{lem:germ}), the inverse-distance coordinates to nonzero limits,
+and $p=\ord h/\ord t=-4\theta/(2-\theta)\in(-4,2)$.  Finally
+$\ord a=\ord t-\frac12\ord h=(2+\theta)/6$ and $\ord\eta=2\ord t+\frac12\ord h=(2-2\theta)/3$,
+both positive.
+\end{proof}
+In particular no Diagram~8 germ reaches the lower projective end of the chart, where the lower
+inverse distances degenerate.
+
+\subsection{The first condition}
+
+\begin{proposition}[First condition]\label{prop:d8-first}
+At positive masses every Diagram~8 germ satisfies \eqref{eq:d8-40}:
+$m_5^2(m_1+m_2)^4=m_1^3m_2^3$.  Moreover, in the chart of Proposition~\ref{prop:d8-cover} its
+limit $x_0$ has $A_1=-m_2/M_{12}$, $A_2=m_1/M_{12}$, $C=0$, $R_{25}=1$,
+$R_{12}=-m_5M_{12}/(m_1m_2)$, $(P,Q)=(P_0,Q_0)$ the unique solution of $f_{10}=f_{13}=0$,
+$D=0$, $B_3=-m_4/(m_3+m_4)$, $B_4=m_3/(m_3+m_4)$, and, with $L:=(M_{12}(m_3+m_4))^{1/2}>0$ and
+signs $s_{bc}\in\{\pm1\}$,
+\begin{gather*}
+  D_{13}=\frac{is_{13}L}{\sqrt{m_2m_4}},\qquad D_{14}=\frac{s_{14}L}{\sqrt{m_2m_3}},\\
+  D_{23}=\frac{s_{23}L}{\sqrt{m_1m_4}},\qquad D_{24}=\frac{is_{24}L}{\sqrt{m_1m_3}}.
+\end{gather*}
+\end{proposition}
+We write $U:=(A_1,A_2,C,R_{12},R_{25},P,Q)$, $U_0$ for its limit, and
+$\mathcal I_0:=(X_0,Y_0,R_{12}^0,1,P_0,Q_0)$, with $X_0=-m_2/M_{12}$, $Y_0=m_1/M_{12}$ and
+$R_{12}^0=-m_5M_{12}/(m_1m_2)$, for the limit of $\mathcal I$ (note $C_5\to C\to0$).
+
+\begin{proof}
+Let $m\in\Rp^5$ and let $\gamma$ be a Diagram~8 germ, in the chart of
+Proposition~\ref{prop:d8-cover}, with limit $x_0$.
+By Lemma~\ref{lem:d8-rows}\,(i) and Proposition~\ref{prop:d8-cover},
+$E_j=f_j(x)+O(|a|+|\eta|)$ along $\gamma$, so $f_j(x_0)=0$ for all $j$.
+\emph{Positions.}  By Lemma~\ref{lem:d8-rows}\,(ii) and $a\ne0$, $m_1A_1+m_2A_2+MC=0$ along
+$\gamma$.  With $f_4=C$ and $f_{20}$ this linear system, of determinant $M_{12}$, gives
+$A_1=-m_2/M_{12}$, $A_2=m_1/M_{12}$, $C=0$ at $x_0$; so $X=A_1$, $Y=A_2$ and $X-Y=-1$ there.
+\emph{Force rows.}  Then $f_8=\frac{m_1m_2}{M_{12}}(R_{25}^3-1)$ and $f_0=\frac{m_2}{M_{12}}F$
+with $F:=M_{12}R_{12}^3+m_5$, so $R_{25}^3=1$ and $F=0$.
+\emph{Closure of the $w$-triangle $125$.}  Identically,
+\begin{align*}
+  &(X-Y)R_{12}^2Xf_{16}-(X-Y)R_{12}^2YR_{25}^2f_{13}+XYR_{25}^2f_{10}\\
+  &\qquad=(X-Y)R_{12}^2(YR_{25}^2-X)-XYR_{25}^2,
+\end{align*}
+which is free of $P,Q$.  At $x_0$ the right side is $-G/M_{12}^2$ with
+$G:=M_{12}R_{12}^2(m_1R_{25}^2+m_2)-m_1m_2R_{25}^2$; so $G=0$.
+\emph{Elimination.}  Let $H:=M_{12}(m_1+m_2R_{25})R_{12}^2-m_1m_2$ and
+$\Phi(s):=m_5^2M_{12}(m_1+m_2s)^3-(m_1m_2)^3$.  Identically
+\begin{align*}
+  H&=R_{25}G+(1-R_{25}^3)\,m_1(M_{12}R_{12}^2-m_2),\\
+  \Phi(R_{25})&=H\bigl(H^2+3m_1m_2H+3m_1^2m_2^2\bigr)
+  -M_{12}(m_1+m_2R_{25})^3F(F-2m_5),
+\end{align*}
+so $H=0$ and $\Phi(R_{25})=0$ at $x_0$.
+\emph{Phase.}  If $R_{25}\ne1$, then $R_{25}^2+R_{25}+1=0$ and $\Phi(R_{25})=\Phi_0+\Phi_1R_{25}$
+with real $\Phi_0,\Phi_1$; as $R_{25}\notin\R$, $\Phi_0=\Phi_1=0$.  But
+$\Phi_1=3m_1m_2m_5^2M_{12}(m_1-m_2)$ forces $m_1=m_2$, and then $\Phi_0=-m_1^4(m_1^2+2m_5^2)<0$.
+Hence $R_{25}=1$, and $\Phi(1)=0$ is \eqref{eq:d8-40}.
+\emph{The limit point.}  At $R_{25}=1$, $F=0$ and $H=M_{12}^2R_{12}^2-m_1m_2=0$ give
+$R_{12}=R_{12}^3/R_{12}^2=-m_5M_{12}/(m_1m_2)$.  The faces $f_{10},f_{13}$ are linear in $(P,Q)$
+with determinant $m_2m_5(m_1+m_2+m_5)R_{12}^2/M_{12}\ne0$.  Next $f_1=D$ gives $D=0$; the
+identity $m_1f_1+m_2f_3+m_3f_5+m_4f_7+m_5f_9=(m_1+m_2+m_5)D+m_3B_3+m_4B_4$ and $f_{21}$ give
+$B_3$, $B_4$; and $f_{11},f_{12},f_{14},f_{15}$ give
+$D_{13}^2=-M_{12}(m_3+m_4)/(m_2m_4)$, $D_{14}^2=M_{12}(m_3+m_4)/(m_2m_3)$,
+$D_{23}^2=M_{12}(m_3+m_4)/(m_1m_4)$, $D_{24}^2=-M_{12}(m_3+m_4)/(m_1m_3)$.
+\end{proof}
+Conversely, a direct computation shows that on \eqref{eq:d8-40} the whole face system has
+solutions, with the lower wing at the phase $D_{45}=D_{35}$ and any crossed signs; so
+\eqref{eq:d8-40} is exactly the solvability condition of the faces together with the centre of
+mass.  We do not use this.
+
+\begin{remark}\label{rem:d8-ak}
+\cite[\S8.8]{AK} place the cluster $z_3,z_4,z_5$ at the centre of mass of $z_1,z_2$, invoke
+their relation (34), $(m_1+m_2)W_{12}\sim m_5W_{51}+m_5W_{25}$, and refer to their \S8.7.3.  In
+the chart $(m_1+m_2)W_{12}-m_5(W_{51}+W_{25})=t^{-2}h(\beta_1-\beta_3)=t^{-6}\eta^2
+(\beta_1-\beta_3)$, and $\eta^2(\beta_1-\beta_3)$ is the $\eta^2$-part of $E_1-E_3$; so (34)
+holds at the limit of every germ (Lemma~\ref{lem:d8-rows}\,(iii)), and given $R_{25}^3=1$, the
+ties and the centre of mass it is equivalent to $F=0$.  The centre of mass cannot be dropped: at
+$(m_1,m_2,m_5)=(4,1,\frac49)$, which violates \eqref{eq:d8-40}, the point
+$A_1=R_{12}=-\frac23$, $A_2=\frac13$, $C=0$, $R_{25}=2$, with $P,Q$ from $f_{10}=f_{13}=0$,
+satisfies every upper face and (34), but $m_1A_1+m_2A_2+MC=-\frac73$.  Relation (39) is not
+used: at $D=0$, $B_3=-m_4/(m_3+m_4)$, $B_4=m_3/(m_3+m_4)$, with $D_{35}=g$, $D_{45}=\omega g$,
+$D_{34}=\lambda g$, the face $f_5$ reads $g^3\bigl((m_3+m_4)\lambda^3+m_5\bigr)=1$, and the
+escape $(m_3+m_4)\lambda^3+m_5=0$ of the lower scale forces $\omega=1$ and (39); by
+Proposition~\ref{prop:d8-cover} no Diagram~8 germ escapes.
+\end{remark}
+
+\subsection{Exclusion}
+The germ is excluded in three steps: an order-six pairing for $0<p<2$; a lemma on the
+coefficients of $t^9=T^3$ in $E_1$ and $E_3$, which for $-4<p<\frac12$ forces the order-nine
+pairing $\Xi$ below to vanish; and a second-order elimination on the locus $\Xi=0$.
+
+\begin{lemma}[computer-assisted]\label{lem:d8-order-six}
+Let $m\in\Rp^5$ satisfy \eqref{eq:d8-40}, and let $S$ be the vector of the rows
+$E_0,E_2,E_4,E_{10},E_{13},E_{16},E_{20}$ and $E_Z:=m_1A_1+m_2A_2+MC$.
+\begin{romanlist}
+\item The rows $E_0$ and $E_2$ consist of their faces and multiples of $\mu$, $\nu$,
+$a^9\eta^3$, $a^{11}\eta^5$; $E_4$ of its face and multiples of $\nu$, $T^3$, $T^5$; $E_{13}$ and
+$E_{16}$ of their faces and multiples of $\nu$; and $E_{10}$, $E_{20}$, $E_Z$ equal their faces.
+The faces of $S$ depend on $U$ only.
+\item The faces of $S$ vanish at $U_0$, and their Jacobian $J$ with respect to $U$ there (an
+$8\times7$ matrix) has rank $7$.
+\item Let $S_6$ be the vector of $\mu$-coefficients of $S$ at $x_0$ and let $\ell\ne0$ satisfy
+$\ell J=0$.  If $m_1\ne m_2$, scale the masses to $m_2=1$, $m_1=\alpha^2$ (so
+$m_5=\alpha^3/(\alpha^2+1)^2$) and normalize $\ell$ by $\ell_{E_4}=\alpha^2-1$; then
+\begin{gather*}
+  \ell\cdot S_6=-\frac{2(\alpha^2+1)^4}{\alpha\,\Delta},\\
+  \Delta:=(m_3+m_4)(\alpha^2+1)^2+\alpha^6+3\alpha^4+\alpha^3+3\alpha^2+1>0.
+\end{gather*}
+If $m_1=m_2$ $(=4m_5)$, then $\ell$ is a multiple of
+$(1,-1,0,\frac32m_5,-\frac34m_5,-\frac34m_5,0,0)$, and $\ell\cdot S_6=-1$ for this vector.
+\end{romanlist}
+Consequently no Diagram~8 germ at the masses $m$ has $0<p<2$.
+\end{lemma}
+Parts (i)--(iii) are exact computations, with $\alpha,m_3,m_4$ as indeterminates if
+$m_1\ne m_2$, and with $m_3,m_4,m_5$ as indeterminates if $m_1=m_2=4m_5$
+(Appendix~\ref{app:verification}).  For $m_1\ne m_2$ the rank in (ii) and the null vector in
+(iii) are computed over the field $\mathbb Q(\alpha,m_3,m_4)$, and they specialize to every
+$\alpha>0$, $\alpha\ne1$.  The maximal minors of $J$ that involve $\alpha$ only have the greatest
+common divisor $\alpha(\alpha^2+\alpha+1)(\alpha^4-\alpha^3+3\alpha^2-\alpha+1)$, which has no
+positive zero, so $J$ has rank $7$ at every $\alpha>0$.  The denominators of the entries of $J$,
+of the normalized $\ell$ and of $S_6$ are products of $\alpha$, $\alpha^2+1$ and $\Delta$, which
+do not vanish for $\alpha>0$ and $m_3,m_4>0$.  Hence the identities $\ell J=0$ and the formula
+for $\ell\cdot S_6$ hold at every such $\alpha$, where $\ell\ne0$ because
+$\ell_{E_4}=\alpha^2-1\ne0$.
+
+\begin{proof}[Proof of the last assertion]
+Let $\gamma$ be a Diagram~8 germ with $0<p<2$, that is $r>2$.  Then $\nu/\mu=(\eta/a^2)^2$,
+$T^3/\mu=(\eta/a)^3$, $T^5/\mu=\eta^5/a$, $a^9\eta^3/\mu$ and $a^{11}\eta^5/\mu$ tend to $0$,
+because $\ord\eta>2\ord a$.  By (i) and the convergence of $x$, $S=S^{(0)}(U)+\mu S_6(x)+o(\mu)$
+along $\gamma$, where $S^{(0)}$ is the vector of faces.  As $S=0$, $S^{(0)}(U)=O(\mu)$, and (ii)
+gives $U-U_0=O(\mu)$.  Pairing with $\ell$ and using $\ell\cdot S^{(0)}(U)=O(|U-U_0|^2)$, we get
+$0=\mu\bigl(\ell\cdot S_6(x_0)+o(1)\bigr)$, which contradicts (iii) since $\mu=a^6\ne0$.
+\end{proof}
+
+\begin{lemma}[computer-assisted]\label{lem:d8-kappa}
+Let $m\in\Rp^5$ satisfy \eqref{eq:d8-40}; let $x_0$, $\mathcal I_0$, $U_0$ and the signs
+$s_{bc}$ be as in Proposition~\ref{prop:d8-first}, $\beta:=\beta_1-\beta_3$,
+$b:=(f_0,f_2,f_{10},f_{13},f_{16},f_{20})$ as a function of
+$(X,Y,R_{12},R_{25},P,Q)$, and $B:=\partial b/\partial\mathcal I$ at $\mathcal I_0$.
+\begin{alphalist}
+\item $\beta(\mathcal I_0)=\dfrac{m_1^3m_2^3-m_5^2(m_1+m_2)^4}{m_1m_2m_5(m_1+m_2)^2}$, which is
+$0$ by \eqref{eq:d8-40}.
+\item If $m_1\ne m_2$, then $B$ is invertible.  If $m_1=m_2$ $(=4m_5)$, then $\ker B$ is spanned
+by a vector $k_0$, equal to $(\frac{27}{272},\frac{27}{272},\frac9{272},-\frac9{68},-\frac{19}{17},1)$
+at $(m_1,m_2,m_5)=(1,1,\frac14)$; $d\beta(\mathcal I_0)\,k_0=0$; and the Jacobian of the eight
+functions $f_0,f_2,f_{10},f_{13},f_{16},f_{20}$ (evaluated at $X=A_1-C$, $Y=A_2-C$), $C$ and
+$m_1A_1+m_2A_2+MC$ with respect to $U$ at $U_0$ has rank $7$.  (These three facts are computed
+at $(m_1,m_2,m_5)=(1,1,\frac14)$ with $m_3,m_4$ free, which suffices by the mass scaling.)
+\item With $\Xi:=s_{14}(m_1m_4)^{3/2}+s_{23}(m_2m_3)^{3/2}
++i\bigl(s_{13}(m_1m_3)^{3/2}+s_{24}(m_2m_4)^{3/2}\bigr)$,
+\[
+  (\tau_1-\tau_3)(x_0)=\frac{m_3m_4}{m_3+m_4}\,L^3\,(m_1m_2m_3m_4)^{-3/2}\,\Xi .
+\]
+\end{alphalist}
+Consequently, if a Diagram~8 germ at the masses $m$ has $-4<p<\frac12$, then $\Xi=0$, that is,
+$m_1=m_2=4m_5$, $m_3=m_4$, $s_{13}=-s_{24}$ and $s_{14}=-s_{23}$.
+\end{lemma}
+The lemma is an exact computation (Appendix~\ref{app:verification}); (a) is an identity in the
+masses, and (c), for each choice of the signs, an identity in their square roots.  For
+$m_1\ne m_2$, in the scaling $m_2=1$, $m_1=\alpha^2$ and after clearing denominators row by
+row, $\det B$ factors as $(\alpha-1)(\alpha+1)\alpha^{13}(\alpha^2+\alpha+1)(\alpha^2+1)^6
+(\alpha^4-\alpha^3+3\alpha^2-\alpha+1)$, and its only positive root is $\alpha=1$.
+
+\begin{proof}[Proof of the last assertion]
+Let $\gamma$ be such a germ.  Along $\gamma$, $\mathcal I\to\mathcal I_0$ and
+$b(\mathcal I)=O(a^6)$ by Lemma~\ref{lem:d8-rows}\,(iv).  We claim
+\begin{equation}\label{eq:d8-bracket}
+  \beta(\mathcal I)=O(a^6+a^4\eta^4).
+\end{equation}
+If $m_1\ne m_2$, (b) and the inverse function theorem give $\mathcal I-\mathcal I_0=O(a^6)$, and
+\eqref{eq:d8-bracket} follows from (a).  If $m_1=m_2$, the eight functions in (b) are
+$O(a^6+\nu+T^3)$ along $\gamma$: the first six because
+$f_k(A_1-C,A_2-C,\dots)-f_k(\mathcal I)=O(\nu)$, the seventh by Lemma~\ref{lem:d8-rows}\,(v),
+and the last vanishes by Lemma~\ref{lem:d8-rows}\,(ii) as $a\ne0$.  So $U-U_0$ and
+$\mathcal I-\mathcal I_0$ are $O(a^6+\nu+T^3)$.  Since
+$B(\mathcal I-\mathcal I_0)=O(a^6+|\mathcal I-\mathcal I_0|^2)$, the component of
+$\mathcal I-\mathcal I_0$ transverse to $k_0$ is $O(a^6+|\mathcal I-\mathcal I_0|^2)$; as
+$\beta(\mathcal I_0)=0$ and $d\beta(\mathcal I_0)k_0=0$, we get
+$\beta(\mathcal I)=O(a^6+|\mathcal I-\mathcal I_0|^2)=O(a^6+\nu^2+T^6)$, which is
+\eqref{eq:d8-bracket} because $\nu^2=a^4\eta^4$ and $T^6=a^6\eta^6$.
+
+Now $E_1=E_3=0$ along $\gamma$, so Lemma~\ref{lem:d8-rows}\,(iii) and \eqref{eq:d8-bracket}
+give $T^3(\tau_1-\tau_3)(x)=O(a^6\eta^2+a^4\eta^6)$, that is,
+$(\tau_1-\tau_3)(x)=O(a^3\eta^{-1}+a\eta^3)$.  As $-4<p<\frac12$ means $r<3$,
+$\ord(a^3\eta^{-1})=(3-r)\ord a>0$; so $(\tau_1-\tau_3)(x_0)=0$, and $\Xi=0$ by (c).  Since all
+$m_k>0$, the real part $s_{14}(m_1m_4)^{3/2}+s_{23}(m_2m_3)^{3/2}$ of $\Xi$ vanishes only if
+$s_{14}=-s_{23}$ and $m_1m_4=m_2m_3$, and its imaginary part only if $s_{13}=-s_{24}$ and
+$m_1m_3=m_2m_4$.  These give $m_3=m_4$ and $m_1=m_2$, and then \eqref{eq:d8-40} gives
+$m_1=4m_5$.
+\end{proof}
+
+On the locus $\Xi=0$, which is the \emph{cancelling curve} $m=(4,4,y,y,1)$, $y>0$, up to
+scaling, together with the four sign classes $s_{13}=-s_{24}$, $s_{14}=-s_{23}$, the order-nine
+pairing gives nothing, and we expand to second order.
+
+\begin{lemma}[computer-assisted]\label{lem:d8-cancel}
+Let $m_1=m_2=4m_5$ and $m_3=m_4$, scaled to $(1,1,m,m,\frac14)$ with $m>0$.  Let $\nabla$ and
+$\nabla^2$ denote gradient and Hessian with respect to $\mathcal I$ at $\mathcal I_0$, and let
+$k_0$ be as in Lemma~\ref{lem:d8-kappa}\,(b).
+\begin{alphalist}
+\item \emph{Lower block.}  The faces $f_1,f_5,f_7,f_9,f_{17},f_{18},f_{19},f_{21}$ involve only
+\[
+  x':=(B_3,B_4,D,u,v,D_{34},D_{35},D_{45}).
+\]
+At each common zero with $g:=D_{35}\ne0$, writing
+$D_{45}=\omega g$ and $D_{34}=\lambda g$: $D=0$, $B_3=-\frac12$, $B_4=\frac12$, $\omega^3=1$,
+$2\lambda^2(\omega^2+1)=\omega^2$, $g^3(8m\lambda^3+1)=4$, $f_{18},f_{19}$ determine $u,v$, and
+the Jacobian determinant of these eight faces with respect to $x'$ is
+\[
+  -9g^7\lambda m(8m+1)(\omega^2+1)(8m\lambda^3+1)/(128\,\omega)\ne0.
+\]
+\item \emph{Lower forcing.}  In $E_1,E_3,E_5,E_7,E_9,E_{17},E_{18},E_{19},E_{21}$ and in the
+crossed rows $E_{11},E_{12},E_{14},E_{15}$, every monomial $a^i\eta^j$ other than the face has
+$i\ge2$ and $i+2j\ge6$, except $\eta^2$ in $E_1,E_3,E_9$, whose coefficients vanish at
+$\mathcal I_0$.
+\item \emph{Upper rows.}  Below $a^8$ the rows $E_0,E_2,E_8,E_{10},E_{13},E_{16},E_{20}$ consist
+of $f_k(\mathcal I)$ and the terms $\mu A_1$, $\mu A_2$, $\mu C$ of $E_0,E_2,E_8$.  The row $E_1$
+(resp.\ $E_3$) consists of $D$, $\eta^2\beta_1$, $T^3\tau_1$, $m_5\mu\eta^2P$ (resp.\ $D$,
+$\eta^2\beta_3$, $T^3\tau_3$, $m_5\mu\eta^2Q$) and a multiple of $a^9\eta^5$.  The Jacobian
+$\nabla(f_0,f_2,f_8,f_{10},f_{13},f_{16},f_{20})$ has rank $5$ and kernel $\C k_0$.  The Jacobian
+$B_5$ of $(f_2,f_{10},f_{13},f_{16},f_{20})$ with respect to $(X,Y,R_{12},R_{25},P)$ has
+$\det B_5=-\frac{17}{16}$, and $\varphi:=m_1X+m_2Y$ satisfies $\varphi(k_0)=\frac{27}{136}$.
+\item \emph{Second-order constants.}  Let $\delta_\mu,\delta_2\in\C^6$ have last entry $0$ and
+first five entries $-B_5^{-1}(Y_0,0,0,0,0)^{\mathsf T}$ and
+$-B_5^{-1}\bigl(\frac12k_0^{\mathsf T}\nabla^2f_k\,k_0\bigr)_{k=2,10,13,16,20}$, and put
+\begin{gather*}
+  c_0:=X_0+\nabla f_0\cdot\delta_\mu,\qquad
+  q_2:=\tfrac12k_0^{\mathsf T}\nabla^2f_0\,k_0+\nabla f_0\cdot\delta_2,\\
+  e_2:=\nabla\beta\cdot\delta_2+\tfrac12k_0^{\mathsf T}\nabla^2\beta\,k_0,\qquad
+  c_{62}:=\nabla\beta\cdot\delta_\mu+m_5(P_0-Q_0).
+\end{gather*}
+Then $c_0=-1$, $q_2=\frac{243}{73984}$, $e_2=\frac{1215}{18496}$, $c_{62}=-4$ and
+$c_0e_2-q_2c_{62}=-\frac{243}{4624}$.
+\end{alphalist}
+Consequently no Diagram~8 germ at these masses has a limit with $s_{13}=-s_{24}$ and
+$s_{14}=-s_{23}$.
+\end{lemma}
+The lemma is an exact computation over the field $\mathbb Q(m)$; in (a) the Jacobian determinant
+is reduced modulo $\omega^3-1$, and in (c) and (d) all constants are rational numbers
+(Appendix~\ref{app:verification}).
+
+\begin{proof}[Proof of the last assertion]
+Let $\gamma$ be such a germ, with limit $x_0$.  Then $\Xi=0$, so $(\tau_1-\tau_3)(x_0)=0$ by
+Lemma~\ref{lem:d8-kappa}\,(c), and $D_{35}(x_0)\ne0$ by Proposition~\ref{prop:d8-cover}.  Write
+$\mathcal I=\mathcal I_0+\rho k_0+\delta$ with $\rho:=Q-Q_0$ and $\delta$ of last entry $0$.  All
+estimates are along $\gamma$.
+
+\emph{Upper rows.}  By (c), $E_2,E_{10},E_{13},E_{16},E_{20}$ give, for the first five entries
+of $\delta$,
+$B_5\delta=-\mu(Y_0,0,0,0,0)^{\mathsf T}-\frac12\rho^2(k_0^{\mathsf T}\nabla^2f_kk_0)_k
++o(\mu+\rho^2)$, so $\delta=\mu\delta_\mu+\rho^2\delta_2+o(\mu+\rho^2)$, and $E_0=0$ becomes
+\begin{equation}\label{eq:d8-row0}
+  c_0\mu+q_2\rho^2=o(\mu+\rho^2).
+\end{equation}
+\emph{Lower rows.}  By (a), (b) and the implicit function theorem (each crossed face
+$f_{11},f_{12},f_{14},f_{15}$ contains one crossed unknown $D_{bc}$, with derivative
+$2/D_{bc}\ne0$ at a zero), the lower and crossed coordinates differ from their limits by
+$O(\nu+\mu+|\mathcal I-\mathcal I_0|)=O(\nu+\mu+|\rho|)$.
+
+\emph{Amplitude.}  The centre of mass (Lemma~\ref{lem:d8-rows}\,(ii)), $E_4=0$
+(Lemma~\ref{lem:d8-rows}\,(v)) and $C_5=C-\nu(m_3u+m_4v)$ give the identity
+\[
+  \varphi(\mathcal I)=(M_{12}+M)\bigl(\nu\Psi+T^3F_3+T^5G_3\bigr),
+\]
+where $\Psi:=L_3+M_{12}(m_3u+m_4v)/(M_{12}+M)$.
+As $\varphi(\mathcal I_0)=0$ and $\varphi(\delta)=O(\mu+\rho^2)$, first $\rho=O(\nu+T^3+\mu)$,
+and then, by the lower estimate, $\rho=\rho_\nu\nu+O(T^3+\nu^2+\mu)$ with
+$\rho_\nu:=(M_{12}+M)\Psi(x_0)/\varphi(k_0)$.
+
+\emph{Case $\Psi(x_0)=0$} (it contains the lower phase $\omega=1$).  Then
+$\rho^2=O(T^6+\nu^4+\mu^2)=o(\mu)$, and \eqref{eq:d8-row0} reads $\mu(c_0+o(1))=0$, which is
+impossible.
+
+\emph{Case $\Psi(x_0)\ne0$.}  Then $\rho^2=\rho_\nu^2a^4\eta^4+o(a^6+a^4\eta^4)$, because
+$\nu T^3=a^5\eta^5=o(a^6+a^4\eta^4)$; so \eqref{eq:d8-row0} reads
+$c_0a^6+q_2\rho_\nu^2a^4\eta^4=o(a^6+a^4\eta^4)$.  Both coefficients are nonzero, so the two
+monomials have the same order, that is $r=\frac12$ ($p=-2$), and
+$c_0a_0^2+q_2\rho_\nu^2\eta_0^4=0$ for the leading coefficients $a_0,\eta_0\ne0$ of $a,\eta$.  On
+this ray, (c) gives
+$E_1-E_3=\eta^2\beta(\mathcal I)+T^3(\tau_1-\tau_3)(x)+m_5\mu\eta^2(P-Q)+O(a^9\eta^5)$, where
+$\beta(\mathcal I)=\mu\,\nabla\beta\cdot\delta_\mu+e_2\rho^2+o(\mu+\rho^2)$ (because
+$\beta(\mathcal I_0)=0$ and $\nabla\beta\cdot k_0=0$, Lemma~\ref{lem:d8-kappa}) and
+$T^3(\tau_1-\tau_3)(x)=O\bigl(T^3(\nu+\mu+|\rho|)\bigr)=O(a^5\eta^5+a^6\eta^6+a^9\eta^3)$.  With
+weight $1$ for $a$ and $\frac12$ for $\eta$, the monomials $a^6\eta^2$ and $a^4\eta^6$ have
+weight $7$, while $a^5\eta^5$, $a^6\eta^6$, $a^9\eta^3$, $a^9\eta^5$ have weights
+$\frac{15}2,9,\frac{21}2,\frac{23}2$.  Hence $E_1-E_3=0$ gives
+$c_{62}a_0^2+e_2\rho_\nu^2\eta_0^4=0$.  Since $c_0e_2-q_2c_{62}\ne0$, the two linear equations
+force $a_0=0$, a contradiction.
+\end{proof}
+
+\begin{theorem}\label{thm:d8}
+No Diagram~8 germ exists at positive masses: for $m\in\Rp^5$ no curve in $A_m$ carries a
+Diagram~8 germ, complex germs included.  In particular Theorem~\ref{thm:exclusion}\,(a) holds
+for $r=8$.
+\end{theorem}
+
+\begin{proof}
+By the symmetries at the beginning of this section we may use the numbering of
+\cite[\S8.8]{AK}.  Let $\gamma$ be a Diagram~8 germ at $m\in\Rp^5$.  By
+Proposition~\ref{prop:d8-cover} it is a ray germ with ray $r\in(0,\infty)$, and by
+Proposition~\ref{prop:d8-first} the masses satisfy \eqref{eq:d8-40} and the limit has signs
+$s_{bc}$.  If $r>2$, that is $0<p<2$, Lemma~\ref{lem:d8-order-six} is contradicted.  If $r\le2$,
+that is $-4<p\le0$, Lemma~\ref{lem:d8-kappa} gives $m_1=m_2=4m_5$, $m_3=m_4$, $s_{13}=-s_{24}$
+and $s_{14}=-s_{23}$, and Lemma~\ref{lem:d8-cancel} is contradicted.  So $\gamma$ does not exist.
+A Diagram~8 germ with an unbounded four-product is in particular a Diagram~8 germ.
+\end{proof}
+
+\begin{remark}\label{rem:d8-window}
+\begin{alphalist}
+\item The window is sharp.  Along rays of the ratio chart with a finite lower wing, the strokes
+and circles are exactly those of Diagram~8 for $-4<p<2$; at $p=2$ the $z$-circles at $1$ and
+$2$ join the upper $z$-strokes, which is the pattern of Diagram~6; for $p>2$ there would be
+$z$-circles at $1,2$ without $z$-strokes, against Rule~1a; and for $p\le-4$ the upper
+$w$-strokes reach the order of the lower $w$-stroke $34$.  So the face $p=2$ of the chart is
+never reached by a Diagram~8 germ (Proposition~\ref{prop:d8-cover}); nothing is excluded or
+delegated there, and germs on that face are not Diagram~8 germs.
+\item Along a ray germ the squared distances have orders $4-2p$ (upper wing), $-6$ (crossed
+pairs) and $0$ (lower wing) in $t$, so the least four-product has order $-8-2p<0$: every
+Diagram~8 germ has an unbounded four-product.  We do not use this.
+\end{alphalist}
+Both items follow from the orders in $t$ of the components of $\mathcal Z$ and $\mathcal W$
+along the rays (Appendix~\ref{app:verification}).
+\end{remark}
