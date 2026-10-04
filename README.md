@@ -5,7 +5,7 @@ This repository contains the LaTeX source and compiled PDF for Zhe Chen's draft 
 ## Files
 
 - `main.tex` — paper entry point and shared definitions
-- `sections/d1.tex`–`d8.tex` — the eight diagram sections included by `main.tex`
+- `sections/d1.tex`–`sections/d8.tex` — the eight diagram sections included by `main.tex`
 - `main.pdf` — compiled 57-page draft
 
 ## Build
