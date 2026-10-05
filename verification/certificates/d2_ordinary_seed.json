@@ -1,0 +1,260 @@
+{
+  "check": "D2.6.13.ordinary_general_mass_kappa3",
+  "status": "PASS",
+  "input_sha256": "69b89102a9a4fa4f8dc70e4015ffc82a7ea20ed0f0f8e248dd177e23c8493531",
+  "Jacobian_rank": 20,
+  "orders_replayed": 3,
+  "coefficient": [
+    {
+      "q_power": 3,
+      "coefficient": [
+        {
+          "numerator": [],
+          "denominator": [
+            {
+              "powers": [
+                0
+              ],
+              "coefficients": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "numerator": [
+            {
+              "powers": [
+                0
+              ],
+              "coefficients": [
+                "-9/128",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "powers": [
+                2
+              ],
+              "coefficients": [
+                "9/32",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "powers": [
+                4
+              ],
+              "coefficients": [
+                "-45/128",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "powers": [
+                5
+              ],
+              "coefficients": [
+                "-18"
+              ]
+            },
+            {
+              "powers": [
+                7
+              ],
+              "coefficients": [
+                "-18"
+              ]
+            },
+            {
+              "powers": [
+                8
+              ],
+              "coefficients": [
+                "45/128",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "powers": [
+                10
+              ],
+              "coefficients": [
+                "-9/32",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "powers": [
+                12
+              ],
+              "coefficients": [
+                "9/128",
+                "0",
+                "0",
+                "0"
+              ]
+            }
+          ],
+          "denominator": [
+            {
+              "powers": [
+                3
+              ],
+              "coefficients": [
+                "-1"
+              ]
+            },
+            {
+              "powers": [
+                5
+              ],
+              "coefficients": [
+                "3"
+              ]
+            },
+            {
+              "powers": [
+                7
+              ],
+              "coefficients": [
+                "-3"
+              ]
+            },
+            {
+              "powers": [
+                9
+              ],
+              "coefficients": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "numerator": [],
+          "denominator": [
+            {
+              "powers": [
+                0
+              ],
+              "coefficients": [
+                "1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q_power": 5,
+      "coefficient": [
+        {
+          "numerator": [
+            {
+              "powers": [
+                1
+              ],
+              "coefficients": [
+                "-9/8",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "powers": [
+                3
+              ],
+              "coefficients": [
+                "9/8",
+                "0",
+                "0",
+                "0"
+              ]
+            }
+          ],
+          "denominator": [
+            {
+              "powers": [
+                0
+              ],
+              "coefficients": [
+                "-1"
+              ]
+            },
+            {
+              "powers": [
+                1
+              ],
+              "coefficients": [
+                "-1/4",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "powers": [
+                3
+              ],
+              "coefficients": [
+                "-1/4",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "powers": [
+                4
+              ],
+              "coefficients": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "numerator": [],
+          "denominator": [
+            {
+              "powers": [
+                0
+              ],
+              "coefficients": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "numerator": [],
+          "denominator": [
+            {
+              "powers": [
+                0
+              ],
+              "coefficients": [
+                "1"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source_transport": "i -> -i and sqrt(3) -> -sqrt(3) fixes omega and delta, and gives the printed 1-i chi coefficient. Independent delta and q cubic embeddings give all nine root choices.",
+  "nonvanishing": "R1,R2,q,delta positive. (1+x^6)-(x+x^5)=(1-x)(1-x^5)>=0 for x>0 gives a phase sector of width pi/2. Its three rotations by 2pi/3 avoid -1, so the two terms cannot cancel.",
+  "domain": "0<nu<1 and q=M^(1/3)>0; all coefficient and inverse denominators stripped into proved nonzero units"
+}

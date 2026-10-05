@@ -1,0 +1,1161 @@
+{
+  "check": "D8.11.10.ray_orders_and_four_products",
+  "status": "PASS",
+  "domain": "-4<p<2; all orders normalized by ord(t)=1",
+  "chart_provenance": {
+    "C_forcing_support": [
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "C_forcing_orders": [
+      {
+        "constant": "6",
+        "p_coefficient": "0"
+      },
+      {
+        "constant": "9",
+        "p_coefficient": "0"
+      },
+      {
+        "constant": "15",
+        "p_coefficient": "0"
+      }
+    ],
+    "C_lower_bound": "6",
+    "D_forcing_support": [
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        9,
+        5
+      ]
+    ],
+    "D_forcing_orders": [
+      {
+        "constant": "4",
+        "p_coefficient": "1"
+      },
+      {
+        "constant": "9",
+        "p_coefficient": "0"
+      },
+      {
+        "constant": "10",
+        "p_coefficient": "-2"
+      },
+      {
+        "constant": "19",
+        "p_coefficient": "-2"
+      }
+    ],
+    "D_lower_bound": {
+      "constant": "4",
+      "p_coefficient": "1"
+    },
+    "D_weight_gap_certificates": [
+      {
+        "polynomial": {
+          "constant": "5",
+          "p_coefficient": "-1"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "9",
+          "3"
+        ],
+        "endpoints": "excluded"
+      },
+      {
+        "polynomial": {
+          "constant": "6",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "18",
+          "0"
+        ],
+        "endpoints": "excluded"
+      },
+      {
+        "polynomial": {
+          "constant": "15",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "27",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    ],
+    "leading_coordinates": {
+      "A1": "-m2/(m1+m2)",
+      "A2": "m1/(m1+m2)",
+      "B3": "-m4/(m3+m4)",
+      "B4": "m3/(m3+m4)",
+      "C": "0",
+      "D": "0"
+    },
+    "positive_units": [
+      "m1",
+      "m2",
+      "m3",
+      "m4",
+      "m5",
+      "m1+m2",
+      "m3+m4"
+    ],
+    "nondegeneracy": "All inverse-distance chart coordinates have nonzero finite limits; both gauge separations are one. Upper z and lower w wing coefficients, and crossed coefficients, are nonzero.",
+    "assumptions": "Hypothetical ratio-chart solution ray with finite coordinates and finite nondegenerate lower wing; -4<p<2, or p=2 where indicated. No existence assertion."
+  },
+  "pair_orders": [
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "z_separation": {
+        "constant": "0",
+        "p_coefficient": "0"
+      },
+      "w_separation": {
+        "constant": "4",
+        "p_coefficient": "-2"
+      },
+      "squared_distance": {
+        "constant": "4",
+        "p_coefficient": "-2"
+      },
+      "Z_component": {
+        "constant": "-6",
+        "p_coefficient": "3"
+      },
+      "W_component": {
+        "constant": "-2",
+        "p_coefficient": "1"
+      }
+    },
+    {
+      "edge": [
+        1,
+        3
+      ],
+      "z_separation": {
+        "constant": "0",
+        "p_coefficient": "0"
+      },
+      "w_separation": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      },
+      "squared_distance": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      },
+      "Z_component": {
+        "constant": "9",
+        "p_coefficient": "0"
+      },
+      "W_component": {
+        "constant": "3",
+        "p_coefficient": "0"
+      }
+    },
+    {
+      "edge": [
+        1,
+        4
+      ],
+      "z_separation": {
+        "constant": "0",
+        "p_coefficient": "0"
+      },
+      "w_separation": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      },
+      "squared_distance": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      },
+      "Z_component": {
+        "constant": "9",
+        "p_coefficient": "0"
+      },
+      "W_component": {
+        "constant": "3",
+        "p_coefficient": "0"
+      }
+    },
+    {
+      "edge": [
+        1,
+        5
+      ],
+      "z_separation": {
+        "constant": "0",
+        "p_coefficient": "0"
+      },
+      "w_separation": {
+        "constant": "4",
+        "p_coefficient": "-2"
+      },
+      "squared_distance": {
+        "constant": "4",
+        "p_coefficient": "-2"
+      },
+      "Z_component": {
+        "constant": "-6",
+        "p_coefficient": "3"
+      },
+      "W_component": {
+        "constant": "-2",
+        "p_coefficient": "1"
+      }
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "z_separation": {
+        "constant": "0",
+        "p_coefficient": "0"
+      },
+      "w_separation": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      },
+      "squared_distance": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      },
+      "Z_component": {
+        "constant": "9",
+        "p_coefficient": "0"
+      },
+      "W_component": {
+        "constant": "3",
+        "p_coefficient": "0"
+      }
+    },
+    {
+      "edge": [
+        2,
+        4
+      ],
+      "z_separation": {
+        "constant": "0",
+        "p_coefficient": "0"
+      },
+      "w_separation": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      },
+      "squared_distance": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      },
+      "Z_component": {
+        "constant": "9",
+        "p_coefficient": "0"
+      },
+      "W_component": {
+        "constant": "3",
+        "p_coefficient": "0"
+      }
+    },
+    {
+      "edge": [
+        2,
+        5
+      ],
+      "z_separation": {
+        "constant": "0",
+        "p_coefficient": "0"
+      },
+      "w_separation": {
+        "constant": "4",
+        "p_coefficient": "-2"
+      },
+      "squared_distance": {
+        "constant": "4",
+        "p_coefficient": "-2"
+      },
+      "Z_component": {
+        "constant": "-6",
+        "p_coefficient": "3"
+      },
+      "W_component": {
+        "constant": "-2",
+        "p_coefficient": "1"
+      }
+    },
+    {
+      "edge": [
+        3,
+        4
+      ],
+      "z_separation": {
+        "constant": "6",
+        "p_coefficient": "0"
+      },
+      "w_separation": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      },
+      "squared_distance": {
+        "constant": "0",
+        "p_coefficient": "0"
+      },
+      "Z_component": {
+        "constant": "6",
+        "p_coefficient": "0"
+      },
+      "W_component": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      }
+    },
+    {
+      "edge": [
+        3,
+        5
+      ],
+      "z_separation": {
+        "constant": "6",
+        "p_coefficient": "0"
+      },
+      "w_separation": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      },
+      "squared_distance": {
+        "constant": "0",
+        "p_coefficient": "0"
+      },
+      "Z_component": {
+        "constant": "6",
+        "p_coefficient": "0"
+      },
+      "W_component": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      }
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "z_separation": {
+        "constant": "6",
+        "p_coefficient": "0"
+      },
+      "w_separation": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      },
+      "squared_distance": {
+        "constant": "0",
+        "p_coefficient": "0"
+      },
+      "Z_component": {
+        "constant": "6",
+        "p_coefficient": "0"
+      },
+      "W_component": {
+        "constant": "-6",
+        "p_coefficient": "0"
+      }
+    }
+  ],
+  "four_products": [
+    {
+      "omitted_pair": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "order": {
+        "constant": "4",
+        "p_coefficient": "-2"
+      }
+    },
+    {
+      "omitted_pair": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "order": {
+        "constant": "-8",
+        "p_coefficient": "-2"
+      }
+    },
+    {
+      "omitted_pair": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "order": {
+        "constant": "-8",
+        "p_coefficient": "-2"
+      }
+    },
+    {
+      "omitted_pair": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "order": {
+        "constant": "-8",
+        "p_coefficient": "-2"
+      }
+    },
+    {
+      "omitted_pair": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "order": {
+        "constant": "-8",
+        "p_coefficient": "-2"
+      }
+    },
+    {
+      "omitted_pair": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "order": {
+        "constant": "-8",
+        "p_coefficient": "-2"
+      }
+    },
+    {
+      "omitted_pair": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "order": {
+        "constant": "-8",
+        "p_coefficient": "-2"
+      }
+    },
+    {
+      "omitted_pair": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "order": {
+        "constant": "12",
+        "p_coefficient": "-6"
+      }
+    },
+    {
+      "omitted_pair": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "order": {
+        "constant": "-8",
+        "p_coefficient": "-2"
+      }
+    },
+    {
+      "omitted_pair": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "order": {
+        "constant": "-8",
+        "p_coefficient": "-2"
+      }
+    }
+  ],
+  "least_four_product": {
+    "constant": "-8",
+    "p_coefficient": "-2"
+  },
+  "minimum_gap_certificates": [
+    {
+      "polynomial": {
+        "constant": "12",
+        "p_coefficient": "0"
+      },
+      "domain": [
+        "-4",
+        "2"
+      ],
+      "endpoint_values": [
+        "12",
+        "12"
+      ],
+      "endpoints": "excluded"
+    },
+    {
+      "polynomial": {
+        "constant": "20",
+        "p_coefficient": "-4"
+      },
+      "domain": [
+        "-4",
+        "2"
+      ],
+      "endpoint_values": [
+        "36",
+        "12"
+      ],
+      "endpoints": "excluded"
+    }
+  ],
+  "strict_negative_certificate": {
+    "polynomial": {
+      "constant": "8",
+      "p_coefficient": "2"
+    },
+    "domain": [
+      "-4",
+      "2"
+    ],
+    "endpoint_values": [
+      "0",
+      "12"
+    ],
+    "endpoints": "excluded"
+  },
+  "pattern": {
+    "z_strokes": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "w_strokes": [
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "z_circles": [],
+    "w_circles": [
+      3,
+      4
+    ]
+  },
+  "pattern_gap_certificates": [
+    {
+      "kind": "w edge gap",
+      "edge": [
+        1,
+        2
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "4",
+          "p_coefficient": "1"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "0",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        1,
+        3
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "15",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "27",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        1,
+        3
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "9",
+          "p_coefficient": "0"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "9",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        1,
+        4
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "15",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "27",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        1,
+        4
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "9",
+          "p_coefficient": "0"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "9",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        1,
+        5
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "4",
+          "p_coefficient": "1"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "0",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        2,
+        3
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "15",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "27",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        2,
+        3
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "9",
+          "p_coefficient": "0"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "9",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        2,
+        4
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "15",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "27",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        2,
+        4
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "9",
+          "p_coefficient": "0"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "9",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        2,
+        5
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "4",
+          "p_coefficient": "1"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "0",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        3,
+        4
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "12",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "24",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        3,
+        5
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "12",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "24",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        4,
+        5
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "12",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "24",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "upper z positions",
+      "proof": {
+        "polynomial": {
+          "constant": "6",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "18",
+          "0"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "lower z positions",
+      "proof": {
+        "polynomial": {
+          "constant": "12",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "24",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "upper w D contribution",
+      "proof": {
+        "polynomial": {
+          "constant": "4",
+          "p_coefficient": "1"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "0",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "upper w P/Q contribution",
+      "proof": {
+        "polynomial": {
+          "constant": "10",
+          "p_coefficient": "-2"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "18",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    }
+  ],
+  "proof": [
+    "The ten squared-distance ties are reconstructed from the chart. Nonzero finite inverse-distance limits give their exact orders.",
+    "The gauges, positive mass centres, and the C/D source-row supports supply every needed leading unit and position lower bound. Cancellation can only increase a lower-bounded position order.",
+    "All component comparisons are affine in p and certified on the entire open interval by exact endpoint values.",
+    "All ten four-products are indexed by the omitted pair and its complementary triangle. Eight have order -8-2p, one has order 4-2p and one has order 12-6p. The minimum is strictly negative throughout the window."
+  ],
+  "scope": "Supplementary conditional order statements in Remark 11.10. This is not a construction of a Diagram-8 germ."
+}

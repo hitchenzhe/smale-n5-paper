@@ -1,0 +1,68 @@
+{
+  "check": "D2.6.16.K4_complete_four_arc_classification",
+  "status": "PASS",
+  "shape_sextic": "-a**6 + a**4*b**2 - a**4*c**2 + a**2*b**4 + 3*a**2*b**2*c**2 + a**2*c**4 - b**6 - b**4*c**2 + b**2*c**4 + c**6",
+  "square_coordinate_cubic": "z**3 + z**2*(a**2 + b**2) + z*(-a**4 + 3*a**2*b**2 - b**4) - (a**2 - b**2)**2*(a**2 + b**2)",
+  "parameter_shapes": [
+    "4*k*(k**4 + 1)",
+    "(1 - k**2)*(k**4 + 6*k**2 + 1)",
+    "(k**2 + 1)*(-k**4 + 6*k**2 - 1)"
+  ],
+  "arc_records": [
+    {
+      "name": "II",
+      "mass": [
+        "a*(-b**3 + c**3)",
+        "b*(a**3 - c**3)",
+        "c*(a**3 - b**3)"
+      ],
+      "printed_parameter_masses": [
+        "8*k*(k**4 + 1)*(5*k**4 - 1)*(3*k**12 - 5*k**8 + 65*k**4 + 1)",
+        "-(k - 1)**3*(k + 1)*(k**4 + 6*k**2 + 1)*(k**4 + 6*k**3 + 6*k**2 + 6*k + 1)*(k**12 - 4*k**11 + 6*k**10 + 20*k**9 + 15*k**8 + 16*k**7 + 84*k**6 + 16*k**5 + 15*k**4 + 20*k**3 + 6*k**2 - 4*k + 1)",
+        "-(k**2 + 1)*(k**2 - 2*k - 1)*(k**2 + 2*k - 1)**2*(k**4 + 2*k**3 + 2*k**2 - 2*k + 1)*(k**12 - 4*k**11 + 26*k**10 - 20*k**9 + 15*k**8 + 16*k**7 - 20*k**6 - 16*k**5 + 15*k**4 + 20*k**3 + 26*k**2 + 4*k + 1)"
+      ],
+      "majority_and_odd_signs": [
+        1,
+        1,
+        -1
+      ],
+      "derivative_gcd": "8*(k - 1)*(k**2 + 2*k - 1)",
+      "derivative_roots_in_open_domain": 0
+    },
+    {
+      "name": "III",
+      "mass": [
+        "a*(-b**3 + c**3)",
+        "b*(a**3 + c**3)",
+        "c*(a**3 + b**3)"
+      ],
+      "printed_parameter_masses": [
+        "8*k*(k**4 + 1)*(5*k**4 - 1)*(3*k**12 - 5*k**8 + 65*k**4 + 1)",
+        "(k - 1)*(k + 1)**3*(k**4 + 6*k**2 + 1)*(k**4 - 6*k**3 + 6*k**2 - 6*k + 1)*(k**12 + 4*k**11 + 6*k**10 - 20*k**9 + 15*k**8 - 16*k**7 + 84*k**6 - 16*k**5 + 15*k**4 - 20*k**3 + 6*k**2 + 4*k + 1)",
+        "(k**2 + 1)*(k**2 - 2*k - 1)**2*(k**2 + 2*k - 1)*(k**4 - 2*k**3 + 2*k**2 + 2*k + 1)*(k**12 + 4*k**11 + 26*k**10 + 20*k**9 + 15*k**8 - 16*k**7 - 20*k**6 + 16*k**5 + 15*k**4 - 20*k**3 + 26*k**2 - 4*k + 1)"
+      ],
+      "majority_and_odd_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "derivative_gcd": "8*(k + 1)*(k**2 - 2*k - 1)",
+      "derivative_roots_in_open_domain": 0
+    }
+  ],
+  "derivative_positive_SOS": "15*k**4 + (k**4 - 3*k**2 + 1)**2",
+  "domain": "5^(-1/4)<k<1; positive homogeneous mass scaling; also exchange m3,m4",
+  "proof": [
+    "The already verified S4 real-root discriminant and nonzero flat P0 leading coefficient make every positive K4 zero a finite real common shape.",
+    "P0=(f3+f4+f5)^2-4f3*f4. Since f5>0, an opposite-sign f3,f4 pair makes P0 positive; a positive pair also makes P0 positive. Hence W3,W4<0 and W5>0.",
+    "Write W=(-a^2,-b^2,c^2), with a>b after exchanging 3,4. The displayed cubic in c^2 has exactly one positive root by Descartes signs. Evaluating at c=b and c=a shows b<c<a precisely when a/b>5^(1/4).",
+    "The factored signed-root equation and positive mass-centre equation have positive solutions only for the two sign choices shown. Their one-dimensional positive kernels are exactly II and III. The remaining sign choices have either all equal signs or one strictly wrong coefficient sign.",
+    "The printed (A,B,C) solves S4 identically, obeys B<C<A and has strictly increasing A/B from 5^(1/4) to infinity. By uniqueness of the positive c^2 root it exhausts all positive shapes with b<c<a.",
+    "Each positive mass kernel therefore lies on one of the two printed arcs or their body-exchanged images; conversely both displayed mass kernels satisfy the original centre and signed-root equations and hence K4=0. Exact derivative gcds exclude singular projective parametrization points."
+  ],
+  "depends_on": [
+    "D2.6.12.L4_exclusion_and_S4_reality",
+    "D2.6.3_6.5.mass_resultants_and_tables"
+  ],
+  "scope": "Complete printed positive K4 mass-arc classification. Regularity and qprime!=0 are supplied separately by the stronger global Euler certificate."
+}

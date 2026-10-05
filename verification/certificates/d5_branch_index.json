@@ -1,0 +1,9771 @@
+{
+  "regimes": [
+    "monopole",
+    "dipole-z",
+    "dipole-w",
+    "dipole-equal-F",
+    "dipole-equal-G",
+    "dipole-equal",
+    "z-dominant-coincidence",
+    "z-coincident",
+    "z-coincident-Phi",
+    "z-coincident-Psi",
+    "z-coincident-both",
+    "z-inner",
+    "z-dominant-central",
+    "w-dominant-coincidence",
+    "w-coincident",
+    "w-coincident-Phi",
+    "w-coincident-Psi",
+    "w-coincident-both",
+    "w-inner",
+    "w-dominant-central"
+  ],
+  "regime_orbits": [
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal",
+          "dipole-equal"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "z-coincident"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal",
+          "w-coincident"
+        ],
+        [
+          "dipole-equal",
+          "z-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "z-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal",
+          "w-coincident-Phi"
+        ],
+        [
+          "dipole-equal",
+          "z-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "z-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal",
+          "w-coincident-Psi"
+        ],
+        [
+          "dipole-equal",
+          "z-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "z-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal",
+          "w-coincident-both"
+        ],
+        [
+          "dipole-equal",
+          "z-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "z-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal",
+          "w-dominant-central"
+        ],
+        [
+          "dipole-equal",
+          "z-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "z-dominant-coincidence"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal",
+          "w-dominant-coincidence"
+        ],
+        [
+          "dipole-equal",
+          "z-dominant-coincidence"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "z-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal",
+          "w-inner"
+        ],
+        [
+          "dipole-equal",
+          "z-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "dipole-equal"
+        ],
+        [
+          "dipole-equal-G",
+          "dipole-equal"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "dipole-equal-F"
+        ],
+        [
+          "dipole-equal-G",
+          "dipole-equal-G"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "dipole-equal-G"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "w-coincident"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "w-coincident"
+        ],
+        [
+          "dipole-equal-G",
+          "z-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "w-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "w-coincident-Phi"
+        ],
+        [
+          "dipole-equal-G",
+          "z-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "w-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "w-coincident-Psi"
+        ],
+        [
+          "dipole-equal-G",
+          "z-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "w-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "w-coincident-both"
+        ],
+        [
+          "dipole-equal-G",
+          "z-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "w-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "w-dominant-central"
+        ],
+        [
+          "dipole-equal-G",
+          "z-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "w-dominant-coincidence"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "w-dominant-coincidence"
+        ],
+        [
+          "dipole-equal-G",
+          "z-dominant-coincidence"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "w-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "w-inner"
+        ],
+        [
+          "dipole-equal-G",
+          "z-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "z-coincident"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "z-coincident"
+        ],
+        [
+          "dipole-equal-G",
+          "w-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "z-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "z-coincident-Phi"
+        ],
+        [
+          "dipole-equal-G",
+          "w-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "z-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "z-coincident-Psi"
+        ],
+        [
+          "dipole-equal-G",
+          "w-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "z-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "z-coincident-both"
+        ],
+        [
+          "dipole-equal-G",
+          "w-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "z-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "z-dominant-central"
+        ],
+        [
+          "dipole-equal-G",
+          "w-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "z-dominant-coincidence"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "z-dominant-coincidence"
+        ],
+        [
+          "dipole-equal-G",
+          "w-dominant-coincidence"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "z-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-equal-F",
+          "z-inner"
+        ],
+        [
+          "dipole-equal-G",
+          "w-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-equal"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "dipole-equal"
+        ],
+        [
+          "dipole-z",
+          "dipole-equal"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-equal-G"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "dipole-equal-F"
+        ],
+        [
+          "dipole-z",
+          "dipole-equal-G"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-equal-F"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "dipole-equal-G"
+        ],
+        [
+          "dipole-z",
+          "dipole-equal-F"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "dipole-w"
+        ],
+        [
+          "dipole-z",
+          "dipole-z"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "z-coincident"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "w-coincident"
+        ],
+        [
+          "dipole-z",
+          "z-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "z-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "w-coincident-Phi"
+        ],
+        [
+          "dipole-z",
+          "z-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "z-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "w-coincident-Psi"
+        ],
+        [
+          "dipole-z",
+          "z-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "z-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "w-coincident-both"
+        ],
+        [
+          "dipole-z",
+          "z-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "z-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "w-dominant-central"
+        ],
+        [
+          "dipole-z",
+          "z-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "z-dominant-coincidence"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "w-dominant-coincidence"
+        ],
+        [
+          "dipole-z",
+          "z-dominant-coincidence"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "z-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "w-inner"
+        ],
+        [
+          "dipole-z",
+          "z-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "w-coincident"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "z-coincident"
+        ],
+        [
+          "dipole-z",
+          "w-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "w-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "z-coincident-Phi"
+        ],
+        [
+          "dipole-z",
+          "w-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "w-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "z-coincident-Psi"
+        ],
+        [
+          "dipole-z",
+          "w-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "w-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "z-coincident-both"
+        ],
+        [
+          "dipole-z",
+          "w-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "w-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "z-dominant-central"
+        ],
+        [
+          "dipole-z",
+          "w-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "w-dominant-coincidence"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "z-dominant-coincidence"
+        ],
+        [
+          "dipole-z",
+          "w-dominant-coincidence"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "w-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-w",
+          "z-inner"
+        ],
+        [
+          "dipole-z",
+          "w-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-w"
+      ],
+      "body_unordered_color_images": [
+        [
+          "dipole-z",
+          "dipole-w"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "body_unordered_color_images": [
+        [
+          "monopole",
+          "dipole-equal"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "body_unordered_color_images": [
+        [
+          "monopole",
+          "dipole-equal-F"
+        ],
+        [
+          "monopole",
+          "dipole-equal-G"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "body_unordered_color_images": [
+        [
+          "monopole",
+          "dipole-w"
+        ],
+        [
+          "monopole",
+          "dipole-z"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "body_unordered_color_images": [
+        [
+          "monopole",
+          "monopole"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "monopole",
+        "z-coincident"
+      ],
+      "body_unordered_color_images": [
+        [
+          "monopole",
+          "w-coincident"
+        ],
+        [
+          "monopole",
+          "z-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "monopole",
+        "z-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "monopole",
+          "w-coincident-Phi"
+        ],
+        [
+          "monopole",
+          "z-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "monopole",
+        "z-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "monopole",
+          "w-coincident-Psi"
+        ],
+        [
+          "monopole",
+          "z-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "monopole",
+        "z-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "monopole",
+          "w-coincident-both"
+        ],
+        [
+          "monopole",
+          "z-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "monopole",
+        "z-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "monopole",
+          "w-dominant-central"
+        ],
+        [
+          "monopole",
+          "z-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "monopole",
+        "z-dominant-coincidence"
+      ],
+      "body_unordered_color_images": [
+        [
+          "monopole",
+          "w-dominant-coincidence"
+        ],
+        [
+          "monopole",
+          "z-dominant-coincidence"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "monopole",
+        "z-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "monopole",
+          "w-inner"
+        ],
+        [
+          "monopole",
+          "z-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident",
+          "w-coincident"
+        ],
+        [
+          "z-coincident",
+          "z-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident",
+          "w-coincident-Phi"
+        ],
+        [
+          "z-coincident",
+          "z-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident",
+          "w-coincident-Psi"
+        ],
+        [
+          "z-coincident",
+          "z-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident",
+          "w-coincident-both"
+        ],
+        [
+          "z-coincident",
+          "z-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident",
+          "w-dominant-central"
+        ],
+        [
+          "z-coincident",
+          "z-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident",
+          "w-inner"
+        ],
+        [
+          "z-coincident",
+          "z-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-Phi",
+          "w-coincident-Phi"
+        ],
+        [
+          "z-coincident-Phi",
+          "z-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-Phi",
+          "w-coincident-Psi"
+        ],
+        [
+          "z-coincident-Phi",
+          "z-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-Phi",
+          "w-coincident-both"
+        ],
+        [
+          "z-coincident-Phi",
+          "z-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-Phi",
+          "w-dominant-central"
+        ],
+        [
+          "z-coincident-Phi",
+          "z-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-Phi",
+          "w-inner"
+        ],
+        [
+          "z-coincident-Phi",
+          "z-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-Psi",
+          "w-coincident-Psi"
+        ],
+        [
+          "z-coincident-Psi",
+          "z-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-Psi",
+          "w-coincident-both"
+        ],
+        [
+          "z-coincident-Psi",
+          "z-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-Psi",
+          "w-dominant-central"
+        ],
+        [
+          "z-coincident-Psi",
+          "z-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-Psi",
+          "w-inner"
+        ],
+        [
+          "z-coincident-Psi",
+          "z-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-both",
+        "z-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-both",
+          "w-coincident-both"
+        ],
+        [
+          "z-coincident-both",
+          "z-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-both",
+        "z-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-both",
+          "w-dominant-central"
+        ],
+        [
+          "z-coincident-both",
+          "z-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-both",
+        "z-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-coincident-both",
+          "w-inner"
+        ],
+        [
+          "z-coincident-both",
+          "z-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-dominant-central",
+          "w-dominant-central"
+        ],
+        [
+          "z-dominant-central",
+          "z-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-coincident"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-dominant-coincidence",
+          "w-coincident"
+        ],
+        [
+          "z-dominant-coincidence",
+          "z-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-dominant-coincidence",
+          "w-coincident-Phi"
+        ],
+        [
+          "z-dominant-coincidence",
+          "z-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-dominant-coincidence",
+          "w-coincident-Psi"
+        ],
+        [
+          "z-dominant-coincidence",
+          "z-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-dominant-coincidence",
+          "w-coincident-both"
+        ],
+        [
+          "z-dominant-coincidence",
+          "z-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-dominant-coincidence",
+          "w-dominant-central"
+        ],
+        [
+          "z-dominant-coincidence",
+          "z-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-dominant-coincidence",
+          "w-dominant-coincidence"
+        ],
+        [
+          "z-dominant-coincidence",
+          "z-dominant-coincidence"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-dominant-coincidence",
+          "w-inner"
+        ],
+        [
+          "z-dominant-coincidence",
+          "z-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-inner",
+          "w-dominant-central"
+        ],
+        [
+          "z-inner",
+          "z-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "w-inner",
+          "w-inner"
+        ],
+        [
+          "z-inner",
+          "z-inner"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "w-coincident"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident",
+          "w-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "w-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident",
+          "w-coincident-Phi"
+        ],
+        [
+          "z-coincident-Phi",
+          "w-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "w-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident",
+          "w-coincident-Psi"
+        ],
+        [
+          "z-coincident-Psi",
+          "w-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "w-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident",
+          "w-coincident-both"
+        ],
+        [
+          "z-coincident-both",
+          "w-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "w-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident",
+          "w-dominant-central"
+        ],
+        [
+          "z-dominant-central",
+          "w-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "w-coincident"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident",
+          "w-dominant-coincidence"
+        ],
+        [
+          "z-dominant-coincidence",
+          "w-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "w-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident",
+          "w-inner"
+        ],
+        [
+          "z-inner",
+          "w-coincident"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "w-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-Phi",
+          "w-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "w-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-Phi",
+          "w-coincident-Psi"
+        ],
+        [
+          "z-coincident-Psi",
+          "w-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "w-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-Phi",
+          "w-coincident-both"
+        ],
+        [
+          "z-coincident-both",
+          "w-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "w-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-Phi",
+          "w-dominant-central"
+        ],
+        [
+          "z-dominant-central",
+          "w-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "w-coincident-Phi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-Phi",
+          "w-dominant-coincidence"
+        ],
+        [
+          "z-dominant-coincidence",
+          "w-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "w-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-Phi",
+          "w-inner"
+        ],
+        [
+          "z-inner",
+          "w-coincident-Phi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "w-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-Psi",
+          "w-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "w-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-Psi",
+          "w-coincident-both"
+        ],
+        [
+          "z-coincident-both",
+          "w-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "w-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-Psi",
+          "w-dominant-central"
+        ],
+        [
+          "z-dominant-central",
+          "w-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "w-coincident-Psi"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-Psi",
+          "w-dominant-coincidence"
+        ],
+        [
+          "z-dominant-coincidence",
+          "w-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "w-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-Psi",
+          "w-inner"
+        ],
+        [
+          "z-inner",
+          "w-coincident-Psi"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-both",
+        "w-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-both",
+          "w-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-both",
+        "w-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-both",
+          "w-dominant-central"
+        ],
+        [
+          "z-dominant-central",
+          "w-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "w-coincident-both"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-both",
+          "w-dominant-coincidence"
+        ],
+        [
+          "z-dominant-coincidence",
+          "w-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-coincident-both",
+        "w-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-coincident-both",
+          "w-inner"
+        ],
+        [
+          "z-inner",
+          "w-coincident-both"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "w-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-dominant-central",
+          "w-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "w-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-dominant-central",
+          "w-dominant-coincidence"
+        ],
+        [
+          "z-dominant-coincidence",
+          "w-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "w-dominant-central"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-dominant-central",
+          "w-inner"
+        ],
+        [
+          "z-inner",
+          "w-dominant-central"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "w-dominant-coincidence"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-dominant-coincidence",
+          "w-dominant-coincidence"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "w-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-dominant-coincidence",
+          "w-inner"
+        ],
+        [
+          "z-inner",
+          "w-dominant-coincidence"
+        ]
+      ]
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "w-inner"
+      ],
+      "body_unordered_color_images": [
+        [
+          "z-inner",
+          "w-inner"
+        ]
+      ]
+    }
+  ],
+  "patterns": [
+    "CCC",
+    "CCR",
+    "CCE",
+    "CRC",
+    "CRR",
+    "CRE",
+    "CEC",
+    "CER",
+    "CEE",
+    "RCC",
+    "RCR",
+    "RCE",
+    "RRC",
+    "RRR",
+    "RRE",
+    "REC",
+    "RER",
+    "REE",
+    "ECC",
+    "ECR",
+    "ECE",
+    "ERC",
+    "ERR",
+    "ERE",
+    "EEC",
+    "EER",
+    "EEE"
+  ],
+  "pair_pattern_count": 2997,
+  "survivor_table": [
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "pattern": "RRC"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "pattern": "RRC"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "pattern": "RRC"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CEE"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CRR"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RCR"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRC"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRR"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CEE"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CRR"
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "pattern": "RRR"
+    }
+  ],
+  "four_product_cases": [
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-equal-F",
+        "dipole-equal-G"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "dipole-z",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-equal-F"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "dipole-z"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "monopole",
+        "monopole"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Phi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Phi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-coincident-Psi"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-coincident-Psi",
+        "z-inner"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RCR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RCR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RCR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RCR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RCR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RCR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RCR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RCR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RCR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RCR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRC",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-central",
+        "z-dominant-central"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CEE",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-dominant-coincidence",
+        "z-dominant-coincidence"
+      ],
+      "pattern": "CRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        2
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        1,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        3
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        4
+      ],
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        2,
+        5
+      ],
+      "edges": [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        4
+      ],
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        3,
+        5
+      ],
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    },
+    {
+      "regimes": [
+        "z-inner",
+        "z-inner"
+      ],
+      "pattern": "RRR",
+      "four_product": [
+        4,
+        5
+      ],
+      "edges": [
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "status": "LP_NOT_YET_CERTIFIED"
+    }
+  ],
+  "scope": "indices only; table survivors are manuscript declarations, not independently solved LP results"
+}

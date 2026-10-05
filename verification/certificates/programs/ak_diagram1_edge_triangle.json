@@ -1,0 +1,48 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_diagram1_edge_triangle",
+  "checks": [
+    {
+      "check": "D1.5.9.morse_bott_rank_kernel_inertia",
+      "status": "PASS",
+      "items": 37,
+      "detail": {
+        "minor_rows": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "minor_columns": [
+          "x3",
+          "x4",
+          "y3",
+          "d34",
+          "d35"
+        ],
+        "sign": "constant for x>0",
+        "minor_coefficients_x": [
+          [
+            6,
+            "12"
+          ],
+          [
+            7,
+            "24"
+          ],
+          [
+            8,
+            "12"
+          ]
+        ],
+        "inertia_formula": "verified by exact pairwise-distance identity"
+      },
+      "program": "ak_diagram1_edge_triangle",
+      "function": "verify_morse_bott_triangle",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

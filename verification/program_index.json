@@ -1,0 +1,1029 @@
+{
+  "source": "main.pdf page 56, Table 5; printed names omit ak_",
+  "note": "Reconstructed implementations, not original author scripts. IMPLEMENTED is computational coverage, not a formal proof of analytic arguments.",
+  "programs": [
+    {
+      "program": "ak_diagram1_separated_center_cone",
+      "source_labels": [
+        "lem:d1-chart",
+        "lem:d1-virial"
+      ],
+      "module": "ak_diagram1_separated_center_cone.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_polynomial_syzygies",
+        "verify_chart_and_cone"
+      ],
+      "registered_checks": [
+        "verify_polynomial_syzygies",
+        "verify_chart_and_cone"
+      ],
+      "certificate": "certificates/programs/ak_diagram1_separated_center_cone.json",
+      "entry_point": "python ak_diagram1_separated_center_cone.py"
+    },
+    {
+      "program": "ak_diagram1_virial_exclusion",
+      "source_labels": [
+        "lem:d1-chart",
+        "lem:d1-virial"
+      ],
+      "module": "ak_diagram1_virial_exclusion.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_triangle_virial"
+      ],
+      "registered_checks": [
+        "verify_triangle_virial"
+      ],
+      "certificate": "certificates/programs/ak_diagram1_virial_exclusion.json",
+      "entry_point": "python ak_diagram1_virial_exclusion.py"
+    },
+    {
+      "program": "ak_diagram5_valuation_reduction",
+      "source_labels": [
+        "lem:d1-chart",
+        "lem:d1-virial",
+        "lem:d1-mb"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_diagram1_separated_center_cone and ak_diagram1_virial_exclusion",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_diagram1_separated_center_cone and ak_diagram1_virial_exclusion"
+    },
+    {
+      "program": "ak_central_body_slice",
+      "source_labels": [
+        "lem:d1-torque"
+      ],
+      "module": "ak_central_body_slice.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_torque_expansion"
+      ],
+      "registered_checks": [
+        "verify_torque_expansion"
+      ],
+      "certificate": "certificates/programs/ak_central_body_slice.json",
+      "entry_point": "python ak_central_body_slice.py"
+    },
+    {
+      "program": "ak_isolated_triangle_shape_derivation",
+      "source_labels": [
+        "lem:d1-shape"
+      ],
+      "module": "ak_isolated_triangle_shape_derivation.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_shape_elimination"
+      ],
+      "registered_checks": [
+        "verify_shape_elimination"
+      ],
+      "certificate": "certificates/programs/ak_isolated_triangle_shape_derivation.json",
+      "entry_point": "python ak_isolated_triangle_shape_derivation.py"
+    },
+    {
+      "program": "ak_diagram1_edge_triangle",
+      "source_labels": [
+        "lem:d1-mb"
+      ],
+      "module": "ak_diagram1_edge_triangle.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_morse_bott_triangle"
+      ],
+      "registered_checks": [
+        "verify_morse_bott_triangle"
+      ],
+      "certificate": "certificates/programs/ak_diagram1_edge_triangle.json",
+      "entry_point": "python ak_diagram1_edge_triangle.py"
+    },
+    {
+      "program": "ak_blowup",
+      "source_labels": [
+        "lem:d2-fibre",
+        "def:d2-mass"
+      ],
+      "module": "ak_blowup.py",
+      "status": "IMPLEMENTED",
+      "scope": "Complete chart, boundary fibre and second-order pair-block checks. Mass classification, fold jets and global sheet responses are implemented in the separately mapped D2 programs.",
+      "public_functions": [
+        "verify_chart_and_boundary_fibre",
+        "verify_pair_second_order"
+      ],
+      "registered_checks": [
+        "verify_chart_and_boundary_fibre",
+        "verify_pair_second_order"
+      ],
+      "certificate": "certificates/programs/ak_blowup.json",
+      "entry_point": "python ak_blowup.py"
+    },
+    {
+      "program": "ak_resultants",
+      "source_labels": [
+        "lem:d2-fibre",
+        "def:d2-mass",
+        "lem:d2-empty",
+        "lem:d2-K"
+      ],
+      "module": "ak_resultants.py",
+      "status": "IMPLEMENTED",
+      "scope": "All shape and mass L/P resultants, tables, class assignments and symmetries.",
+      "public_functions": [
+        "verify_mass_resultants",
+        "shape_factors",
+        "verify_shape_resultant",
+        "verify_lagrange_assignments",
+        "verify_euler_on_S5"
+      ],
+      "registered_checks": [
+        "verify_shape_resultant",
+        "verify_lagrange_assignments",
+        "verify_euler_on_S5",
+        "verify_mass_resultants"
+      ],
+      "certificate": "certificates/programs/ak_resultants.json",
+      "entry_point": "python ak_resultants.py"
+    },
+    {
+      "program": "ak_p_source_completeness",
+      "source_labels": [
+        "lem:d2-fibre",
+        "def:d2-mass"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_resultants and ak_p_sheet_second_order",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_resultants and ak_p_sheet_second_order"
+    },
+    {
+      "program": "ak_p_general",
+      "source_labels": [
+        "lem:d2-fibre",
+        "def:d2-mass",
+        "rem:d2-scope"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_p_sheet_second_order",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_p_sheet_second_order"
+    },
+    {
+      "program": "ak_diagram2_symmetry",
+      "source_labels": [
+        "lem:d2-fibre",
+        "def:d2-mass",
+        "lem:d2-K",
+        "rem:d2-scope"
+      ],
+      "module": "ak_diagram2_symmetry.py",
+      "status": "IMPLEMENTED",
+      "scope": "Complete equal-mass sign census and 72-fold orbit; exact chart covariance; alternative first-obstruction exclusion of 1080 labels",
+      "public_functions": [
+        "verify_equal_mass_labels"
+      ],
+      "registered_checks": [
+        "verify_equal_mass_labels"
+      ],
+      "certificate": "certificates/programs/ak_diagram2_symmetry.json",
+      "entry_point": "python ak_diagram2_symmetry.py"
+    },
+    {
+      "program": "ak_l_block_symmetric_germs",
+      "source_labels": [
+        "lem:d2-second",
+        "lem:d2-rays",
+        "lem:d2-Lray"
+      ],
+      "module": "ak_l_block_symmetric_germs.py",
+      "status": "IMPLEMENTED",
+      "scope": "Lemma 6.15 all 72 same-sign triangle responses and invertible source blocks; prerequisite global ray and common-shape classification in exceptional_branch_positive_feasibility",
+      "public_functions": [
+        "verify_ray_responses"
+      ],
+      "registered_checks": [
+        "verify_ray_responses"
+      ],
+      "certificate": "certificates/programs/ak_l_block_symmetric_germs.json",
+      "entry_point": "python ak_l_block_symmetric_germs.py"
+    },
+    {
+      "program": "ak_p_sheet_second_order",
+      "source_labels": [
+        "lem:d2-second",
+        "lem:d2-P",
+        "lem:d2-fold"
+      ],
+      "module": "ak_p_sheet_second_order.py",
+      "status": "IMPLEMENTED",
+      "scope": "Complete positive-mass regular and fold isolatedness via stronger algebraic certificates; original numerical margin constants are not re-certified",
+      "public_functions": [
+        "verify_general_fold",
+        "verify_regular_X",
+        "verify_regular_Euler",
+        "verify_regular_Lagrange"
+      ],
+      "registered_checks": [
+        "verify_general_fold",
+        "verify_regular_X",
+        "verify_regular_Euler",
+        "verify_regular_Lagrange"
+      ],
+      "certificate": "certificates/programs/ak_p_sheet_second_order.json",
+      "entry_point": "python ak_p_sheet_second_order.py"
+    },
+    {
+      "program": "ak_l4_same_sign",
+      "source_labels": [
+        "lem:d2-empty"
+      ],
+      "module": "ak_l4_same_sign.py",
+      "status": "IMPLEMENTED",
+      "scope": "L4 positive-mass exclusion and S4 real-root discriminant.",
+      "public_functions": [
+        "verify_L4_exclusion"
+      ],
+      "registered_checks": [
+        "verify_L4_exclusion"
+      ],
+      "certificate": "certificates/programs/ak_l4_same_sign.json",
+      "entry_point": "python ak_l4_same_sign.py"
+    },
+    {
+      "program": "ak_exceptional",
+      "source_labels": [
+        "lem:d2-empty"
+      ],
+      "module": "ak_exceptional.py",
+      "status": "IMPLEMENTED",
+      "scope": "Mass exclusions and complete K1/K4 branch certificates; global-sheet proof supplies nonzero responses",
+      "public_functions": [
+        "verify_K_and_L5_exclusions",
+        "verify_K1_branches",
+        "verify_K4_arcs"
+      ],
+      "registered_checks": [
+        "verify_K_and_L5_exclusions",
+        "verify_K1_branches",
+        "verify_K4_arcs"
+      ],
+      "certificate": "certificates/programs/ak_exceptional.json",
+      "entry_point": "python ak_exceptional.py"
+    },
+    {
+      "program": "ak_l5_obstruction",
+      "source_labels": [
+        "lem:d2-empty",
+        "lem:d2-L5",
+        "lem:d2-corank-two"
+      ],
+      "module": "ak_l5_obstruction.py",
+      "status": "IMPLEMENTED",
+      "scope": "General-M ordinary third jet and rank-19 fold quadratic/two-path strict-transform minors; finite orbit in diagram2_symmetry",
+      "public_functions": [
+        "verify_ordinary_seed",
+        "verify_fold_seed"
+      ],
+      "registered_checks": [
+        "verify_ordinary_seed",
+        "verify_fold_seed"
+      ],
+      "certificate": "certificates/programs/ak_l5_obstruction.json",
+      "entry_point": "python ak_l5_obstruction.py"
+    },
+    {
+      "program": "ak_exceptional_branch_positive_feasibility",
+      "source_labels": [
+        "lem:d2-rays",
+        "lem:d2-Lray"
+      ],
+      "module": "ak_exceptional_branch_positive_feasibility.py",
+      "status": "IMPLEMENTED",
+      "scope": "Complete Lemma 6.14 global positive-mass ray and common-shape classification; independent Rouche/Krawczyk alternative to a quadratic subresultant",
+      "public_functions": [
+        "verify_mass_rays"
+      ],
+      "registered_checks": [
+        "verify_mass_rays"
+      ],
+      "certificate": "certificates/programs/ak_exceptional_branch_positive_feasibility.json",
+      "entry_point": "python ak_exceptional_branch_positive_feasibility.py"
+    },
+    {
+      "program": "ak_l1_complex_fibre",
+      "source_labels": [
+        "lem:d2-rays",
+        "lem:d2-Lray"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_exceptional_branch_positive_feasibility and ak_l_block_symmetric_germs",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_exceptional_branch_positive_feasibility and ak_l_block_symmetric_germs"
+    },
+    {
+      "program": "ak_k1_curve",
+      "source_labels": [
+        "lem:d2-K"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_exceptional.verify_K1_branches",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_exceptional.verify_K1_branches"
+    },
+    {
+      "program": "ak_k1_complex_fibre",
+      "source_labels": [
+        "lem:d2-K"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_exceptional.verify_K1_branches",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_exceptional.verify_K1_branches"
+    },
+    {
+      "program": "ak_p4_curve",
+      "source_labels": [
+        "lem:d2-K"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_exceptional.verify_K4_arcs",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_exceptional.verify_K4_arcs"
+    },
+    {
+      "program": "ak_p5_completion",
+      "source_labels": [
+        "lem:d2-K"
+      ],
+      "module": "ak_p5_completion.py",
+      "status": "IMPLEMENTED",
+      "scope": "K5 ray and all 27 classes/64 signs; global fold proof replaces redundant exceptional jets",
+      "public_functions": [
+        "verify_K5_mass_ray",
+        "verify_all_K5_labels"
+      ],
+      "registered_checks": [
+        "verify_K5_mass_ray",
+        "verify_all_K5_labels"
+      ],
+      "certificate": "certificates/programs/ak_p5_completion.json",
+      "entry_point": "python ak_p5_completion.py"
+    },
+    {
+      "program": "ak_p_sheet_special_ends",
+      "source_labels": [
+        "lem:d2-P",
+        "lem:d2-fold"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_p_sheet_second_order global algebraic positive-cone certificates",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_p_sheet_second_order global algebraic positive-cone certificates"
+    },
+    {
+      "program": "ak_p_sheet_e5_corner",
+      "source_labels": [
+        "lem:d2-P",
+        "lem:d2-fold"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_p_sheet_p5_exact and ak_p_sheet_second_order",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_p_sheet_p5_exact and ak_p_sheet_second_order"
+    },
+    {
+      "program": "ak_p_sheet_euler_closed_form",
+      "source_labels": [
+        "lem:d2-P",
+        "lem:d2-fold"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_p_sheet_second_order.verify_regular_Euler",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_p_sheet_second_order.verify_regular_Euler"
+    },
+    {
+      "program": "ak_p_sheet_p5_exact",
+      "source_labels": [
+        "lem:d2-P",
+        "lem:d2-fold"
+      ],
+      "module": "ak_p_sheet_p5_exact.py",
+      "status": "IMPLEMENTED",
+      "scope": "Complete nonfold S5 positive-mass response via exact inverse and positive norm/SOS factors",
+      "public_functions": [
+        "verify_S5_response"
+      ],
+      "registered_checks": [
+        "verify_S5_response"
+      ],
+      "certificate": "certificates/programs/ak_p_sheet_p5_exact.json",
+      "entry_point": "python ak_p_sheet_p5_exact.py"
+    },
+    {
+      "program": "ak_diagram3_blowup",
+      "source_labels": [
+        "lem:d3-fibre",
+        "lem:d3-census"
+      ],
+      "module": "ak_diagram3_blowup.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_necessary_condition_identities",
+        "boundary_data",
+        "verify_chart_and_labels",
+        "selected_system",
+        "selected_boundary_system",
+        "verify_label_jacobian",
+        "verify_order_three",
+        "compute_second_jet",
+        "verify_order_four",
+        "verify_mass_families_and_census"
+      ],
+      "registered_checks": [
+        "verify_necessary_condition_identities",
+        "verify_chart_and_labels",
+        "verify_label_jacobian",
+        "verify_order_three",
+        "verify_order_four",
+        "verify_mass_families_and_census"
+      ],
+      "certificate": "certificates/programs/ak_diagram3_blowup.json",
+      "entry_point": "python ak_diagram3_blowup.py"
+    },
+    {
+      "program": "ak_diagram3_fifth_order",
+      "source_labels": [
+        "lem:d3-order5"
+      ],
+      "module": "ak_diagram3_fifth_order.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_nine_root_norm",
+        "verify_fifth_order_jet"
+      ],
+      "registered_checks": [
+        "verify_nine_root_norm",
+        "verify_fifth_order_jet"
+      ],
+      "certificate": "certificates/programs/ak_diagram3_fifth_order.json",
+      "entry_point": "python ak_diagram3_fifth_order.py"
+    },
+    {
+      "program": "ak_diagram3_equal_shape",
+      "source_labels": [
+        "lem:d3-order6",
+        "lem:d3-twisted"
+      ],
+      "module": "ak_diagram3_equal_shape.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_twisted_family",
+        "verify_modular_order_six"
+      ],
+      "registered_checks": [
+        "verify_twisted_family",
+        "verify_modular_order_six"
+      ],
+      "certificate": "certificates/programs/ak_diagram3_equal_shape.json",
+      "entry_point": "python ak_diagram3_equal_shape.py"
+    },
+    {
+      "program": "ak_diagram4_valuation_coverage",
+      "source_labels": [
+        "lem:d4-torque"
+      ],
+      "module": "ak_diagram4_valuation_coverage.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_torque_expansion"
+      ],
+      "registered_checks": [
+        "verify_torque_expansion"
+      ],
+      "certificate": "certificates/programs/ak_diagram4_valuation_coverage.json",
+      "entry_point": "python ak_diagram4_valuation_coverage.py"
+    },
+    {
+      "program": "ak_diagram4_first_order_formula",
+      "source_labels": [
+        "lem:d4-census"
+      ],
+      "module": "ak_diagram4_first_order_formula.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "cadd",
+        "cneg",
+        "csub",
+        "cmul",
+        "cpow",
+        "vectors"
+      ],
+      "registered_checks": [],
+      "certificate": "certificates/d4_lemma_8_10.json",
+      "entry_point": "python ak_diagram4_sign_census.py --summary"
+    },
+    {
+      "program": "ak_diagram4_sign_census",
+      "source_labels": [
+        "lem:d4-census"
+      ],
+      "module": "ak_diagram4_sign_census.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "main"
+      ],
+      "registered_checks": [],
+      "certificate": "certificates/d4_lemma_8_10.json",
+      "entry_point": "python ak_diagram4_sign_census.py --summary"
+    },
+    {
+      "program": "ak_diagram4_sign_orbits",
+      "source_labels": [
+        "lem:d4-census"
+      ],
+      "module": "ak_diagram4_sign_orbits.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "positive_variants"
+      ],
+      "registered_checks": [],
+      "certificate": "certificates/d4_lemma_8_10.json",
+      "entry_point": "python ak_diagram4_sign_census.py --summary"
+    },
+    {
+      "program": "ak_diagram4_zero_uniqueness",
+      "source_labels": [
+        "lem:d4-census"
+      ],
+      "module": "ak_diagram4_zero_uniqueness.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "positive_denominator_numerator",
+        "sign_at_root"
+      ],
+      "registered_checks": [],
+      "certificate": "certificates/d4_lemma_8_10.json",
+      "entry_point": "python ak_diagram4_sign_census.py --summary"
+    },
+    {
+      "program": "ak_diagram4_third_order_formula",
+      "source_labels": [
+        "lem:d4-census"
+      ],
+      "module": "ak_diagram4_third_order_formula.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "second_obstruction"
+      ],
+      "registered_checks": [],
+      "certificate": "certificates/d4_lemma_8_10.json",
+      "entry_point": "python ak_diagram4_sign_census.py --summary"
+    },
+    {
+      "program": "ak_diagram5_morse_bott_lemma",
+      "source_labels": [
+        "d5-lem-mb",
+        "d5-lem-consequences"
+      ],
+      "module": "ak_diagram5_morse_bott_lemma.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_triangle_hessian"
+      ],
+      "registered_checks": [
+        "verify_triangle_hessian"
+      ],
+      "certificate": "certificates/programs/ak_diagram5_morse_bott_lemma.json",
+      "entry_point": "python ak_diagram5_morse_bott_lemma.py"
+    },
+    {
+      "program": "ak_diagram5_morse_bott_uniformity",
+      "source_labels": [
+        "d5-lem-mb",
+        "d5-lem-consequences"
+      ],
+      "module": "ak_diagram5_morse_bott_uniformity.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_uniform_source_resultant",
+        "verify_Phi_Psi_exclusions"
+      ],
+      "registered_checks": [
+        "verify_uniform_source_resultant",
+        "verify_Phi_Psi_exclusions"
+      ],
+      "certificate": "certificates/programs/ak_diagram5_morse_bott_uniformity.json",
+      "entry_point": "python ak_diagram5_morse_bott_uniformity.py"
+    },
+    {
+      "program": "ak_diagram5_outer_census",
+      "source_labels": [
+        "d5-lem-census",
+        "d5-lem-four"
+      ],
+      "module": "ak_diagram5_outer_census.py",
+      "status": "IMPLEMENTED",
+      "scope": "All 2997 macro cases, 254 four-product exclusions and 6 full necessary-model witnesses",
+      "public_functions": [
+        "verify_elementary_four_products",
+        "verify_full_census",
+        "verify_dominant_products",
+        "verify_complete_four_products"
+      ],
+      "registered_checks": [
+        "verify_elementary_four_products",
+        "verify_full_census",
+        "verify_dominant_products",
+        "verify_complete_four_products"
+      ],
+      "certificate": "certificates/programs/ak_diagram5_outer_census.json",
+      "entry_point": "python ak_diagram5_outer_census.py"
+    },
+    {
+      "program": "ak_diagram5_census_model",
+      "source_labels": [
+        "d5-lem-census",
+        "d5-lem-four"
+      ],
+      "module": "ak_diagram5_census_model.py",
+      "status": "IMPLEMENTED",
+      "scope": "Complete macro index; actual LP proof is in ak_diagram5_outer_census",
+      "public_functions": [
+        "mirror",
+        "key",
+        "canonical",
+        "indices",
+        "verify_branch_index"
+      ],
+      "registered_checks": [
+        "verify_branch_index"
+      ],
+      "certificate": "certificates/programs/ak_diagram5_census_model.json",
+      "entry_point": "python ak_diagram5_census_model.py"
+    },
+    {
+      "program": "ak_diagram5_first_limit_relevance",
+      "source_labels": [
+        "d5-lem-census",
+        "d5-lem-four"
+      ],
+      "module": "ak_diagram5_first_limit_relevance.py",
+      "status": "IMPLEMENTED",
+      "scope": "Far/near source identities, real-offset nonvanishing, empty regimes, R-plane minors and deep/inner leading contradictions",
+      "public_functions": [
+        "verify_far_source_expansions",
+        "verify_near_source_audit"
+      ],
+      "registered_checks": [
+        "verify_far_source_expansions",
+        "verify_near_source_audit"
+      ],
+      "certificate": "certificates/programs/ak_diagram5_first_limit_relevance.json",
+      "entry_point": "python ak_diagram5_first_limit_relevance.py"
+    },
+    {
+      "program": "ak_tropical_census",
+      "source_labels": [
+        "d5-lem-census",
+        "d5-lem-four"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_diagram5_outer_census",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_diagram5_outer_census"
+    },
+    {
+      "program": "ak_diagram6_blowup",
+      "source_labels": [
+        "d6-lem-chart",
+        "d6-lem-torque",
+        "d6-lem-atlas",
+        "d6-def-labels",
+        "d6-rem-regular",
+        "d6-rem-projective",
+        "d6-lem-corank"
+      ],
+      "module": "ak_diagram6_blowup.py",
+      "status": "IMPLEMENTED",
+      "scope": "All finite atlas computations, selected rank, exact orbit action and leading-jet certificate replay.",
+      "public_functions": [
+        "verify_chart",
+        "verify_atlas_substitution_and_counts",
+        "verify_atlas_inverse_elimination",
+        "verify_selected_rank",
+        "verify_symmetry_orbits",
+        "verify_leading_jets"
+      ],
+      "registered_checks": [
+        "verify_chart",
+        "verify_atlas_substitution_and_counts",
+        "verify_atlas_inverse_elimination",
+        "verify_selected_rank",
+        "verify_symmetry_orbits",
+        "verify_leading_jets"
+      ],
+      "certificate": "certificates/programs/ak_diagram6_blowup.json",
+      "entry_point": "python ak_diagram6_blowup.py"
+    },
+    {
+      "program": "ak_diagram6_valuation_coverage",
+      "source_labels": [
+        "d6-lem-chart",
+        "d6-lem-torque"
+      ],
+      "module": null,
+      "status": "COVERED_BY_REPLACEMENT",
+      "scope": "Original program not reproduced; required proof computation covered by ak_diagram6_blowup and its exact chart/orbit coverage",
+      "public_functions": [],
+      "registered_checks": [],
+      "certificate": null,
+      "entry_point": null,
+      "replacement": "ak_diagram6_blowup and its exact chart/orbit coverage"
+    },
+    {
+      "program": "ak_diagram6_relation32_derivation",
+      "source_labels": [
+        "d6-lem-chart",
+        "d6-lem-torque"
+      ],
+      "module": "ak_diagram6_relation32_derivation.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_torque_identity"
+      ],
+      "registered_checks": [
+        "verify_torque_identity"
+      ],
+      "certificate": "certificates/programs/ak_diagram6_relation32_derivation.json",
+      "entry_point": "python ak_diagram6_relation32_derivation.py"
+    },
+    {
+      "program": "ak_diagram6_primitive_cubic",
+      "source_labels": [
+        "d6-lem-corank"
+      ],
+      "module": "ak_diagram6_primitive_cubic.py",
+      "status": "IMPLEMENTED",
+      "scope": "Primitive norms; all leading-jet replay and orbit transport are implemented by ak_diagram6_blowup",
+      "public_functions": [
+        "verify_mixed_norm"
+      ],
+      "registered_checks": [
+        "verify_mixed_norm"
+      ],
+      "certificate": "certificates/programs/ak_diagram6_primitive_cubic.json",
+      "entry_point": "python ak_diagram6_primitive_cubic.py"
+    },
+    {
+      "program": "ak_diagram6_primitive_quadratic",
+      "source_labels": [
+        "d6-lem-corank"
+      ],
+      "module": "ak_diagram6_primitive_quadratic.py",
+      "status": "IMPLEMENTED",
+      "scope": "Primitive norms; all leading-jet replay and orbit transport are implemented by ak_diagram6_blowup",
+      "public_functions": [
+        "verify_same_shape_norm"
+      ],
+      "registered_checks": [
+        "verify_same_shape_norm"
+      ],
+      "certificate": "certificates/programs/ak_diagram6_primitive_quadratic.json",
+      "entry_point": "python ak_diagram6_primitive_quadratic.py"
+    },
+    {
+      "program": "ak_diagram6_primitive_opposite",
+      "source_labels": [
+        "d6-lem-corank"
+      ],
+      "module": "ak_diagram6_primitive_opposite.py",
+      "status": "IMPLEMENTED",
+      "scope": "Primitive norms; all leading-jet replay and orbit transport are implemented by ak_diagram6_blowup",
+      "public_functions": [
+        "verify_opposite_norms"
+      ],
+      "registered_checks": [
+        "verify_opposite_norms"
+      ],
+      "certificate": "certificates/programs/ak_diagram6_primitive_opposite.json",
+      "entry_point": "python ak_diagram6_primitive_opposite.py"
+    },
+    {
+      "program": "ak_diagram8_relation40_derivation",
+      "source_labels": [
+        "lem:d8-rows"
+      ],
+      "module": "ak_diagram8_relation40_derivation.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "chart_rows",
+        "verify_polynomial_faces",
+        "verify_first_mass_eliminations"
+      ],
+      "registered_checks": [
+        "verify_polynomial_faces",
+        "verify_first_mass_eliminations"
+      ],
+      "certificate": "certificates/programs/ak_diagram8_relation40_derivation.json",
+      "entry_point": "python ak_diagram8_relation40_derivation.py"
+    },
+    {
+      "program": "ak_diagram8_kappa_row",
+      "source_labels": [
+        "lem:d8-rows",
+        "lem:d8-kappa"
+      ],
+      "module": "ak_diagram8_kappa_row.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "clear_substitute",
+        "rank_pivots",
+        "verify_beta_identity",
+        "general_upper_data",
+        "verify_general_jacobian",
+        "verify_equal_pair_kernel",
+        "verify_tau_sign_identity"
+      ],
+      "registered_checks": [
+        "verify_beta_identity",
+        "verify_general_jacobian",
+        "verify_equal_pair_kernel",
+        "verify_tau_sign_identity"
+      ],
+      "certificate": "certificates/programs/ak_diagram8_kappa_row.json",
+      "entry_point": "python ak_diagram8_kappa_row.py"
+    },
+    {
+      "program": "ak_diagram8_order_six_pairing",
+      "source_labels": [
+        "lem:d8-order-six"
+      ],
+      "module": "ak_diagram8_order_six_pairing.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_row_support",
+        "verify_general_left_pairing"
+      ],
+      "registered_checks": [
+        "verify_row_support",
+        "verify_general_left_pairing"
+      ],
+      "certificate": "certificates/programs/ak_diagram8_order_six_pairing.json",
+      "entry_point": "python ak_diagram8_order_six_pairing.py"
+    },
+    {
+      "program": "ak_diagram8_equal_pair_germs",
+      "source_labels": [
+        "lem:d8-order-six"
+      ],
+      "module": "ak_diagram8_equal_pair_germs.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "verify_equal_order_six_pairing"
+      ],
+      "registered_checks": [
+        "verify_equal_order_six_pairing"
+      ],
+      "certificate": "certificates/programs/ak_diagram8_equal_pair_germs.json",
+      "entry_point": "python ak_diagram8_equal_pair_germs.py"
+    },
+    {
+      "program": "ak_diagram8_cancelling_curve",
+      "source_labels": [
+        "lem:d8-cancel"
+      ],
+      "module": "ak_diagram8_cancelling_curve.py",
+      "status": "IMPLEMENTED",
+      "scope": "Paper computational statements reconstructed; see claim bindings for exact scope.",
+      "public_functions": [
+        "equal_data",
+        "scalar",
+        "verify_forcing_support",
+        "verify_second_order_constants",
+        "verify_lower_block"
+      ],
+      "registered_checks": [
+        "verify_forcing_support",
+        "verify_second_order_constants",
+        "verify_lower_block"
+      ],
+      "certificate": "certificates/programs/ak_diagram8_cancelling_curve.json",
+      "entry_point": "python ak_diagram8_cancelling_curve.py"
+    },
+    {
+      "program": "ak_diagram8_ray_diagrams",
+      "source_labels": [
+        "rem:d8-window"
+      ],
+      "module": "ak_diagram8_ray_diagrams.py",
+      "status": "IMPLEMENTED",
+      "scope": "Exact all-pair component and squared-distance orders, all ten four-products, and the complete open-window Diagram-8 signature.",
+      "public_functions": [
+        "verify_ray_orders"
+      ],
+      "registered_checks": [
+        "verify_ray_orders"
+      ],
+      "certificate": "certificates/programs/ak_diagram8_ray_diagrams.json",
+      "entry_point": "python ak_diagram8_ray_diagrams.py"
+    },
+    {
+      "program": "ak_diagram8_pattern_boundaries",
+      "source_labels": [
+        "rem:d8-window"
+      ],
+      "module": "ak_diagram8_pattern_boundaries.py",
+      "status": "IMPLEMENTED",
+      "scope": "Exact monotone ray map, corner faces, p=2 Diagram-6 signature, p>2 Rule-1a obstruction, and the p<=-4 upper-w comparison.",
+      "public_functions": [
+        "verify_pattern_boundaries"
+      ],
+      "registered_checks": [
+        "verify_pattern_boundaries"
+      ],
+      "certificate": "certificates/programs/ak_diagram8_pattern_boundaries.json",
+      "entry_point": "python ak_diagram8_pattern_boundaries.py"
+    }
+  ],
+  "extra_helpers": [
+    "ak_common_equations.py",
+    "smale_verify/bernstein.py",
+    "smale_verify/cube_scales.py",
+    "smale_verify/d2_mass_resultants.py",
+    "smale_verify/d2_positivity.py",
+    "smale_verify/d6_jets.py",
+    "smale_verify/exact.py",
+    "smale_verify/modular.py",
+    "smale_verify/packed_resultant.py",
+    "smale_verify/qpoly.py",
+    "smale_verify/runner.py",
+    "smale_verify/symbolic.py",
+    "smale_verify/d8_orders.py"
+  ]
+}

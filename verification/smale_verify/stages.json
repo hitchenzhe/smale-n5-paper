@@ -1,0 +1,577 @@
+[
+  {
+    "program": "ak_common_equations",
+    "name": "verify_common_equations",
+    "deps": [
+      "D",
+      "Ew",
+      "Ez",
+      "m",
+      "ties",
+      "w",
+      "z"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram1_separated_center_cone",
+    "name": "verify_polynomial_syzygies",
+    "deps": [
+      "D",
+      "Ew",
+      "Ez",
+      "m",
+      "w",
+      "z"
+    ],
+    "exports": [
+      "pair",
+      "tri"
+    ]
+  },
+  {
+    "program": "ak_diagram1_virial_exclusion",
+    "name": "verify_triangle_virial",
+    "deps": [
+      "m"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram1_separated_center_cone",
+    "name": "verify_chart_and_cone",
+    "deps": [
+      "D",
+      "m",
+      "pair",
+      "tri"
+    ],
+    "exports": [
+      "A",
+      "B",
+      "q",
+      "solve_square",
+      "wh",
+      "zet",
+      "zh"
+    ]
+  },
+  {
+    "program": "ak_central_body_slice",
+    "name": "verify_torque_expansion",
+    "deps": [
+      "A",
+      "B",
+      "D",
+      "m",
+      "pair",
+      "q",
+      "solve_square",
+      "tri",
+      "wh",
+      "zet",
+      "zh"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_isolated_triangle_shape_derivation",
+    "name": "verify_shape_elimination",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram4_valuation_coverage",
+    "name": "verify_torque_expansion",
+    "deps": [
+      "D",
+      "m",
+      "pair",
+      "tri"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_blowup",
+    "name": "verify_chart_and_boundary_fibre",
+    "deps": [
+      "D",
+      "m"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram3_blowup",
+    "name": "verify_necessary_condition_identities",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram3_equal_shape",
+    "name": "verify_twisted_family",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram6_blowup",
+    "name": "verify_chart",
+    "deps": [
+      "D",
+      "m"
+    ],
+    "exports": [
+      "W",
+      "Z",
+      "cross",
+      "rt",
+      "rw",
+      "rz",
+      "t"
+    ]
+  },
+  {
+    "program": "ak_diagram6_relation32_derivation",
+    "name": "verify_torque_identity",
+    "deps": [
+      "D",
+      "W",
+      "Z",
+      "cross",
+      "m",
+      "rw",
+      "rz",
+      "t"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram6_primitive_cubic",
+    "name": "verify_mixed_norm",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram6_primitive_quadratic",
+    "name": "verify_same_shape_norm",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram6_primitive_opposite",
+    "name": "verify_opposite_norms",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram1_edge_triangle",
+    "name": "verify_morse_bott_triangle",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram6_blowup",
+    "name": "verify_atlas_substitution_and_counts",
+    "deps": [
+      "Z",
+      "rt",
+      "rw",
+      "rz"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_relation40_derivation",
+    "name": "verify_polynomial_faces",
+    "deps": [
+      "m"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_relation40_derivation",
+    "name": "verify_first_mass_eliminations",
+    "deps": [
+      "m"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_kappa_row",
+    "name": "verify_beta_identity",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_kappa_row",
+    "name": "verify_general_jacobian",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_kappa_row",
+    "name": "verify_equal_pair_kernel",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_kappa_row",
+    "name": "verify_tau_sign_identity",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_order_six_pairing",
+    "name": "verify_row_support",
+    "deps": [
+      "m"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_order_six_pairing",
+    "name": "verify_general_left_pairing",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_equal_pair_germs",
+    "name": "verify_equal_order_six_pairing",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_cancelling_curve",
+    "name": "verify_forcing_support",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_cancelling_curve",
+    "name": "verify_second_order_constants",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_cancelling_curve",
+    "name": "verify_lower_block",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_resultants",
+    "name": "verify_shape_resultant",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_resultants",
+    "name": "verify_lagrange_assignments",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_resultants",
+    "name": "verify_euler_on_S5",
+    "deps": [
+      "m"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram6_blowup",
+    "name": "verify_atlas_inverse_elimination",
+    "deps": [
+      "rz",
+      "rw",
+      "rt",
+      "Z",
+      "W"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram3_blowup",
+    "name": "verify_chart_and_labels",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram3_blowup",
+    "name": "verify_label_jacobian",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram3_blowup",
+    "name": "verify_order_three",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram3_blowup",
+    "name": "verify_order_four",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram3_equal_shape",
+    "name": "verify_modular_order_six",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram3_fifth_order",
+    "name": "verify_nine_root_norm",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram3_blowup",
+    "name": "verify_mass_families_and_census",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram3_fifth_order",
+    "name": "verify_fifth_order_jet",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram5_morse_bott_lemma",
+    "name": "verify_triangle_hessian",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram5_morse_bott_uniformity",
+    "name": "verify_uniform_source_resultant",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram5_morse_bott_uniformity",
+    "name": "verify_Phi_Psi_exclusions",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram6_blowup",
+    "name": "verify_selected_rank",
+    "deps": [
+      "rz",
+      "rw",
+      "rt",
+      "Z",
+      "W"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram6_blowup",
+    "name": "verify_symmetry_orbits",
+    "deps": [
+      "rz",
+      "rw",
+      "rt",
+      "Z",
+      "W"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram6_blowup",
+    "name": "verify_leading_jets",
+    "deps": [
+      "rz",
+      "rw",
+      "rt"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_blowup",
+    "name": "verify_pair_second_order",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_resultants",
+    "name": "verify_mass_resultants",
+    "deps": [],
+    "exports": [
+      "d2_mass_resultants"
+    ]
+  },
+  {
+    "program": "ak_exceptional",
+    "name": "verify_K_and_L5_exclusions",
+    "deps": [
+      "d2_mass_resultants"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_l4_same_sign",
+    "name": "verify_L4_exclusion",
+    "deps": [
+      "d2_mass_resultants"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram5_census_model",
+    "name": "verify_branch_index",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_p5_completion",
+    "name": "verify_K5_mass_ray",
+    "deps": [
+      "d2_mass_resultants"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram5_first_limit_relevance",
+    "name": "verify_far_source_expansions",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_exceptional_branch_positive_feasibility",
+    "name": "verify_mass_rays",
+    "deps": [
+      "d2_mass_resultants"
+    ],
+    "exports": [
+      "d2_mass_rays"
+    ]
+  },
+  {
+    "program": "ak_l_block_symmetric_germs",
+    "name": "verify_ray_responses",
+    "deps": [
+      "d2_mass_resultants",
+      "d2_mass_rays"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram5_outer_census",
+    "name": "verify_elementary_four_products",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_l5_obstruction",
+    "name": "verify_ordinary_seed",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_l5_obstruction",
+    "name": "verify_fold_seed",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram2_symmetry",
+    "name": "verify_equal_mass_labels",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_p_sheet_p5_exact",
+    "name": "verify_S5_response",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_p_sheet_second_order",
+    "name": "verify_general_fold",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_p_sheet_second_order",
+    "name": "verify_regular_X",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_p_sheet_second_order",
+    "name": "verify_regular_Euler",
+    "deps": [
+      "d2_mass_resultants"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_p_sheet_second_order",
+    "name": "verify_regular_Lagrange",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_exceptional",
+    "name": "verify_K1_branches",
+    "deps": [
+      "d2_mass_resultants"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_exceptional",
+    "name": "verify_K4_arcs",
+    "deps": [
+      "d2_mass_resultants"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_p5_completion",
+    "name": "verify_all_K5_labels",
+    "deps": [
+      "d2_mass_rays"
+    ],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram5_first_limit_relevance",
+    "name": "verify_near_source_audit",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram5_outer_census",
+    "name": "verify_full_census",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram5_outer_census",
+    "name": "verify_dominant_products",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram5_outer_census",
+    "name": "verify_complete_four_products",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_ray_diagrams",
+    "name": "verify_ray_orders",
+    "deps": [],
+    "exports": []
+  },
+  {
+    "program": "ak_diagram8_pattern_boundaries",
+    "name": "verify_pattern_boundaries",
+    "deps": [],
+    "exports": []
+  }
+]

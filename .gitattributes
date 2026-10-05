@@ -1,0 +1,2 @@
+# Preserve the audited bytes for source, code and certificate hash checks.
+* -text

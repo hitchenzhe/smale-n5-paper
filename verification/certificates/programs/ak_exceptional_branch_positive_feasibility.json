@@ -1,0 +1,24 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_exceptional_branch_positive_feasibility",
+  "checks": [
+    {
+      "check": "D2.6.14.global_mass_rays_and_complex_shapes",
+      "status": "PASS",
+      "items": 12,
+      "detail": {
+        "certificate": "d2_mass_rays.json",
+        "positive_rays_L1": 2,
+        "positive_rays_L8": 2,
+        "shape_pair_L1": "exactly one nonreal conjugate pair",
+        "mass_family_permutations": 12,
+        "scope": "Lemma 6.14 mass and common-shape classification; second-order response is a separate obligation"
+      },
+      "program": "ak_exceptional_branch_positive_feasibility",
+      "function": "verify_mass_rays",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

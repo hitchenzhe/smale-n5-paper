@@ -1,6 +1,6 @@
 {
   "title": "Smale five-body proof independent verification status",
-  "status": "partial; not a verification of the main theorem",
+  "status": "Computational proof obligations covered by reconstructed and explicitly documented alternative certificates; final status comes from verify_all.py execution. This is not a formalization of the analytic proof.",
   "source_files": {
     "main.tex": "98491E32DBF6E30EBEB26D0CD78AFF8C899940FE1B40955DBC7F57F45518D3E2",
     "sections/d1.tex": "EC24CCE4F8D46B4CD1D04CC5547A9E396E173CBF8535A4F33718F682D8F87328",
@@ -16,24 +16,338 @@
     "main.common-identities": "PASS: exact mass-centre, torque, and virial identities",
     "d1.5.1": "PASS: weighted polynomial rows, boundary terms, and rational exponent-cone certificates",
     "d1.5.2": "PASS: all three exact polynomial syzygies",
-    "d1.4, d1.8, d1.9": "NOT IMPLEMENTED",
+    "d1.4 torque lemma": "PASS: exact 13-term torque expansion, leading coefficient, and rational cone certificates",
+    "d1.8 shape lemma": "PASS: exact tie reductions, force-equation syzygies, six excluded sign patterns, and Q factorization",
+    "d1.9": "PASS: exact triangle orbit equations, scaling/translation kernel, rank-five minor positive for every mass-ratio parameter, and inertia formula",
     "d1.11": "PASS: exact triangle virial identity and all nine differential coefficients",
-    "d2.6.2-6.18": "NOT IMPLEMENTED: interval checker infrastructure exists; manuscript boxes and data are missing",
-    "d3.7.3-7.11": "NOT IMPLEMENTED",
+    "d2.6.2 fibre lemma": "PASS: full chart and fibre equations, all 27 Lagrange class assignments to S5/S6/S7/S8, complete shape resultant, and Euler-on-S5 cube equality",
+    "d2.6.3-6.5 shape/resultant reconstruction": "PASS: all eight L/P resultants reconstructed with exact injective integer encoding, L factorizations, P even/odd decompositions, K constants and body exchange identities",
+    "d2.6.10 second-order isolation": "PASS: exact selected pair 5x5 determinant -3/D12 and equal-forcing solution with Z1prime=Z2prime=D12prime=0; these are the two computer-assisted steps in the second-order coefficient lemma",
+    "d2.6.12-6.15 mass exclusions": "PASS: full positive-mass polynomial exclusions, all equal-triangle-mass ordinary and rank-19 fold jets with general M, complete 72-fold seed orbit and exact first-obstruction exclusion of the other 1080 fold labels, complete L1/L8 ray classification and all 72 second-order responses. The 1080-label torque/finite-fibre argument independently replaces unused rank-20/h^3 calculations.",
+    "d2.6.16 exceptional mass cases": "PASS: complete K1/K2 unique real common-root and two-branch classification with exact algebraic parameter and six-sector joint subresultant covers; complete printed K4 four-arc classification and monotone rational shape parameter; K5 mass ray and all 9216 Lagrange labels. The stronger global regular/fold response proof replaces redundant exceptional higher-jet orders; those orders are not asserted.",
+    "d2.6.17-6.18 general cases": "PASS: entire positive mass cone for all regular Euler and Lagrange sheets and every one-different fold sheet. Exact reciprocal Bezout exclusions, spectral resultants, Bernstein plus convex-Hessian exclusion, and four rigorously exhaustive Lagrange cofactor-root disks replace the original large ball/interval covers. No original unused numerical boundary margins are claimed.",
     "d3.7.12": "PASS: explicit twisted family checked by exact ideal reduction for all root/sign parameters",
-    "d4.8.4, d4.8.10": "NOT IMPLEMENTED",
-    "d5.8.16, d5.8.19": "NOT IMPLEMENTED",
-    "d5.8.20-8.21": "NOT IMPLEMENTED: rational LP witness checker exists; branch generation and witnesses are missing",
-    "d6.9.2": "PARTIAL: polynomial degree, boundary rows, weighted centre, and wing separation; chart rotation substitution remains",
+    "d4.8.4": "PASS: exact Diagram-4 torque expansion, leading coefficient, and all eight remainder exponents",
+    "d4.8.10": "PASS: exact 64-sign census gives the stated 48/16 split and certifies the second obstruction at all 16 candidate signs",
+    "d5.8.16, d5.8.19": "PASS: exact orbit U and criticality, full Hessian and tangent kernel, complement determinant and inverse xx coefficient, normalized uniform forcing resultant, twelve Phi/Psi gcds with exact positive-root counts",
+    "d5.8.20-8.21": "PASS: complete independently reconstructed necessary valuation model reproduces all 111x27=2997 macro decisions and exactly 26 survivor entries; 32286 replayed Motzkin leaves, no extra or missing survivor. All 260 four-product cases are covered: 254 exact exclusions and 6 full necessary-model inner witnesses, with a separate leading-coefficient contradiction excluding inner RRR germs. Far/near coefficient identities, real-offset nonvanishing, empty regimes, R-plane rank and the central deep exclusion are independently audited. Conservative lower bounds suffice for the source exclusion conclusions; feasible LP witnesses are not germ-existence claims.",
+    "d6.9.2": "PASS: polynomial degree, rotation substitution in 10 coordinate rows, 10 distance rows and 2 gauges, boundary rows, weighted centre, and wing separation",
     "d6.9.4": "PASS: exact torque identity with explicit polynomial remainder",
-    "d6.9.6": "PARTIAL: z-wing exact substitution; completeness/counting remains",
-    "d6.9.9": "PARTIAL: four primitive-shape norm products; derivative ranks and jet replay remain",
-    "d7": "NO COMPUTER-ASSISTED CLAIM IN MANUSCRIPT",
-    "d8.11.1, d8.11.6-11.8": "NOT IMPLEMENTED"
+    "d6.9.6": "PASS: both wing substitutions, inverse boundary elimination, scale and shape denominators, 18/15 counts, four crossed quadratics and total 5184/4320/3600 counts",
+    "d6.9.9": "PASS: selected rank-20 at every finite label; exact chart symmetries and all 576 states/29 orbits; safe polynomial jet certificates replayed in all 22 rows at all eight corank representatives; leading orders 4/3/2 and nonzero mass/scale-unit factors cover all 1296 generic corank labels and finite exceptional faces",
+    "d7": "NOT APPLICABLE: no computer-assisted claim in manuscript",
+    "d3.7.3": "PASS: all 21 chart boundary rows, independent root relations for all 5184 labels, and exact nonzero 19x19 selected Jacobian",
+    "d3.7.5": "PASS: exact G2=0 and both G3 obstruction components for every label",
+    "d3.7.6": "PASS: exact second jet, all 19 solved rows replayed, and both G4 formulas",
+    "d3.7.8-7.9": "PASS: both mass-pattern factorizations and converses, real/imaginary sign forms, all four family sign censuses, and 108/180 label counts",
+    "d3.7.10": "PASS: exact third jet, all 19 solved rows replayed, G5 factor at all sign branches, chart covariance, equal-mass vanishing, nine-root norm, P66 positivity and exact Sturm count",
+    "d3.7.11": "PASS: complete 180-label jet replay over F13 and F37, verified unit minors and all 21 residuals; both primes exclude the same 144 labels",
+    "d8.11.1": "PASS: all 22 ratio-chart polynomial rows and faces, weighted centre, row decomposition, beta/tau supports, and upper invariants",
+    "d8.11.6": "PASS: order-six row support, exact general 8x7 left-kernel cofactors, nonzero rank minor, both general and equal-pair pairings",
+    "d8.11.7": "PASS: beta mass identity, general determinant and positive quartic, equal-pair kernel and augmented rank, tau-Xi identity for all 16 signs",
+    "d8.11.8": "PASS: forcing support, B5 determinant, solved delta_mu and delta_2, all five printed constants, lower atlas and exact 8x8 determinant",
+    "d2.6.12 polynomial exclusions": "PASS: complete exact Bernstein covers of L4 and K3/K6/K7/K8, 91 positive L5prime coefficients, S4 positive discriminant and equal-mass coprimality resultants",
+    "d2.6.16 K5 mass ray": "PASS: exact off-diagonal resultant excludes m3!=m4; K5(1,1,rho) is the square of the printed degree-eight polynomial; rational Sturm chain proves its unique positive root in the printed bracket",
+    "d2.6.14 mass and common-shape rays": "PASS: exact global Bernstein covers of L1/L8; uniform rational Rouche disks exhaust all shape roots; Lambda exclusions and Krawczyk existence/uniqueness certify exactly two rays per polynomial and one nonreal common shape pair; exact mass permutations cover both three-factor families",
+    "d2.6.15 all ray responses": "PASS: all 72 triangle responses enclosed rigorously using source 9x9 Jacobians, rational power-root Rouche disks and Neumann inverse certificates; Euler modulus >0.3 and Lagrange modulus >0.36; all other L factors excluded, signed-root vector and complete scale/permutation/conjugation list checked",
+    "d5.8.21 elementary four-product exclusions": "PASS: 194 of 260 four-product cases excluded by exact necessary frame/C/M/pattern subset; all 9 tropical C disjuncts checked per case, 1800 rational LP decisions with validated Motzkin certificates or relaxed witnesses; no full-system feasibility claim from relaxed witnesses",
+    "d2.6.17 S5 regular sheet": "PASS: exact nine-row scaled Jacobian inverse over Q(omega)(a,b), all denominator norms positive, response numerator proportional to a(a+b+1)^3[(a-b)+omega(a-1)], cube-difference norm/SOS and unit-rho sign census exclude its only positive zero; Psi1 is nonzero at every compatible nonfold S5 label",
+    "d2.6.18 all fold sheets": "PASS: exact rank-eight triangle minor and positive denominator norms over the entire mass cone, complete kernel/cokernel, nonzero Z4 cokernel coefficient, cube-difference norm/SOS and unit-rho census exclude X=0; selected-row augmentation and simple torque zero cover every compatible one-different fold label",
+    "d2.6.16 exceptional-label isolatedness": "PASS: the global regular-sheet and fold proofs cover rho=+-i (equal pair masses), including every K1/K4/K5 exceptional label; their nonzero second response or simple torque zero establishes isolatedness directly. K5 positive-mass ray also has its exact resultant/Sturm classification. The originally printed K1/K4 branch counts and redundant exceptional higher-jet assignments are not re-certified by this alternative.",
+    "d8.11.10(a) sharp ray window": "PASS: all ten component orders, whole open-window stroke/circle signature, exact monotone ray map and face orders; p=2 has the Diagram-6 signature, p>2 violates Rule 1a, and p<=-4 changes the lower-wing w pattern. Conditional finite-chart order statements, not germ-existence claims.",
+    "d8.11.10(b) least four-product": "PASS: all ten complementary-triangle four-products have exact rational affine orders; eight share the minimum -8-2p, strictly negative on the entire interval -4<p<2. The other two have orders 4-2p and 12-6p."
   },
   "local_tools": [
     "verification/verify_exact_algebra.py",
     "verification/verify_lp_certificates.py",
-    "verification/verify_interval_certificates.py"
+    "verification/verify_interval_certificates.py",
+    "verification/verify_d4_census.py",
+    "verification/ak_diagram3_fifth_order.py",
+    "verification/ak_diagram3_equal_shape.py",
+    "verification/program_index.json"
+  ],
+  "generated_certificates": [
+    "verification/certificates/d2_Euler_global.json",
+    "verification/certificates/d2_K1_branches.json",
+    "verification/certificates/d2_K4_arcs.json",
+    "verification/certificates/d2_K5_all_labels.json",
+    "verification/certificates/d2_K5_mass_ray.json",
+    "verification/certificates/d2_L4_same_sign.json",
+    "verification/certificates/d2_S5_exact_response.json",
+    "verification/certificates/d2_S6_S8_global.json",
+    "verification/certificates/d2_equal_mass_orbits.json",
+    "verification/certificates/d2_fold_seed.json",
+    "verification/certificates/d2_fold_seed_inputs.json",
+    "verification/certificates/d2_general_fold_block.json",
+    "verification/certificates/d2_mass_ray_root_inputs.json",
+    "verification/certificates/d2_mass_rays.json",
+    "verification/certificates/d2_mass_resultants.json",
+    "verification/certificates/d2_ordinary_seed.json",
+    "verification/certificates/d2_ordinary_seed_inputs.json",
+    "verification/certificates/d2_positive_mass_exclusions.json",
+    "verification/certificates/d2_ray_response.json",
+    "verification/certificates/d2_ray_response_inputs.json",
+    "verification/certificates/d2_regular_X.json",
+    "verification/certificates/d2_shape_assignment.json",
+    "verification/certificates/d3_equal_shape.json",
+    "verification/certificates/d3_fifth_order.json",
+    "verification/certificates/d3_fifth_order_norm.json",
+    "verification/certificates/d3_labels_and_order3.json",
+    "verification/certificates/d3_labels_and_order4.json",
+    "verification/certificates/d3_labels_order4_and_census.json",
+    "verification/certificates/d4_lemma_8_10.json",
+    "verification/certificates/d5_branch_index.json",
+    "verification/certificates/d5_census.json",
+    "verification/certificates/d5_census_inputs.json",
+    "verification/certificates/d5_complete_four_products.json",
+    "verification/certificates/d5_dominant.json",
+    "verification/certificates/d5_dominant_inputs.json",
+    "verification/certificates/d5_elementary_four.json",
+    "verification/certificates/d5_inner_witnesses.json",
+    "verification/certificates/d5_morse_bott.json",
+    "verification/certificates/d5_source_audit.json",
+    "verification/certificates/d6_atlas.json",
+    "verification/certificates/d6_atlas_and_rank.json",
+    "verification/certificates/d6_leading_jets.json",
+    "verification/certificates/d8_cancelling_curve.json",
+    "verification/certificates/d8_kappa_row.json",
+    "verification/certificates/d8_order_six.json",
+    "verification/certificates/exact_algebra_record.json",
+    "verification/certificates/verification_run.json"
+  ],
+  "required_checks": {
+    "main.common-identities": [
+      "common.mass_center_torque_virial"
+    ],
+    "d1.5.1": [
+      "D1.5.1.chart_and_cone"
+    ],
+    "d1.5.2": [
+      "D1.5.2.polynomial_syzygies"
+    ],
+    "d1.4 torque lemma": [
+      "D1.5.4.torque_expansion_and_cone"
+    ],
+    "d1.8 shape lemma": [
+      "D1.5.8.triangle_shape_sign_elimination"
+    ],
+    "d1.9": [
+      "D1.5.9.morse_bott_rank_kernel_inertia"
+    ],
+    "d1.11": [
+      "D1.5.11.triangle_virial_and_differential"
+    ],
+    "d2.6.2 fibre lemma": [
+      "D2.6.2.chart_and_boundary_fibre",
+      "D2.6.2.shape_resultant_factorization",
+      "D2.6.2.all_Lagrange_shape_assignments",
+      "D2.6.2.Euler_on_S5_cube_equality"
+    ],
+    "d3.7.3": [
+      "D3.7.3_7.6.syzygies_and_mass_eliminant",
+      "D3.7.3.chart_and_label_substitution",
+      "D3.7.3.label_jacobian"
+    ],
+    "d3.7.5": [
+      "D3.7.5.order_three_obstruction"
+    ],
+    "d3.7.6": [
+      "D3.7.6.second_jet_and_order_four",
+      "D3.7.3_7.6.syzygies_and_mass_eliminant"
+    ],
+    "d3.7.8-7.9": [
+      "D3.7.8.mass_family_factorizations",
+      "D3.7.9.all_family_label_counts"
+    ],
+    "d3.7.10": [
+      "D3.7.10.nine_root_norm_and_Sturm",
+      "D3.7.10.fifth_order_jet_and_symmetry"
+    ],
+    "d3.7.11": [
+      "D3.7.11.modular_order_six"
+    ],
+    "d3.7.12": [
+      "D3.7.12.twisted_family"
+    ],
+    "d4.8.4": [
+      "D4.8.4.torque_expansion"
+    ],
+    "d4.8.10": [
+      "D4.8.10.sign_census"
+    ],
+    "d5.8.16, d5.8.19": [
+      "D5.8.16.orbit_Hessian",
+      "D5.8.19.uniform_source_resultant",
+      "D5.8.19.Phi_Psi_twelve_gcd_exclusions"
+    ],
+    "d6.9.2": [
+      "D6.9.2.chart_polynomial_boundary_center_split"
+    ],
+    "d6.9.4": [
+      "D6.9.4.torque_explicit_Q"
+    ],
+    "d6.9.6": [
+      "D6.9.6.atlas_z_wing_exact_substitution",
+      "D6.9.6.atlas_shape_scale_count",
+      "D6.9.6.full_boundary_fibre_counts",
+      "D6.9.6.inverse_atlas_and_other_wing"
+    ],
+    "d8.11.1": [
+      "D8.11.1.all_ratio_chart_rows",
+      "D8.first_condition.mass_elimination_syzygies"
+    ],
+    "d8.11.6": [
+      "D8.11.6.row_support",
+      "D8.11.6.general_rank_and_pairing",
+      "D8.11.6.equal_pairing"
+    ],
+    "d8.11.7": [
+      "D8.11.7.beta_mass_identity",
+      "D8.11.7.general_jacobian_determinant",
+      "D8.11.7.equal_kernel_and_augmented_rank",
+      "D8.11.7.tau_Xi_all_signs"
+    ],
+    "d8.11.8": [
+      "D8.11.8.forcing_and_upper_support",
+      "D8.11.8.second_order_constants",
+      "D8.11.8.lower_atlas_and_jacobian"
+    ],
+    "d2.6.3-6.5 shape/resultant reconstruction": [
+      "D2.6.3_6.5.mass_resultants_and_tables"
+    ],
+    "d2.6.10 second-order isolation": [
+      "D2.second_order.pair_block_and_equal_forcing"
+    ],
+    "d2.6.12 polynomial exclusions": [
+      "D2.6.12.K3_K6_K7_K8_L5prime_and_equal_masses",
+      "D2.6.12.L4_exclusion_and_S4_reality",
+      "D2.6.3_6.5.mass_resultants_and_tables"
+    ],
+    "d2.6.16 K5 mass ray": [
+      "D2.6.16.K5_positive_mass_ray",
+      "D2.6.3_6.5.mass_resultants_and_tables"
+    ],
+    "d6.9.9": [
+      "D6.9.9.selected_rank_twenty",
+      "D6.9.9.symmetry_and_576_state_orbits",
+      "D6.9.9.leading_jets_all_eight_orbits"
+    ],
+    "d2.6.14 mass and common-shape rays": [
+      "D2.6.14.global_mass_rays_and_complex_shapes",
+      "D2.6.3_6.5.mass_resultants_and_tables"
+    ],
+    "d2.6.15 all ray responses": [
+      "D2.6.15.all_72_ray_triangle_responses",
+      "D2.6.14.global_mass_rays_and_complex_shapes",
+      "D2.6.3_6.5.mass_resultants_and_tables"
+    ],
+    "d5.8.21 elementary four-product exclusions": [
+      "D5.8.21.elementary_194_four_product_exclusions",
+      "D5.branch_index_111_27_260"
+    ],
+    "d2.6.12-6.15 mass exclusions": [
+      "D2.6.2.chart_and_boundary_fibre",
+      "D2.6.2.all_Lagrange_shape_assignments",
+      "D2.6.12.K3_K6_K7_K8_L5prime_and_equal_masses",
+      "D2.6.12.L4_exclusion_and_S4_reality",
+      "D2.6.13.ordinary_general_mass_kappa3",
+      "D2.6.13.fold_general_mass_quadratic_and_two_paths",
+      "D2.6.13.equal_mass_signs_and_72_fold_orbit",
+      "D2.6.14.global_mass_rays_and_complex_shapes",
+      "D2.6.15.all_72_ray_triangle_responses"
+    ],
+    "d2.6.17 S5 regular sheet": [
+      "D2.6.17.S5_exact_second_order_response",
+      "D2.6.2.all_Lagrange_shape_assignments"
+    ],
+    "d2.6.18 all fold sheets": [
+      "D2.6.18.general_fold_rank_and_simple_torque_zero",
+      "D2.6.17.S5_exact_second_order_response",
+      "D2.second_order.pair_block_and_equal_forcing",
+      "D2.6.2.chart_and_boundary_fibre",
+      "D2.6.2.all_Lagrange_shape_assignments"
+    ],
+    "d2.6.17-6.18 general cases": [
+      "D2.6.17.S5_exact_second_order_response",
+      "D2.6.18.general_fold_rank_and_simple_torque_zero",
+      "D2.6.17.all_regular_X_unit_circle_exclusions",
+      "D2.6.17.Euler_global_spectral_exclusion",
+      "D2.6.17.S6_S8_global_cofactor_exclusion",
+      "D2.second_order.pair_block_and_equal_forcing",
+      "D2.6.2.chart_and_boundary_fibre",
+      "D2.6.2.all_Lagrange_shape_assignments"
+    ],
+    "d2.6.16 exceptional-label isolatedness": [
+      "D2.6.17.S5_exact_second_order_response",
+      "D2.6.18.general_fold_rank_and_simple_torque_zero",
+      "D2.6.17.all_regular_X_unit_circle_exclusions",
+      "D2.6.17.Euler_global_spectral_exclusion",
+      "D2.6.17.S6_S8_global_cofactor_exclusion",
+      "D2.second_order.pair_block_and_equal_forcing",
+      "D2.6.2.chart_and_boundary_fibre",
+      "D2.6.2.all_Lagrange_shape_assignments",
+      "D2.6.16.K5_positive_mass_ray",
+      "D2.6.12.K3_K6_K7_K8_L5prime_and_equal_masses"
+    ],
+    "d2.6.16 exceptional mass cases": [
+      "D2.6.17.S5_exact_second_order_response",
+      "D2.6.18.general_fold_rank_and_simple_torque_zero",
+      "D2.6.17.all_regular_X_unit_circle_exclusions",
+      "D2.6.17.Euler_global_spectral_exclusion",
+      "D2.6.17.S6_S8_global_cofactor_exclusion",
+      "D2.second_order.pair_block_and_equal_forcing",
+      "D2.6.2.chart_and_boundary_fibre",
+      "D2.6.2.all_Lagrange_shape_assignments",
+      "D2.6.16.K1_unique_real_common_root_and_two_branches",
+      "D2.6.16.K4_complete_four_arc_classification",
+      "D2.6.16.K5_positive_mass_ray",
+      "D2.6.16.K5_all_27_classes_and_64_signs",
+      "D2.6.14.global_mass_rays_and_complex_shapes",
+      "D2.6.12.K3_K6_K7_K8_L5prime_and_equal_masses"
+    ],
+    "d5.8.20-8.21": [
+      "D5.branch_index_111_27_260",
+      "D5.far_source_expansions_and_signed_moment_cases",
+      "D5.near_coefficients_empty_regimes_R_planes_and_deep_exclusions",
+      "D5.8.20.full_111_by_27_regime_census",
+      "D5.8.21.elementary_194_four_product_exclusions",
+      "D5.8.21.all_60_dominant_four_product_exclusions",
+      "D5.8.21.complete_260_four_product_decisions",
+      "D5.8.19.Phi_Psi_twelve_gcd_exclusions",
+      "D5.8.19.uniform_source_resultant"
+    ],
+    "d8.11.10(a) sharp ray window": [
+      "D8.11.1.all_ratio_chart_rows",
+      "D8.first_condition.mass_elimination_syzygies",
+      "D8.11.10.ray_orders_and_four_products",
+      "D8.11.10.sharp_pattern_boundaries"
+    ],
+    "d8.11.10(b) least four-product": [
+      "D8.11.1.all_ratio_chart_rows",
+      "D8.11.10.ray_orders_and_four_products"
+    ]
+  },
+  "canonical_records": [
+    "verification/certificates/exact_algebra_record.json",
+    "verification/certificates/d4_lemma_8_10.json",
+    "verification/certificates/verification_run.json"
+  ],
+  "superseded_computations": [
+    {
+      "source": "D2 original ball/simplex covers and boundary margin constants",
+      "replacement": "Entire positive-mass Euler spectral and Lagrange cofactor exclusion; no original numerical margins claimed"
+    },
+    {
+      "source": "D2 K1 unspecified rational shape parameter",
+      "replacement": "Exact algebraic parameter with one simple positive shape root, complete domain, mass kernels and subresultant uniqueness"
+    },
+    {
+      "source": "D2 exceptional K5 fold h^3/h^4 assignments",
+      "replacement": "Exact rank-eight block, nonzero augmentation, simple torque zero and finite boundary fibre; isolatedness of all labels proved without those redundant orders"
+    },
+    {
+      "source": "D5 original simplex tree and exact monopole virial assumptions",
+      "replacement": "Independently derived necessary relaxation with conservative virial bounds, complete LP tree and the same survivor/exclusion results; the five slice-sensitive monopole pairs are covered by the relaxation"
+    }
   ]
 }

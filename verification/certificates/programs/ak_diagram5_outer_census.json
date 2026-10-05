@@ -1,0 +1,271 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_diagram5_outer_census",
+  "checks": [
+    {
+      "check": "D5.8.21.elementary_194_four_product_exclusions",
+      "status": "PASS",
+      "items": 194,
+      "detail": {
+        "certificate": "d5_elementary_four.json",
+        "LP_systems": 1800,
+        "complete_C_disjunction": true,
+        "scope": "194 sufficient subset exclusions; the separate census/dominant/full-inner stages complete the remaining coverage"
+      },
+      "program": "ak_diagram5_outer_census",
+      "function": "verify_elementary_four_products",
+      "prerequisite": false
+    },
+    {
+      "check": "D5.8.20.full_111_by_27_regime_census",
+      "status": "PASS",
+      "items": 2997,
+      "detail": {
+        "check": "D5.8.20.full_111_by_27_regime_census",
+        "status": "PASS",
+        "macro_cases": 2997,
+        "motzkin_leaves": 32286,
+        "feasible": [
+          [
+            [
+              "dipole-equal",
+              "dipole-equal"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "dipole-equal-F",
+              "dipole-equal"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "dipole-equal-F",
+              "dipole-equal-F"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "dipole-equal-F",
+              "dipole-equal-G"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "dipole-z",
+              "dipole-z"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "monopole",
+              "dipole-equal"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "monopole",
+              "dipole-equal-F"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "monopole",
+              "dipole-z"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "monopole",
+              "monopole"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "z-coincident",
+              "z-coincident"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "z-coincident",
+              "z-coincident-Phi"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "z-coincident",
+              "z-coincident-Psi"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "z-coincident",
+              "z-inner"
+            ],
+            "RRC"
+          ],
+          [
+            [
+              "z-coincident-Phi",
+              "z-coincident-Phi"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "z-coincident-Phi",
+              "z-coincident-Psi"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "z-coincident-Phi",
+              "z-inner"
+            ],
+            "RRC"
+          ],
+          [
+            [
+              "z-coincident-Psi",
+              "z-coincident-Psi"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "z-coincident-Psi",
+              "z-inner"
+            ],
+            "RRC"
+          ],
+          [
+            [
+              "z-dominant-central",
+              "z-dominant-central"
+            ],
+            "CRR"
+          ],
+          [
+            [
+              "z-dominant-central",
+              "z-dominant-central"
+            ],
+            "CEE"
+          ],
+          [
+            [
+              "z-dominant-central",
+              "z-dominant-central"
+            ],
+            "RCR"
+          ],
+          [
+            [
+              "z-dominant-central",
+              "z-dominant-central"
+            ],
+            "RRC"
+          ],
+          [
+            [
+              "z-dominant-central",
+              "z-dominant-central"
+            ],
+            "RRR"
+          ],
+          [
+            [
+              "z-dominant-coincidence",
+              "z-dominant-coincidence"
+            ],
+            "CRR"
+          ],
+          [
+            [
+              "z-dominant-coincidence",
+              "z-dominant-coincidence"
+            ],
+            "CEE"
+          ],
+          [
+            [
+              "z-inner",
+              "z-inner"
+            ],
+            "RRR"
+          ]
+        ],
+        "extra_feasible": [],
+        "missing_survivors": [],
+        "certificate": "d5_census_inputs.json",
+        "scope": "Every generated row and every exhaustive infeasible branch is replayed. A conservative coefficient bound may leave extra feasible cases; these prevent a source-census PASS."
+      },
+      "program": "ak_diagram5_outer_census",
+      "function": "verify_full_census",
+      "prerequisite": false
+    },
+    {
+      "check": "D5.8.21.all_60_dominant_four_product_exclusions",
+      "status": "PASS",
+      "items": 60,
+      "detail": {
+        "check": "D5.8.21.all_60_dominant_four_product_exclusions",
+        "status": "PASS",
+        "cases": 60,
+        "motzkin_leaves": 4476,
+        "certificate": "d5_dominant_inputs.json",
+        "scope": "Complete exclusions for all 60 previously outstanding dominant four-product cases, using a necessary subset. This does not assert full regime-census feasibility.",
+        "model_proof": [
+          "Exact single-special-edge forcing orders f=-(1+e)/2-3beta/2 and q=-3(1+e)/2-beta/2; 0<e<=1 follows from the frame.",
+          "Uniform forcing and the single-source nonuniformity lemma require the two raw leading crossed source orders to tie.",
+          "For a common central body, shared g>1, g>3+q, both centre/special tropical relations, the special pair relation, and the excluded deep conjunction are precisely the proved consequences of Lemma 8.19.",
+          "R has all nonzero coefficients, rank two on every coordinate plane and common one-dimensional kernel. Sixteen input/output valuation alternatives exhaust unique, double and triple input minima; C and A are separately imposed.",
+          "Each proof-tree child represents every alternative of its deterministic disjunction. Exact nonnegative Motzkin combinations close every leaf, with a positive strict-row multiplier when the combined constant is zero.",
+          "For dominant coincidence the special body is normalized to 3. Permutations of the triangle bodies permute the complete list of ten four-products, so the ten checked exclusions cover every special placement."
+        ]
+      },
+      "program": "ak_diagram5_outer_census",
+      "function": "verify_dominant_products",
+      "prerequisite": false
+    },
+    {
+      "check": "D5.8.21.complete_260_four_product_decisions",
+      "status": "PASS",
+      "items": 260,
+      "detail": {
+        "check": "D5.8.21.complete_260_four_product_decisions",
+        "status": "PASS",
+        "counts": {
+          "infeasible": 254,
+          "feasible_inner": 6
+        },
+        "inner_witness": "a12=a1=a2=7/4, b12=b1=b2=-7/4; all six exceptional products have exact order -1/4; every necessary full R/C/T/A/B/V/M row and strict branch inequality is checked",
+        "depends_on": [
+          "D5.8.21.elementary_194_four_product_exclusions",
+          "D5.8.21.all_60_dominant_four_product_exclusions",
+          "D5.near_coefficients_empty_regimes_R_planes_and_deep_exclusions"
+        ],
+        "scope": "Every indexed case has an exclusion proof or a full necessary-model witness. The six inner LP survivors are excluded as germs by the separately checked leading-coefficient argument, not by LP infeasibility."
+      },
+      "program": "ak_diagram5_outer_census",
+      "function": "verify_complete_four_products",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

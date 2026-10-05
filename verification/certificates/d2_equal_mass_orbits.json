@@ -1,0 +1,2084 @@
+{
+  "check": "D2.6.13.equal_mass_signs_and_72_fold_orbit",
+  "status": "PASS",
+  "sign_patterns": [
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": true,
+      "proof": "both sign sums zero"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": true,
+      "proof": "both sign sums zero"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": true,
+      "proof": "both sign sums zero"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "Phi_zero_for_positive_pair": false,
+      "proof": "one nonzero sum or nonzero real part of S/T"
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "Phi_zero_for_positive_pair": true,
+      "proof": "both sign sums zero"
+    }
+  ],
+  "fold_triangles": [
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ]
+    }
+  ],
+  "counts": {
+    "ordinary_Phi_zero": 72,
+    "fold_total": 1152,
+    "fold_Phi_zero": 72,
+    "fold_Phi_nonzero": 1080,
+    "total_in_lemma": 1224
+  },
+  "compatible_fold_orbit": [
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "W_phases": [
+        1,
+        2,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 0,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 1,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        -1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        -1
+      ]
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "W_phases": [
+        2,
+        1,
+        0
+      ],
+      "pair_phase": 2,
+      "constant_row_signs": [
+        1,
+        1
+      ]
+    }
+  ],
+  "source_symmetries": "Simultaneous cubic action and gauge-restoring torus checked row-by-row; permutations at equal triangle masses; reversal; complex conjugation followed by 3/4 swap. Gauges restore locally since 2(Z2-Z1)W5=2.",
+  "alternate_1080_exclusion": "Phi is nonzero at all other 60 sign patterns for every positive pair mass. The exact torque tQ=0 excludes a non-boundary curve there. The separately verified finite boundary fibre excludes a boundary curve, hence the point is isolated. This replaces the manuscript rank-20/h^3 computation for those 1080 labels.",
+  "scope": "Together with ordinary/general-fold seed checks and finite fibre reconstruction, covers every 1224 label of Lemma 6.13. No claim that the unused rank-20/h^3 identities were reproduced."
+}

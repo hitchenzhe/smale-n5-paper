@@ -1,0 +1,19 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_diagram6_primitive_cubic",
+  "checks": [
+    {
+      "check": "D6.9.9.mixed_norm_only",
+      "status": "PASS",
+      "items": 1,
+      "detail": {
+        "scope": "norm only; jet derivation and ranks remain"
+      },
+      "program": "ak_diagram6_primitive_cubic",
+      "function": "verify_mixed_norm",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

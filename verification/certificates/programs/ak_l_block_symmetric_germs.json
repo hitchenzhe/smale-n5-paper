@@ -1,0 +1,22 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_l_block_symmetric_germs",
+  "checks": [
+    {
+      "check": "D2.6.15.all_72_ray_triangle_responses",
+      "status": "PASS",
+      "items": 72,
+      "detail": {
+        "certificate": "d2_ray_response.json",
+        "Euler_margin": ">0.3",
+        "Lagrange_margin": ">0.36",
+        "triangle_linear_system": "all nine source rows reconstructed and interval inverse certified"
+      },
+      "program": "ak_l_block_symmetric_germs",
+      "function": "verify_ray_responses",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

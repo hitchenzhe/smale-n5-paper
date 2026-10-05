@@ -1,0 +1,669 @@
+{
+  "check": "D8.11.10.sharp_pattern_boundaries",
+  "status": "PASS",
+  "ray_map": {
+    "p": "(2*r-4)/(r+1)",
+    "derivative": "6/(r+1)^2",
+    "r_domain": "(0,infinity)",
+    "p_image": "(-4,2)",
+    "corner_orders": {
+      "a": {
+        "constant": "1",
+        "p_coefficient": "-1/2"
+      },
+      "eta": {
+        "constant": "2",
+        "p_coefficient": "1/2"
+      }
+    },
+    "faces": [
+      {
+        "p": "-4",
+        "face": "a=0, eta is a unit",
+        "a_order": "3",
+        "eta_order": "0"
+      },
+      {
+        "p": "2",
+        "face": "eta=0, a is a unit",
+        "a_order": "0",
+        "eta_order": "3"
+      }
+    ]
+  },
+  "whole_window": [
+    {
+      "kind": "w edge gap",
+      "edge": [
+        1,
+        2
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "4",
+          "p_coefficient": "1"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "0",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        1,
+        3
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "15",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "27",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        1,
+        3
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "9",
+          "p_coefficient": "0"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "9",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        1,
+        4
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "15",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "27",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        1,
+        4
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "9",
+          "p_coefficient": "0"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "9",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        1,
+        5
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "4",
+          "p_coefficient": "1"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "0",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        2,
+        3
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "15",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "27",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        2,
+        3
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "9",
+          "p_coefficient": "0"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "9",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        2,
+        4
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "15",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "27",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        2,
+        4
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "9",
+          "p_coefficient": "0"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "9",
+          "9"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "w edge gap",
+      "edge": [
+        2,
+        5
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "4",
+          "p_coefficient": "1"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "0",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        3,
+        4
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "12",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "24",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        3,
+        5
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "12",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "24",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "z edge gap",
+      "edge": [
+        4,
+        5
+      ],
+      "proof": {
+        "polynomial": {
+          "constant": "12",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "24",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "upper z positions",
+      "proof": {
+        "polynomial": {
+          "constant": "6",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "18",
+          "0"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "lower z positions",
+      "proof": {
+        "polynomial": {
+          "constant": "12",
+          "p_coefficient": "-3"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "24",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "upper w D contribution",
+      "proof": {
+        "polynomial": {
+          "constant": "4",
+          "p_coefficient": "1"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "0",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    },
+    {
+      "kind": "upper w P/Q contribution",
+      "proof": {
+        "polynomial": {
+          "constant": "10",
+          "p_coefficient": "-2"
+        },
+        "domain": [
+          "-4",
+          "2"
+        ],
+        "endpoint_values": [
+          "18",
+          "6"
+        ],
+        "endpoints": "excluded"
+      }
+    }
+  ],
+  "endpoint_components": [
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "p_equals_2": {
+        "Z": "0",
+        "W": "0"
+      },
+      "p_equals_minus_4": {
+        "Z": "-18",
+        "W": "-6"
+      }
+    },
+    {
+      "edge": [
+        1,
+        3
+      ],
+      "p_equals_2": {
+        "Z": "9",
+        "W": "3"
+      },
+      "p_equals_minus_4": {
+        "Z": "9",
+        "W": "3"
+      }
+    },
+    {
+      "edge": [
+        1,
+        4
+      ],
+      "p_equals_2": {
+        "Z": "9",
+        "W": "3"
+      },
+      "p_equals_minus_4": {
+        "Z": "9",
+        "W": "3"
+      }
+    },
+    {
+      "edge": [
+        1,
+        5
+      ],
+      "p_equals_2": {
+        "Z": "0",
+        "W": "0"
+      },
+      "p_equals_minus_4": {
+        "Z": "-18",
+        "W": "-6"
+      }
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "p_equals_2": {
+        "Z": "9",
+        "W": "3"
+      },
+      "p_equals_minus_4": {
+        "Z": "9",
+        "W": "3"
+      }
+    },
+    {
+      "edge": [
+        2,
+        4
+      ],
+      "p_equals_2": {
+        "Z": "9",
+        "W": "3"
+      },
+      "p_equals_minus_4": {
+        "Z": "9",
+        "W": "3"
+      }
+    },
+    {
+      "edge": [
+        2,
+        5
+      ],
+      "p_equals_2": {
+        "Z": "0",
+        "W": "0"
+      },
+      "p_equals_minus_4": {
+        "Z": "-18",
+        "W": "-6"
+      }
+    },
+    {
+      "edge": [
+        3,
+        4
+      ],
+      "p_equals_2": {
+        "Z": "6",
+        "W": "-6"
+      },
+      "p_equals_minus_4": {
+        "Z": "6",
+        "W": "-6"
+      }
+    },
+    {
+      "edge": [
+        3,
+        5
+      ],
+      "p_equals_2": {
+        "Z": "6",
+        "W": "-6"
+      },
+      "p_equals_minus_4": {
+        "Z": "6",
+        "W": "-6"
+      }
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "p_equals_2": {
+        "Z": "6",
+        "W": "-6"
+      },
+      "p_equals_minus_4": {
+        "Z": "6",
+        "W": "-6"
+      }
+    }
+  ],
+  "p_equals_2_pattern": {
+    "diagram": 6,
+    "z_strokes": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "z_circles": [
+      1,
+      2
+    ],
+    "w_strokes": [
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "w_circles": [
+      3,
+      4
+    ],
+    "uncircled_hinge": 5
+  },
+  "p_greater_than_2": {
+    "z_circles": [
+      1,
+      2
+    ],
+    "z_strokes": [],
+    "strict_order_certificates": [
+      {
+        "polynomial": {
+          "constant": "-6",
+          "p_coefficient": "3"
+        },
+        "endpoint": "2",
+        "endpoint_value": "0",
+        "direction": 1,
+        "endpoint_included": false
+      },
+      {
+        "polynomial": {
+          "constant": "6",
+          "p_coefficient": "0"
+        },
+        "endpoint": "2",
+        "endpoint_value": "6",
+        "direction": 1,
+        "endpoint_included": false
+      },
+      {
+        "polynomial": {
+          "constant": "9",
+          "p_coefficient": "0"
+        },
+        "endpoint": "2",
+        "endpoint_value": "9",
+        "direction": 1,
+        "endpoint_included": false
+      }
+    ],
+    "contradiction": "Rule 1a: a z-circle must have an incident z-stroke"
+  },
+  "p_equals_minus_4": {
+    "upper_w_stroke_order": "-6",
+    "lower_w_34_order": "-6",
+    "conclusion": "Additional upper w-strokes prevent the Diagram-8 pattern"
+  },
+  "p_less_than_minus_4": {
+    "upper_w_stroke_order": {
+      "constant": "-2",
+      "p_coefficient": "1"
+    },
+    "lower_w_34_order": "-6",
+    "strict_comparison": {
+      "polynomial": {
+        "constant": "-4",
+        "p_coefficient": "-1"
+      },
+      "endpoint": "-4",
+      "endpoint_value": "0",
+      "direction": -1,
+      "endpoint_included": false
+    },
+    "conclusion": "Upper w-strokes dominate the lower w-stroke 34"
+  },
+  "proof": [
+    "For each color, strokes and circles are exactly the components of minimal order. The whole-window comparisons are certified affine inequalities.",
+    "At p=2, the upper Z-strokes and z1,z2 all have order zero; the lower W-strokes and w3,w4 have order -6. Every other component has strictly greater order. This is the Diagram-6 signature.",
+    "For p>2, the upper Z-strokes have order 3p-6>0, the crossed ones have order 9, and the lower ones have order at least 6. Thus z1,z2 would be circles without z-strokes, contradicting Rule 1a.",
+    "At p=-4, upper W-strokes join the order -6 of W34; below it they have smaller order. Neither case has the Diagram-8 signature.",
+    "The monotone ray map and its exact endpoint limits prove the window and face correspondence. Endpoint pattern statements are conditional chart-order computations, not germ existence."
+  ],
+  "scope": "Supplementary sharpness and boundary-pattern computations of Remark 11.10(a), with finite lower wing."
+}

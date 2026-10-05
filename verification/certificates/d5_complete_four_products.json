@@ -1,0 +1,15 @@
+{
+  "check": "D5.8.21.complete_260_four_product_decisions",
+  "status": "PASS",
+  "counts": {
+    "infeasible": 254,
+    "feasible_inner": 6
+  },
+  "inner_witness": "a12=a1=a2=7/4, b12=b1=b2=-7/4; all six exceptional products have exact order -1/4; every necessary full R/C/T/A/B/V/M row and strict branch inequality is checked",
+  "depends_on": [
+    "D5.8.21.elementary_194_four_product_exclusions",
+    "D5.8.21.all_60_dominant_four_product_exclusions",
+    "D5.near_coefficients_empty_regimes_R_planes_and_deep_exclusions"
+  ],
+  "scope": "Every indexed case has an exclusion proof or a full necessary-model witness. The six inner LP survivors are excluded as germs by the separately checked leading-coefficient argument, not by LP infeasibility."
+}

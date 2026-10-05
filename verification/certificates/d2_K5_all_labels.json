@@ -1,0 +1,1621 @@
+{
+  "check": "D2.6.16.K5_all_27_classes_and_64_signs",
+  "status": "PASS",
+  "classes": [
+    {
+      "exponents": [
+        0,
+        0,
+        0
+      ],
+      "kind": "ordinary-S5",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 4
+    },
+    {
+      "exponents": [
+        0,
+        0,
+        1
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        0,
+        0,
+        2
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        0
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        1
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        2
+      ],
+      "kind": "fold",
+      "shape_count": 1,
+      "Phi_zero_per_triangle": 4
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        0
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        1
+      ],
+      "kind": "fold",
+      "shape_count": 1,
+      "Phi_zero_per_triangle": 4
+    },
+    {
+      "exponents": [
+        0,
+        2,
+        2
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        0
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        1
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        2
+      ],
+      "kind": "fold",
+      "shape_count": 1,
+      "Phi_zero_per_triangle": 4
+    },
+    {
+      "exponents": [
+        1,
+        1,
+        0
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        1,
+        1,
+        1
+      ],
+      "kind": "ordinary-S5",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 4
+    },
+    {
+      "exponents": [
+        1,
+        1,
+        2
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        0
+      ],
+      "kind": "fold",
+      "shape_count": 1,
+      "Phi_zero_per_triangle": 4
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        1
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        1,
+        2,
+        2
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        0
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        1
+      ],
+      "kind": "fold",
+      "shape_count": 1,
+      "Phi_zero_per_triangle": 4
+    },
+    {
+      "exponents": [
+        2,
+        0,
+        2
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        0
+      ],
+      "kind": "fold",
+      "shape_count": 1,
+      "Phi_zero_per_triangle": 4
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        1
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        2
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        2,
+        2,
+        0
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        2,
+        2,
+        1
+      ],
+      "kind": "two-equal",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 0
+    },
+    {
+      "exponents": [
+        2,
+        2,
+        2
+      ],
+      "kind": "ordinary-S5",
+      "shape_count": 2,
+      "Phi_zero_per_triangle": 4
+    }
+  ],
+  "S5_signs": [
+    {
+      "first": [
+        1,
+        1,
+        1
+      ],
+      "second": [
+        1,
+        1,
+        1
+      ],
+      "sigma": [
+        1,
+        1,
+        1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        1,
+        1,
+        1
+      ],
+      "second": [
+        1,
+        1,
+        -1
+      ],
+      "sigma": [
+        1,
+        1,
+        -1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        1,
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -1,
+        1
+      ],
+      "sigma": [
+        1,
+        -1,
+        1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        1,
+        -1,
+        -1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        1,
+        1
+      ],
+      "second": [
+        -1,
+        1,
+        1
+      ],
+      "sigma": [
+        -1,
+        1,
+        1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        1,
+        1
+      ],
+      "second": [
+        -1,
+        1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        1,
+        -1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        1,
+        1
+      ],
+      "second": [
+        -1,
+        -1,
+        1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        1,
+        1,
+        1
+      ],
+      "second": [
+        -1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        -1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        1,
+        1,
+        -1
+      ],
+      "second": [
+        1,
+        1,
+        1
+      ],
+      "sigma": [
+        1,
+        1,
+        -1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        1,
+        1,
+        -1
+      ],
+      "second": [
+        1,
+        1,
+        -1
+      ],
+      "sigma": [
+        1,
+        1,
+        1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        1,
+        1,
+        -1
+      ],
+      "second": [
+        1,
+        -1,
+        1
+      ],
+      "sigma": [
+        1,
+        -1,
+        -1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        1,
+        -1
+      ],
+      "second": [
+        1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        1,
+        -1,
+        1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        1,
+        -1
+      ],
+      "second": [
+        -1,
+        1,
+        1
+      ],
+      "sigma": [
+        -1,
+        1,
+        -1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        1,
+        -1
+      ],
+      "second": [
+        -1,
+        1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        1,
+        1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        1,
+        -1
+      ],
+      "second": [
+        -1,
+        -1,
+        1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        -1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        1,
+        1,
+        -1
+      ],
+      "second": [
+        -1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        1
+      ],
+      "second": [
+        1,
+        1,
+        1
+      ],
+      "sigma": [
+        1,
+        -1,
+        1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        1
+      ],
+      "second": [
+        1,
+        1,
+        -1
+      ],
+      "sigma": [
+        1,
+        -1,
+        -1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        1
+      ],
+      "second": [
+        1,
+        -1,
+        1
+      ],
+      "sigma": [
+        1,
+        1,
+        1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        1
+      ],
+      "second": [
+        1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        1,
+        1,
+        -1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        1
+      ],
+      "second": [
+        -1,
+        1,
+        1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        1
+      ],
+      "odd_body": 5,
+      "Phi_zero": true,
+      "reason": "odd 5; opposite majority square-root signs; 2V=r and the required odd sign"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        1
+      ],
+      "second": [
+        -1,
+        1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        -1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        1
+      ],
+      "second": [
+        -1,
+        -1,
+        1
+      ],
+      "sigma": [
+        -1,
+        1,
+        1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        1
+      ],
+      "second": [
+        -1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        1,
+        -1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        -1
+      ],
+      "second": [
+        1,
+        1,
+        1
+      ],
+      "sigma": [
+        1,
+        -1,
+        -1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        -1
+      ],
+      "second": [
+        1,
+        1,
+        -1
+      ],
+      "sigma": [
+        1,
+        -1,
+        1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        -1
+      ],
+      "second": [
+        1,
+        -1,
+        1
+      ],
+      "sigma": [
+        1,
+        1,
+        -1
+      ],
+      "odd_body": 5,
+      "Phi_zero": true,
+      "reason": "odd 5; opposite majority square-root signs; 2V=r and the required odd sign"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        -1
+      ],
+      "second": [
+        1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        1,
+        1,
+        1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        -1
+      ],
+      "second": [
+        -1,
+        1,
+        1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        -1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        -1
+      ],
+      "second": [
+        -1,
+        1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        -1
+      ],
+      "second": [
+        -1,
+        -1,
+        1
+      ],
+      "sigma": [
+        -1,
+        1,
+        -1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        1,
+        -1,
+        -1
+      ],
+      "second": [
+        -1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        1,
+        1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        1
+      ],
+      "second": [
+        1,
+        1,
+        1
+      ],
+      "sigma": [
+        -1,
+        1,
+        1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        1
+      ],
+      "second": [
+        1,
+        1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        1,
+        -1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -1,
+        1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        1
+      ],
+      "second": [
+        1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        -1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        1
+      ],
+      "second": [
+        -1,
+        1,
+        1
+      ],
+      "sigma": [
+        1,
+        1,
+        1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        1
+      ],
+      "second": [
+        -1,
+        1,
+        -1
+      ],
+      "sigma": [
+        1,
+        1,
+        -1
+      ],
+      "odd_body": 5,
+      "Phi_zero": true,
+      "reason": "odd 5; opposite majority square-root signs; 2V=r and the required odd sign"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        1
+      ],
+      "second": [
+        -1,
+        -1,
+        1
+      ],
+      "sigma": [
+        1,
+        -1,
+        1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        1
+      ],
+      "second": [
+        -1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        1,
+        -1,
+        -1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        -1
+      ],
+      "second": [
+        1,
+        1,
+        1
+      ],
+      "sigma": [
+        -1,
+        1,
+        -1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        -1
+      ],
+      "second": [
+        1,
+        1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        1,
+        1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        -1
+      ],
+      "second": [
+        1,
+        -1,
+        1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        -1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        -1
+      ],
+      "second": [
+        1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        1
+      ],
+      "odd_body": 5,
+      "Phi_zero": true,
+      "reason": "odd 5; opposite majority square-root signs; 2V=r and the required odd sign"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        -1
+      ],
+      "second": [
+        -1,
+        1,
+        1
+      ],
+      "sigma": [
+        1,
+        1,
+        -1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        -1
+      ],
+      "second": [
+        -1,
+        1,
+        -1
+      ],
+      "sigma": [
+        1,
+        1,
+        1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        -1
+      ],
+      "second": [
+        -1,
+        -1,
+        1
+      ],
+      "sigma": [
+        1,
+        -1,
+        -1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        1,
+        -1
+      ],
+      "second": [
+        -1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        1,
+        -1,
+        1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        1
+      ],
+      "second": [
+        1,
+        1,
+        1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        1
+      ],
+      "second": [
+        1,
+        1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        -1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        1
+      ],
+      "second": [
+        1,
+        -1,
+        1
+      ],
+      "sigma": [
+        -1,
+        1,
+        1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        1
+      ],
+      "second": [
+        1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        1,
+        -1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        1
+      ],
+      "second": [
+        -1,
+        1,
+        1
+      ],
+      "sigma": [
+        1,
+        -1,
+        1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        1
+      ],
+      "second": [
+        -1,
+        1,
+        -1
+      ],
+      "sigma": [
+        1,
+        -1,
+        -1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        1
+      ],
+      "second": [
+        -1,
+        -1,
+        1
+      ],
+      "sigma": [
+        1,
+        1,
+        1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        1
+      ],
+      "second": [
+        -1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        1,
+        1,
+        -1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        -1
+      ],
+      "second": [
+        1,
+        1,
+        1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        -1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        -1
+      ],
+      "second": [
+        1,
+        1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        -1,
+        1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        -1
+      ],
+      "second": [
+        1,
+        -1,
+        1
+      ],
+      "sigma": [
+        -1,
+        1,
+        -1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        -1
+      ],
+      "second": [
+        1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        -1,
+        1,
+        1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        -1
+      ],
+      "second": [
+        -1,
+        1,
+        1
+      ],
+      "sigma": [
+        1,
+        -1,
+        -1
+      ],
+      "odd_body": 3,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        -1
+      ],
+      "second": [
+        -1,
+        1,
+        -1
+      ],
+      "sigma": [
+        1,
+        -1,
+        1
+      ],
+      "odd_body": 4,
+      "Phi_zero": false,
+      "reason": "K5 positive zeros require the two majority masses equal; here they are 1 and r !=1"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        -1
+      ],
+      "second": [
+        -1,
+        -1,
+        1
+      ],
+      "sigma": [
+        1,
+        1,
+        -1
+      ],
+      "odd_body": 5,
+      "Phi_zero": false,
+      "reason": "nonzero real component U or the wrong sign of the imaginary amplitude"
+    },
+    {
+      "first": [
+        -1,
+        -1,
+        -1
+      ],
+      "second": [
+        -1,
+        -1,
+        -1
+      ],
+      "sigma": [
+        1,
+        1,
+        1
+      ],
+      "odd_body": null,
+      "Phi_zero": false,
+      "reason": "L5=(r-1)^2 !=0; L5prime>0"
+    }
+  ],
+  "pair_cubic_scales": 3,
+  "total_triangles": 48,
+  "total_labels": 9216,
+  "Phi_zero_labels": 144,
+  "Phi_nonzero_labels": 9072,
+  "unsquared_amplitude_sign": [
+    "862291188007037562551279838946208785/332306998946228968225951765070086144",
+    "862291511051934808131776714602846783/332306998946228968225951765070086144"
+  ],
+  "L_ray_distinct_mass_boxes": [
+    {
+      "seed": 1,
+      "mass_boxes": [
+        [
+          "67108864/65646651",
+          "33554432/32823325"
+        ],
+        [
+          "30386771/33554432",
+          "60773543/67108864"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "seed": 8,
+      "mass_boxes": [
+        [
+          "765474104683107/1125899906842624",
+          "765474132350335/1125899906842624"
+        ],
+        [
+          "55259979/67108864",
+          "13814995/16777216"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "conjugation_transport": "Real source rows are preserved. Conjugation swaps the two W shapes and sends the second crossed-sign row to its negative because D2B=i*sprimeB*positive_amplitude*vB; sigma changes to -sigma. Thus the opposite-shape zero rule is s5=+sigma*s3 and has the same exact four-sign count.",
+  "proof": [
+    "At mprime=(1,1,r), both S5 shapes obey W3+W4=-r, W3*W4=(r^2+r+1)/3 and W5=1. They are nonreal conjugate shapes.",
+    "For conjugate signed square roots v3=U-iV,v4=U+iV with U,V>0, four V^2 equals 2/sqrt(q)+r/q. The verified ray polynomial and the positive unsquared sign give 2V=r exactly.",
+    "The explicit 64-sign enumeration leaves four Phi zeros per S5 triangle, all with odd body 5; the other odd placements would require unequal majority masses to be equal by the verified K5 ray classification.",
+    "The two-equal Lagrange classes have no one-different Phi zero by positive K6/K7/K8. Their same-sign zeros would require an L6/L7/L8 ray with three distinct masses, whereas (1,1,r) has two equal masses. The certified L-ray root boxes separate all three masses.",
+    "All ordinary Phi-zero labels are isolated by the global S5 nonzero second response. All fold Phi-zero labels are isolated by the exact rank-eight block, nonzero t augmentation and simple torque zero. Every remaining label is isolated directly by tQ=0 and the finite boundary fibre.",
+    "Thus all 9216 finite labels are covered. The universal fold argument makes the original exceptional h^3/h^4 jet calculation unnecessary; those redundant orders are not asserted by this certificate."
+  ],
+  "depends_on": [
+    "D2.6.16.K5_positive_mass_ray",
+    "D2.6.17.S5_exact_second_order_response",
+    "D2.6.18.general_fold_rank_and_simple_torque_zero",
+    "D2.6.14.global_mass_rays_and_complex_shapes",
+    "D2.6.12.K3_K6_K7_K8_L5prime_and_equal_masses",
+    "D2.6.2.all_Lagrange_shape_assignments",
+    "D2.6.2.chart_and_boundary_fibre"
+  ]
+}

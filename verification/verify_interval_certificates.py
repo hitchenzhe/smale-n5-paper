@@ -11,6 +11,7 @@ import argparse
 import json
 from pathlib import Path
 import sys
+from math import comb
 
 
 def q(value, where="rational"):
@@ -189,6 +190,51 @@ def verify_exclusion(case,box_override=None):
             "range":{"re":[str(val.re.lo),str(val.re.hi)],"im":[str(val.im.lo),str(val.im.hi)]}}
 
 
+def verify_uniform_rouche(case):
+    """Every parameter-box polynomial root lies in one of n disjoint disks."""
+    count=case['parameters']
+    params=[box_complex(raw,'parameter box') for raw in case['parameter_box']]
+    if type(count) is not int or count<1 or len(params)!=count:raise ValueError('Invalid parameter box dimension')
+    terms=[]
+    for term in case['polynomial']:
+        powers=term['powers']
+        if len(powers)!=count+1 or any(type(n) is not int or n<0 for n in powers):raise ValueError('Invalid Rouche monomial')
+        terms.append((point_complex(term['coefficient'],'Rouche coefficient'),powers))
+    degree=max((powers[-1] for coefficient,powers in terms),default=0)
+    disks=case['disks']
+    if degree<1 or len(disks)!=degree:raise ValueError('Need exactly degree-many disks')
+    def distance_lower(interval):
+        return min(abs(interval.lo),abs(interval.hi)) if interval.lo*interval.hi>0 else Fraction(0)
+    leading=C(0)
+    for coefficient,powers in terms:
+        if powers[-1]!=degree:continue
+        term=coefficient
+        for parameter,power in zip(params,powers):term=term*parameter**power
+        leading=leading+term
+    if not max(distance_lower(leading.re),distance_lower(leading.im)):
+        raise ValueError('Shape degree is not certified constant throughout the mass box')
+    results=[];centers=[];radii=[]
+    for disk in disks:
+        center=point_complex(disk['center'],'disk center');radius=q(disk['radius'])
+        if radius<=0:raise ValueError('Rouche disk radius must be positive')
+        for old,r in zip(centers,radii):
+            if max(abs(center.re.lo-old.re.lo),abs(center.im.lo-old.im.lo))<=radius+r:
+                raise ValueError('Rouche disks are not certified disjoint')
+        centers.append(center);radii.append(radius)
+        coefficients=[C(0) for _ in range(degree+1)]
+        for coefficient,powers in terms:
+            term=coefficient
+            for parameter,power in zip(params,powers):term=term*parameter**power
+            for k in range(powers[-1]+1):
+                coefficients[k]=coefficients[k]+term*comb(powers[-1],k)*center**(powers[-1]-k)
+        dominant=max(distance_lower(coefficients[1].re),distance_lower(coefficients[1].im))*radius
+        remainder=coefficients[0].abs_upper()+sum((c.abs_upper()*radius**k for k,c in enumerate(coefficients) if k>=2),Fraction(0))
+        if dominant<=remainder:raise ValueError('Rouche strict linear-dominance inequality failed')
+        results.append(dict(center=disk['center'],radius=str(radius),dominant_lower=str(dominant),remainder_upper=str(remainder)))
+    return dict(status='PASS',kind='uniform_rouche',degree=degree,disks=results,
+                scope='one root in each disk for every parameter in the box; disks exhaust all roots')
+
+
 def split_box(parent,coordinate,cut):
     flat=[]
     for b in parent:flat.extend([[q(v) for v in b["re"]],[q(v) for v in b["im"]]])
@@ -232,6 +278,7 @@ def check(case):
     kind=case.get("kind")
     if kind=="krawczyk":return verify_krawczyk(case)
     if kind=="exclude_zero":return verify_exclusion(case)
+    if kind=='uniform_rouche':return verify_uniform_rouche(case)
     if kind=="cover":
         verify_cover_node(case["tree"],case["domain"],case,leaves:=[])
         return {"status":"PASS","kind":"cover","leaf_count":len(leaves),"leaves":leaves}

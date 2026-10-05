@@ -1,0 +1,21 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_p_sheet_p5_exact",
+  "checks": [
+    {
+      "check": "D2.6.17.S5_exact_second_order_response",
+      "status": "PASS",
+      "items": 6,
+      "detail": {
+        "certificate": "d2_S5_exact_response.json",
+        "domain": "entire positive mass cone; common mass scaling normalizes m5=1",
+        "response_zero_excluded": true
+      },
+      "program": "ak_p_sheet_p5_exact",
+      "function": "verify_S5_response",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

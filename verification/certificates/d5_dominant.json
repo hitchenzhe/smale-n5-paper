@@ -1,0 +1,16 @@
+{
+  "check": "D5.8.21.all_60_dominant_four_product_exclusions",
+  "status": "PASS",
+  "cases": 60,
+  "motzkin_leaves": 4476,
+  "certificate": "d5_dominant_inputs.json",
+  "scope": "Complete exclusions for all 60 previously outstanding dominant four-product cases, using a necessary subset. This does not assert full regime-census feasibility.",
+  "model_proof": [
+    "Exact single-special-edge forcing orders f=-(1+e)/2-3beta/2 and q=-3(1+e)/2-beta/2; 0<e<=1 follows from the frame.",
+    "Uniform forcing and the single-source nonuniformity lemma require the two raw leading crossed source orders to tie.",
+    "For a common central body, shared g>1, g>3+q, both centre/special tropical relations, the special pair relation, and the excluded deep conjunction are precisely the proved consequences of Lemma 8.19.",
+    "R has all nonzero coefficients, rank two on every coordinate plane and common one-dimensional kernel. Sixteen input/output valuation alternatives exhaust unique, double and triple input minima; C and A are separately imposed.",
+    "Each proof-tree child represents every alternative of its deterministic disjunction. Exact nonnegative Motzkin combinations close every leaf, with a positive strict-row multiplier when the combined constant is zero.",
+    "For dominant coincidence the special body is normalized to 3. Permutations of the triangle bodies permute the complete list of ten four-products, so the ten checked exclusions cover every special placement."
+  ]
+}

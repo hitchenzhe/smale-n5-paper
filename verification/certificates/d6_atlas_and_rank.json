@@ -1,0 +1,238 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials and prime-field truncated series; no third-party libraries",
+  "checks": [
+    {
+      "check": "D6.9.2.chart_polynomial_boundary_center_split",
+      "status": "PASS",
+      "items": 44,
+      "detail": {
+        "t_degrees": [
+          5,
+          5,
+          3,
+          3,
+          2,
+          3,
+          3,
+          5,
+          5,
+          2,
+          0,
+          4,
+          4,
+          2,
+          4,
+          4,
+          2,
+          0,
+          2,
+          2,
+          0,
+          0
+        ],
+        "rotation_substitution": "all 10 coordinate rows, 10 distance rows, 2 gauges exact"
+      },
+      "program": "ak_diagram6_blowup",
+      "function": "verify_chart",
+      "prerequisite": false
+    },
+    {
+      "check": "D6.9.6.atlas_z_wing_exact_substitution",
+      "status": "PASS",
+      "items": 9,
+      "detail": {
+        "parameters": "rational functions in scale,c,b modulo lam^6-6lam^4+12lam^2-16",
+        "w_wing": "independently replayed by verify_atlas_inverse_elimination"
+      },
+      "program": "ak_diagram6_blowup",
+      "function": "verify_atlas_substitution_and_counts",
+      "prerequisite": false
+    },
+    {
+      "check": "D6.9.6.atlas_shape_scale_count",
+      "status": "PASS",
+      "items": 6,
+      "detail": {
+        "shape_roots": "2 Gaussian plus 4 primitive from lambda^6-6 lambda^4+12 lambda^2-16",
+        "generic_wing_classes": 18,
+        "exceptional_a_equals_4c_classes": 15,
+        "primitive_denominator_product": "4a^2+8c^2; strictly positive for positive real a,c",
+        "scope": "exact denominator and count argument for one wing; projective boundary not claimed"
+      },
+      "program": "ak_diagram6_blowup",
+      "function": "verify_atlas_substitution_and_counts",
+      "prerequisite": false
+    },
+    {
+      "check": "D6.9.6.full_boundary_fibre_counts",
+      "status": "PASS",
+      "items": 3,
+      "detail": {
+        "crossed_quadratic_choices": 16,
+        "boundary_fibre_sizes": {
+          "generic": 5184,
+          "one_exceptional_wing": 4320,
+          "two_exceptional_wings": 3600
+        },
+        "method": "two wing factors times four independent nonzero quadratic crossed-distance roots"
+      },
+      "program": "ak_diagram6_blowup",
+      "function": "verify_atlas_substitution_and_counts",
+      "prerequisite": false
+    },
+    {
+      "check": "D6.9.6.inverse_atlas_and_other_wing",
+      "status": "PASS",
+      "items": 78,
+      "detail": {
+        "inverse_constraints": [
+          "omega^3=1",
+          "lambda^2=2(1+omega)",
+          "(2a+c lambda^3)d^3=1"
+        ],
+        "unique_wing_coordinate_minor": "d^4 lambda^2/2",
+        "independent_w_wing_rows": 9,
+        "crossed_sign_vectors": 16,
+        "scope": "inverse constraints and unique linear solve, both wings, all crossed roots"
+      },
+      "program": "ak_diagram6_blowup",
+      "function": "verify_atlas_inverse_elimination",
+      "prerequisite": false
+    },
+    {
+      "check": "D6.9.9.selected_rank_twenty",
+      "status": "PASS",
+      "items": 259,
+      "detail": {
+        "wing_determinants": [
+          {
+            "wing": "z",
+            "variables": [
+              "Z1",
+              "Z2",
+              "W1",
+              "W2",
+              "W5",
+              "D12",
+              "D15",
+              "D25"
+            ],
+            "determinant_scale": "lambda^3*d",
+            "dimensionless_terms": [
+              {
+                "coefficient": "-9",
+                "powers": {
+                  "d6rank_C": 1,
+                  "d6rank_x": 1
+                }
+              },
+              {
+                "coefficient": "27/4",
+                "powers": {
+                  "d6rank_C": 1,
+                  "d6rank_x": 3
+                }
+              },
+              {
+                "coefficient": "-9/4",
+                "powers": {
+                  "d6rank_C": 1,
+                  "d6rank_x": 5
+                }
+              },
+              {
+                "coefficient": "-9/8",
+                "powers": {
+                  "d6rank_x": 2
+                }
+              },
+              {
+                "coefficient": "9/16",
+                "powers": {
+                  "d6rank_x": 4
+                }
+              }
+            ],
+            "Gaussian": "9A/(2A+ratio^3)",
+            "primitive_cleared_norm": "6561 A^4/16"
+          },
+          {
+            "wing": "w",
+            "variables": [
+              "W3",
+              "W4",
+              "Z3",
+              "Z4",
+              "Z5",
+              "D34",
+              "D35",
+              "D45"
+            ],
+            "determinant_scale": "kappa^3/e",
+            "dimensionless_terms": [
+              {
+                "coefficient": "9/2",
+                "powers": {
+                  "d6rank_C": 1,
+                  "d6rank_x": 3
+                }
+              },
+              {
+                "coefficient": "-9/4",
+                "powers": {
+                  "d6rank_C": 1,
+                  "d6rank_x": 5
+                }
+              },
+              {
+                "coefficient": "36",
+                "powers": {
+                  "d6rank_C": 2
+                }
+              },
+              {
+                "coefficient": "-27",
+                "powers": {
+                  "d6rank_C": 2,
+                  "d6rank_x": 2
+                }
+              },
+              {
+                "coefficient": "9/2",
+                "powers": {
+                  "d6rank_C": 2,
+                  "d6rank_x": 4
+                }
+              },
+              {
+                "coefficient": "-9/8",
+                "powers": {
+                  "d6rank_x": 2
+                }
+              },
+              {
+                "coefficient": "9/16",
+                "powers": {
+                  "d6rank_x": 4
+                }
+              }
+            ],
+            "Gaussian": "9A/(2A+ratio^3)",
+            "primitive_cleared_norm": "6561 A^4(A^4-8A^2+64)"
+          }
+        ],
+        "rank": 20,
+        "selected_rows": "all 22 chart rows except Rw2 and Rw4",
+        "block_structure": "two independent 8x8 wing blocks and a diagonal 4x4 crossed block",
+        "crossed_units": "-2 Dij Zi Wj; Zi,Wj=+/-1/2 and Dij=+/-2 or +/-2i",
+        "nonvanishing": "A=a/c>0 or b/c>0; finite scale denominators; primitive quartic is (A^2-4)^2+48",
+        "scope": "Lemma 9.9(i) at every finite label, including all corank-one signs; leading jet exclusions (ii) remain"
+      },
+      "program": "ak_diagram6_blowup",
+      "function": "verify_selected_rank",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

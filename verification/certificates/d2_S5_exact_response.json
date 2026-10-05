@@ -1,0 +1,7247 @@
+{
+  "check": "D2.6.17.S5_exact_second_order_response",
+  "status": "PASS",
+  "g_scaled": {
+    "numerator": [
+      {
+        "powers": [
+          1,
+          0
+        ],
+        "coefficients": [
+          "-2/9",
+          "0"
+        ]
+      },
+      {
+        "powers": [
+          1,
+          1
+        ],
+        "coefficients": [
+          "-2/3",
+          "-2/9"
+        ]
+      },
+      {
+        "powers": [
+          1,
+          2
+        ],
+        "coefficients": [
+          "-2/3",
+          "-2/3"
+        ]
+      },
+      {
+        "powers": [
+          1,
+          3
+        ],
+        "coefficients": [
+          "-2/9",
+          "-2/3"
+        ]
+      },
+      {
+        "powers": [
+          1,
+          4
+        ],
+        "coefficients": [
+          "-2/9"
+        ]
+      },
+      {
+        "powers": [
+          2,
+          0
+        ],
+        "coefficients": [
+          "-4/9",
+          "2/9"
+        ]
+      },
+      {
+        "powers": [
+          2,
+          1
+        ],
+        "coefficients": [
+          "-2/3",
+          "0"
+        ]
+      },
+      {
+        "powers": [
+          2,
+          2
+        ],
+        "coefficients": [
+          "-2/3"
+        ]
+      },
+      {
+        "powers": [
+          2,
+          3
+        ],
+        "coefficients": [
+          "2/9",
+          "-4/9"
+        ]
+      },
+      {
+        "powers": [
+          3,
+          0
+        ],
+        "coefficients": [
+          "2/3"
+        ]
+      },
+      {
+        "powers": [
+          3,
+          1
+        ],
+        "coefficients": [
+          "2/3",
+          "2/3"
+        ]
+      },
+      {
+        "powers": [
+          3,
+          2
+        ],
+        "coefficients": [
+          "2/3",
+          "0"
+        ]
+      },
+      {
+        "powers": [
+          4,
+          0
+        ],
+        "coefficients": [
+          "4/9",
+          "2/3"
+        ]
+      },
+      {
+        "powers": [
+          4,
+          1
+        ],
+        "coefficients": [
+          "2/3",
+          "4/9"
+        ]
+      },
+      {
+        "powers": [
+          5,
+          0
+        ],
+        "coefficients": [
+          "2/9",
+          "2/9"
+        ]
+      }
+    ],
+    "denominator": [
+      {
+        "powers": [
+          0,
+          4
+        ],
+        "coefficients": [
+          "-1",
+          "-1"
+        ]
+      },
+      {
+        "powers": [
+          1,
+          3
+        ],
+        "coefficients": [
+          "-4"
+        ]
+      },
+      {
+        "powers": [
+          2,
+          2
+        ],
+        "coefficients": [
+          "6",
+          "0"
+        ]
+      },
+      {
+        "powers": [
+          3,
+          1
+        ],
+        "coefficients": [
+          "4",
+          "4"
+        ]
+      },
+      {
+        "powers": [
+          4,
+          0
+        ],
+        "coefficients": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "inverse": [
+    [
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "4/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "11/9",
+              "11/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "2/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              4
+            ],
+            "coefficients": [
+              "2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-4/3",
+              "-4/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-10/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "2/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "-4/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-4/3",
+              "-4/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "-2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "0"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "6"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "5/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "-2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "7/9",
+              "7/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-5/9",
+              "-10/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "-7/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              4
+            ],
+            "coefficients": [
+              "-2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "5/9",
+              "-5/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "-2/9",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "7/9",
+              "5/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "0"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "6"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-7/9",
+              "-11/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-11/9",
+              "-1/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "-4/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-11/9",
+              "-10/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-8/9",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-4/9",
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "6"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-1/3",
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-1/3",
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-1/3",
+              "-2/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-1/3",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-1/3",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-1/3",
+              "-2/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-1/3",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-1/3",
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-1/3",
+              "1/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1",
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "1",
+              "1"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "7/9",
+              "7/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "5/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-5/9",
+              "-10/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-7/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "-2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "5/9",
+              "-5/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "-2/9",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "7/9",
+              "5/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              0
+            ],
+            "coefficients": [
+              "2/9",
+              "0"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "6"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "11/9",
+              "11/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-4/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "4/3",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "4/3",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "2/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "10/9",
+              "14/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "2/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "-2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              0
+            ],
+            "coefficients": [
+              "-2/9",
+              "0"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "6"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "7/9",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "11/9",
+              "1/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "4/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "11/9",
+              "10/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "8/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "4/9",
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "6"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1/3",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "1/3",
+              "-1/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1/3",
+              "2/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1/3",
+              "-1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "1/3",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1/3",
+              "2/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1/3",
+              "-1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "1/3",
+              "-1/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1/3",
+              "-1/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "-1",
+              "-1"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "7/9",
+              "11/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-7/9",
+              "-11/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-11/9",
+              "-1/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "-4/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-11/9",
+              "-10/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "-8/9",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "-4/9",
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "6"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "11/9",
+              "7/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "7/9",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "11/9",
+              "1/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "4/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "11/9",
+              "10/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "8/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "4/9",
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "6"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "8/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "2/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "6"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-2/3",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "-2/3",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              4
+            ],
+            "coefficients": [
+              "-2/9",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              5
+            ],
+            "coefficients": [
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-4/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-2/3",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              4
+            ],
+            "coefficients": [
+              "2/9",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "2/3",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              3
+            ],
+            "coefficients": [
+              "2/3",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "4/9",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              2
+            ],
+            "coefficients": [
+              "2/3",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              4
+            ],
+            "coefficients": [
+              "-1",
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "-4"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "6",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "4",
+              "4"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "4/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "11/9",
+              "11/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "2/3",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "2/3",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              4
+            ],
+            "coefficients": [
+              "2/9",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              5
+            ],
+            "coefficients": [
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "4/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "2/3",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              4
+            ],
+            "coefficients": [
+              "-2/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "-2/3",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              3
+            ],
+            "coefficients": [
+              "-2/3",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "-4/9",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              2
+            ],
+            "coefficients": [
+              "-2/3",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              4
+            ],
+            "coefficients": [
+              "-1",
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "-4"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "6",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "4",
+              "4"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "7/9",
+              "7/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "-2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "5/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "7/9",
+              "11/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1/3",
+              "-1/3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1/3",
+              "-1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "1/3",
+              "-1/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-2/3",
+              "-1/3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-2/3",
+              "-1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-2/3",
+              "-1/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1/3",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1/3",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "1/3",
+              "2/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1",
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2/3",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "2/3",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "2/9",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              4
+            ],
+            "coefficients": [
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "4/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "2/3",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              3
+            ],
+            "coefficients": [
+              "-2/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "-2/3",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              2
+            ],
+            "coefficients": [
+              "-2/3",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              0
+            ],
+            "coefficients": [
+              "-4/9",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              1
+            ],
+            "coefficients": [
+              "-2/3",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              5,
+              0
+            ],
+            "coefficients": [
+              "-2/9",
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              4
+            ],
+            "coefficients": [
+              "-1",
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "-4"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "6",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "4",
+              "4"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "5/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "7/9",
+              "7/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-2/3",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-2/3",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "-2/9",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              4
+            ],
+            "coefficients": [
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "-4/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-2/3",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              3
+            ],
+            "coefficients": [
+              "2/9",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "2/3",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              2
+            ],
+            "coefficients": [
+              "2/3",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              0
+            ],
+            "coefficients": [
+              "4/9",
+              "2/3"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              1
+            ],
+            "coefficients": [
+              "2/3",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              5,
+              0
+            ],
+            "coefficients": [
+              "2/9",
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              4
+            ],
+            "coefficients": [
+              "-1",
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              3
+            ],
+            "coefficients": [
+              "-4"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficients": [
+              "6",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficients": [
+              "4",
+              "4"
+            ]
+          },
+          {
+            "powers": [
+              4,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "11/9",
+              "11/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "2/9",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "11/9",
+              "7/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "2/9",
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-1/3",
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-1/3",
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "-1/3",
+              "1/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2/3",
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2/3",
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "2/3",
+              "1/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-1/3",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-1/3",
+              "-2/3"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "-1/3",
+              "-2/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "-1",
+              "-1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-1",
+              "0"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1",
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "-1/9",
+              "1/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-1/9",
+              "1/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "-1/9",
+              "1/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1/9",
+              "-1/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1/9",
+              "-1/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1/9",
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1/9",
+              "-1/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1/9",
+              "-1/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1/9",
+              "-1/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "-1/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-1/9",
+              "1/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-1/9",
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "1/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "4/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "2/9",
+              "1/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "4/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "4/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "1/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "1/9",
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "-1/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-4/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficients": [
+              "-2/9",
+              "-1/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-4/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-4/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "-1/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-1/9",
+              "1/9"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "-1/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-1/9",
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-1/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-1/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "-1/9",
+              "-2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "-2/9",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "-2/9",
+              "-4/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "-1/9",
+              "-2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "1/9",
+              "-1/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1/9",
+              "-1/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              2
+            ],
+            "coefficients": [
+              "1/9",
+              "2/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "2/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficients": [
+              "2/9",
+              "4/9"
+            ]
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficients": [
+              "1/9",
+              "2/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficients": [
+              "1",
+              "0"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "2",
+              "2"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-1/9",
+              "1/9"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficients": [
+              "-1/9",
+              "1/9"
+            ]
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficients": [
+              "-1/9",
+              "1/9"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "-1/3"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "-1/3"
+            ]
+          }
+        ],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "numerator": [],
+        "denominator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficients": [
+              "1"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  "positive_denominator_norms": [
+    [
+      {
+        "powers": [
+          0,
+          4
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          3
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          2,
+          2
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          3,
+          1
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          4,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ],
+    [
+      {
+        "powers": [
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          1
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          0,
+          2
+        ],
+        "coefficient": "15"
+      },
+      {
+        "powers": [
+          0,
+          3
+        ],
+        "coefficient": "20"
+      },
+      {
+        "powers": [
+          1,
+          0
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          1,
+          1
+        ],
+        "coefficient": "30"
+      },
+      {
+        "powers": [
+          1,
+          2
+        ],
+        "coefficient": "60"
+      },
+      {
+        "powers": [
+          2,
+          0
+        ],
+        "coefficient": "15"
+      },
+      {
+        "powers": [
+          2,
+          1
+        ],
+        "coefficient": "60"
+      },
+      {
+        "powers": [
+          3,
+          0
+        ],
+        "coefficient": "20"
+      },
+      {
+        "powers": [
+          0,
+          4
+        ],
+        "coefficient": "15"
+      },
+      {
+        "powers": [
+          1,
+          3
+        ],
+        "coefficient": "60"
+      },
+      {
+        "powers": [
+          2,
+          2
+        ],
+        "coefficient": "90"
+      },
+      {
+        "powers": [
+          3,
+          1
+        ],
+        "coefficient": "60"
+      },
+      {
+        "powers": [
+          0,
+          5
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          1,
+          4
+        ],
+        "coefficient": "30"
+      },
+      {
+        "powers": [
+          2,
+          3
+        ],
+        "coefficient": "60"
+      },
+      {
+        "powers": [
+          3,
+          2
+        ],
+        "coefficient": "60"
+      },
+      {
+        "powers": [
+          0,
+          6
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          5
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          2,
+          4
+        ],
+        "coefficient": "15"
+      },
+      {
+        "powers": [
+          3,
+          3
+        ],
+        "coefficient": "20"
+      },
+      {
+        "powers": [
+          4,
+          0
+        ],
+        "coefficient": "15"
+      },
+      {
+        "powers": [
+          4,
+          1
+        ],
+        "coefficient": "30"
+      },
+      {
+        "powers": [
+          4,
+          2
+        ],
+        "coefficient": "15"
+      },
+      {
+        "powers": [
+          5,
+          0
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          5,
+          1
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          6,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ],
+    [
+      {
+        "powers": [
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          1
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          0,
+          2
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          1,
+          0
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          1,
+          1
+        ],
+        "coefficient": "12"
+      },
+      {
+        "powers": [
+          2,
+          0
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          0,
+          3
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          1,
+          2
+        ],
+        "coefficient": "12"
+      },
+      {
+        "powers": [
+          2,
+          1
+        ],
+        "coefficient": "12"
+      },
+      {
+        "powers": [
+          0,
+          4
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          3
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          2,
+          2
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          3,
+          0
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          3,
+          1
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          4,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ],
+    [
+      {
+        "powers": [
+          0,
+          8
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          7
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          2,
+          6
+        ],
+        "coefficient": "10"
+      },
+      {
+        "powers": [
+          3,
+          5
+        ],
+        "coefficient": "16"
+      },
+      {
+        "powers": [
+          4,
+          4
+        ],
+        "coefficient": "19"
+      },
+      {
+        "powers": [
+          5,
+          3
+        ],
+        "coefficient": "16"
+      },
+      {
+        "powers": [
+          6,
+          2
+        ],
+        "coefficient": "10"
+      },
+      {
+        "powers": [
+          7,
+          1
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          8,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ],
+    [
+      {
+        "powers": [
+          0,
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          1
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          2,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ],
+    [
+      {
+        "powers": [
+          0,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ],
+    [
+      {
+        "powers": [
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          0,
+          1
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          1,
+          0
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          0,
+          2
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          1
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          2,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ]
+  ],
+  "cube_difference_norm": "(a+b+1)^2 * L5(a,b,1) * (a^2-ab+b^2+2a+2b+4)",
+  "g_zero_set": "a=b=1 since 1 and omega are independent over real numbers and a,MT>0",
+  "response": "Psi1=-m4/2 * delta^2*g_scaled * X^2; translation forcing kernel and centred W response verified from both relevant inverse columns",
+  "X_nonzero": "X=0 would imply W3^3=W4^3. Exact norm and SOS factors restrict this to a=b=1.",
+  "exceptional_signs": [
+    {
+      "majority_signs": [
+        1,
+        1
+      ],
+      "required_rho": "+-1",
+      "impossible": true
+    },
+    {
+      "majority_signs": [
+        1,
+        -1
+      ],
+      "required_rho": "modulus squared 3",
+      "impossible": true
+    },
+    {
+      "majority_signs": [
+        -1,
+        1
+      ],
+      "required_rho": "modulus squared 3",
+      "impossible": true
+    },
+    {
+      "majority_signs": [
+        -1,
+        -1
+      ],
+      "required_rho": "+-1",
+      "impossible": true
+    }
+  ],
+  "scope": "All nonfold S5 triangles, both conjugate shapes and all three cubic scales, for every positive pair mass. The equal-triangle-mass point has no compatible one-different label since |rho|=1 and rho!=+-1."
+}

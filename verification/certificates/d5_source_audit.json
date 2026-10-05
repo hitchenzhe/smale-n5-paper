@@ -1,0 +1,1067 @@
+{
+  "check": "D5.near_coefficients_empty_regimes_R_planes_and_deep_exclusions",
+  "status": "PASS",
+  "centred_offsets": [
+    "-(b - 1)*(b + 1)/(b*(b**2 + b + 1))",
+    "(2*b + 1)/(b*(b + 1)*(b**2 + b + 1))",
+    "-b*(b + 2)/((b + 1)*(b**2 + b + 1))"
+  ],
+  "near_coefficients": {
+    "F": "Phi",
+    "G": "Psi",
+    "V1": "-(theta*Psi-Phi)",
+    "V2": "-sum m*s*y",
+    "B": "(Phi+theta*Psi)/2"
+  },
+  "empty_regime_resultant": "b**8*(b + 1)**15*(b**2 + b + 1)**2*(b**4 + 2*b**3 - b**2 - 2*b - 1)*(b**4 + 2*b**3 + b**2 - 2*b - 1)*(b**4 + 2*b**3 + b**2 + 2*b + 1)*(b**8 + 3*b**7 + 3*b**6 + 4*b**5 + 5*b**4 + 4*b**3 + 3*b**2 + 3*b + 1)*(b**16 + 6*b**15 + 15*b**14 + 17*b**13 - 2*b**12 - 28*b**11 - 14*b**10 + 52*b**9 + 95*b**8 + 52*b**7 - 14*b**6 - 28*b**5 - 2*b**4 + 17*b**3 + 15*b**2 + 6*b + 1)",
+  "empty_regime_factors": [
+    {
+      "polynomial": "b",
+      "power": 8,
+      "positive_roots": 0
+    },
+    {
+      "polynomial": "b + 1",
+      "power": 15,
+      "positive_roots": 0
+    },
+    {
+      "polynomial": "b**2 + b + 1",
+      "power": 2,
+      "positive_roots": 0
+    },
+    {
+      "polynomial": "b**4 + 2*b**3 - b**2 - 2*b - 1",
+      "power": 1,
+      "positive_roots": 1,
+      "common_gcd": "u + 1",
+      "excluded": "u^2=1 contradicts 1/y4^2-1/y3^2=-r !=0"
+    },
+    {
+      "polynomial": "b**4 + 2*b**3 + b**2 - 2*b - 1",
+      "power": 1,
+      "positive_roots": 1,
+      "common_gcd": "u - 1",
+      "excluded": "u^2=1 contradicts 1/y4^2-1/y3^2=-r !=0"
+    },
+    {
+      "polynomial": "b**4 + 2*b**3 + b**2 + 2*b + 1",
+      "power": 1,
+      "positive_roots": 0
+    },
+    {
+      "polynomial": "b**8 + 3*b**7 + 3*b**6 + 4*b**5 + 5*b**4 + 4*b**3 + 3*b**2 + 3*b + 1",
+      "power": 1,
+      "positive_roots": 0
+    },
+    {
+      "polynomial": "b**16 + 6*b**15 + 15*b**14 + 17*b**13 - 2*b**12 - 28*b**11 - 14*b**10 + 52*b**9 + 95*b**8 + 52*b**7 - 14*b**6 - 28*b**5 - 2*b**4 + 17*b**3 + 15*b**2 + 6*b + 1",
+      "power": 1,
+      "positive_roots": 0
+    }
+  ],
+  "R_minors": [
+    {
+      "rows": [
+        0,
+        1
+      ],
+      "columns": [
+        0,
+        1
+      ],
+      "determinant": "m1*(MT + m1 + m2)/MT"
+    },
+    {
+      "rows": [
+        0,
+        1
+      ],
+      "columns": [
+        0,
+        2
+      ],
+      "determinant": "m2*(MT + m1 + m2)/MT"
+    },
+    {
+      "rows": [
+        0,
+        1
+      ],
+      "columns": [
+        1,
+        2
+      ],
+      "determinant": "(MT + m1 + m2)/MT"
+    },
+    {
+      "rows": [
+        0,
+        2
+      ],
+      "columns": [
+        0,
+        1
+      ],
+      "determinant": "m1*(MT + m1 + m2)/MT"
+    },
+    {
+      "rows": [
+        0,
+        2
+      ],
+      "columns": [
+        0,
+        2
+      ],
+      "determinant": "m2*(MT + m1 + m2)/MT"
+    },
+    {
+      "rows": [
+        0,
+        2
+      ],
+      "columns": [
+        1,
+        2
+      ],
+      "determinant": "(MT + m1 + m2)/MT"
+    },
+    {
+      "rows": [
+        1,
+        2
+      ],
+      "columns": [
+        0,
+        1
+      ],
+      "determinant": "m1*(MT + m1 + m2)/MT"
+    },
+    {
+      "rows": [
+        1,
+        2
+      ],
+      "columns": [
+        0,
+        2
+      ],
+      "determinant": "m2*(MT + m1 + m2)/MT"
+    },
+    {
+      "rows": [
+        1,
+        2
+      ],
+      "columns": [
+        1,
+        2
+      ],
+      "determinant": "(MT + m1 + m2)/MT"
+    }
+  ],
+  "inner_sign_cases": [
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "equal_parity_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "equal_parity_pair": [
+        0,
+        1
+      ]
+    }
+  ],
+  "outer_pair_determinant": "m1^3+m2^3 >0",
+  "nonvanishing_proof": "The centred s4>0 and s5<0 for every b>0; s3 changes sign only at b=1. Off the slice there is exactly one offset on one side of zero. For y^-2=-s, its term alone supplies one real/imaginary component of Phi, Psi and sum m*s*y, so all three are nonzero. In a dominant-coincidence regime the special offset is nonzero and its edge has strictly lower force order than all other edges. On the central slice the two generic offset contributions have perpendicular phases and cannot cancel for a single source.",
+  "deep_proof": "In the forbidden central deep case A1=A2=g<alpha1,alpha2 and beta1,beta2<-g, tied special forcings imply beta1=beta2=beta. Since q-beta=-3(g+beta)/2>0, the pair-centre W identity forces m1*w1hat+m2*w2hat=0. The special differences share leading coefficient -xi3hat. The cancelled weighted special forcings have equal squares, giving m1^2*w2hat=m2^2*w1hat. The verified positive determinant makes both leading W coefficients zero, a contradiction.",
+  "inner_proof": "At inner RRR, the pair-centre W identity likewise gives opposite weighted W coefficients. Uniform forcing gives one f at all three triangle bodies. If f!=0, squaring its three signed sums yields only two parity-dependent values, forcing two distinct offset cubes to coincide. The exhaustive 64 sign check supplies a repeated parity pair. Thus f=0, equal squared amplitudes give the second pair relation, and the same positive determinant gives a contradiction.",
+  "scope": "Coefficient and sign audit used by the necessary D5 valuation model, including empty coincident-both regimes and the previously implicit central deep exclusion. Does not alone establish full LP coverage."
+}

@@ -1,0 +1,30 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_diagram8_equal_pair_germs",
+  "checks": [
+    {
+      "check": "D8.11.6.equal_pairing",
+      "status": "PASS",
+      "items": 8,
+      "detail": {
+        "left_kernel": [
+          "1",
+          "-1",
+          "0",
+          "3/8",
+          "-3/16",
+          "-3/16",
+          "0",
+          "0"
+        ],
+        "pairing": "-1",
+        "masses": "(1,1,m3,m4,1/4); all positive scales follow by mass scaling"
+      },
+      "program": "ak_diagram8_equal_pair_germs",
+      "function": "verify_equal_order_six_pairing",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

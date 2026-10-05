@@ -1,0 +1,107 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials; no third-party libraries",
+  "checks": [
+    {
+      "check": "D3.7.3_7.6.syzygies_and_mass_eliminant",
+      "status": "PASS",
+      "items": 6,
+      "detail": {
+        "items": [
+          "z and w first-condition syzygies",
+          "gauge-distance identity",
+          "order-3 mass eliminant relation",
+          "two order-4 cube identities"
+        ],
+        "scope": "these exact necessary-condition identities only; label Jacobian and graph jets remain"
+      },
+      "program": "ak_diagram3_blowup",
+      "function": "verify_necessary_condition_identities",
+      "prerequisite": false
+    },
+    {
+      "check": "D3.7.3.chart_and_label_substitution",
+      "status": "PASS",
+      "items": 42,
+      "detail": {
+        "rows": 21,
+        "degree_bound": 6,
+        "no_linear_t": true,
+        "root_classes": 5184,
+        "scope": "explicit label substitution; inverse completeness follows by the linear boundary equations"
+      },
+      "program": "ak_diagram3_blowup",
+      "function": "verify_chart_and_labels",
+      "prerequisite": false
+    },
+    {
+      "check": "D3.7.3.label_jacobian",
+      "status": "PASS",
+      "items": 1,
+      "detail": {
+        "rank": 19,
+        "variables": [
+          "d3c_A",
+          "d3c_x",
+          "d3c_y",
+          "d3c_zhat5",
+          "d3c_C",
+          "d3c_D",
+          "d3c_u",
+          "d3c_v",
+          "d3c_what5",
+          "d3c_D12",
+          "d3c_D13",
+          "d3c_D14",
+          "d3c_D15",
+          "d3c_D23",
+          "d3c_D24",
+          "d3c_D25",
+          "d3c_D34",
+          "d3c_D35",
+          "d3c_D45"
+        ],
+        "rows": [
+          "m1Fz1+m4Fz4",
+          "Fz4-Fz1",
+          "Fz3-Fz2",
+          "m1Fw1+m2Fw2",
+          "Fw2-Fw1",
+          "Fw3-Fw4",
+          "Fz5",
+          "Fw5",
+          "T12",
+          "T13",
+          "T14",
+          "T15",
+          "T23",
+          "T24",
+          "T25",
+          "T34",
+          "T35",
+          "T45",
+          "gauge"
+        ],
+        "printed_formula_orientation": 1,
+        "nonvanishing": "positive masses and all cubic/quadratic label roots nonzero"
+      },
+      "program": "ak_diagram3_blowup",
+      "function": "verify_label_jacobian",
+      "prerequisite": false
+    },
+    {
+      "check": "D3.7.5.order_three_obstruction",
+      "status": "PASS",
+      "items": 6,
+      "detail": {
+        "G2": "0",
+        "G3": "((m1+m2)/(m1^2m2),(m1+m4)/(m1^2m4))*Omega",
+        "scope": "all cube/square-root sign classes by independent monic reductions"
+      },
+      "program": "ak_diagram3_blowup",
+      "function": "verify_order_three",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented algebra checks only; see claim_status.json for unverified claims"
+}

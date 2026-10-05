@@ -1,0 +1,17 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_diagram1_virial_exclusion",
+  "checks": [
+    {
+      "check": "D1.5.11.triangle_virial_and_differential",
+      "status": "PASS",
+      "items": 10,
+      "detail": null,
+      "program": "ak_diagram1_virial_exclusion",
+      "function": "verify_triangle_virial",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

@@ -1,0 +1,60 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_blowup",
+  "checks": [
+    {
+      "check": "D2.6.2.chart_and_boundary_fibre",
+      "status": "PASS",
+      "items": 69,
+      "detail": {
+        "chart_coordinate_rows": 10,
+        "chart_distance_rows": 10,
+        "pair_block_factorizations": 5,
+        "triangle_centres": 2,
+        "crossed_boundary_ties": 6,
+        "Lagrange_classes": 27,
+        "fold_classes": 6,
+        "two_equal_classes": 18,
+        "two_equal_pattern_counts": {
+          "0,0": 6,
+          "1,1": 6,
+          "2,2": 6
+        },
+        "Euler_sign_shapes": 8,
+        "scope": "boundary and Lagrange fold/S5 classification checked; mass-resultant tables and interval enclosures remain"
+      },
+      "program": "ak_blowup",
+      "function": "verify_chart_and_boundary_fibre",
+      "prerequisite": false
+    },
+    {
+      "check": "D2.second_order.pair_block_and_equal_forcing",
+      "status": "PASS",
+      "items": 6,
+      "detail": {
+        "rows": [
+          "Fz1",
+          "Fw1",
+          "Fw2",
+          "T12",
+          "G1"
+        ],
+        "determinant": "-3/D12",
+        "derivative": {
+          "Z1": 0,
+          "Z2": 0,
+          "W1": "-h",
+          "W2": "-h",
+          "D12": 0
+        },
+        "mass_relation": "(m1+m2)D12^3=1",
+        "scope": "the two computer-assisted pair-block steps in the second-order coefficient lemma; fold cases are separate"
+      },
+      "program": "ak_blowup",
+      "function": "verify_pair_second_order",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

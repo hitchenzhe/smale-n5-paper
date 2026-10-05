@@ -1,0 +1,98 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials; no third-party libraries",
+  "checks": [
+    {
+      "check": "D8.11.6.row_support",
+      "status": "PASS",
+      "items": 7,
+      "detail": {
+        "supports": {
+          "0": [
+            [
+              2,
+              2
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              11,
+              5
+            ]
+          ],
+          "2": [
+            [
+              2,
+              2
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              11,
+              5
+            ]
+          ],
+          "4": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "13": [
+            [
+              2,
+              2
+            ]
+          ],
+          "16": [
+            [
+              2,
+              2
+            ]
+          ],
+          "10": [],
+          "20": []
+        }
+      },
+      "program": "ak_diagram8_order_six_pairing",
+      "function": "verify_row_support",
+      "prerequisite": false
+    },
+    {
+      "check": "D8.11.6.general_rank_and_pairing",
+      "status": "PASS",
+      "items": 25,
+      "detail": {
+        "normalization": "ell_E4=alpha^2-1",
+        "pairing": "-2 (alpha^2+1)^4/(alpha Delta)",
+        "Delta": "(m3+m4)(alpha^2+1)^2+alpha^6+3alpha^4+alpha^3+3alpha^2+1",
+        "rank_certificate": "det(B) and C row for alpha!=1; constant augmented minor at alpha=1",
+        "left_kernel": "eight signed maximal minors, checked in all seven columns"
+      },
+      "program": "ak_diagram8_order_six_pairing",
+      "function": "verify_general_left_pairing",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented algebra checks only; see claim_status.json for unverified claims"
+}

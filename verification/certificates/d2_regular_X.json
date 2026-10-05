@@ -1,0 +1,1416 @@
+{
+  "check": "D2.6.17.all_regular_X_unit_circle_exclusions",
+  "status": "PASS",
+  "cases": [
+    {
+      "sheet": 1,
+      "ratio_phase": 1,
+      "p": [
+        {
+          "power": 4,
+          "coefficients": [
+            "-5",
+            "7"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "6",
+            "1"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-3",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-1"
+          ]
+        }
+      ],
+      "reciprocal": [
+        {
+          "power": 4,
+          "coefficients": [
+            "-1"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "-2",
+            "0"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-6",
+            "-5"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "5",
+            "12"
+          ]
+        }
+      ],
+      "bezout_u": [
+        {
+          "power": 3,
+          "coefficients": [
+            "-7/20547",
+            "-85/41094"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-59/41094",
+            "-26/20547"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "3/761",
+            "17/2283"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-34/6849",
+            "23/4566"
+          ]
+        }
+      ],
+      "bezout_v": [
+        {
+          "power": 3,
+          "coefficients": [
+            "257/41094",
+            "-665/41094"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "478/20547",
+            "-73/20547"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "91/4566",
+            "131/2283"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-71/1522",
+            "881/13698"
+          ]
+        }
+      ],
+      "gcd": [
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": 1,
+      "ratio_phase": 2,
+      "p": [
+        {
+          "power": 4,
+          "coefficients": [
+            "5",
+            "12"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "-6",
+            "-5"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-2",
+            "0"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-1"
+          ]
+        }
+      ],
+      "reciprocal": [
+        {
+          "power": 4,
+          "coefficients": [
+            "-1"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-3",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "6",
+            "1"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-5",
+            "7"
+          ]
+        }
+      ],
+      "bezout_u": [
+        {
+          "power": 3,
+          "coefficients": [
+            "7/20547",
+            "-71/41094"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "59/41094",
+            "7/41094"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-3/761",
+            "8/2283"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "34/6849",
+            "137/13698"
+          ]
+        }
+      ],
+      "bezout_v": [
+        {
+          "power": 3,
+          "coefficients": [
+            "-257/41094",
+            "-461/20547"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-478/20547",
+            "-551/20547"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-91/4566",
+            "57/1522"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "71/1522",
+            "760/6849"
+          ]
+        }
+      ],
+      "gcd": [
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": 3,
+      "ratio_phase": 1,
+      "p": [
+        {
+          "power": 5,
+          "coefficients": [
+            "-6",
+            "0"
+          ]
+        },
+        {
+          "power": 4,
+          "coefficients": [
+            "7",
+            "7"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "1"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-3",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-1"
+          ]
+        }
+      ],
+      "reciprocal": [
+        {
+          "power": 5,
+          "coefficients": [
+            "-1"
+          ]
+        },
+        {
+          "power": 4,
+          "coefficients": [
+            "-2",
+            "0"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "1"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-7",
+            "0"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "6",
+            "6"
+          ]
+        }
+      ],
+      "bezout_u": [
+        {
+          "power": 4,
+          "coefficients": [
+            "559/12312",
+            "559/12312"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "-257/4104"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-11/108",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-1237/12312",
+            "-1237/12312"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-791/2052"
+          ]
+        }
+      ],
+      "bezout_v": [
+        {
+          "power": 4,
+          "coefficients": [
+            "559/2052"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "1831/12312",
+            "0"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "227/2052",
+            "227/2052"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "949/4104"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-1261/12312",
+            "0"
+          ]
+        }
+      ],
+      "gcd": [
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": 3,
+      "ratio_phase": 2,
+      "p": [
+        {
+          "power": 5,
+          "coefficients": [
+            "6",
+            "6"
+          ]
+        },
+        {
+          "power": 4,
+          "coefficients": [
+            "-7",
+            "0"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "1"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-2",
+            "0"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-1"
+          ]
+        }
+      ],
+      "reciprocal": [
+        {
+          "power": 5,
+          "coefficients": [
+            "-1"
+          ]
+        },
+        {
+          "power": 4,
+          "coefficients": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "-3",
+            "0"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "1"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "7",
+            "7"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-6",
+            "0"
+          ]
+        }
+      ],
+      "bezout_u": [
+        {
+          "power": 4,
+          "coefficients": [
+            "-559/12312",
+            "0"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "-257/4104"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "11/108",
+            "11/108"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "1237/12312",
+            "0"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-791/2052"
+          ]
+        }
+      ],
+      "bezout_v": [
+        {
+          "power": 4,
+          "coefficients": [
+            "559/2052"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "-1831/12312",
+            "-1831/12312"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-227/2052",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "949/4104"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "1261/12312",
+            "1261/12312"
+          ]
+        }
+      ],
+      "gcd": [
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": 4,
+      "ratio_phase": 1,
+      "p": [
+        {
+          "power": 3,
+          "coefficients": [
+            "3"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "4",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ],
+      "reciprocal": [
+        {
+          "power": 3,
+          "coefficients": [
+            "1"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "1",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-4",
+            "-4"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "3"
+          ]
+        }
+      ],
+      "bezout_u": [
+        {
+          "power": 2,
+          "coefficients": [
+            "16/81",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-5/81",
+            "-5/81"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "20/27"
+          ]
+        }
+      ],
+      "bezout_v": [
+        {
+          "power": 2,
+          "coefficients": [
+            "-16/27",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "31/81",
+            "31/81"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "7/81"
+          ]
+        }
+      ],
+      "gcd": [
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": 4,
+      "ratio_phase": 2,
+      "p": [
+        {
+          "power": 3,
+          "coefficients": [
+            "3"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-4",
+            "-4"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "1",
+            "0"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ],
+      "reciprocal": [
+        {
+          "power": 3,
+          "coefficients": [
+            "1"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "4",
+            "0"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "3"
+          ]
+        }
+      ],
+      "bezout_u": [
+        {
+          "power": 2,
+          "coefficients": [
+            "-16/81",
+            "-16/81"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "5/81",
+            "0"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "20/27"
+          ]
+        }
+      ],
+      "bezout_v": [
+        {
+          "power": 2,
+          "coefficients": [
+            "16/27",
+            "16/27"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-31/81",
+            "0"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "7/81"
+          ]
+        }
+      ],
+      "gcd": [
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": 6,
+      "ratio_phase": 1,
+      "p": [
+        {
+          "power": 4,
+          "coefficients": [
+            "2",
+            "-1"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "-9",
+            "-13"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-3",
+            "9"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "1",
+            "-5"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ],
+      "reciprocal": [
+        {
+          "power": 4,
+          "coefficients": [
+            "1"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "-1",
+            "-6"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "3",
+            "12"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "9",
+            "-4"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-2",
+            "-3"
+          ]
+        }
+      ],
+      "bezout_u": [
+        {
+          "power": 3,
+          "coefficients": [
+            "-19/243"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "1/9",
+            "37/81"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-28/81",
+            "-65/81"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-55/81",
+            "-8/243"
+          ]
+        }
+      ],
+      "bezout_v": [
+        {
+          "power": 3,
+          "coefficients": [
+            "38/243",
+            "-19/243"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-47/81",
+            "-26/27"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-4/27",
+            "29/81"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "1/243",
+            "-83/243"
+          ]
+        }
+      ],
+      "gcd": [
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": 6,
+      "ratio_phase": 2,
+      "p": [
+        {
+          "power": 4,
+          "coefficients": [
+            "-2",
+            "-3"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "9",
+            "-4"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "3",
+            "12"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-1",
+            "-6"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ],
+      "reciprocal": [
+        {
+          "power": 4,
+          "coefficients": [
+            "1"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "1",
+            "-5"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-3",
+            "9"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-9",
+            "-13"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "2",
+            "-1"
+          ]
+        }
+      ],
+      "bezout_u": [
+        {
+          "power": 3,
+          "coefficients": [
+            "-19/243"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-1/9",
+            "28/81"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "28/81",
+            "-37/81"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "55/81",
+            "157/243"
+          ]
+        }
+      ],
+      "bezout_v": [
+        {
+          "power": 3,
+          "coefficients": [
+            "-38/243",
+            "-19/81"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "47/81",
+            "-31/81"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "4/27",
+            "41/81"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-1/243",
+            "-28/81"
+          ]
+        }
+      ],
+      "gcd": [
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": 8,
+      "ratio_phase": 1,
+      "p": [
+        {
+          "power": 4,
+          "coefficients": [
+            "-13",
+            "-13"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "5"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "6",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-2",
+            "-2"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ],
+      "reciprocal": [
+        {
+          "power": 4,
+          "coefficients": [
+            "1"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "2",
+            "0"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-6",
+            "-6"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "5"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "13",
+            "0"
+          ]
+        }
+      ],
+      "bezout_u": [
+        {
+          "power": 3,
+          "coefficients": [
+            "-11/15795"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "1/1053",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-4/1755",
+            "-4/1755"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "8/1215"
+          ]
+        }
+      ],
+      "bezout_v": [
+        {
+          "power": 3,
+          "coefficients": [
+            "-11/1215",
+            "-11/1215"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-142/5265"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "-161/5265",
+            "0"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-1207/15795",
+            "-1207/15795"
+          ]
+        }
+      ],
+      "gcd": [
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": 8,
+      "ratio_phase": 2,
+      "p": [
+        {
+          "power": 4,
+          "coefficients": [
+            "13",
+            "0"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "5"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-6",
+            "-6"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "2",
+            "0"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ],
+      "reciprocal": [
+        {
+          "power": 4,
+          "coefficients": [
+            "1"
+          ]
+        },
+        {
+          "power": 3,
+          "coefficients": [
+            "-2",
+            "-2"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "6",
+            "0"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "5"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "-13",
+            "-13"
+          ]
+        }
+      ],
+      "bezout_u": [
+        {
+          "power": 3,
+          "coefficients": [
+            "-11/15795"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-1/1053",
+            "-1/1053"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "4/1755",
+            "0"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "8/1215"
+          ]
+        }
+      ],
+      "bezout_v": [
+        {
+          "power": 3,
+          "coefficients": [
+            "11/1215",
+            "0"
+          ]
+        },
+        {
+          "power": 2,
+          "coefficients": [
+            "-142/5265"
+          ]
+        },
+        {
+          "power": 1,
+          "coefficients": [
+            "161/5265",
+            "161/5265"
+          ]
+        },
+        {
+          "power": 0,
+          "coefficients": [
+            "1207/15795",
+            "0"
+          ]
+        }
+      ],
+      "gcd": [
+        {
+          "power": 0,
+          "coefficients": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "proof": "X=0 implies W3^3=W4^3. Distinct W3,W4 give W3/W4=omega or omega^2. Phi=0 and unit-modulus rho then force abs(W3)=abs(W4)=abs(W5)=1. A unit-circle root would also be a root of the conjugate reciprocal polynomial; the exact Bezout identities exclude every such root. S2/S7 follow by exchanging bodies 3 and 4.",
+  "coefficient_field": "Q(omega), ascending ANP lists as returned by SymPy QQ.algebraic_field(omega)"
+}

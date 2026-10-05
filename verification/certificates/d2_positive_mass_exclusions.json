@@ -1,0 +1,1063 @@
+{
+  "K_covers": [
+    {
+      "polynomial": "K3",
+      "sectors": [
+        {
+          "sector": {
+            "largest_mass": "m3",
+            "substitution": {
+              "m3": "1",
+              "m4": "r",
+              "m5": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": "direct",
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "0",
+                "upper_corner": "24364096"
+              }
+            ],
+            "unresolved": []
+          }
+        },
+        {
+          "sector": {
+            "largest_mass": "m3",
+            "substitution": {
+              "m3": "1",
+              "m5": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 10,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m3",
+            "substitution": {
+              "m3": "1",
+              "m5": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 10,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "221216"
+        },
+        {
+          "sector": {
+            "largest_mass": "m4",
+            "substitution": {
+              "m4": "1",
+              "m3": "r",
+              "m5": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": "direct",
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "0",
+                "upper_corner": "24364096"
+              }
+            ],
+            "unresolved": []
+          }
+        },
+        {
+          "sector": {
+            "largest_mass": "m4",
+            "substitution": {
+              "m4": "1",
+              "m5": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 10,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m4",
+            "substitution": {
+              "m4": "1",
+              "m5": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 10,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "221216"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m3": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 10,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m3": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 10,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "11",
+                "minimum": "833569/1048576",
+                "upper_corner": "1"
+              },
+              {
+                "path": "10",
+                "minimum": "540590567/817889280",
+                "upper_corner": "833569/1048576"
+              },
+              {
+                "path": "0",
+                "minimum": "1484938658401090028266609511/11322428062815701472116736",
+                "upper_corner": "3040590637599989482624193/1180591620717411303424"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "221216"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m4": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 10,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m4": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 10,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "11",
+                "minimum": "833569/1048576",
+                "upper_corner": "1"
+              },
+              {
+                "path": "10",
+                "minimum": "540590567/817889280",
+                "upper_corner": "833569/1048576"
+              },
+              {
+                "path": "0",
+                "minimum": "1484938658401090028266609511/11322428062815701472116736",
+                "upper_corner": "3040590637599989482624193/1180591620717411303424"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "221216"
+        }
+      ]
+    },
+    {
+      "polynomial": "K6",
+      "sectors": [
+        {
+          "sector": {
+            "largest_mass": "m3",
+            "substitution": {
+              "m3": "1",
+              "m4": "r",
+              "m5": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": "direct",
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "655931/2150408",
+                "upper_corner": "664929"
+              }
+            ],
+            "unresolved": []
+          }
+        },
+        {
+          "sector": {
+            "largest_mass": "m3",
+            "substitution": {
+              "m3": "1",
+              "m5": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m3",
+            "substitution": {
+              "m3": "1",
+              "m5": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "655931/2150408",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "165225"
+        },
+        {
+          "sector": {
+            "largest_mass": "m4",
+            "substitution": {
+              "m4": "1",
+              "m3": "r",
+              "m5": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": "direct",
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "664929"
+              }
+            ],
+            "unresolved": []
+          }
+        },
+        {
+          "sector": {
+            "largest_mass": "m4",
+            "substitution": {
+              "m4": "1",
+              "m5": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m4",
+            "substitution": {
+              "m4": "1",
+              "m5": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "254289"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m3": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m3": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "11",
+                "minimum": "1",
+                "upper_corner": "1"
+              },
+              {
+                "path": "10",
+                "minimum": "445849/65536",
+                "upper_corner": "445849/65536"
+              },
+              {
+                "path": "0",
+                "minimum": "69398092092892187696537/1134911328222015651840",
+                "upper_corner": "167958933330862440097/72057594037927936"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "165225"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m4": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m4": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "11",
+                "minimum": "1",
+                "upper_corner": "1"
+              },
+              {
+                "path": "10",
+                "minimum": "445849/65536",
+                "upper_corner": "445849/65536"
+              },
+              {
+                "path": "01",
+                "minimum": "579168389802529850163678157676851/1640425445673766988604348825600",
+                "upper_corner": "353972434962507218089/72057594037927936"
+              },
+              {
+                "path": "00",
+                "minimum": "2749394057619972590592432645457/309485009821345068724781056",
+                "upper_corner": "2749394057619972590592432645457/309485009821345068724781056"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "254289"
+        }
+      ]
+    },
+    {
+      "polynomial": "K7",
+      "sectors": [
+        {
+          "sector": {
+            "largest_mass": "m3",
+            "substitution": {
+              "m3": "1",
+              "m4": "r",
+              "m5": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": "direct",
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "664929"
+              }
+            ],
+            "unresolved": []
+          }
+        },
+        {
+          "sector": {
+            "largest_mass": "m3",
+            "substitution": {
+              "m3": "1",
+              "m5": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m3",
+            "substitution": {
+              "m3": "1",
+              "m5": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "254289"
+        },
+        {
+          "sector": {
+            "largest_mass": "m4",
+            "substitution": {
+              "m4": "1",
+              "m3": "r",
+              "m5": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": "direct",
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "655931/2150408",
+                "upper_corner": "664929"
+              }
+            ],
+            "unresolved": []
+          }
+        },
+        {
+          "sector": {
+            "largest_mass": "m4",
+            "substitution": {
+              "m4": "1",
+              "m5": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m4",
+            "substitution": {
+              "m4": "1",
+              "m5": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "655931/2150408",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "165225"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m3": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m3": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "11",
+                "minimum": "1",
+                "upper_corner": "1"
+              },
+              {
+                "path": "10",
+                "minimum": "445849/65536",
+                "upper_corner": "445849/65536"
+              },
+              {
+                "path": "01",
+                "minimum": "579168389802529850163678157676851/1640425445673766988604348825600",
+                "upper_corner": "353972434962507218089/72057594037927936"
+              },
+              {
+                "path": "00",
+                "minimum": "2749394057619972590592432645457/309485009821345068724781056",
+                "upper_corner": "2749394057619972590592432645457/309485009821345068724781056"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "254289"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m4": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m4": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "11",
+                "minimum": "1",
+                "upper_corner": "1"
+              },
+              {
+                "path": "10",
+                "minimum": "445849/65536",
+                "upper_corner": "445849/65536"
+              },
+              {
+                "path": "0",
+                "minimum": "69398092092892187696537/1134911328222015651840",
+                "upper_corner": "167958933330862440097/72057594037927936"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "165225"
+        }
+      ]
+    },
+    {
+      "polynomial": "K8",
+      "sectors": [
+        {
+          "sector": {
+            "largest_mass": "m3",
+            "substitution": {
+              "m3": "1",
+              "m4": "r",
+              "m5": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": "direct",
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "9199089"
+              }
+            ],
+            "unresolved": []
+          }
+        },
+        {
+          "sector": {
+            "largest_mass": "m3",
+            "substitution": {
+              "m3": "1",
+              "m5": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": "direct",
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "0",
+                "upper_corner": "9199089"
+              }
+            ],
+            "unresolved": []
+          }
+        },
+        {
+          "sector": {
+            "largest_mass": "m4",
+            "substitution": {
+              "m4": "1",
+              "m3": "r",
+              "m5": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": "direct",
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "9199089"
+              }
+            ],
+            "unresolved": []
+          }
+        },
+        {
+          "sector": {
+            "largest_mass": "m4",
+            "substitution": {
+              "m4": "1",
+              "m5": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": "direct",
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "0",
+                "upper_corner": "9199089"
+              }
+            ],
+            "unresolved": []
+          }
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m3": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m3": "r",
+              "m4": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "39842/5644821",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "157881"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m4": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 0,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "1",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h,s=h*k",
+          "first_column_minimum": "1"
+        },
+        {
+          "sector": {
+            "largest_mass": "m5",
+            "substitution": {
+              "m5": "1",
+              "m4": "r",
+              "m3": "r*s"
+            },
+            "removed_r_power": 0
+          },
+          "mode": 1,
+          "removed_h_power": 8,
+          "cover": {
+            "sign": 1,
+            "leaves": [
+              {
+                "path": "",
+                "minimum": "39842/5644821",
+                "upper_corner": "1"
+              }
+            ],
+            "unresolved": []
+          },
+          "critical_substitution": "r=1-h*k,s=h",
+          "first_column_minimum": "157881"
+        }
+      ]
+    }
+  ],
+  "L5_prime_positive_coefficients": 91,
+  "equal_mass_resultants": {
+    "1": 104976,
+    "2": 104976,
+    "3": 104976,
+    "4": 6561,
+    "6": 531441,
+    "7": 531441,
+    "8": 531441
+  },
+  "method": "exact rational Bernstein coefficients with complete projective and corner-sector covers"
+}

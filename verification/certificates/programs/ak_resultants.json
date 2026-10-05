@@ -1,0 +1,390 @@
+{
+  "python": "3.12.10",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_resultants",
+  "checks": [
+    {
+      "check": "D2.6.2.shape_resultant_factorization",
+      "status": "PASS",
+      "items": 5,
+      "detail": {
+        "resultant": "S5^3 S6 S7 S8 (exact constant 1)",
+        "quartic_labels": {
+          "S6_w3^3w4": -2,
+          "S7_w3^3w4": 1,
+          "S8_w3^3w4": -5
+        }
+      },
+      "program": "ak_resultants",
+      "function": "verify_shape_resultant",
+      "prerequisite": false
+    },
+    {
+      "check": "D2.6.2.all_Lagrange_shape_assignments",
+      "status": "PASS",
+      "items": 27,
+      "detail": {
+        "class_assignments": [
+          {
+            "exponents": [
+              0,
+              0,
+              0
+            ],
+            "factor": "S5",
+            "fold": false
+          },
+          {
+            "exponents": [
+              0,
+              0,
+              1
+            ],
+            "factor": "S6",
+            "fold": false
+          },
+          {
+            "exponents": [
+              0,
+              0,
+              2
+            ],
+            "factor": "S6",
+            "fold": false
+          },
+          {
+            "exponents": [
+              0,
+              1,
+              0
+            ],
+            "factor": "S7",
+            "fold": false
+          },
+          {
+            "exponents": [
+              0,
+              1,
+              1
+            ],
+            "factor": "S8",
+            "fold": false
+          },
+          {
+            "exponents": [
+              0,
+              1,
+              2
+            ],
+            "factor": "S5",
+            "fold": true
+          },
+          {
+            "exponents": [
+              0,
+              2,
+              0
+            ],
+            "factor": "S7",
+            "fold": false
+          },
+          {
+            "exponents": [
+              0,
+              2,
+              1
+            ],
+            "factor": "S5",
+            "fold": true
+          },
+          {
+            "exponents": [
+              0,
+              2,
+              2
+            ],
+            "factor": "S8",
+            "fold": false
+          },
+          {
+            "exponents": [
+              1,
+              0,
+              0
+            ],
+            "factor": "S8",
+            "fold": false
+          },
+          {
+            "exponents": [
+              1,
+              0,
+              1
+            ],
+            "factor": "S7",
+            "fold": false
+          },
+          {
+            "exponents": [
+              1,
+              0,
+              2
+            ],
+            "factor": "S5",
+            "fold": true
+          },
+          {
+            "exponents": [
+              1,
+              1,
+              0
+            ],
+            "factor": "S6",
+            "fold": false
+          },
+          {
+            "exponents": [
+              1,
+              1,
+              1
+            ],
+            "factor": "S5",
+            "fold": false
+          },
+          {
+            "exponents": [
+              1,
+              1,
+              2
+            ],
+            "factor": "S6",
+            "fold": false
+          },
+          {
+            "exponents": [
+              1,
+              2,
+              0
+            ],
+            "factor": "S5",
+            "fold": true
+          },
+          {
+            "exponents": [
+              1,
+              2,
+              1
+            ],
+            "factor": "S7",
+            "fold": false
+          },
+          {
+            "exponents": [
+              1,
+              2,
+              2
+            ],
+            "factor": "S8",
+            "fold": false
+          },
+          {
+            "exponents": [
+              2,
+              0,
+              0
+            ],
+            "factor": "S8",
+            "fold": false
+          },
+          {
+            "exponents": [
+              2,
+              0,
+              1
+            ],
+            "factor": "S5",
+            "fold": true
+          },
+          {
+            "exponents": [
+              2,
+              0,
+              2
+            ],
+            "factor": "S7",
+            "fold": false
+          },
+          {
+            "exponents": [
+              2,
+              1,
+              0
+            ],
+            "factor": "S5",
+            "fold": true
+          },
+          {
+            "exponents": [
+              2,
+              1,
+              1
+            ],
+            "factor": "S8",
+            "fold": false
+          },
+          {
+            "exponents": [
+              2,
+              1,
+              2
+            ],
+            "factor": "S7",
+            "fold": false
+          },
+          {
+            "exponents": [
+              2,
+              2,
+              0
+            ],
+            "factor": "S6",
+            "fold": false
+          },
+          {
+            "exponents": [
+              2,
+              2,
+              1
+            ],
+            "factor": "S6",
+            "fold": false
+          },
+          {
+            "exponents": [
+              2,
+              2,
+              2
+            ],
+            "factor": "S5",
+            "fold": false
+          }
+        ],
+        "counts": {
+          "5": 9,
+          "6": 6,
+          "7": 6,
+          "8": 6
+        },
+        "field": "Q(omega), omega^2+omega+1=0"
+      },
+      "program": "ak_resultants",
+      "function": "verify_lagrange_assignments",
+      "prerequisite": false
+    },
+    {
+      "check": "D2.6.2.Euler_on_S5_cube_equality",
+      "status": "PASS",
+      "items": 8,
+      "detail": {
+        "cases": [
+          {
+            "signs": [
+              1,
+              1,
+              1
+            ],
+            "allowed": false,
+            "argument": "nonzero real constant coefficient and nonreal kappa"
+          },
+          {
+            "signs": [
+              1,
+              1,
+              -1
+            ],
+            "allowed": false,
+            "argument": "nonzero real constant coefficient and nonreal kappa"
+          },
+          {
+            "signs": [
+              1,
+              -1,
+              1
+            ],
+            "allowed": true,
+            "argument": "cubes coincide"
+          },
+          {
+            "signs": [
+              1,
+              -1,
+              -1
+            ],
+            "allowed": false,
+            "argument": "nonzero real constant coefficient and nonreal kappa"
+          },
+          {
+            "signs": [
+              -1,
+              1,
+              1
+            ],
+            "allowed": false,
+            "argument": "nonzero real constant coefficient and nonreal kappa"
+          },
+          {
+            "signs": [
+              -1,
+              1,
+              -1
+            ],
+            "allowed": true,
+            "argument": "cubes coincide"
+          },
+          {
+            "signs": [
+              -1,
+              -1,
+              1
+            ],
+            "allowed": false,
+            "argument": "nonzero real constant coefficient and nonreal kappa"
+          },
+          {
+            "signs": [
+              -1,
+              -1,
+              -1
+            ],
+            "allowed": false,
+            "argument": "nonzero real constant coefficient and nonreal kappa"
+          }
+        ],
+        "surviving_signs": "e34=e45=-e35",
+        "scope": "all Euler signs on S5 at positive masses"
+      },
+      "program": "ak_resultants",
+      "function": "verify_euler_on_S5",
+      "prerequisite": false
+    },
+    {
+      "check": "D2.6.3_6.5.mass_resultants_and_tables",
+      "status": "PASS",
+      "items": 8,
+      "detail": {
+        "certificate": "d2_mass_resultants.json",
+        "method": "exact bounded integer encoding of Sylvester determinants",
+        "L5_prime": {
+          "degree": 12,
+          "positive_coefficients": 91
+        },
+        "decompositions": "all eight P=E(y^2)+y O(y^2), K=P(0)",
+        "exchange": "P1/P2, P6/P7 and P3/P4/P5/P8 invariance, up to source sign normalization"
+      },
+      "program": "ak_resultants",
+      "function": "verify_mass_resultants",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

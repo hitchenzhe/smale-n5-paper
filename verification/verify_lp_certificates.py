@@ -3,10 +3,12 @@
 
 Input JSON stores A x <= b, with every rational encoded as an integer or a
 string such as "-7/12".  Equalities must be represented by two inequalities.
-Strict inequalities are represented by adding a common slack variable s and
-including 0 < s <= 1 among the constraints.
+Use a list of row indices named ``strict`` for rows A_i x < b_i. A common
+slack variable may also be used, but its positivity row must remain strict.
 
-An infeasibility certificate y has y_i >= 0, y^T A = 0, y^T b < 0.
+An infeasibility certificate y has y_i >= 0, y^T A = 0, y^T b <= 0.
+If y^T b = 0, at least one strict row must have a positive multiplier
+(Motzkin's transposition theorem). This excludes strict-only infeasibility.
 A feasibility witness is an exact rational vector x with A x <= b.
 This verifies a certificate; it does not construct the D5 regime model.
 """
@@ -43,17 +45,27 @@ def load_system(obj):
     return n, A, b
 
 
-def check_witness(n, A, b, x):
+def strict_rows(case, count):
+    rows=case.get('strict', [])
+    if not isinstance(rows,list) or any(type(i) is not int or not 0 <= i < count for i in rows):
+        raise ValueError('strict must list valid integer row indices')
+    if len(set(rows)) != len(rows):raise ValueError('duplicate strict row index')
+    return set(rows)
+
+
+def check_witness(n, A, b, x, strict=()):
     if len(x) != n:
         raise ValueError("witness has wrong length")
     residuals = [sum(a * v for a, v in zip(row, x)) - rhs for row, rhs in zip(A, b)]
     if any(r > 0 for r in residuals):
         bad = [(i, str(r)) for i, r in enumerate(residuals) if r > 0]
         raise ValueError(f"feasibility witness violates rows {bad}")
+    if any(residuals[i] >= 0 for i in strict):
+        raise ValueError('feasibility witness violates strict rows')
     return residuals
 
 
-def check_farkas(A, b, y):
+def check_farkas(A, b, y, strict=()):
     if len(y) != len(A):
         raise ValueError("Farkas vector has wrong length")
     if any(v < 0 for v in y):
@@ -63,24 +75,25 @@ def check_farkas(A, b, y):
     rhs = sum(v * r for v, r in zip(y, b))
     if any(combined):
         raise ValueError(f"y^T A is not zero: {[str(v) for v in combined]}")
-    if rhs >= 0:
-        raise ValueError(f"Farkas contradiction needs y^T b < 0; got {rhs}")
+    if rhs > 0 or (rhs == 0 and not any(y[i] > 0 for i in strict)):
+        raise ValueError(f"Motzkin contradiction needs negative rhs or a positive strict-row multiplier at rhs=0; got {rhs}")
     return rhs
 
 
 def check_case(case):
     n, A, b = load_system(case)
+    strict = strict_rows(case,len(A))
     mode = case.get("kind")
     if mode == "feasible":
         x = [rational(v, f"x[{i}]") for i, v in enumerate(case["x"])]
-        residuals = check_witness(n, A, b, x)
+        residuals = check_witness(n, A, b, x, strict)
         return {"case": case.get("id", "unnamed"), "status": "PASS",
                 "kind": mode, "variables": n, "constraints": len(A),
                 "witness": [str(v) for v in x],
                 "maximum_slack": str(max([-r for r in residuals], default=Fraction(0)))}
     if mode == "infeasible":
         y = [rational(v, f"y[{i}]") for i, v in enumerate(case["y"])]
-        rhs = check_farkas(A, b, y)
+        rhs = check_farkas(A, b, y, strict)
         return {"case": case.get("id", "unnamed"), "status": "PASS",
                 "kind": mode, "constraints": len(A), "certificate_rhs": str(rhs)}
     raise ValueError("kind must be feasible or infeasible")
