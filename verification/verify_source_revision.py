@@ -9,7 +9,7 @@ import sys
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source-root",type=Path,required=True,help="folder containing main.tex and sections/")
+    parser.add_argument("--source-root",type=Path,required=True,help="folder containing the source files listed in claim_status.json")
     args=parser.parse_args()
     manifest=Path(__file__).with_name("claim_status.json")
     expected=json.loads(manifest.read_text(encoding="utf-8"))["source_files"]
@@ -30,4 +30,5 @@ def main():
 
 
 if __name__=="__main__":raise SystemExit(main())
+
 

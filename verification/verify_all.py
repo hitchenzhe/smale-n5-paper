@@ -24,7 +24,7 @@ def save(path, data):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source-root', type=Path,
-        help='LaTeX project containing main.tex and sections/; default: package parent')
+        help='source root containing the files listed in claim_status.json; default: package parent')
     parser.add_argument('--output-dir', type=Path,
         help='execution records directory; default: verification/certificates')
     args = parser.parse_args()
@@ -131,3 +131,4 @@ def main():
 
 if __name__ == '__main__':
     raise SystemExit(main())
+
