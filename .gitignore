@@ -10,3 +10,5 @@ build/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+verification/build-v9/
+verification/.venv/
