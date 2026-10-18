@@ -1,56 +1,16 @@
-# Finiteness of Planar Central Configurations of Five Bodies
+# Smale N=5: current manuscript and verification
 
-This repository contains the LaTeX manuscript, its compiled PDF, and
-independent computational checkers reconstructed from the manuscript for
-Zhe Chen's draft paper, "Finiteness of planar central configurations of
-five bodies for all positive masses."
+The current manuscript is version 9:
 
-## Manuscript
+- [`Smale_5-CT-v9.tex`](Smale_5-CT-v9.tex)
+- [`Smale_5-CT-v9.pdf`](Smale_5-CT-v9.pdf)
 
-- `main.tex`: paper entry point and shared definitions.
-- `sections/d1.tex` through `sections/d8.tex`: the eight diagram sections.
-- `main.pdf`: inspected 57-page draft, compiled on 5 October 2026.
-- `build.ps1`: Windows build script for an existing pdfLaTeX installation.
+The source hash is `37599CF4B81DF2DEAC4FD8273D760404433033C7CED05DD465CF0A0D240E963B`. The PDF was compiled from this source with MiKTeX pdfLaTeX in three passes. It has 68 A4 pages; the final pass has no unresolved citation or reference warnings.
 
-Compile `main.tex` with pdfLaTeX three times to resolve references.
-The source uses standard AMS LaTeX packages.
+## Verification material
 
-## Independent computational verification
+The scripts and certificates under [`verification/`](verification/README.md) are the version 8 verification package. Its source-revision manifest is bound to [`Smale 5-CT-v8.tex`](Smale%205-CT-v8.tex), whose SHA-256 is `4484BFD28C7B9B9FC29A5580FE2CCDF372E45C37B2C7D89A774842F38092653B`. The recorded run reports 78 computational checks passed for version 8. It is not a run bound to version 9. The v9 manuscript changes its proof exposition and the Diagram 5 argument; its complete mathematics has not been formally verified by these scripts.
 
-Requires Python 3.10 or later. From the repository root, run:
+The checks are reconstructed computational verifiers. They do not formalize the analytic proof or the cited Albouy–Kaloshin results. See [`verification/README.md`](verification/README.md) and [`verification/V8_AUDIT.md`](verification/V8_AUDIT.md) for scope and reproduction details.
 
-```text
-python verification/verify_all.py
-```
-
-No package installation or network access is needed. Unmodified SymPy
-1.14.0 and mpmath 1.3.0 wheels are bundled in `verification/vendor/`;
-their hashes are checked before loading. The run takes several minutes
-and regenerates the exact execution records.
-
-The recorded 5 October 2026 run passed all **78 computational checks**:
-**42 claim groups PASS, 1 not applicable, 0 unfinished, 0 failed**, exit 0.
-The two supplementary programs for Remark 11.10 are included and also
-passed a separate run from a clean extracted delivery directory:
-
-- `ak_diagram8_ray_diagrams.py`: all ten distance/four-product orders.
-- `ak_diagram8_pattern_boundaries.py`: sharp ray window and boundary patterns.
-
-`verification/program_index.json` maps all 54 Table 5 names: 42 directly
-implemented programs and 12 documented replacements. These are reconstructed
-checkers, not the original author's code. Some original computations are
-covered by stronger exact replacements, as described in the reviewer guide.
-
-## Reviewer records
-
-- [Running instructions and coverage](verification/README.md)
-- [Reviewer guide and mathematical scope](verification/REVIEWER_GUIDE.md)
-- [Authoritative full-run receipt](verification/certificates/verification_run.json)
-- [Release summary](verification/RELEASE_SUMMARY.json)
-- [Paper program index](verification/program_index.json)
-
-The receipt records the executed check identifiers and source, code and
-certificate hashes. A hash identifies the verified revision; mathematical
-correctness comes from replaying the checks and reviewing their models.
-Computational coverage does not formalize the analytic proof or the full
-main theorem in a theorem prover.
+The earlier split-source draft (`main.tex` and `sections/`) is superseded by the versioned monolithic sources above.
