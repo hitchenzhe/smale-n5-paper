@@ -1,6 +1,6 @@
 {
-  "source": "Version 9 single-file manuscript, Appendix computational table, and explicitly marked supplementary code.",
-  "note": "theorem_role distinguishes the v9 theorem inputs (Diagrams 2, 3, 6) from supplementary checks; legacy_source_labels preserves removed v7 anchors for traceability.",
+  "source": "Version 10 single-file manuscript, Appendix computational table, and explicitly marked supplementary code.",
+  "note": "theorem_role distinguishes the v10 theorem inputs (Diagrams 2, 3, 6) from supplementary checks; legacy_source_labels preserves removed v7 anchors for traceability.",
   "programs": [
     {
       "program": "ak_diagram1_separated_center_cone",
@@ -677,7 +677,7 @@
       ],
       "module": "ak_diagram5_morse_bott_lemma.py",
       "status": "IMPLEMENTED",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 9 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [
         "verify_triangle_hessian"
       ],
@@ -699,7 +699,7 @@
       ],
       "module": "ak_diagram5_morse_bott_uniformity.py",
       "status": "IMPLEMENTED",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 9 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [
         "verify_uniform_source_resultant",
         "verify_Phi_Psi_exclusions"
@@ -722,7 +722,7 @@
       ],
       "module": "ak_diagram5_outer_census.py",
       "status": "IMPLEMENTED",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 9 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [
         "verify_elementary_four_products",
         "verify_full_census",
@@ -750,7 +750,7 @@
       ],
       "module": "ak_diagram5_census_model.py",
       "status": "IMPLEMENTED",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 9 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [
         "mirror",
         "key",
@@ -776,7 +776,7 @@
       ],
       "module": "ak_diagram5_first_limit_relevance.py",
       "status": "IMPLEMENTED",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 9 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [
         "verify_far_source_expansions",
         "verify_near_source_audit"
@@ -800,7 +800,7 @@
       ],
       "module": null,
       "status": "COVERED_BY_REPLACEMENT",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 9 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [],
       "registered_checks": [],
       "certificate": null,
@@ -1053,7 +1053,7 @@
       ],
       "module": "ak_diagram8_ray_diagrams.py",
       "status": "IMPLEMENTED",
-      "scope": "Supplementary exact ray-pattern cross-check retained from an earlier version; version 9 proves Diagram 8 directly and does not list this module as a computational premise.",
+      "scope": "Supplementary exact ray-pattern cross-check retained from an earlier version; version 10 proves Diagram 8 directly and does not list this module as a computational premise.",
       "public_functions": [
         "verify_ray_orders"
       ],
@@ -1074,7 +1074,7 @@
       ],
       "module": "ak_diagram8_pattern_boundaries.py",
       "status": "IMPLEMENTED",
-      "scope": "Supplementary exact ray-pattern cross-check retained from an earlier version; version 9 proves Diagram 8 directly and does not list this module as a computational premise.",
+      "scope": "Supplementary exact ray-pattern cross-check retained from an earlier version; version 10 proves Diagram 8 directly and does not list this module as a computational premise.",
       "public_functions": [
         "verify_pattern_boundaries"
       ],
@@ -1105,4 +1105,3 @@
     "smale_verify/d8_orders.py"
   ]
 }
-

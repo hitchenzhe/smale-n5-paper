@@ -1,6 +1,6 @@
-# Verification package
+# Verification package for Smale N=5, version 10
 
-The scripts and certificate data in this directory support the computational statements listed in Appendix A of `Smale_5-CT-v9.tex`. The package is bound to that exact TeX source by `claim_status.json`.
+The scripts and certificate data in this directory support the computational statements listed in Appendix A of `../Smale_5-CT-v10.tex`. `claim_status.json` binds the package to that exact TeX source.
 
 ## Reproduce the PDF
 
@@ -22,5 +22,4 @@ The replay writes its run records under `verification/run-records/`; these gener
 
 The Appendix identifies computational inputs in Diagrams 2, 3, and 6. `program_index.json` maps source labels to implemented programs, while `claim_status.json` records the check-to-claim bindings. The code uses exact rational, algebraic, modular, interval, and linear-programming computations as described by the individual modules and certificates.
 
-These checks do not prove the analytic deductions in the manuscript, validate every logical use of a computational statement, or formalize cited external theorems. The package is not a complete Lean proof of the theorem. Generated build output and execution records are not included.
-
+Version 10 adds an analytic Diagram 9 argument. The verification programs do not check that argument, the rest of the analytic proof, or cited external theorems. A passing run checks only the listed computations and certificates; it does not establish that the paper uses them correctly. This package is not a complete Lean proof of the theorem. Generated build output and execution records are not included.

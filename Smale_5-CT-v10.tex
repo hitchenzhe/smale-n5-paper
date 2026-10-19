@@ -52,12 +52,12 @@ Smale's sixth problem for five bodies.  Albouy and Kaloshin proved the statement
 outside a closed algebraic subset of codimension two of the mass space.  We keep their
 classification of singular sequences and combine local boundary analysis with a global
 argument on an algebraic curve.  We exclude Diagrams~1, 2, 4, 6 and~8 for complex germs,
-Diagram~7 on curves through real configurations, and Diagram~3 on curves with a positive arc.  For Diagram~5, direct order estimates show that the product
+Diagram~7 on curves through real configurations, and Diagram~3 on curves with a positive arc.  For Diagrams~5 and~9, direct order estimates show that the product
 $\Delta$ of all squared mutual distances tends to zero.  On a hypothetical curve containing a
 positive arc, a first pole of a four-product therefore gives a zero of $\Delta$.  On the
 completed curve, $\Delta$ must then have a pole elsewhere.  The identity
 $\Delta^4=\prod_{i<j}p_{ij}$ forces a four-product to have a pole there, contradicting the same
-Diagram~5 estimate.  The computer-assisted inputs concern Diagrams~2, 3 and~6 and use exact
+vanishing conclusion.  The computer-assisted inputs concern Diagrams~2, 3 and~6 and use exact
 algebra, interval arithmetic and ball arithmetic.
 }
 \end{abstract}
@@ -122,33 +122,35 @@ sequence they attach a two-coloured \emph{diagram} recording which terms of the 
 of maximal order, and they prove that every singular sequence approaches one of sixteen
 diagrams~\cite[Fig.~11]{AK}.  If a mass vector admits infinitely many normalized central
 configurations, the solutions contain an algebraic curve; along it some four-product of squared
-distances is unbounded, and a singular sequence along which it diverges approaches one of the
-first eight diagrams~\cite[Props.~8--9 and proof of Thm.~6]{AK}.  Each diagram forces a polynomial
-relation among the masses.  Albouy and Kaloshin then push a second quantity to a second singular
+distances is unbounded.  The boundedness argument of \cite[Prop.~8]{AK} excludes
+Diagrams~10--16 at such a limit.  We retain Diagram~9 and treat it separately below.
+The mass relations and the two-limit argument of \cite[\S\S8--9]{AK} provide the starting point
+for our analysis.  Albouy and Kaloshin then push a second quantity to a second singular
 limit on the same curve to obtain an independent relation, which yields the codimension-two set
 $A$.
 
 {
 Our proof replaces the construction of $A$ by seven diagram exclusions and a vanishing result
 for the product of all
-squared distances in Diagram~5.  For Diagrams~1--4 and~6--8 we introduce weighted blow-up
+squared distances in Diagrams~5 and~9.  For Diagrams~1--4 and~6--8 we introduce weighted blow-up
 charts for the normalized equations.  The estimates of \cite[\S3]{AK} show that every germ
 has a finite limit in the appropriate chart.  The boundary equations then give the necessary
 mass conditions and the obstructions to continuation into the interior.  For Diagram~5 we
 work directly with the two outer bodies and the shrinking triangle; its mass condition
 comes from the isolated triangle.  We give the derivations of the mass conditions used
 below, including those stated with short or no proofs in \cite[\S\S8.3--8.8]{AK}.
-Diagram~7 requires no mass condition.
+Diagram~7 requires no mass condition.  For Diagram~9, the distance estimates of
+\cite[\S8.9]{AK} directly give the required vanishing of the total product.
 
 These local arguments exclude Diagrams~1, 2, 4, 6 and~8 for complex germs.  They exclude
 Diagram~7 with an unbounded four-product on a curve through a real point, and Diagram~3
-on a curve through a positive point.  For every Diagram~5 germ, we instead prove that
+on a curve through a positive point.  For every germ of Diagram~5 or~9, we prove that
 $\Delta=\prod_{k<l}r_{kl}^2$ tends to zero.  This is enough for the global argument.
 If a curve through a positive arc existed, a pole of a four-product could only have
-Diagram~5 and would therefore give a zero of $\Delta$.  Thus $\Delta$ would be nonconstant
+Diagram~5 or~9 and would therefore give a zero of $\Delta$.  Thus $\Delta$ would be nonconstant
 and would have a pole elsewhere on the completed curve.  The identity
 $\Delta^4=\prod_{i<j}p_{ij}$ gives an unbounded four-product at this second pole.
-The same exclusions force Diagram~5 again, hence $\Delta\to0$, a contradiction.
+The same exclusions leave only Diagrams~5 and~9 again, hence $\Delta\to0$, a contradiction.
 
 The distinction between real and positive configurations is essential.  On a curve through a real
 configuration, $U=I$ is a nonzero constant (Lemma~\ref{lem:U-constant}; compare \cite[Lemma~2]{AK}).
@@ -157,7 +159,7 @@ For Diagram~3, the existence of a real point is insufficient: the modified Rober
 is a curve of normalized central configurations at positive masses that contains an arc of
 real configurations with signed inverse distances and carries a Diagram~3 germ.  The remaining
 germs satisfy the identity $\delta_{15}+2\delta_{13}=0$ on the whole curve, which contradicts
-positivity at any positive point.  The Diagram~5 estimate holds without a reality assumption
+positivity at any positive point.  The estimates for Diagrams~5 and~9 hold without a reality assumption
 or a nonzero inertia.
 }
 
@@ -169,16 +171,17 @@ Appendix~\ref{app:verification}.  Diagram~1 uses explicit triangle classificatio
 arguments; Diagram~4 uses a direct positivity argument in place of the sign census;
 Diagram~5 uses force-order estimates, a Morse--Bott argument and the total product of
 squared distances; and Diagram~8 uses exact distance closure and two scalar Taylor expansions.
-These arguments, and that for Diagram~7, are proved in the text using the stated results
+These arguments, and those for Diagrams~7 and~9, are proved in the text using the stated results
 of \cite{AK}.  Several boundary classifications and rank calculations in the other diagrams
 are also proved directly.  Appendix~\ref{app:verification} distinguishes these proofs from
 the computational statements on which the theorem still depends.
 
 }\subsection*{Results used from \texorpdfstring{\cite{AK}}{Albouy and Kaloshin}}
 We use without re-proving it the classification of singular sequences (Figure~11 of
-\cite{AK} and its completeness), Proposition~8 of \cite{AK}, the rules and estimates of
+\cite{AK} and its completeness), Proposition~8 of \cite{AK} restricted to Diagrams~10--16, the rules and estimates of
 \cite[\S3]{AK}, and Lemma~1 and Proposition~1 of \cite{AK}.  These are listed precisely in
-Section~\ref{sec:ak}.  We re-derive the mass conditions of all diagrams that need one
+Section~\ref{sec:ak}.  For Diagram~9 we also use the local estimates of \cite[\S8.9]{AK},
+recalled in Lemma~\ref{lem:d9-product}.  We re-derive the mass conditions of all diagrams that need one
 (Diagrams~1--6 and~8), several of which \cite[\S\S8.3--8.8]{AK} state with short or no proofs,
 and we prove directly that $U$ is constant along curves of solutions.
 
@@ -186,8 +189,8 @@ and we prove directly that $U$ is constant along curves of solutions.
 {
 Section~\ref{sec:ak} recalls the framework of \cite{AK}.  Section~\ref{sec:reduction} reduces
 Theorem~\ref{thm:main} to a curve with an unbounded four-product and records the total-product
-identity.  Section~\ref{sec:exclusion} states the boundary alternatives and proves
-Theorem~\ref{thm:main} by taking two poles on that curve.  Sections~\ref{sec:d1}--\ref{sec:d8}
+identity.  Section~\ref{sec:exclusion} states the boundary alternatives, proves the
+Diagram~9 estimate and proves Theorem~\ref{thm:main} by taking two poles on that curve.  Sections~\ref{sec:d1}--\ref{sec:d8}
 establish the diagram statements.  Appendix~\ref{app:verification} lists the computational statements used in the proof.
 }
 
@@ -299,10 +302,12 @@ For pairwise distinct $i,j,k,l,m$ with $\{i,j,k,l,m\}=\{1,\dots,5\}$ the \emph{f
 $p_{ij}=r_{ij}^2r_{kl}^2r_{lm}^2r_{mk}^2$, where $r_{kl}^2=z_{kl}w_{kl}$.
 
 \begin{fact}[{\cite[Prop.~8]{AK}}]\label{fact:prop8}
-Along a singular sequence approaching one of Diagrams 9--16 every four-product is bounded.
+Along a singular sequence approaching one of Diagrams 10--16 every four-product is bounded.
 \end{fact}
 
-The proof uses precisely the results of \cite{AK} stated in Facts~AK1--AK5.  The mass conditions of
+We use the results of \cite{AK} stated in Facts~AK1--AK5, together with the Diagram~9
+estimates recalled in Lemma~\ref{lem:d9-product}.  Diagram~9 is treated separately there.
+The mass conditions of
 \cite[\S8]{AK} for Diagrams 1--6 and 8 are re-derived below
 (Propositions~\ref{prop:d1-first}, \ref{prop:d2-first}, \ref{prop:d3-first},
 \ref{prop:d45-first}, \ref{prop:d6-first} and \ref{prop:d8-first}).
@@ -438,7 +443,7 @@ It therefore occurs exactly four times in the product on the left of \eqref{eq:t
 }
 
 \begin{proposition}[Reduction]\label{prop:reduction}
-Let $m\in\Rp^5$.  If $A_m$ has infinitely many positive points, there are $r\in\{1,\dots,8\}$, a
+Let $m\in\Rp^5$.  If $A_m$ has infinitely many positive points, there are $r\in\{1,\dots,9\}$, a
 curve $\Gamma$ as in Lemma~\ref{lem:arc}, and a Diagram-$r$ germ on $\Gamma$ with an unbounded
 four-product.
 \end{proposition}
@@ -447,7 +452,7 @@ four-product.
 Let $\Gamma$ be given by Lemma~\ref{lem:arc}.  By Lemma~\ref{lem:petersen} some four-product
 $p_{ij}$ is not constant on $\Gamma$, and by Fact~\ref{fact:lemma1} it is dominating there.  A
 sequence on $\Gamma$ with $p_{ij}\to\infty$ is unbounded, and a singular sequence extracted from
-it approaches one of Diagrams 1--8 by Facts~\ref{fact:fig11} and~\ref{fact:prop8}.
+it approaches one of Diagrams 1--9 by Facts~\ref{fact:fig11} and~\ref{fact:prop8}.
 Lemma~\ref{lem:germ} turns it into a germ.
 \end{proof}
 
@@ -458,7 +463,7 @@ $r_{kl}$ above and below.  Thus the signs of the boundary values alone do not de
 positive configurations; we need identities valid on all of $\Gamma$.
 {The diagram exclusions accordingly distinguish complex germs,
 germs on curves through a real point, where $I=U$ is a positive constant, and germs on curves
-with a positive arc.  Diagram~5 instead gives $\Delta\to0$ for all its complex germs;
+with a positive arc.  Diagrams~5 and~9 instead give $\Delta\to0$ for all their complex germs;
 this local statement is used in the global pole argument below.}
 \end{remark}
 
@@ -467,21 +472,94 @@ this local statement is used in the global pole argument below.}
 \section{Boundary alternatives and the global argument}\label{sec:exclusion}
 
 \begin{theorem}\label{thm:exclusion}
-Let $m\in\Rp^5$, $r\in\{1,\dots,8\}$ and let $\gamma$ be a Diagram-$r$ germ with an unbounded
+Let $m\in\Rp^5$, $r\in\{1,\dots,9\}$ and let $\gamma$ be a Diagram-$r$ germ with an unbounded
 four-product on an irreducible curve $\Gamma\subset A_m$.
 \begin{alphalist}
   \item If $r\in\{1,2,4,6,8\}$, no such germ exists.
   \item If $r=7$, then $\Gamma$ contains no real point.
   \item If $r=3$, then $\Gamma$ contains no arc of positive points.
-  \item If $r=5$, then $\ord_\gamma\Delta>0$, where $\Delta=\prod_{k<l}r_{kl}^2$.
+  \item If $r\in\{5,9\}$, then $\ord_\gamma\Delta>0$, where $\Delta=\prod_{k<l}r_{kl}^2$.
 \end{alphalist}
 \end{theorem}
+
+
+\begin{lemma}[Diagram 9]\label{lem:d9-product}
+Let $m\in\Rp^5$ and let $\gamma$ be a Diagram~9 germ on an irreducible curve
+$\Gamma\subset A_m$.  With the numbering of \cite[\S\S7.5.1.2 and~8.9]{AK}, the
+$zw$-triangle is $123$ and the two $w$-edges are $14$ and $25$.  Then
+\begin{equation}\label{eq:d9-distances}
+\begin{gathered}
+ r_{12},r_{13},r_{23}\approx\epsilon,\qquad
+ r_{14},r_{25},r_{45}\approx1,\\
+ r_{15},r_{24},r_{34},r_{35}\approx\epsilon^{-1/2}.
+\end{gathered}
+\end{equation}
+Consequently $\Delta\approx\epsilon^2\to0$ and $\ord_\gamma\Delta>0$.
+\end{lemma}
+
+\begin{proof}
+We normalize the germ as in Lemma~\ref{lem:germ} and take $r_{ij}=\delta_{ij}^{-1}$,
+so that the signs of the square roots are those of the given solution.
+We first exclude the clustering in \cite[\S8.9.1]{AK}.  In that case,
+$r_{14}\approx\epsilon^{1/4}$, and equation~(41) of \cite{AK}, together with the
+estimates following it, gives
+\[
+ \frac{m_1m_2}{r_{12}}+\frac{m_1m_3}{r_{13}}+
+ \frac{m_2m_3}{r_{23}}=O(\epsilon^2).
+\]
+Every term of $U$ outside this triangle, apart from $m_1m_4/r_{14}$, is bounded.  Hence
+\[
+ U=\frac{m_1m_4}{r_{14}}+O(1),\qquad
+ \left|\frac{m_1m_4}{r_{14}}\right|\longrightarrow\infty,
+\]
+contrary to Lemma~\ref{lem:U-constant}.  The same argument applies after the
+simultaneous exchanges $1\leftrightarrow2$ and $4\leftrightarrow5$.
+
+We are therefore in the case of \cite[\S8.9.2]{AK}, where both $w$-edges are
+maximal.  The estimates for the $zw$-triangle and the maximal $w$-edges give
+\[
+ z_{12},z_{13},z_{23},w_{12},w_{13},w_{23}\approx\epsilon,
+ \qquad z_{14},z_{25}\approx\epsilon^2,
+ \qquad w_{14},w_{25}\approx\epsilon^{-2}.
+\]
+Taking differences gives $z_{45}\approx\epsilon$ and, for
+$ij\in\{15,24,34,35\}$,
+\[
+ z_{ij}\approx\epsilon,\qquad w_{ij}\approx\epsilon^{-2},
+ \qquad r_{ij}\approx\epsilon^{-1/2}.
+\]
+Thus all estimates in \eqref{eq:d9-distances}, except that for $r_{45}$, follow.
+To obtain the remaining estimate, subtract the $z$-equations of bodies $4$ and $5$.
+The terms from pairs $14$ and $25$ are $O(\epsilon^2)$, and those from pairs
+$15,24,34,35$ are $O(\epsilon^{5/2})$.  Therefore
+\[
+ (z_4-z_5)\bigl(1-(m_4+m_5)r_{45}^{-3}\bigr)=O(\epsilon^2).
+\]
+Since $z_4-z_5\approx\epsilon$ and $m_4+m_5>0$, we obtain
+$r_{45}^3\to m_4+m_5$, and hence $r_{45}\approx1$.
+
+Multiplying the ten squared-distance estimates now gives
+\[
+ \Delta\approx(\epsilon^2)^3\,1^3\,(\epsilon^{-1})^4
+ =\epsilon^2\longrightarrow0.
+\]
+The meromorphic function $\Delta$ thus has positive order along $\gamma$.
+\end{proof}
+
+In the numbering of Lemma~\ref{lem:d9-product}, the same estimates give
+\[
+ p_{15}=r_{15}^2r_{23}^2r_{34}^2r_{24}^2\approx\epsilon^{-1},\qquad
+ p_{24}=r_{24}^2r_{13}^2r_{35}^2r_{15}^2\approx\epsilon^{-1}.
+\]
+Thus the boundedness assertion in the proof of \cite[Prop.~8]{AK} does not follow
+for Diagram~9 from its distance estimates.  We use that proposition only for
+Diagrams~10--16 and use Lemma~\ref{lem:d9-product} for Diagram~9.
 
 \begin{proof}[Proof of Theorem~\ref{thm:main}]
 Suppose that $A_m$ has infinitely many positive points.  Proposition~\ref{prop:reduction}
 gives an irreducible curve $\Gamma$ containing a positive arc and a germ $\gamma_0$ on which
 some four-product has a pole.  Theorem~\ref{thm:exclusion}(a)--(c) excludes every diagram
-except Diagram~5.  By part~(d), $\Delta$ has a zero at this end of $\Gamma$.
+except Diagrams~5 and~9.  By part~(d), $\Delta$ has a zero at this end of $\Gamma$.
 
 Let $\overline\Gamma$ be the smooth projective completion of the normalization of $\Gamma$.
 All squared distances, four-products and $\Delta$ pull back to meromorphic functions on
@@ -491,17 +569,18 @@ meromorphic function on the compact curve $\overline\Gamma$ has a pole, so choos
 of $\Delta$ and let $\gamma_1$ be the corresponding germ.  Taking orders in
 \eqref{eq:total-product} shows that at least one four-product has a pole at $\gamma_1$.
 As in the proof of Proposition~\ref{prop:reduction}, Facts~\ref{fact:fig11} and
-\ref{fact:prop8} and Lemma~\ref{lem:germ} put this germ in one of Diagrams~1--8.
+\ref{fact:prop8} and Lemma~\ref{lem:germ} put this germ in one of Diagrams~1--9.
 It lies on the same curve $\Gamma$ through the positive arc, so
-Theorem~\ref{thm:exclusion}(a)--(c) again forces Diagram~5.  Part~(d) now gives
+Theorem~\ref{thm:exclusion}(a)--(c) again leaves only Diagrams~5 and~9.  Part~(d) now gives
 $\ord_{\gamma_1}\Delta>0$, contradicting the choice of a pole.
 The finite covers and rotations used to number and normalize a germ preserve $\Delta$,
 the four-products and the existence of the positive arc, as explained in Section~\ref{sec:ak}.
 \end{proof}
 
-The diagram statements of Theorem~\ref{thm:exclusion} are proved in
-Sections~\ref{sec:d1}--\ref{sec:d8}.  Theorem~\ref{thm:d5} proves part~(d) for every
-Diagram~5 germ, without assuming an unbounded four-product.
+The statements of Theorem~\ref{thm:exclusion} for Diagrams~1--8 are proved in
+Sections~\ref{sec:d1}--\ref{sec:d8}, and the Diagram~9 statement is Lemma~\ref{lem:d9-product}.
+Theorem~\ref{thm:d5} and Lemma~\ref{lem:d9-product} prove part~(d) for every germ of
+Diagram~5 or~9, without assuming an unbounded four-product.
 Table~\ref{tab:exclusions} records the mass conditions, assumptions and conclusions for each
 diagram.
 
@@ -522,16 +601,18 @@ with folds of corank one and two \\
 6 & (32) $m_1=m_2$, $m_3=m_4$ & complex & finite family of wing charts \\
 7 & none needed & real & inertia identity forces $I\to0$ \\
 8 & (40) & complex & order-six and order-nine pairings; elimination on one curve of masses \\
+9 & none needed & complex & the distance estimates give $\Delta\approx\epsilon^2\to0$ \\
 \hline
 \end{tabular}
-\caption{The eight boundary arguments.  For Diagram~5, the product of squared distances vanishes;
+\caption{The nine boundary arguments.  For Diagrams~5 and~9, the product of squared distances vanishes;
 this conclusion is used in the global argument.  Numbers in parentheses refer to the equations of \cite[\S8]{AK}.}
 \label{tab:exclusions}
 \end{table}
 
 Diagrams~1--4 and~6--8 use charts with coverage propositions and, where needed, mass conditions.
 Diagram~5 uses direct estimates for the two outer bodies to prove the vanishing of the total
-product; the global argument combines this with the other seven diagram results.
+product, while Diagram~9 follows from its distance estimates.  The global argument combines
+these vanishing statements with the other seven diagram results.
 }
 Throughout, a statement about a diagram is meant for every renumbering of the bodies (with the
 masses permuted) and for both colourings; both operations are symmetries of
@@ -5364,8 +5445,7 @@ Diagram~6 orbit coverage and Lemma~\ref{d6-lem-corank}
 %\addcontentsline{toc}{section}{Acknowledgments}
 The initial version of this paper was submitted to arXiv on October 5, 2026 (submission ID: 8179056) by the current second author on behalf of the first author; however, this submission did not comply with arXiv proxy submission policies. Subsequently, the manuscript was resubmitted by the first author on October 6, 2026 (submission ID: 8186741), but has remained on hold. Shortly thereafter, \cite{FiveT} (arXiv:2610.13100) appeared reporting identical results. The present version was submitted by the second author.
 
-This manuscript was prepared with AI assistance and preliminary automated verification. Rigorous manual verification by the second author is currently underway and will be incorporated into a forthcoming version, alongside a complete formal proof in Lean.
-
+This manuscript was prepared with AI assistance and preliminary automated verification. Rigorous manual verification by the second author is currently underway and will be incorporated into a forthcoming version, alongside a complete formal proof in Lean. The authors thank T. Tomar for pointing out a non-essential gap.
 
 
 \begin{thebibliography}{99}
