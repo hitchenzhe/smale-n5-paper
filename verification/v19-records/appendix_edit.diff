@@ -1,0 +1,105 @@
+--- Smale_5-CT-v19.tex (before concise edit)
++++ Smale_5-CT-v19.tex (concise appendix)
+@@ -5721,83 +5721,49 @@
+ 
+ \section{Computational statements used in the proof}\label{app:verification}
+ 
+-The computer-assisted statements used in the proofs of Diagrams~2, 3 and~6 are listed in Table~\ref{tab:verification}. Each entry identifies the corresponding assertion in the main text and its associated program modules.
++Table~\ref{tab:verification} lists the verification functions used for the
++computer-assisted steps in the proofs of Diagrams~2, 3 and~6.
+ 
+ \begin{table}[ht]
+ \centering\footnotesize
+ \begin{tabular}{p{4.8cm}p{8.2cm}}
+ \hline
+-Computational statement & Associated program modules (prefix \code{ak\_} omitted)\\
++Computational step & Verification functions\\
+ \hline
+ Lemma~\ref{lem:d2-fibre}, Definition~\ref{def:d2-mass}
+- & \code{blowup}, \code{resultants}, \code{p\_source\_completeness},
+- \code{p\_general}, \code{diagram2\_symmetry}\\
++ & \raggedright \mbox{\code{verify\_chart\_and\_boundary\_fibre}}, \mbox{\code{verify\_shape\_resultant}}, \mbox{\code{verify\_mass\_resultants}}\tabularnewline
+ Lemma~\ref{lem:d2-empty}
+- & \code{l4\_same\_sign}, \code{resultants}, \code{exceptional}, \code{l5\_obstruction}\\
++ & \raggedright \mbox{\code{verify\_L4\_exclusion}}, \mbox{\code{verify\_K\_and\_L5\_exclusions}}\tabularnewline
+ Lemma~\ref{lem:d2-L5}: jets, minors and boundary-point orbits
+- & \code{l5\_obstruction}\\
++ & \raggedright \mbox{\code{verify\_ordinary\_seed}}, \mbox{\code{verify\_fold\_seed}}, \mbox{\code{verify\_equal\_mass\_labels}}\tabularnewline
+ Lemmas~\ref{lem:d2-rays}, \ref{lem:d2-Lray}
+- & \code{exceptional\_branch\_positive\_feasibility}, \code{l1\_complex\_fibre},
+- \code{l\_block\_symmetric\_germs}\\
++ & \raggedright \mbox{\code{verify\_mass\_rays}}, \mbox{\code{verify\_ray\_responses}}\tabularnewline
+ Lemma~\ref{lem:d2-K}
+- & \code{k1\_curve}, \code{k1\_complex\_fibre}, \code{p4\_curve},
+- \code{p5\_completion}, \code{resultants}, \code{diagram2\_symmetry}\\
++ & \raggedright \mbox{\code{verify\_K1\_branches}}, \mbox{\code{verify\_K4\_arcs}}, \mbox{\code{verify\_K5\_mass\_ray}}, \mbox{\code{verify\_all\_K5\_labels}}\tabularnewline
+ Lemmas~\ref{lem:d2-P}, \ref{lem:d2-fold}
+- & \code{p\_sheet\_second\_order}, \code{p\_sheet\_special\_ends},
+- \code{p\_sheet\_e5\_corner}, \code{p\_sheet\_euler\_closed\_form}, \code{p\_sheet\_p5\_exact}\\
++ & \raggedright \mbox{\code{verify\_S5\_response}}, \mbox{\code{verify\_regular\_X}}, \mbox{\code{verify\_regular\_Euler}}, \mbox{\code{verify\_regular\_Lagrange}}, \mbox{\code{verify\_general\_fold}}\tabularnewline
+ \hline
+ Lemmas~\ref{lem:d3-order3}, \ref{lem:d3-order4}
+- & \code{diagram3\_blowup}\\
++ & \raggedright \mbox{\code{verify\_order\_three}}, \mbox{\code{verify\_order\_four}}\tabularnewline
+ Lemma~\ref{lem:d3-order5}: jet and product identities
+- & \code{diagram3\_fifth\_order}\\
++ & \raggedright \mbox{\code{verify\_fifth\_order\_jet}}, \mbox{\code{verify\_nine\_root\_norm}}\tabularnewline
+ Lemma~\ref{lem:d3-order6}: $144$ excluded boundary points
+- & \code{diagram3\_equal\_shape}\\
++ & \raggedright \mbox{\code{verify\_modular\_order\_six}}\tabularnewline
+ \hline
+-Diagram~6 orbit coverage and Lemma~\ref{d6-lem-corank}
+- & \code{diagram6\_blowup}, \code{diagram6\_primitive\_cubic},
+- \code{diagram6\_primitive\_quadratic}, \code{diagram6\_primitive\_opposite}\\
++Diagram~6 atlas and orbit coverage
++ & \raggedright \mbox{\code{verify\_atlas\_substitution\_and\_counts}}, \mbox{\code{verify\_atlas\_inverse\_elimination}}, \mbox{\code{verify\_symmetry\_orbits}}\tabularnewline
++Lemma~\ref{d6-lem-corank}: rank and leading jets
++ & \raggedright \mbox{\code{verify\_selected\_rank}}, \mbox{\code{verify\_leading\_jets}}, \mbox{\code{verify\_mixed\_norm}}, \mbox{\code{verify\_same\_shape\_norm}}, \mbox{\code{verify\_opposite\_norms}}\tabularnewline
+ \hline
+ \end{tabular}
+-\caption{Computational statements used in the proof.}
++\caption{Functions used for computational verification.}
+ \label{tab:verification}
+ \end{table}
+ 
+-
+-\subsection*{Public verification sources and reproducibility}
++\subsection*{Verification code}
+ \label{app:public-verification-source}
+-The computational package is publicly available in the authors' five-body
+-repository,
++The source code and instructions for running these functions are available at
+ \url{https://github.com/hitchenzhe/smale-n5-paper}.
+-We use the fixed revision
+-\href{https://github.com/hitchenzhe/smale-n5-paper/tree/7389c875bd3d8c5fa01617b4d27a3562118b8081}{\texttt{7389c875bd3d}}.
+-That fixed revision records the earlier computational package. The local
+-verification package accompanying this version binds
+-\code{Smale\_5-CT-v19.tex} by its source hash in
+-\code{verification/claim\_status.json}; its current source mapping and
+-execution record are supplied in \code{verification/v19-records/}.
+-The program index distinguishes the originally named programs from
+-independently reconstructed alternative certificates. An alternative check
+-establishes the stated exclusion consequence; it does not assert a replay
+-of every descriptive numerical margin or intermediate jet calculation
+-of the original program.
+-
+-The package combines executable verification programs with exact certificate
+-data for polynomial identities, resultants, rank calculations and sign
+-determinations. The files \code{verification/program\_index.json} and
+-\code{verification/claim\_status.json} provide an explicit correspondence
+-between the computational statements in Table~\ref{tab:verification},
+-their implementing programs and their required checks. Certificate data are
+-collected in \code{verification/certificates/}, enabling the calculations
+-to be inspected individually and reproduced as a suite.
+-
+-The original suite comprises 77 exact checks and an exhaustive rational
+-Sturm census of the 64 Diagram~4 sign patterns, covering 42 applicable
+-computational claim groups. Five further supplementary checks independently
+-reconstruct identities and coefficients used in the present version, giving
+-83 checks in all. These computational checks do not constitute a formal
+-verification of the analytic coverage arguments or of the cited external
+-theorems. The reproduction commands, exact scope and pinned dependencies
+-are documented in \code{verification/README.md}.
+ 
+ \section*{Declaration of AI use}
+ This manuscript was prepared with assistance from ChatGPT (OpenAI, GPT-6),

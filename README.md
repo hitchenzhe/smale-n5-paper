@@ -1,21 +1,11 @@
-# Smale’s sixth problem for five bodies
+# Smale N=5 paper (v19)
 
-This repository contains version 10 of the manuscript by Zhe Chen and Zhicheng Tong, its compiled PDF, and the computational verification package.
+The current manuscript is [Smale_5-CT-v19.tex](Smale_5-CT-v19.tex), with a [compiled PDF](Smale_5-CT-v19.pdf). This repository contains the verification functions, exact certificates, and execution records used with this version.
 
-- [PDF](Smale_5-CT-v10.pdf)
-- [LaTeX source](Smale_5-CT-v10.tex)
-- [Verification code and reproduction guide](verification/README.md)
+The appendix lists the functions used at each computer-assisted step. [verification/README.md](verification/README.md) gives the reproduction commands and scope of the checks; [verification/REVIEWER_GUIDE.md](verification/REVIEWER_GUIDE.md) explains the relationship between the historical program names and the reconstructed certificates.
 
-Version 10 adds an analytic argument handling Diagram 9 in response to the gap reported in the proof of Albouy–Kaloshin Proposition 8. The verification programs cover the computational claims in the Appendix for Diagrams 2, 3, and 6. They do not verify the new Diagram 9 argument, the analytic proof, or the cited external theorems. The computational Appendix and its inputs are unchanged from version 9.
+The recorded 83-check execution was run on the v19 manuscript before the verification appendix was shortened. The mathematical body and checker functions were unchanged by that editorial edit. The current source hash and function table were checked separately; [editorial_update.json](verification/v19-records/editorial_update.json) records this relationship. The full execution record has not been relabeled as a fresh run against the shortened source.
 
-This is a preprint. The PDF in this repository was built from the included TeX source.
+Run `./build.ps1` to rebuild the PDF with a local MiKTeX installation. The script disables automatic package installation. The prebuilt PDF is included here.
 
-## Build
-
-With `pdflatex` available, run from the repository root:
-
-```powershell
-.\build.ps1
-```
-
-The script performs three no-shell-escape passes, writes auxiliary files under `verification/build-v10/`, and refreshes `Smale_5-CT-v10.pdf`.
+The computational checks establish their stated certificate results; analytic arguments and cited external theorems require mathematical review. The main theorem has the conditional status stated in the manuscript.

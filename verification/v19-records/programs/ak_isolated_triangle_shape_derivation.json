@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_isolated_triangle_shape_derivation",
+  "checks": [
+    {
+      "check": "D1.5.8.triangle_shape_sign_elimination",
+      "status": "PASS",
+      "items": 17,
+      "detail": {
+        "cofactor_steps": "two cleared-denominator syzygies imply common beta/alpha ratio",
+        "surviving_signs": "(X34,X35,X45)=s*(-1,1,-1)",
+        "excluded_patterns": 6,
+        "surviving_mass_relation": "Q=0"
+      },
+      "program": "ak_isolated_triangle_shape_derivation",
+      "function": "verify_shape_elimination",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

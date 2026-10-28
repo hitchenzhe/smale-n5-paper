@@ -1,7 +1,13 @@
-# Reviewer guide for manuscript version 10
+# Reviewer guide for manuscript v19
 
-`claim_status.json` binds the included code to `Smale_5-CT-v10.tex` by SHA-256 and lists the computational claims with their required check identifiers. `program_index.json` maps the paper’s source labels to implemented modules and explains the scope of each program.
+The bound source is `../Smale_5-CT-v19.tex`. Reproduction commands and the scope of replacements are in `README.md`. Current records live in `v19-records/`.
 
-The computational inputs in the manuscript are listed for Diagrams 2, 3, and 6. Other registered checks are supplementary cross-checks. Version 10 also adds an analytic argument for Diagram 9; that argument is outside the scope of this code package, as are the remaining analytic arguments and the cited Albouy–Kaloshin results.
+`program_index.json` distinguishes implemented modules, documented replacements and supplementary calculations. It maps current TeX labels, retaining removed labels only in `legacy_source_labels`. Preflight requires each active label to exist and each absent appendix program to have a documented replacement.
 
-Run the commands in `verification/README.md` to check the source binding and regenerate computational run records. A passing run covers only the stated computations and certificates. It is not a formal proof in Lean.
+The original 42 applicable groups comprise 24 primary theorem-consequence groups for D2/D3/D6 and 18 supplementary groups. Five supplementary reconstructions were added for v19. PASS for a replacement means the stated exclusion consequence is covered; it does not claim a literal replay of every intermediate calculation or numerical margin of the historical program.
+
+The suite reconstructs polynomial systems and replays rational/algebraic certificates. D3 covers both primes, every label, selected minors, all jet coefficients and raw residuals. D4 has a separate 64-sign rational Sturm census. The new supplementary checker builds its formulas directly from the manuscript without the old `ak_*` builders.
+
+The execution record does not certify chart/case completeness, analytic deductions, external AK theorems, or an unconditional main theorem. Those interfaces require mathematical review rather than a machine check.
+
+The latest editorial source binding is recorded in v19-records/editorial_update.json. The preserved verification_run.json is the preceding full 83-check execution; it has not been relabelled as a replay of the editorial change.

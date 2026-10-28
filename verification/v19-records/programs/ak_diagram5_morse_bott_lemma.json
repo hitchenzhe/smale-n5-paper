@@ -1,0 +1,35 @@
+{
+  "python": "3.12.14",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_diagram5_morse_bott_lemma",
+  "checks": [
+    {
+      "check": "D5.8.16.orbit_Hessian",
+      "status": "PASS",
+      "items": 39,
+      "detail": {
+        "masses": [
+          "b^2",
+          "b^2(b+1)^2",
+          "(b+1)^2"
+        ],
+        "X": "b^4(b+1)^6/4",
+        "rho_square": "a a_prime",
+        "complement_H": [
+          "3X/(rho a^2)",
+          "X/(rho a a_prime)",
+          "3X/(rho a_prime^2)"
+        ],
+        "determinant": "8X^2/rho^6",
+        "inverse_xx": "3a^2rho/(8X)",
+        "Hessian_rank": 2,
+        "kernel_dimension": 4,
+        "nonvanishing": "b>0 and nonzero a,a_prime,rho; complement determinant -1/b"
+      },
+      "program": "ak_diagram5_morse_bott_lemma",
+      "function": "verify_triangle_hessian",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

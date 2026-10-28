@@ -573,5 +573,11 @@
     "name": "verify_pattern_boundaries",
     "deps": [],
     "exports": []
+  },
+  {
+    "program": "verify_v19_changes",
+    "name": "verify_reconstructed_identities",
+    "deps": [],
+    "exports": []
   }
 ]

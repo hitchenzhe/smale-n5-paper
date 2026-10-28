@@ -1,0 +1,23 @@
+{
+  "python": "3.12.14",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_diagram2_symmetry",
+  "checks": [
+    {
+      "check": "D2.6.13.equal_mass_signs_and_72_fold_orbit",
+      "status": "PASS",
+      "items": 1224,
+      "detail": {
+        "certificate": "d2_equal_mass_orbits.json",
+        "fold_orbit": 72,
+        "first_order_exclusions": 1080,
+        "ordinary_labels": 72,
+        "scope": "Together with ordinary/general-fold seed checks and finite fibre reconstruction, covers every 1224 label of Lemma 6.13. No claim that the unused rank-20/h^3 identities were reproduced."
+      },
+      "program": "ak_diagram2_symmetry",
+      "function": "verify_equal_mass_labels",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

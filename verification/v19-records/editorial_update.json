@@ -1,0 +1,134 @@
+{
+  "status": "PASS_EDITORIAL_BINDING",
+  "revision": "v19",
+  "full_computation_repeated": false,
+  "current_source_sha256": "D5B631F7F7CC18DE90B7B0F0128E2B5D0C95208E5CF5390752F3E956E3D44A44",
+  "current_pdf_sha256": "296F3E801EBD5A02F62E6C24ADB0E82A0ECF946ACD669C950B3F50FAF13D6CDD",
+  "current_pdf_pages": 89,
+  "previous_source_sha256": "42FAAC33ED5C301467976934BBC1D9F00117009CE7AFFBC4169F32E4D7075110",
+  "preserved_execution_record": "verification_run.json",
+  "preserved_execution_sha256": "EAE51599896837BF04AD8280EA12E90C035A851C4CD24AE7A3C68903891F620F",
+  "immutable_execution_record": "verification/v19-records/verification_run.json",
+  "inherited_executed_checks": 83,
+  "mathematical_body_unchanged": true,
+  "mathematical_checker_implementations_unchanged": true,
+  "changed_run_input_files": [
+    "claim_status.json",
+    "verify_v19_changes.py"
+  ],
+  "changed_checker_function": "source_audit",
+  "source_audit": {
+    "manuscript": "Smale_5-CT-v19.tex",
+    "sha256": "D5B631F7F7CC18DE90B7B0F0128E2B5D0C95208E5CF5390752F3E956E3D44A44",
+    "labels": 173,
+    "missing_references": [],
+    "duplicate_labels": {},
+    "outdated_active_code_labels": {},
+    "appendix_verification_functions": {
+      "verify_K1_branches": [
+        "ak_exceptional"
+      ],
+      "verify_K4_arcs": [
+        "ak_exceptional"
+      ],
+      "verify_K5_mass_ray": [
+        "ak_p5_completion"
+      ],
+      "verify_K_and_L5_exclusions": [
+        "ak_exceptional"
+      ],
+      "verify_L4_exclusion": [
+        "ak_l4_same_sign"
+      ],
+      "verify_S5_response": [
+        "ak_p_sheet_p5_exact"
+      ],
+      "verify_all_K5_labels": [
+        "ak_p5_completion"
+      ],
+      "verify_atlas_inverse_elimination": [
+        "ak_diagram6_blowup"
+      ],
+      "verify_atlas_substitution_and_counts": [
+        "ak_diagram6_blowup"
+      ],
+      "verify_chart_and_boundary_fibre": [
+        "ak_blowup"
+      ],
+      "verify_equal_mass_labels": [
+        "ak_diagram2_symmetry"
+      ],
+      "verify_fifth_order_jet": [
+        "ak_diagram3_fifth_order"
+      ],
+      "verify_fold_seed": [
+        "ak_l5_obstruction"
+      ],
+      "verify_general_fold": [
+        "ak_p_sheet_second_order"
+      ],
+      "verify_leading_jets": [
+        "ak_diagram6_blowup"
+      ],
+      "verify_mass_rays": [
+        "ak_exceptional_branch_positive_feasibility"
+      ],
+      "verify_mass_resultants": [
+        "ak_resultants"
+      ],
+      "verify_mixed_norm": [
+        "ak_diagram6_primitive_cubic"
+      ],
+      "verify_modular_order_six": [
+        "ak_diagram3_equal_shape"
+      ],
+      "verify_nine_root_norm": [
+        "ak_diagram3_fifth_order"
+      ],
+      "verify_opposite_norms": [
+        "ak_diagram6_primitive_opposite"
+      ],
+      "verify_order_four": [
+        "ak_diagram3_blowup"
+      ],
+      "verify_order_three": [
+        "ak_diagram3_blowup"
+      ],
+      "verify_ordinary_seed": [
+        "ak_l5_obstruction"
+      ],
+      "verify_ray_responses": [
+        "ak_l_block_symmetric_germs"
+      ],
+      "verify_regular_Euler": [
+        "ak_p_sheet_second_order"
+      ],
+      "verify_regular_Lagrange": [
+        "ak_p_sheet_second_order"
+      ],
+      "verify_regular_X": [
+        "ak_p_sheet_second_order"
+      ],
+      "verify_same_shape_norm": [
+        "ak_diagram6_primitive_quadratic"
+      ],
+      "verify_selected_rank": [
+        "ak_diagram6_blowup"
+      ],
+      "verify_shape_resultant": [
+        "ak_resultants"
+      ],
+      "verify_symmetry_orbits": [
+        "ak_diagram6_blowup"
+      ]
+    },
+    "appendix_programs_without_same_named_file": [],
+    "documented_replacements": {},
+    "legacy_version_mentions": [],
+    "scope": "Program aliases and documentary claims are reported, not silently accepted as exact formula replays"
+  },
+  "appendix_pages": [
+    85
+  ],
+  "scope": "Editorial change to the verification appendix only, requested within v19. All mathematical checker functions, stage definitions, and certificate bytes match the earlier 83-check execution. That historical execution record is preserved unchanged; this is a source/function binding, not a new full arithmetic run."
+}

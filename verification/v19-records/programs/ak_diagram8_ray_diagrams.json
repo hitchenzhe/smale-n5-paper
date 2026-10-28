@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_diagram8_ray_diagrams",
+  "checks": [
+    {
+      "check": "D8.11.10.ray_orders_and_four_products",
+      "status": "PASS",
+      "items": 20,
+      "detail": {
+        "certificate": "d8_ray_diagrams.json",
+        "pairs": 10,
+        "four_products": 10,
+        "whole_open_window": true
+      },
+      "program": "ak_diagram8_ray_diagrams",
+      "function": "verify_ray_orders",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

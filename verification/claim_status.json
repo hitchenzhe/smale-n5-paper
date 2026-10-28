@@ -2,16 +2,16 @@
   "title": "Smale five-body proof independent verification status",
   "status": "Computational proof obligations covered by reconstructed and explicitly documented alternative certificates; final status comes from verify_all.py execution. This is not a formalization of the analytic proof.",
   "source_files": {
-    "Smale_5-CT-v10.tex": "A2EDCB99A09DD13FB787C3FAA35DCD93C3951DD8B6356A9430F179B6D819D99B"
+    "Smale_5-CT-v19.tex": "D5B631F7F7CC18DE90B7B0F0128E2B5D0C95208E5CF5390752F3E956E3D44A44"
   },
   "claims": {
-    "main.common-identities": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): exact mass-centre, torque, and virial identities",
-    "d1.5.1": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): weighted polynomial rows, boundary terms, and rational exponent-cone certificates",
-    "d1.5.2": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): all three exact polynomial syzygies",
-    "d1.4 torque lemma": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): exact 13-term torque expansion, leading coefficient, and rational cone certificates",
-    "d1.8 shape lemma": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): exact tie reductions, force-equation syzygies, six excluded sign patterns, and Q factorization",
-    "d1.9": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): exact triangle orbit equations, scaling/translation kernel, rank-five minor positive for every mass-ratio parameter, and inertia formula",
-    "d1.11": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): exact triangle virial identity and all nine differential coefficients",
+    "main.common-identities": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): exact mass-centre, torque, and virial identities",
+    "d1.5.1": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): weighted polynomial rows, boundary terms, and rational exponent-cone certificates",
+    "d1.5.2": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): all three exact polynomial syzygies",
+    "d1.4 torque lemma": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): exact 13-term torque expansion, leading coefficient, and rational cone certificates",
+    "d1.8 shape lemma": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): exact tie reductions, force-equation syzygies, six excluded sign patterns, and Q factorization",
+    "d1.9": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): exact triangle orbit equations, scaling/translation kernel, rank-five minor positive for every mass-ratio parameter, and inertia formula",
+    "d1.11": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): exact triangle virial identity and all nine differential coefficients",
     "d2.6.2 fibre lemma": "PASS: full chart and fibre equations, all 27 Lagrange class assignments to S5/S6/S7/S8, complete shape resultant, and Euler-on-S5 cube equality",
     "d2.6.3-6.5 shape/resultant reconstruction": "PASS: all eight L/P resultants reconstructed with exact injective integer encoding, L factorizations, P even/odd decompositions, K constants and body exchange identities",
     "d2.6.10 second-order isolation": "PASS: exact selected pair 5x5 determinant -3/D12 and equal-forcing solution with Z1prime=Z2prime=D12prime=0; these are the two computer-assisted steps in the second-order coefficient lemma",
@@ -19,10 +19,10 @@
     "d2.6.16 exceptional mass cases": "PASS: complete K1/K2 unique real common-root and two-branch classification with exact algebraic parameter and six-sector joint subresultant covers; complete printed K4 four-arc classification and monotone rational shape parameter; K5 mass ray and all 9216 Lagrange labels. The stronger global regular/fold response proof replaces redundant exceptional higher-jet orders; those orders are not asserted.",
     "d2.6.17-6.18 general cases": "PASS: entire positive mass cone for all regular Euler and Lagrange sheets and every one-different fold sheet. Exact reciprocal Bezout exclusions, spectral resultants, Bernstein plus convex-Hessian exclusion, and four rigorously exhaustive Lagrange cofactor-root disks replace the original large ball/interval covers. No original unused numerical boundary margins are claimed.",
     "d3.7.12": "PASS: explicit twisted family checked by exact ideal reduction for all root/sign parameters",
-    "d4.8.4": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): exact Diagram-4 torque expansion, leading coefficient, and all eight remainder exponents",
-    "d4.8.10": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): exact 64-sign census gives the stated 48/16 split and certifies the second obstruction at all 16 candidate signs",
-    "d5.8.16, d5.8.19": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): exact orbit U and criticality, full Hessian and tangent kernel, complement determinant and inverse xx coefficient, normalized uniform forcing resultant, twelve Phi/Psi gcds with exact positive-root counts",
-    "d5.8.20-8.21": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): complete independently reconstructed necessary valuation model reproduces all 111x27=2997 macro decisions and exactly 26 survivor entries; 32286 replayed Motzkin leaves, no extra or missing survivor. All 260 four-product cases are covered: 254 exact exclusions and 6 full necessary-model inner witnesses, with a separate leading-coefficient contradiction excluding inner RRR germs. Far/near coefficient identities, real-offset nonvanishing, empty regimes, R-plane rank and the central deep exclusion are independently audited. Conservative lower bounds suffice for the source exclusion conclusions; feasible LP witnesses are not germ-existence claims.",
+    "d4.8.4": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): exact Diagram-4 torque expansion, leading coefficient, and all eight remainder exponents",
+    "d4.8.10": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): exact 64-sign census gives the stated 48/16 split and certifies the second obstruction at all 16 candidate signs",
+    "d5.8.16, d5.8.19": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): exact orbit U and criticality, full Hessian and tangent kernel, complement determinant and inverse xx coefficient, normalized uniform forcing resultant, twelve Phi/Psi gcds with exact positive-root counts",
+    "d5.8.20-8.21": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): complete independently reconstructed necessary valuation model reproduces all 111x27=2997 macro decisions and exactly 26 survivor entries; 32286 replayed Motzkin leaves, no extra or missing survivor. All 260 four-product cases are covered: 254 exact exclusions and 6 full necessary-model inner witnesses, with a separate leading-coefficient contradiction excluding inner RRR germs. Far/near coefficient identities, real-offset nonvanishing, empty regimes, R-plane rank and the central deep exclusion are independently audited. Conservative lower bounds suffice for the source exclusion conclusions; feasible LP witnesses are not germ-existence claims.",
     "d6.9.2": "PASS: polynomial degree, rotation substitution in 10 coordinate rows, 10 distance rows and 2 gauges, boundary rows, weighted centre, and wing separation",
     "d6.9.4": "PASS: exact torque identity with explicit polynomial remainder",
     "d6.9.6": "PASS: both wing substitutions, inverse boundary elimination, scale and shape denominators, 18/15 counts, four crossed quadratics and total 5184/4320/3600 counts",
@@ -34,20 +34,25 @@
     "d3.7.8-7.9": "PASS: both mass-pattern factorizations and converses, real/imaginary sign forms, all four family sign censuses, and 108/180 label counts",
     "d3.7.10": "PASS: exact third jet, all 19 solved rows replayed, G5 factor at all sign branches, chart covariance, equal-mass vanishing, nine-root norm, P66 positivity and exact Sturm count",
     "d3.7.11": "PASS: complete 180-label jet replay over F13 and F37, verified unit minors and all 21 residuals; both primes exclude the same 144 labels",
-    "d8.11.1": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): all 22 ratio-chart polynomial rows and faces, weighted centre, row decomposition, beta/tau supports, and upper invariants",
-    "d8.11.6": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): order-six row support, exact general 8x7 left-kernel cofactors, nonzero rank minor, both general and equal-pair pairings",
-    "d8.11.7": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): beta mass identity, general determinant and positive quartic, equal-pair kernel and augmented rank, tau-Xi identity for all 16 signs",
-    "d8.11.8": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): forcing support, B5 determinant, solved delta_mu and delta_2, all five printed constants, lower atlas and exact 8x8 determinant",
+    "d8.11.1": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): all 22 ratio-chart polynomial rows and faces, weighted centre, row decomposition, beta/tau supports, and upper invariants",
+    "d8.11.6": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): order-six row support, exact general 8x7 left-kernel cofactors, nonzero rank minor, both general and equal-pair pairings",
+    "d8.11.7": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): beta mass identity, general determinant and positive quartic, equal-pair kernel and augmented rank, tau-Xi identity for all 16 signs",
+    "d8.11.8": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): forcing support, B5 determinant, solved delta_mu and delta_2, all five printed constants, lower atlas and exact 8x8 determinant",
     "d2.6.12 polynomial exclusions": "PASS: complete exact Bernstein covers of L4 and K3/K6/K7/K8, 91 positive L5prime coefficients, S4 positive discriminant and equal-mass coprimality resultants",
     "d2.6.16 K5 mass ray": "PASS: exact off-diagonal resultant excludes m3!=m4; K5(1,1,rho) is the square of the printed degree-eight polynomial; rational Sturm chain proves its unique positive root in the printed bracket",
     "d2.6.14 mass and common-shape rays": "PASS: exact global Bernstein covers of L1/L8; uniform rational Rouche disks exhaust all shape roots; Lambda exclusions and Krawczyk existence/uniqueness certify exactly two rays per polynomial and one nonreal common shape pair; exact mass permutations cover both three-factor families",
     "d2.6.15 all ray responses": "PASS: all 72 triangle responses enclosed rigorously using source 9x9 Jacobians, rational power-root Rouche disks and Neumann inverse certificates; Euler modulus >0.3 and Lagrange modulus >0.36; all other L factors excluded, signed-root vector and complete scale/permutation/conjugation list checked",
-    "d5.8.21 elementary four-product exclusions": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): 194 of 260 four-product cases excluded by exact necessary frame/C/M/pattern subset; all 9 tropical C disjuncts checked per case, 1800 rational LP decisions with validated Motzkin certificates or relaxed witnesses; no full-system feasibility claim from relaxed witnesses",
+    "d5.8.21 elementary four-product exclusions": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): 194 of 260 four-product cases excluded by exact necessary frame/C/M/pattern subset; all 9 tropical C disjuncts checked per case, 1800 rational LP decisions with validated Motzkin certificates or relaxed witnesses; no full-system feasibility claim from relaxed witnesses",
     "d2.6.17 S5 regular sheet": "PASS: exact nine-row scaled Jacobian inverse over Q(omega)(a,b), all denominator norms positive, response numerator proportional to a(a+b+1)^3[(a-b)+omega(a-1)], cube-difference norm/SOS and unit-rho sign census exclude its only positive zero; Psi1 is nonzero at every compatible nonfold S5 label",
     "d2.6.18 all fold sheets": "PASS: exact rank-eight triangle minor and positive denominator norms over the entire mass cone, complete kernel/cokernel, nonzero Z4 cokernel coefficient, cube-difference norm/SOS and unit-rho census exclude X=0; selected-row augmentation and simple torque zero cover every compatible one-different fold label",
     "d2.6.16 exceptional-label isolatedness": "PASS: the global regular-sheet and fold proofs cover rho=+-i (equal pair masses), including every K1/K4/K5 exceptional label; their nonzero second response or simple torque zero establishes isolatedness directly. K5 positive-mass ray also has its exact resultant/Sturm classification. The originally printed K1/K4 branch counts and redundant exceptional higher-jet assignments are not re-certified by this alternative.",
-    "d8.11.10(a) sharp ray window": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): all ten component orders, whole open-window stroke/circle signature, exact monotone ray map and face orders; p=2 has the Diagram-6 signature, p>2 violates Rule 1a, and p<=-4 changes the lower-wing w pattern. Conditional finite-chart order statements, not germ-existence claims.",
-    "d8.11.10(b) least four-product": "PASS: SUPPLEMENTARY (not listed as a computational premise in v10): all ten complementary-triangle four-products have exact rational affine orders; eight share the minimum -8-2p, strictly negative on the entire interval -4<p<2. The other two have orders 4-2p and 12-6p."
+    "d8.11.10(a) sharp ray window": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): all ten component orders, whole open-window stroke/circle signature, exact monotone ray map and face orders; p=2 has the Diagram-6 signature, p>2 violates Rule 1a, and p<=-4 changes the lower-wing w pattern. Conditional finite-chart order statements, not germ-existence claims.",
+    "d8.11.10(b) least four-product": "PASS: SUPPLEMENTARY (not listed as a computational premise in v19): all ten complementary-triangle four-products have exact rational affine orders; eight share the minimum -8-2p, strictly negative on the entire interval -4<p<2. The other two have orders 4-2p and 12-6p.",
+    "v19.global_products": "PASS: SUPPLEMENTARY independent reconstruction from the v19 printed equations; no claim of analytic coverage.",
+    "v19.polynomial_inertia_and_outer_equations": "PASS: SUPPLEMENTARY independent reconstruction from the v19 printed equations; no claim of analytic coverage.",
+    "v19.D5_hessian_and_contact_arithmetic": "PASS: SUPPLEMENTARY independent reconstruction from the v19 printed equations; no claim of analytic coverage.",
+    "v19.D8_direct_upper_expansion": "PASS: SUPPLEMENTARY independent reconstruction from the v19 printed equations; no claim of analytic coverage.",
+    "v19.printed_norms_and_nonvanishing": "PASS: SUPPLEMENTARY independent reconstruction from the v19 printed equations; no claim of analytic coverage."
   },
   "local_tools": [
     "verification/verify_exact_algebra.py",
@@ -87,7 +92,7 @@
     "verification/certificates/d3_labels_and_order3.json",
     "verification/certificates/d3_labels_and_order4.json",
     "verification/certificates/d3_labels_order4_and_census.json",
-    "verification/run-records/d4_lemma_8_10.json",
+    "verification/v19-records/d4_lemma_8_10.json",
     "verification/certificates/d5_branch_index.json",
     "verification/certificates/d5_census.json",
     "verification/certificates/d5_census_inputs.json",
@@ -104,8 +109,8 @@
     "verification/certificates/d8_cancelling_curve.json",
     "verification/certificates/d8_kappa_row.json",
     "verification/certificates/d8_order_six.json",
-    "verification/run-records/exact_algebra_record.json",
-    "verification/run-records/verification_run.json"
+    "verification/v19-records/exact_algebra_record.json",
+    "verification/v19-records/verification_run.json"
   ],
   "required_checks": {
     "main.common-identities": [
@@ -317,12 +322,27 @@
     "d8.11.10(b) least four-product": [
       "D8.11.1.all_ratio_chart_rows",
       "D8.11.10.ray_orders_and_four_products"
+    ],
+    "v19.global_products": [
+      "V19.global_products"
+    ],
+    "v19.polynomial_inertia_and_outer_equations": [
+      "V19.polynomial_inertia_and_outer_equations"
+    ],
+    "v19.D5_hessian_and_contact_arithmetic": [
+      "V19.D5_hessian_and_contact_arithmetic"
+    ],
+    "v19.D8_direct_upper_expansion": [
+      "V19.D8_direct_upper_expansion"
+    ],
+    "v19.printed_norms_and_nonvanishing": [
+      "V19.printed_norms_and_nonvanishing"
     ]
   },
   "canonical_records": [
-    "verification/run-records/exact_algebra_record.json",
-    "verification/run-records/d4_lemma_8_10.json",
-    "verification/run-records/verification_run.json"
+    "verification/v19-records/exact_algebra_record.json",
+    "verification/v19-records/d4_lemma_8_10.json",
+    "verification/v19-records/verification_run.json"
   ],
   "superseded_computations": [
     {
@@ -343,14 +363,14 @@
     },
     {
       "source": "Former D5 census/over-rotation calculation and its v7 labels d5-lem-consequences, d5-lem-census, d5-lem-four",
-      "replacement": "v10 uses force-order, Morse-Bott and total-product arguments; the old D5 programs are supplementary cross-checks only."
+      "replacement": "v19 uses force-order, Morse-Bott and total-product arguments; the old D5 programs are supplementary cross-checks only."
     },
     {
       "source": "Former D8 Remark 11.10 ray-window calculation and label rem:d8-window",
-      "replacement": "v10 proves Diagram 8 directly by distance closure and Taylor expansions; the old ray-window programs are supplementary cross-checks only."
+      "replacement": "v19 proves Diagram 8 directly by distance closure and Taylor expansions; the old ray-window programs are supplementary cross-checks only."
     }
   ],
-  "source_revision_description": "Monolithic v10 manuscript; exact SHA-256 bound at migration from the former main.tex + sections/d1..d8.tex layout.",
+  "source_revision_description": "Monolithic v19 source, with a concise verification-function table and repository link. The mathematical text outside the verification appendix is unchanged. See v19-records/editorial_update.json for the binding to the prior 83-check execution.",
   "primary_theorem_input_claims": [
     "d2.6.10 second-order isolation",
     "d2.6.12 polynomial exclusions",
@@ -395,7 +415,12 @@
     "d8.11.6",
     "d8.11.7",
     "d8.11.8",
-    "main.common-identities"
+    "main.common-identities",
+    "v19.global_products",
+    "v19.polynomial_inertia_and_outer_equations",
+    "v19.D5_hessian_and_contact_arithmetic",
+    "v19.D8_direct_upper_expansion",
+    "v19.printed_norms_and_nonvanishing"
   ],
   "claim_classes": {
     "main.common-identities": "SUPPLEMENTARY_CROSS_CHECK",
@@ -440,6 +465,13 @@
     "d2.6.18 all fold sheets": "PRIMARY_THEOREM_COMPUTATIONAL_INPUT",
     "d2.6.16 exceptional-label isolatedness": "PRIMARY_THEOREM_COMPUTATIONAL_INPUT",
     "d8.11.10(a) sharp ray window": "SUPPLEMENTARY_CROSS_CHECK",
-    "d8.11.10(b) least four-product": "SUPPLEMENTARY_CROSS_CHECK"
-  }
+    "d8.11.10(b) least four-product": "SUPPLEMENTARY_CROSS_CHECK",
+    "v19.global_products": "SUPPLEMENTARY_CROSS_CHECK",
+    "v19.polynomial_inertia_and_outer_equations": "SUPPLEMENTARY_CROSS_CHECK",
+    "v19.D5_hessian_and_contact_arithmetic": "SUPPLEMENTARY_CROSS_CHECK",
+    "v19.D8_direct_upper_expansion": "SUPPLEMENTARY_CROSS_CHECK",
+    "v19.printed_norms_and_nonvanishing": "SUPPLEMENTARY_CROSS_CHECK"
+  },
+  "revision": "v19",
+  "independent_review_scope": "Computational consequences and supplementary exact identities. Literal reproduction of all historical margins and intermediate jets is not claimed. The paper's main theorem remains conditional as stated."
 }

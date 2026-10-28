@@ -1,0 +1,87 @@
+{
+  "python": "3.12.14",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "verify_v19_changes",
+  "checks": [
+    {
+      "check": "V19.global_products",
+      "status": "PASS",
+      "detail": {
+        "determinant": 128,
+        "distance_power": 128,
+        "D9_squared_distance_orders": {
+          "12": 2,
+          "13": 2,
+          "14": 0,
+          "15": -1,
+          "23": 2,
+          "24": -1,
+          "25": 0,
+          "34": -1,
+          "35": -1,
+          "45": 0
+        },
+        "D9_Delta_order": 2,
+        "scope": "Monomial and valuation arithmetic; AK distance estimates remain analytic inputs"
+      },
+      "program": "verify_v19_changes",
+      "function": "verify_reconstructed_identities",
+      "prerequisite": false
+    },
+    {
+      "check": "V19.polynomial_inertia_and_outer_equations",
+      "status": "PASS",
+      "detail": {
+        "identities": 5,
+        "scope": "Original coordinate equations reconstructed from scratch, without a gauge or certificate assumptions"
+      },
+      "program": "verify_v19_changes",
+      "function": "verify_reconstructed_identities",
+      "prerequisite": false
+    },
+    {
+      "check": "V19.D5_hessian_and_contact_arithmetic",
+      "status": "PASS",
+      "detail": {
+        "identities": 9,
+        "scope": "Exact transverse Hessian and order identities; finite far/near case coverage reviewed in the audit report"
+      },
+      "program": "verify_v19_changes",
+      "function": "verify_reconstructed_identities",
+      "prerequisite": false
+    },
+    {
+      "check": "V19.D8_direct_upper_expansion",
+      "status": "PASS",
+      "detail": {
+        "implicit_coefficients": {
+          "a": "-3/4",
+          "b": "2",
+          "c": "0",
+          "d": "-1/4",
+          "f": "0",
+          "g": "3/8"
+        },
+        "first_balance": "-mu+3h^2/16",
+        "beta": "15h^2/4",
+        "final_determinant": -3,
+        "scope": "Independent scalar elimination from the printed exact force and distance equations"
+      },
+      "program": "verify_v19_changes",
+      "function": "verify_reconstructed_identities",
+      "prerequisite": false
+    },
+    {
+      "check": "V19.printed_norms_and_nonvanishing",
+      "status": "PASS",
+      "detail": {
+        "identities": 7,
+        "scope": "Printed D6 norm factors and elementary D2/D3 nonvanishing identities"
+      },
+      "program": "verify_v19_changes",
+      "function": "verify_reconstructed_identities",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

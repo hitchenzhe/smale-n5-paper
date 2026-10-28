@@ -1,6 +1,6 @@
 {
-  "source": "Version 10 single-file manuscript, Appendix computational table, and explicitly marked supplementary code.",
-  "note": "theorem_role distinguishes the v10 theorem inputs (Diagrams 2, 3, 6) from supplementary checks; legacy_source_labels preserves removed v7 anchors for traceability.",
+  "source": "Version 19 single-file manuscript, Appendix computational table, and explicitly marked supplementary checks.",
+  "note": "Primary D2/D3/D6 theorem consequences are distinguished from supplementary checks. Replacement entries identify alternative proofs rather than literal replays of the historical programs.",
   "programs": [
     {
       "program": "ak_diagram1_separated_center_cone",
@@ -19,7 +19,7 @@
         "verify_polynomial_syzygies",
         "verify_chart_and_cone"
       ],
-      "certificate": "run-records/programs/ak_diagram1_separated_center_cone.json",
+      "certificate": "v19-records/programs/ak_diagram1_separated_center_cone.json",
       "entry_point": "python ak_diagram1_separated_center_cone.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -38,7 +38,7 @@
       "registered_checks": [
         "verify_triangle_virial"
       ],
-      "certificate": "run-records/programs/ak_diagram1_virial_exclusion.json",
+      "certificate": "v19-records/programs/ak_diagram1_virial_exclusion.json",
       "entry_point": "python ak_diagram1_virial_exclusion.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -73,7 +73,7 @@
       "registered_checks": [
         "verify_torque_expansion"
       ],
-      "certificate": "run-records/programs/ak_central_body_slice.json",
+      "certificate": "v19-records/programs/ak_central_body_slice.json",
       "entry_point": "python ak_central_body_slice.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -91,7 +91,7 @@
       "registered_checks": [
         "verify_shape_elimination"
       ],
-      "certificate": "run-records/programs/ak_isolated_triangle_shape_derivation.json",
+      "certificate": "v19-records/programs/ak_isolated_triangle_shape_derivation.json",
       "entry_point": "python ak_isolated_triangle_shape_derivation.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -109,7 +109,7 @@
       "registered_checks": [
         "verify_morse_bott_triangle"
       ],
-      "certificate": "run-records/programs/ak_diagram1_edge_triangle.json",
+      "certificate": "v19-records/programs/ak_diagram1_edge_triangle.json",
       "entry_point": "python ak_diagram1_edge_triangle.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -130,7 +130,7 @@
         "verify_chart_and_boundary_fibre",
         "verify_pair_second_order"
       ],
-      "certificate": "run-records/programs/ak_blowup.json",
+      "certificate": "v19-records/programs/ak_blowup.json",
       "entry_point": "python ak_blowup.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -158,7 +158,7 @@
         "verify_euler_on_S5",
         "verify_mass_resultants"
       ],
-      "certificate": "run-records/programs/ak_resultants.json",
+      "certificate": "v19-records/programs/ak_resultants.json",
       "entry_point": "python ak_resultants.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -182,8 +182,7 @@
       "program": "ak_p_general",
       "source_labels": [
         "lem:d2-fibre",
-        "def:d2-mass",
-        "rem:d2-scope"
+        "def:d2-mass"
       ],
       "module": null,
       "status": "COVERED_BY_REPLACEMENT",
@@ -193,15 +192,17 @@
       "certificate": null,
       "entry_point": null,
       "replacement": "ak_p_sheet_second_order",
-      "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
+      "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT",
+      "legacy_source_labels": [
+        "rem:d2-scope"
+      ]
     },
     {
       "program": "ak_diagram2_symmetry",
       "source_labels": [
         "lem:d2-fibre",
         "def:d2-mass",
-        "lem:d2-K",
-        "rem:d2-scope"
+        "lem:d2-K"
       ],
       "module": "ak_diagram2_symmetry.py",
       "status": "IMPLEMENTED",
@@ -212,9 +213,12 @@
       "registered_checks": [
         "verify_equal_mass_labels"
       ],
-      "certificate": "run-records/programs/ak_diagram2_symmetry.json",
+      "certificate": "v19-records/programs/ak_diagram2_symmetry.json",
       "entry_point": "python ak_diagram2_symmetry.py",
-      "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
+      "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT",
+      "legacy_source_labels": [
+        "rem:d2-scope"
+      ]
     },
     {
       "program": "ak_l_block_symmetric_germs",
@@ -232,7 +236,7 @@
       "registered_checks": [
         "verify_ray_responses"
       ],
-      "certificate": "run-records/programs/ak_l_block_symmetric_germs.json",
+      "certificate": "v19-records/programs/ak_l_block_symmetric_germs.json",
       "entry_point": "python ak_l_block_symmetric_germs.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -258,7 +262,7 @@
         "verify_regular_Euler",
         "verify_regular_Lagrange"
       ],
-      "certificate": "run-records/programs/ak_p_sheet_second_order.json",
+      "certificate": "v19-records/programs/ak_p_sheet_second_order.json",
       "entry_point": "python ak_p_sheet_second_order.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -276,7 +280,7 @@
       "registered_checks": [
         "verify_L4_exclusion"
       ],
-      "certificate": "run-records/programs/ak_l4_same_sign.json",
+      "certificate": "v19-records/programs/ak_l4_same_sign.json",
       "entry_point": "python ak_l4_same_sign.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -298,7 +302,7 @@
         "verify_K1_branches",
         "verify_K4_arcs"
       ],
-      "certificate": "run-records/programs/ak_exceptional.json",
+      "certificate": "v19-records/programs/ak_exceptional.json",
       "entry_point": "python ak_exceptional.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -320,7 +324,7 @@
         "verify_ordinary_seed",
         "verify_fold_seed"
       ],
-      "certificate": "run-records/programs/ak_l5_obstruction.json",
+      "certificate": "v19-records/programs/ak_l5_obstruction.json",
       "entry_point": "python ak_l5_obstruction.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -339,7 +343,7 @@
       "registered_checks": [
         "verify_mass_rays"
       ],
-      "certificate": "run-records/programs/ak_exceptional_branch_positive_feasibility.json",
+      "certificate": "v19-records/programs/ak_exceptional_branch_positive_feasibility.json",
       "entry_point": "python ak_exceptional_branch_positive_feasibility.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -420,7 +424,7 @@
         "verify_K5_mass_ray",
         "verify_all_K5_labels"
       ],
-      "certificate": "run-records/programs/ak_p5_completion.json",
+      "certificate": "v19-records/programs/ak_p5_completion.json",
       "entry_point": "python ak_p5_completion.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -487,7 +491,7 @@
       "registered_checks": [
         "verify_S5_response"
       ],
-      "certificate": "run-records/programs/ak_p_sheet_p5_exact.json",
+      "certificate": "v19-records/programs/ak_p_sheet_p5_exact.json",
       "entry_point": "python ak_p_sheet_p5_exact.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -520,7 +524,7 @@
         "verify_order_four",
         "verify_mass_families_and_census"
       ],
-      "certificate": "run-records/programs/ak_diagram3_blowup.json",
+      "certificate": "v19-records/programs/ak_diagram3_blowup.json",
       "entry_point": "python ak_diagram3_blowup.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -540,7 +544,7 @@
         "verify_nine_root_norm",
         "verify_fifth_order_jet"
       ],
-      "certificate": "run-records/programs/ak_diagram3_fifth_order.json",
+      "certificate": "v19-records/programs/ak_diagram3_fifth_order.json",
       "entry_point": "python ak_diagram3_fifth_order.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -561,7 +565,7 @@
         "verify_twisted_family",
         "verify_modular_order_six"
       ],
-      "certificate": "run-records/programs/ak_diagram3_equal_shape.json",
+      "certificate": "v19-records/programs/ak_diagram3_equal_shape.json",
       "entry_point": "python ak_diagram3_equal_shape.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -579,7 +583,7 @@
       "registered_checks": [
         "verify_torque_expansion"
       ],
-      "certificate": "run-records/programs/ak_diagram4_valuation_coverage.json",
+      "certificate": "v19-records/programs/ak_diagram4_valuation_coverage.json",
       "entry_point": "python ak_diagram4_valuation_coverage.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -600,7 +604,7 @@
         "vectors"
       ],
       "registered_checks": [],
-      "certificate": "run-records/d4_lemma_8_10.json",
+      "certificate": "v19-records/d4_lemma_8_10.json",
       "entry_point": "python ak_diagram4_sign_census.py --summary",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -616,7 +620,7 @@
         "main"
       ],
       "registered_checks": [],
-      "certificate": "run-records/d4_lemma_8_10.json",
+      "certificate": "v19-records/d4_lemma_8_10.json",
       "entry_point": "python ak_diagram4_sign_census.py --summary",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -632,7 +636,7 @@
         "positive_variants"
       ],
       "registered_checks": [],
-      "certificate": "run-records/d4_lemma_8_10.json",
+      "certificate": "v19-records/d4_lemma_8_10.json",
       "entry_point": "python ak_diagram4_sign_census.py --summary",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -649,7 +653,7 @@
         "sign_at_root"
       ],
       "registered_checks": [],
-      "certificate": "run-records/d4_lemma_8_10.json",
+      "certificate": "v19-records/d4_lemma_8_10.json",
       "entry_point": "python ak_diagram4_sign_census.py --summary",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -665,7 +669,7 @@
         "second_obstruction"
       ],
       "registered_checks": [],
-      "certificate": "run-records/d4_lemma_8_10.json",
+      "certificate": "v19-records/d4_lemma_8_10.json",
       "entry_point": "python ak_diagram4_sign_census.py --summary",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -677,14 +681,14 @@
       ],
       "module": "ak_diagram5_morse_bott_lemma.py",
       "status": "IMPLEMENTED",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 8 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [
         "verify_triangle_hessian"
       ],
       "registered_checks": [
         "verify_triangle_hessian"
       ],
-      "certificate": "run-records/programs/ak_diagram5_morse_bott_lemma.json",
+      "certificate": "v19-records/programs/ak_diagram5_morse_bott_lemma.json",
       "entry_point": "python ak_diagram5_morse_bott_lemma.py",
       "legacy_source_labels": [
         "d5-lem-consequences"
@@ -699,7 +703,7 @@
       ],
       "module": "ak_diagram5_morse_bott_uniformity.py",
       "status": "IMPLEMENTED",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 8 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [
         "verify_uniform_source_resultant",
         "verify_Phi_Psi_exclusions"
@@ -708,7 +712,7 @@
         "verify_uniform_source_resultant",
         "verify_Phi_Psi_exclusions"
       ],
-      "certificate": "run-records/programs/ak_diagram5_morse_bott_uniformity.json",
+      "certificate": "v19-records/programs/ak_diagram5_morse_bott_uniformity.json",
       "entry_point": "python ak_diagram5_morse_bott_uniformity.py",
       "legacy_source_labels": [
         "d5-lem-consequences"
@@ -722,7 +726,7 @@
       ],
       "module": "ak_diagram5_outer_census.py",
       "status": "IMPLEMENTED",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 8 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [
         "verify_elementary_four_products",
         "verify_full_census",
@@ -735,7 +739,7 @@
         "verify_dominant_products",
         "verify_complete_four_products"
       ],
-      "certificate": "run-records/programs/ak_diagram5_outer_census.json",
+      "certificate": "v19-records/programs/ak_diagram5_outer_census.json",
       "entry_point": "python ak_diagram5_outer_census.py",
       "legacy_source_labels": [
         "d5-lem-census",
@@ -750,7 +754,7 @@
       ],
       "module": "ak_diagram5_census_model.py",
       "status": "IMPLEMENTED",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 8 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [
         "mirror",
         "key",
@@ -761,7 +765,7 @@
       "registered_checks": [
         "verify_branch_index"
       ],
-      "certificate": "run-records/programs/ak_diagram5_census_model.json",
+      "certificate": "v19-records/programs/ak_diagram5_census_model.json",
       "entry_point": "python ak_diagram5_census_model.py",
       "legacy_source_labels": [
         "d5-lem-census",
@@ -776,7 +780,7 @@
       ],
       "module": "ak_diagram5_first_limit_relevance.py",
       "status": "IMPLEMENTED",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 8 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [
         "verify_far_source_expansions",
         "verify_near_source_audit"
@@ -785,7 +789,7 @@
         "verify_far_source_expansions",
         "verify_near_source_audit"
       ],
-      "certificate": "run-records/programs/ak_diagram5_first_limit_relevance.json",
+      "certificate": "v19-records/programs/ak_diagram5_first_limit_relevance.json",
       "entry_point": "python ak_diagram5_first_limit_relevance.py",
       "legacy_source_labels": [
         "d5-lem-census",
@@ -800,7 +804,7 @@
       ],
       "module": null,
       "status": "COVERED_BY_REPLACEMENT",
-      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 10 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
+      "scope": "Historical/reconstructed Diagram-5 computation retained for reference. Version 8 proves Diagram 5 by the force-order, Morse-Bott and total-product argument; this module is not a computational premise listed for the main theorem.",
       "public_functions": [],
       "registered_checks": [],
       "certificate": null,
@@ -819,8 +823,6 @@
         "d6-lem-torque",
         "d6-lem-atlas",
         "d6-def-labels",
-        "d6-rem-regular",
-        "d6-rem-projective",
         "d6-lem-corank"
       ],
       "module": "ak_diagram6_blowup.py",
@@ -842,9 +844,13 @@
         "verify_symmetry_orbits",
         "verify_leading_jets"
       ],
-      "certificate": "run-records/programs/ak_diagram6_blowup.json",
+      "certificate": "v19-records/programs/ak_diagram6_blowup.json",
       "entry_point": "python ak_diagram6_blowup.py",
-      "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
+      "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT",
+      "legacy_source_labels": [
+        "d6-rem-projective",
+        "d6-rem-regular"
+      ]
     },
     {
       "program": "ak_diagram6_valuation_coverage",
@@ -877,7 +883,7 @@
       "registered_checks": [
         "verify_torque_identity"
       ],
-      "certificate": "run-records/programs/ak_diagram6_relation32_derivation.json",
+      "certificate": "v19-records/programs/ak_diagram6_relation32_derivation.json",
       "entry_point": "python ak_diagram6_relation32_derivation.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -895,7 +901,7 @@
       "registered_checks": [
         "verify_mixed_norm"
       ],
-      "certificate": "run-records/programs/ak_diagram6_primitive_cubic.json",
+      "certificate": "v19-records/programs/ak_diagram6_primitive_cubic.json",
       "entry_point": "python ak_diagram6_primitive_cubic.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -913,7 +919,7 @@
       "registered_checks": [
         "verify_same_shape_norm"
       ],
-      "certificate": "run-records/programs/ak_diagram6_primitive_quadratic.json",
+      "certificate": "v19-records/programs/ak_diagram6_primitive_quadratic.json",
       "entry_point": "python ak_diagram6_primitive_quadratic.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -931,7 +937,7 @@
       "registered_checks": [
         "verify_opposite_norms"
       ],
-      "certificate": "run-records/programs/ak_diagram6_primitive_opposite.json",
+      "certificate": "v19-records/programs/ak_diagram6_primitive_opposite.json",
       "entry_point": "python ak_diagram6_primitive_opposite.py",
       "theorem_role": "PRIMARY_COMPUTATIONAL_INPUT"
     },
@@ -952,7 +958,7 @@
         "verify_polynomial_faces",
         "verify_first_mass_eliminations"
       ],
-      "certificate": "run-records/programs/ak_diagram8_relation40_derivation.json",
+      "certificate": "v19-records/programs/ak_diagram8_relation40_derivation.json",
       "entry_point": "python ak_diagram8_relation40_derivation.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -980,7 +986,7 @@
         "verify_equal_pair_kernel",
         "verify_tau_sign_identity"
       ],
-      "certificate": "run-records/programs/ak_diagram8_kappa_row.json",
+      "certificate": "v19-records/programs/ak_diagram8_kappa_row.json",
       "entry_point": "python ak_diagram8_kappa_row.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -1000,7 +1006,7 @@
         "verify_row_support",
         "verify_general_left_pairing"
       ],
-      "certificate": "run-records/programs/ak_diagram8_order_six_pairing.json",
+      "certificate": "v19-records/programs/ak_diagram8_order_six_pairing.json",
       "entry_point": "python ak_diagram8_order_six_pairing.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -1018,7 +1024,7 @@
       "registered_checks": [
         "verify_equal_order_six_pairing"
       ],
-      "certificate": "run-records/programs/ak_diagram8_equal_pair_germs.json",
+      "certificate": "v19-records/programs/ak_diagram8_equal_pair_germs.json",
       "entry_point": "python ak_diagram8_equal_pair_germs.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -1042,7 +1048,7 @@
         "verify_second_order_constants",
         "verify_lower_block"
       ],
-      "certificate": "run-records/programs/ak_diagram8_cancelling_curve.json",
+      "certificate": "v19-records/programs/ak_diagram8_cancelling_curve.json",
       "entry_point": "python ak_diagram8_cancelling_curve.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     },
@@ -1053,14 +1059,14 @@
       ],
       "module": "ak_diagram8_ray_diagrams.py",
       "status": "IMPLEMENTED",
-      "scope": "Supplementary exact ray-pattern cross-check retained from an earlier version; version 10 proves Diagram 8 directly and does not list this module as a computational premise.",
+      "scope": "Supplementary exact ray-pattern cross-check retained from an earlier version; version 8 proves Diagram 8 directly and does not list this module as a computational premise.",
       "public_functions": [
         "verify_ray_orders"
       ],
       "registered_checks": [
         "verify_ray_orders"
       ],
-      "certificate": "run-records/programs/ak_diagram8_ray_diagrams.json",
+      "certificate": "v19-records/programs/ak_diagram8_ray_diagrams.json",
       "entry_point": "python ak_diagram8_ray_diagrams.py",
       "legacy_source_labels": [
         "rem:d8-window"
@@ -1074,18 +1080,43 @@
       ],
       "module": "ak_diagram8_pattern_boundaries.py",
       "status": "IMPLEMENTED",
-      "scope": "Supplementary exact ray-pattern cross-check retained from an earlier version; version 10 proves Diagram 8 directly and does not list this module as a computational premise.",
+      "scope": "Supplementary exact ray-pattern cross-check retained from an earlier version; version 8 proves Diagram 8 directly and does not list this module as a computational premise.",
       "public_functions": [
         "verify_pattern_boundaries"
       ],
       "registered_checks": [
         "verify_pattern_boundaries"
       ],
-      "certificate": "run-records/programs/ak_diagram8_pattern_boundaries.json",
+      "certificate": "v19-records/programs/ak_diagram8_pattern_boundaries.json",
       "entry_point": "python ak_diagram8_pattern_boundaries.py",
       "legacy_source_labels": [
         "rem:d8-window"
       ],
+      "theorem_role": "SUPPLEMENTARY_ONLY"
+    },
+    {
+      "program": "verify_v19_changes",
+      "module": "verify_v19_changes.py",
+      "status": "IMPLEMENTED",
+      "source_labels": [
+        "lem:petersen",
+        "lem:total-product",
+        "lem:d9-product",
+        "d5-lem-mb",
+        "d7-identity",
+        "lem:d8-cancel",
+        "d6-lem-corank",
+        "lem:d3-order5"
+      ],
+      "scope": "Supplementary reconstructions from the printed equations, without ak_* builders or their certificates; analytic coverage remains outside this computation.",
+      "public_functions": [
+        "verify_reconstructed_identities"
+      ],
+      "registered_checks": [
+        "verify_reconstructed_identities"
+      ],
+      "certificate": "v19-records/programs/verify_v19_changes.json",
+      "entry_point": "python verify_v19_changes.py",
       "theorem_role": "SUPPLEMENTARY_ONLY"
     }
   ],

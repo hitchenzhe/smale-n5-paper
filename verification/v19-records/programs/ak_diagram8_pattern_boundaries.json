@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_diagram8_pattern_boundaries",
+  "checks": [
+    {
+      "check": "D8.11.10.sharp_pattern_boundaries",
+      "status": "PASS",
+      "items": 7,
+      "detail": {
+        "certificate": "d8_pattern_boundaries.json",
+        "sharp_window": true,
+        "upper_endpoint_diagram": 6,
+        "whole_domains": true
+      },
+      "program": "ak_diagram8_pattern_boundaries",
+      "function": "verify_pattern_boundaries",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}

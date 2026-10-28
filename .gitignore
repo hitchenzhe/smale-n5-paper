@@ -1,4 +1,5 @@
 verification/build-v*/
 verification/run-records/
+build/
 __pycache__/
 *.py[cod]

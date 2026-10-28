@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14",
+  "arithmetic": "exact rational sparse Laurent polynomials, finite fields, bounded integer resultants, rational Bernstein covers and algebraic-number jets; bundled SymPy 1.14.0",
+  "program": "ak_common_equations",
+  "checks": [
+    {
+      "check": "common.mass_center_torque_virial",
+      "status": "PASS",
+      "items": 4,
+      "detail": null,
+      "program": "ak_common_equations",
+      "function": "verify_common_equations",
+      "prerequisite": false
+    }
+  ],
+  "scope": "implemented computational checks only; see claim_status.json for unverified claims"
+}
